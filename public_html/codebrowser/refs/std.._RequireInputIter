@@ -1,0 +1,17 @@
+<use f='include/c++/7/bits/basic_string.h' l='600'/>
+<use f='include/c++/7/bits/basic_string.h' l='1294'/>
+<use f='include/c++/7/bits/basic_string.h' l='1455'/>
+<use f='include/c++/7/bits/basic_string.h' l='1565'/>
+<use f='include/c++/7/bits/basic_string.h' l='2072'/>
+<use f='include/c++/7/bits/stl_vector.h' l='410'/>
+<use f='include/c++/7/bits/stl_vector.h' l='518'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1126'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='663'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='760'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='969'/>
+<use f='include/c++/7/bits/stl_list.h' l='708'/>
+<use f='include/c++/7/bits/stl_list.h' l='812'/>
+<use f='include/c++/7/bits/stl_list.h' l='1292'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1022'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1124'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1733'/>

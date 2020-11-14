@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='2032' ll='2035' type='llvm::raw_ostream &amp; llvm::operator&lt;&lt;(llvm::raw_ostream &amp; OS, const llvm::APInt &amp; I)'/>

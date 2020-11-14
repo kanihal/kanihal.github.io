@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/SmallSet.h' l='58' ll='63' type='void llvm::SmallSetIterator::~SmallSetIterator&lt;T, N, C&gt;()'/>
+<doc f='include/llvm-7/llvm/ADT/SmallSet.h' l='56'>// Spell out destructor, copy/move constructor and assignment operators for
+  // MSVC STL, where set&lt;T&gt;::const_iterator is not trivially copy constructible.</doc>

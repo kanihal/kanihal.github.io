@@ -1,0 +1,50 @@
+<use f='include/c++/7/chrono' l='105'/>
+<use f='include/c++/7/chrono' l='114'/>
+<use f='include/c++/7/chrono' l='115'/>
+<def f='include/c++/7/chrono' l='616' ll='668'/>
+<use f='include/c++/7/chrono' l='633' c='_ZNSt6chrono10time_pointC1ERKNS_10time_pointIT_T_EE'/>
+<use f='include/c++/7/chrono' l='673' c='_ZNSt6chrono15time_point_castERKNS_10time_pointIT0_T1_EE'/>
+<use f='include/c++/7/chrono' l='674' c='_ZNSt6chrono15time_point_castERKNS_10time_pointIT0_T1_EE'/>
+<use f='include/c++/7/chrono' l='676' c='_ZNSt6chrono15time_point_castERKNS_10time_pointIT0_T1_EE'/>
+<use f='include/c++/7/chrono' l='713' c='_ZNSt6chronoplERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='715' c='_ZNSt6chronoplERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='720' c='_ZNSt6chronoplERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='726' c='_ZNSt6chronoplERKNS_8durationIT_T0_EERKNS_10time_pointIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='729' c='_ZNSt6chronoplERKNS_8durationIT_T0_EERKNS_10time_pointIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='733' c='_ZNSt6chronoplERKNS_8durationIT_T0_EERKNS_10time_pointIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='739' c='_ZNSt6chronomiERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='741' c='_ZNSt6chronomiERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='746' c='_ZNSt6chronomiERKNS_10time_pointIT_T0_EERKNS_8durationIT1_T2_EE'/>
+<use f='include/c++/7/chrono' l='752' c='_ZNSt6chronomiERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='753' c='_ZNSt6chronomiERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='758' c='_ZNSt6chronoeqERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='759' c='_ZNSt6chronoeqERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='764' c='_ZNSt6chrononeERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='765' c='_ZNSt6chrononeERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='770' c='_ZNSt6chronoltERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='771' c='_ZNSt6chronoltERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='776' c='_ZNSt6chronoleERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='777' c='_ZNSt6chronoleERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='782' c='_ZNSt6chronogtERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='783' c='_ZNSt6chronogtERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='788' c='_ZNSt6chronogeERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='789' c='_ZNSt6chronogeERKNS_10time_pointIT_T0_EERKNS0_IS1_T1_EE'/>
+<use f='include/c++/7/chrono' l='823'/>
+<use f='include/c++/7/chrono' l='845' c='_ZNSt6chrono3_V212system_clock11from_time_tEl'/>
+<use f='include/c++/7/chrono' l='862'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='34'/>
+<use f='include/c++/7/bits/std_mutex.h' l='217' c='_ZNSt11unique_lockC1ERT_RKNSt6chrono10time_pointIT_T0_EE'/>
+<use f='include/c++/7/bits/std_mutex.h' l='288' c='_ZNSt11unique_lock14try_lock_untilERKNSt6chrono10time_pointIT_T0_EE'/>
+<use f='include/c++/7/mutex' l='153' c='_ZNSt18__timed_mutex_impl17_M_try_lock_untilERKNSt6chrono10time_pointINS0_3_V212system_clockET_EE'/>
+<use f='include/c++/7/mutex' l='169' c='_ZNSt18__timed_mutex_impl17_M_try_lock_untilERKNSt6chrono10time_pointIT_T0_EE'/>
+<use f='include/c++/7/mutex' l='213' c='_ZNSt11timed_mutex14try_lock_untilERKNSt6chrono10time_pointIT_T0_EE'/>
+<use f='include/c++/7/mutex' l='273' c='_ZNSt21recursive_timed_mutex14try_lock_untilERKNSt6chrono10time_pointIT_T0_EE'/>
+<fun r='_ZNSt6chrono10time_pointC1Ev'/>
+<fun r='_ZNSt6chrono10time_pointC1ERKT0_'/>
+<fun r='_ZNSt6chrono10time_pointC1ERKNS_10time_pointIT_T_EE'/>
+<fun r='_ZNKSt6chrono10time_point16time_since_epochEv'/>
+<fun r='_ZNSt6chrono10time_pointpLERKT0_'/>
+<fun r='_ZNSt6chrono10time_pointmIERKT0_'/>
+<fun r='_ZNSt6chrono10time_point3minEv'/>
+<fun r='_ZNSt6chrono10time_point3maxEv'/>
+<mbr r='std::chrono::time_point::__d' t='std::chrono::time_point::duration'/>

@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='525' type='void llvm::yaml::Document::Document(llvm::yaml::Stream &amp; ParentStream)'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='601' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>

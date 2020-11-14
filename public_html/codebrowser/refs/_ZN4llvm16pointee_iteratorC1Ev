@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/iterator.h' l='294' type='void llvm::pointee_iterator::pointee_iterator&lt;WrappedIteratorT, T&gt;()'/>

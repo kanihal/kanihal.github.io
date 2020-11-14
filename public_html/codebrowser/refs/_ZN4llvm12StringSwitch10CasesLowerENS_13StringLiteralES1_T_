@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='178' ll='181' macro='1' type='StringSwitch&lt;T, R&gt; &amp; llvm::StringSwitch::CasesLower(llvm::StringLiteral S0, llvm::StringLiteral S1, T Value)'/>

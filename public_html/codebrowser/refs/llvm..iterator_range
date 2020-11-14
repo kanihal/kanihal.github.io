@@ -1,0 +1,24 @@
+<def f='include/llvm-7/llvm/ADT/iterator_range.h' l='32' ll='48'/>
+<use f='include/llvm-7/llvm/ADT/iterator_range.h' l='54' c='_ZN4llvm10make_rangeET_S0_'/>
+<use f='include/llvm-7/llvm/ADT/iterator_range.h' l='55' c='_ZN4llvm10make_rangeET_S0_'/>
+<use f='include/llvm-7/llvm/ADT/iterator_range.h' l='58' c='_ZN4llvm10make_rangeESt4pairIT_S1_E'/>
+<use f='include/llvm-7/llvm/ADT/iterator_range.h' l='59' c='_ZN4llvm10make_rangeESt4pairIT_S1_E'/>
+<use f='include/llvm-7/llvm/ADT/iterator_range.h' l='63' c='_ZN4llvm10drop_beginEOT_i'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='870' c='_ZN4llvm11SmallVectorC1ERKNS_14iterator_rangeIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='304' c='_ZN4llvm18make_pointee_rangeEOT_'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='330' c='_ZN4llvm18make_pointer_rangeEOT_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='410' c='_ZN4llvm17make_filter_rangeEOT_T0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='116' c='_ZNK4llvm9StringRef5bytesEv'/>
+<mbr r='llvm::iterator_range::begin_iterator' t='IteratorT'/>
+<mbr r='llvm::iterator_range::end_iterator' t='IteratorT'/>
+<fun r='_ZN4llvm14iterator_rangeC1EOT_'/>
+<fun r='_ZN4llvm14iterator_rangeC1ET_S1_'/>
+<fun r='_ZNK4llvm14iterator_range5beginEv'/>
+<fun r='_ZNK4llvm14iterator_range3endEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='328' c='_ZNK4llvm9StringMap4keysEv'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='357'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='399' c='_ZN4llvm15format_providerINS_14iterator_rangeIT_EEvE6formatERKS3_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='130' c='_ZNK4llvm9BitVector8set_bitsEv'/>
+<use f='include/llvm-7/llvm/Support/Registry.h' l='102' c='_ZN4llvm8Registry7entriesEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='185' c='_ZNK4llvm14SmallBitVector8set_bitsEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1825' c='_ZN4llvm2cl24getRegisteredSubcommandsEv'/>

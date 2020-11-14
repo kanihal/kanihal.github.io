@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='889' type='llvm::APInt &amp; llvm::APInt::operator+=(uint64_t RHS)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2053' u='c' c='_ZN4llvmplENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2058' u='c' c='_ZN4llvmplEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2080' u='c' c='_ZN4llvmmiEmNS_5APIntE'/>

@@ -1,0 +1,9 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='348' type='unsigned int llvm::Type::getIntegerBitWidth() const'/>
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='97' ll='99' type='unsigned int llvm::Type::getIntegerBitWidth() const'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='576' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='341'>//===--------------------------------------------------------------------===//
+  // Helper methods corresponding to subclass methods.  This forces a cast to
+  // the specified subclass and calls its accessor.  &quot;getVectorNumElements&quot; (for
+  // example) is shorthand for cast&lt;VectorType&gt;(Ty)-&gt;getNumElements().  This is
+  // only intended to cover the core methods that are frequently used, helper
+  // methods should not be added here.</doc>

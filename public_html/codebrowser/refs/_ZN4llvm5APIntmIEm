@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='897' type='llvm::APInt &amp; llvm::APInt::operator-=(uint64_t RHS)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2074' u='c' c='_ZN4llvmmiENS_5APIntEm'/>

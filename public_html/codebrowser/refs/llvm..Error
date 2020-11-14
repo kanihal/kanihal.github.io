@@ -1,0 +1,149 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='157' ll='315'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='164' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='164' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='182' c='_ZN4llvm5ErrorC1ERKS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='187' c='_ZN4llvm5ErrorC1EOS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='200' c='_ZN4llvm5ErroraSERKS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='200' c='_ZN4llvm5ErroraSERKS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='206' c='_ZN4llvm5ErroraSEOS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='206' c='_ZN4llvm5ErroraSEOS0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='306' c='_ZN4llvmlsERNS_11raw_ostreamERKNS_5ErrorE'/>
+<ovr f='include/llvm-7/llvm/Support/Error.h' l='320' c='llvm::ErrorSuccess'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='320'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='326' c='_ZN4llvm10make_errorEDpOT0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='327' c='_ZN4llvm10make_errorEDpOT0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='357' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='357' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='360' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='360' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='360' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='385' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='385' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='385' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='407' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='417' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='417' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='417' c='_ZN4llvm10joinErrorsENS_5ErrorES0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='449' c='_ZN4llvm8ExpectedC1ENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='546' c='_ZN4llvm8Expected9takeErrorEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='550' c='_ZN4llvm8Expected9takeErrorEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='681' c='_ZN4llvm18report_fatal_errorENS_5ErrorEb'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='697' c='_ZN4llvm8cantFailENS_5ErrorEPKc'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='761'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='768' c='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorERT_EE5applyEOT_St10unique_ptrINS_13ErrorInfoBaseESt14default_deleteISA_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='782' c='_ZN4llvm18ErrorHandlerTraitsIRFvRT_EE5applyEOT_St10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS9_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='791'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='798' c='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorESt10unique_ptrIT_St14default_deleteIS3_EEEE5applyEOT_S2_INS_13ErrorInfoBaseES4_ISC_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='814' c='_ZN4llvm18ErrorHandlerTraitsIRFvSt10unique_ptrIT_St14default_deleteIS2_EEEE5applyEOT_S1_INS_13ErrorInfoBaseES3_ISB_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='854' c='_ZN4llvm15handleErrorImplESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS1_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='855' c='_ZN4llvm15handleErrorImplESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS1_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='859' c='_ZN4llvm15handleErrorImplESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS1_EEOT_DpOT0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='875' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='875' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='883' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='898' c='_ZN4llvm15handleAllErrorsENS_5ErrorEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='904' c='_ZN4llvm15handleAllErrorsENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='952' c='_ZN4llvm21logAllUnhandledErrorsENS_5ErrorERNS_11raw_ostreamENS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='956' c='_ZN4llvm8toStringB5cxx11ENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='971' c='_ZN4llvm12consumeErrorENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='980' c='_ZN4llvm11errorToBoolENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1013' c='_ZN4llvm19ErrorAsOutParameterC1EPNS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1026'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1056' c='_ZN4llvm16errorCodeToErrorESt10error_code'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1082' c='_ZN4llvm16errorCodeToErrorESt10error_code'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1088' c='_ZN4llvm16errorToErrorCodeENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1127' c='_ZN4llvm17createStringErrorESt10error_codePKcDpRKT_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1135' c='_ZN4llvm17createStringErrorESt10error_codePKc'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1146' c='_ZN4llvm11ExitOnErrorC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1152' c='_ZN4llvm11ExitOnError17setExitCodeMapperESt8functionIFiRKNS_5ErrorEEE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1157' c='_ZNK4llvm11ExitOnErrorclENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1174' c='_ZNK4llvm11ExitOnError10checkErrorENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1183'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='793' c='_ZN4llvm3sys2fs8TempFile4keepERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='796' c='_ZN4llvm3sys2fs8TempFile4keepEv'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='799' c='_ZN4llvm3sys2fs8TempFile7discardEv'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='92'>/// Lightweight error class with error context and mandatory checking.
+///
+/// Instances of this class wrap a ErrorInfoBase pointer. Failure states
+/// are represented by setting the pointer to a ErrorInfoBase subclass
+/// instance containing information describing the failure. Success is
+/// represented by a null pointer value.
+///
+/// Instances of Error also contains a &apos;Checked&apos; flag, which must be set
+/// before the destructor is called, otherwise the destructor will trigger a
+/// runtime error. This enforces at runtime the requirement that all Error
+/// instances be checked or returned to the caller.
+///
+/// There are two ways to set the checked flag, depending on what state the
+/// Error instance is in. For Error instances indicating success, it
+/// is sufficient to invoke the boolean conversion operator. E.g.:
+///
+///   @code{.cpp}
+///   Error foo(&lt;...&gt;);
+///
+///   if (auto E = foo(&lt;...&gt;))
+///     return E; // &lt;- Return E if it is in the error state.
+///   // We have verified that E was in the success state. It can now be safely
+///   // destroyed.
+///   @endcode
+///
+/// A success value *can not* be dropped. For example, just calling &apos;foo(&lt;...&gt;)&apos;
+/// without testing the return value will raise a runtime error, even if foo
+/// returns success.
+///
+/// For Error instances representing failure, you must use either the
+/// handleErrors or handleAllErrors function with a typed handler. E.g.:
+///
+///   @code{.cpp}
+///   class MyErrorInfo : public ErrorInfo&lt;MyErrorInfo&gt; {
+///     // Custom error info.
+///   };
+///
+///   Error foo(&lt;...&gt;) { return make_error&lt;MyErrorInfo&gt;(...); }
+///
+///   auto E = foo(&lt;...&gt;); // &lt;- foo returns failure with MyErrorInfo.
+///   auto NewE =
+///     handleErrors(E,
+///       [](const MyErrorInfo &amp;M) {
+///         // Deal with the error.
+///       },
+///       [](std::unique_ptr&lt;OtherError&gt; M) -&gt; Error {
+///         if (canHandle(*M)) {
+///           // handle error.
+///           return Error::success();
+///         }
+///         // Couldn&apos;t handle this error instance. Pass it up the stack.
+///         return Error(std::move(M));
+///       );
+///   // Note - we must check or return NewE in case any of the handlers
+///   // returned a new error.
+///   @endcode
+///
+/// The handleAllErrors function is identical to handleErrors, except
+/// that it has a void return type, and requires all errors to be handled and
+/// no new errors be returned. It prevents errors (assuming they can all be
+/// handled) from having to be bubbled all the way to the top-level.
+///
+/// *All* Error instances must be checked before destruction, even if
+/// they&apos;re moved-assigned or constructed from Success values that have already
+/// been checked. This enforces checking through all levels of the call stack.</doc>
+<fun r='_ZN4llvm5ErrorC1Ev'/>
+<fun r='_ZN4llvm5Error7successEv'/>
+<fun r='_ZN4llvm5ErrorC1ERKS0_'/>
+<fun r='_ZN4llvm5ErrorC1EOS0_'/>
+<fun r='_ZN4llvm5ErrorC1ESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS2_EE'/>
+<fun r='_ZN4llvm5ErroraSERKS0_'/>
+<fun r='_ZN4llvm5ErroraSEOS0_'/>
+<fun r='_ZN4llvm5ErrorD1Ev'/>
+<fun r='_ZN4llvm5ErrorcvbEv'/>
+<fun r='_ZNK4llvm5Error3isAEv'/>
+<fun r='_ZNK4llvm5Error14dynamicClassIDEv'/>
+<fun r='_ZN4llvm5Error15assertIsCheckedEv'/>
+<fun r='_ZNK4llvm5Error6getPtrEv'/>
+<fun r='_ZN4llvm5Error6setPtrEPNS_13ErrorInfoBaseE'/>
+<fun r='_ZNK4llvm5Error10getCheckedEv'/>
+<fun r='_ZN4llvm5Error10setCheckedEb'/>
+<fun r='_ZN4llvm5Error11takePayloadEv'/>
+<mbr r='llvm::Error::Payload' o='0' t='llvm::ErrorInfoBase *'/>
+<fun r='_ZN4llvm5Error7successEv'/>

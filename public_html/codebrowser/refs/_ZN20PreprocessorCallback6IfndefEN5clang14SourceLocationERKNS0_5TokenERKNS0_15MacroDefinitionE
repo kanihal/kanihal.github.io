@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/preprocessorcallback.h' l='82' ll='83' type='void PreprocessorCallback::Ifndef(clang::SourceLocation Loc, const clang::Token &amp; MacroNameTok, PreprocessorCallback::MyMacroDefinition MD)'/>

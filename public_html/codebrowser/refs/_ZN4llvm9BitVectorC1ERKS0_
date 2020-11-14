@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='148' ll='157' type='void llvm::BitVector::BitVector(const llvm::BitVector &amp; RHS)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='162' u='c' c='_ZN4llvm14SmallBitVectorC1ERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='593' u='c' c='_ZN4llvm14SmallBitVectoraSERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='147'>/// BitVector copy ctor.</doc>

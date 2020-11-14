@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='472' ll='475' type='llvm::Type * llvm::DataLayout::getLargestLegalIntType(llvm::LLVMContext &amp; C) const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='471'>/// Returns the largest legal integer type, or null if none are set.</doc>

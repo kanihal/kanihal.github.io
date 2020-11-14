@@ -1,0 +1,17 @@
+<inh f='include/llvm-7/llvm/IR/DerivedTypes.h' l='343' c='llvm::SequentialType'/>
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='369' ll='386'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='373' c='_ZN4llvm9ArrayTypeC1ERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='374' c='_ZN4llvm9ArrayTypeaSERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='374' c='_ZN4llvm9ArrayTypeaSERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='377' c='_ZN4llvm9ArrayType3getEPNS_4TypeEm'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='389' c='_ZNK4llvm4Type19getArrayNumElementsEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='568' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='568' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<size>40</size>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='368'>/// Class to represent array types.</doc>
+<fun r='_ZN4llvm9ArrayTypeC1EPNS_4TypeEm'/>
+<fun r='_ZN4llvm9ArrayTypeC1ERKS0_'/>
+<fun r='_ZN4llvm9ArrayTypeaSERKS0_'/>
+<fun r='_ZN4llvm9ArrayType3getEPNS_4TypeEm'/>
+<fun r='_ZN4llvm9ArrayType18isValidElementTypeEPNS_4TypeE'/>
+<fun r='_ZN4llvm9ArrayType7classofEPKNS_4TypeE'/>

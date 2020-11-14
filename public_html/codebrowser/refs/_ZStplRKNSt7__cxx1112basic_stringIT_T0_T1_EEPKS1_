@@ -1,0 +1,12 @@
+<def f='include/c++/7/bits/basic_string.h' l='5924' ll='5931' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='include/c++/7/system_error' l='351' u='c' c='_ZNSt12system_errorC1ESt10error_codeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/7/system_error' l='364' u='c' c='_ZNSt12system_errorC1EiRKNSt3_V214error_categoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='241' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='244' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='573' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='87' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='95' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='150' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='154' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='159' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='232' u='c' c='main'/>

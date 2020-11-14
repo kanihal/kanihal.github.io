@@ -1,0 +1,8 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1240' u='c' c='_ZNK4llvm5APInt3sleEm'/>
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1275' ll='1278' type='bool llvm::APInt::sgt(int64_t RHS) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1269'>/// Signed greater than comparison
+  ///
+  /// Regards both *this as a signed quantity and compares it with RHS for
+  /// the validity of the greater-than relationship.
+  ///
+  /// \returns true if *this &gt; RHS when considered signed.</doc>

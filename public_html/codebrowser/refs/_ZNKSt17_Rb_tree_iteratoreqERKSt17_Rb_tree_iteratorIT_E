@@ -1,0 +1,3 @@
+<def f='include/c++/7/bits/stl_tree.h' l='314' ll='316' type='bool std::_Rb_tree_iterator::operator==(const std::_Rb_tree_iterator::_Self &amp; __x) const'/>
+<use f='codebrowser/generator/annotator.cpp' l='184' u='c' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='519' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

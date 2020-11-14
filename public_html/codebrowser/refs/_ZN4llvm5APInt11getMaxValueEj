@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='529' ll='531' type='static llvm::APInt llvm::APInt::getMaxValue(unsigned int numBits)'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='271' u='c' c='_ZN4llvm6APSInt11getMaxValueEjb'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='524'>/// @}
+  /// \name Value Generators
+  /// @{
+
+  /// Gets maximum unsigned value of APInt for specific bit width.</doc>

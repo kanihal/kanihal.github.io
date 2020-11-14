@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='902' ll='903' macro='1' type='bool llvm::operator!=(llvm::StringRef LHS, llvm::StringRef RHS)'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='299' u='c' c='_ZNK4llvm6Triple14hasEnvironmentEv'/>
+<use f='codebrowser/generator/filesystem.cpp' l='161' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/filesystem.cpp' l='177' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='96' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

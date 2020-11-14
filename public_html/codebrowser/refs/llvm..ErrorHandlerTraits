@@ -1,0 +1,40 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='756' ll='758'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='757'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='761' ll='772'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='775' ll='787'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='790' ll='803'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='806' ll='820'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='823' ll='825'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='825'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='828' ll='830'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='830'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='833' ll='835'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='835'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='838' ll='840'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='840'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='844' ll='846'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='846'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='850' ll='852'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='852'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='861' c='_ZN4llvm15handleErrorImplESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS1_EEOT_DpOT0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='862' c='_ZN4llvm15handleErrorImplESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS1_EEOT_DpOT0_'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='760'>// Specialization functions of the form &apos;Error (const ErrT&amp;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='774'>// Specialization functions of the form &apos;void (const ErrT&amp;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='789'>/// Specialization for functions of the form &apos;Error (std::unique_ptr&lt;ErrT&gt;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='805'>/// Specialization for functions of the form &apos;void (std::unique_ptr&lt;ErrT&gt;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='822'>// Specialization for member functions of the form &apos;RetT (const ErrT&amp;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='827'>// Specialization for member functions of the form &apos;RetT (const ErrT&amp;) const&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='832'>// Specialization for member functions of the form &apos;RetT (const ErrT&amp;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='837'>// Specialization for member functions of the form &apos;RetT (const ErrT&amp;) const&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='842'>/// Specialization for member functions of the form
+/// &apos;RetT (std::unique_ptr&lt;ErrT&gt;)&apos;.</doc>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='848'>/// Specialization for member functions of the form
+/// &apos;RetT (std::unique_ptr&lt;ErrT&gt;) const&apos;.</doc>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorERT_EE9appliesToERKNS_13ErrorInfoBaseE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorERT_EE5applyEOT_St10unique_ptrINS_13ErrorInfoBaseESt14default_deleteISA_EE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFvRT_EE9appliesToERKNS_13ErrorInfoBaseE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFvRT_EE5applyEOT_St10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS9_EE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorESt10unique_ptrIT_St14default_deleteIS3_EEEE9appliesToERKNS_13ErrorInfoBaseE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorESt10unique_ptrIT_St14default_deleteIS3_EEEE5applyEOT_S2_INS_13ErrorInfoBaseES4_ISC_EE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFvSt10unique_ptrIT_St14default_deleteIS2_EEEE9appliesToERKNS_13ErrorInfoBaseE'/>
+<fun r='_ZN4llvm18ErrorHandlerTraitsIRFvSt10unique_ptrIT_St14default_deleteIS2_EEEE5applyEOT_S1_INS_13ErrorInfoBaseES3_ISB_EE'/>

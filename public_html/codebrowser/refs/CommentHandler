@@ -1,0 +1,6 @@
+<def f='codebrowser/generator/commenthandler.h' l='36' ll='60'/>
+<use f='codebrowser/generator/annotator.h' l='102'/>
+<size>96</size>
+<mbr r='CommentHandler::docs' o='0' t='std::multimap&lt;std::string, Doc&gt;'/>
+<mbr r='CommentHandler::decl_offsets' o='384' t='std::multimap&lt;clang::SourceLocation, std::pair&lt;std::string, bool&gt; &gt;'/>
+<fun r='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

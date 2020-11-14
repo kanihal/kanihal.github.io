@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='373' type='void llvm::initializeStraightLineStrengthReducePass(llvm::PassRegistry &amp; )'/>

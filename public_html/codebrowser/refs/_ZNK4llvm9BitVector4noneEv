@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='202' ll='204' type='bool llvm::BitVector::none() const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='226' u='c' c='_ZNK4llvm14SmallBitVector4noneEv'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='201'>/// none - Returns true if none of the bits are set.</doc>

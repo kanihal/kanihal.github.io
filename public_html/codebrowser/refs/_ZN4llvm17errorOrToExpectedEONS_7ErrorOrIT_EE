@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='1091' ll='1095' type='Expected&lt;T&gt; llvm::errorOrToExpected(ErrorOr&lt;T&gt; &amp;&amp; EO)'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='1090'>/// Convert an ErrorOr&lt;T&gt; to an Expected&lt;T&gt;.</doc>

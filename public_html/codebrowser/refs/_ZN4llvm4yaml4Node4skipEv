@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='171' type='void llvm::yaml::Node::skip()'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='301' c='_ZN4llvm4yaml12KeyValueNode4skipEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='303' u='c' c='_ZN4llvm4yaml12KeyValueNode4skipEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='305' u='c' c='_ZN4llvm4yaml12KeyValueNode4skipEv'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='430' c='_ZN4llvm4yaml11MappingNode4skipEv'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='487' c='_ZN4llvm4yaml12SequenceNode4skipEv'/>

@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Pass.h' l='238' type='bool llvm::ModulePass::runOnModule(llvm::Module &amp; M)'/>
+<ovr f='include/llvm-7/llvm/Pass.h' l='273' c='_ZN4llvm13ImmutablePass11runOnModuleERNS_6ModuleE'/>
+<doc f='include/llvm-7/llvm/Pass.h' l='236'>/// runOnModule - Virtual method overriden by subclasses to process the module
+  /// being operated on.</doc>

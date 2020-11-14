@@ -1,0 +1,2 @@
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='83' u='c' c='_ZN4llvm14SmallBitVector9referenceaSEb'/>
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='372' ll='382' type='llvm::SmallBitVector &amp; llvm::SmallBitVector::set(unsigned int Idx)'/>

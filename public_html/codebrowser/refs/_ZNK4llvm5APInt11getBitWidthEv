@@ -1,0 +1,20 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='659' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='659' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='662' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='662' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='663' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='665' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1502' type='unsigned int llvm::APInt::getBitWidth() const'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='290' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='290' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='294' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='294' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='295' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='296' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='296' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='297' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1497'>/// @}
+  /// \name Value Characterization Functions
+  /// @{
+
+  /// Return the number of bits in the APInt.</doc>

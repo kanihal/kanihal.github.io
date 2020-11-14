@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/SmallVector.h' l='659' type='SmallVectorImpl&lt;T&gt; &amp; llvm::SmallVectorImpl::operator=(const SmallVectorImpl&lt;T&gt; &amp; RHS)'/>
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='715' ll='762' type='SmallVectorImpl&lt;T&gt; &amp; llvm::SmallVectorImpl::operator=(const SmallVectorImpl&lt;T&gt; &amp; RHS)'/>

@@ -1,0 +1,43 @@
+<def f='include/c++/7/bits/basic_string.h' l='919' ll='921' type='std::__cxx11::basic_string::size_type std::__cxx11::basic_string::size() const'/>
+<use f='include/c++/7/bits/basic_string.h' l='1097' u='c' c='_ZNSt7__cxx1112basic_string2atEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>
+<use f='include/c++/7/bits/basic_string.h' l='1848' u='c' c='_ZNSt7__cxx1112basic_string8pop_backEv'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='88' u='c' c='_ZNSt16__numpunct_cache8_M_cacheERKSt6locale'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='296' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='319' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='355' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='554' u='c' c='_ZNKSt7num_get14_M_extract_intB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRT_'/>
+<use f='include/c++/7/bits/locale_facets.tcc' l='567' u='c' c='_ZNKSt7num_get14_M_extract_intB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRT_'/>
+<doc f='include/c++/7/bits/basic_string.h' l='916'>// Capacity:
+      ///  Returns the number of characters in the string, not including any
+      ///  null-termination.</doc>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='485' u='c' c='_ZNK4llvm18raw_string_ostream11current_posEv'/>
+<use f='codebrowser/generator/stringbuilder.h' l='25' u='c' c='_ZN21string_builder_helperINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4sizeERKS5_'/>
+<use f='codebrowser/generator/stringbuilder.h' l='58' u='c' c='_ZrMRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_'/>
+<use f='codebrowser/generator/annotator.cpp' l='214' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='450' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='460' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='467' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='551' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='555' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='666' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='970' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/generator.cpp' l='144' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/main.cpp' l='336' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='342' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='349' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='354' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='527' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='564' u='c' c='main'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='136' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='272' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='65' u='c' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='70' u='c' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='83' u='c' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='98' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='99' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='103' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='104' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='108' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='205' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='210' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='242' u='c' c='main'/>

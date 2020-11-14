@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='411' ll='437' type='llvm::BitVector &amp; llvm::BitVector::set(unsigned int I, unsigned int E)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='395' u='c' c='_ZN4llvm14SmallBitVector3setEjj'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='410'>/// set - Efficiently set a range of bits in [I, E)</doc>

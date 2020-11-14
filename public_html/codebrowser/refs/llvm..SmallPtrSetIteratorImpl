@@ -1,0 +1,17 @@
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='51'/>
+<def f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='222' ll='263'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='237' c='_ZNK4llvm23SmallPtrSetIteratorImpleqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='240' c='_ZNK4llvm23SmallPtrSetIteratorImplneERKS0_'/>
+<ovr f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='267' c='llvm::SmallPtrSetIterator'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='267'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='280' c='_ZN4llvm19SmallPtrSetIteratorC1EPKPKvS4_RKNS_14DebugEpochBaseE'/>
+<size>16</size>
+<doc f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='220'>/// SmallPtrSetIteratorImpl - This is the common base class shared between all
+/// instances of SmallPtrSetIterator.</doc>
+<mbr r='llvm::SmallPtrSetIteratorImpl::Bucket' o='0' t='const void *const *'/>
+<mbr r='llvm::SmallPtrSetIteratorImpl::End' o='64' t='const void *const *'/>
+<fun r='_ZN4llvm23SmallPtrSetIteratorImplC1EPKPKvS4_'/>
+<fun r='_ZNK4llvm23SmallPtrSetIteratorImpleqERKS0_'/>
+<fun r='_ZNK4llvm23SmallPtrSetIteratorImplneERKS0_'/>
+<fun r='_ZN4llvm23SmallPtrSetIteratorImpl17AdvanceIfNotValidEv'/>
+<fun r='_ZN4llvm23SmallPtrSetIteratorImpl17RetreatIfNotValidEv'/>

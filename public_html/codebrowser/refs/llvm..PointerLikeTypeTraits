@@ -1,0 +1,73 @@
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='42'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='56' ll='61'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='63' ll='75'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='63'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='78' ll='88'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='79'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='91' ll='101'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='92'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='104' ll='113'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='104'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='144' ll='146'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='104' c='_ZN4llvm13StringMapImpl15getTombstoneValEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseMapInfo.h' l='41' c='_ZN4llvm12DenseMapInfoIPT_E11getEmptyKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseMapInfo.h' l='47' c='_ZN4llvm12DenseMapInfoIPT_E15getTombstoneKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='42'/>
+<use f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='190' c='_ZN4llvm12DenseMapInfoINS_14PointerIntPairIT_XT0_ET1_NS_21PointerLikeTypeTraitsIS2_EENS_18PointerIntPairInfoIS2_XT0_ES5_EEEEE11getEmptyKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='196' c='_ZN4llvm12DenseMapInfoINS_14PointerIntPairIT_XT0_ET1_NS_21PointerLikeTypeTraitsIS2_EENS_18PointerIntPairInfoIS2_XT0_ES5_EEEEE15getTombstoneKeyEv'/>
+<def f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='209' ll='229'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='65'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='66'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='107' c='_ZN4llvm12PointerUnionC1ET_'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='109' c='_ZN4llvm12PointerUnionC1ET0_'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='117' c='_ZNK4llvm12PointerUnion6isNullEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='137' c='_ZNK4llvm12PointerUnion3getEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='175' c='_ZN4llvm12PointerUnionaSERKT_'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='180' c='_ZN4llvm12PointerUnionaSERKT0_'/>
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='210' ll='225'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='222'/>
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='332' ll='347'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='344'/>
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='445' ll='461'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='458'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='269'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='346'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='347'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='55'>// Provide PointerLikeTypeTraits for non-cvr pointers.</doc>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='77'>// Provide PointerLikeTypeTraits for const things.</doc>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='90'>// Provide PointerLikeTypeTraits for const pointers.</doc>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='103'>// Provide PointerLikeTypeTraits for uintptr_t.</doc>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='137'>/// Provide a default specialization for function pointers that assumes 4-byte
+/// alignment.
+///
+/// We assume here that functions used with this are always at least 4-byte
+/// aligned. This means that, for example, thumb functions won&apos;t work or systems
+/// with weird unaligned function pointers won&apos;t work. But all practical systems
+/// we support satisfy this requirement.</doc>
+<doc f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='208'>// Teach SmallPtrSet that PointerIntPair is &quot;basically a pointer&quot;.</doc>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='208'>// Teach SmallPtrSet that PointerUnion is &quot;basically a pointer&quot;, that has
+// # low bits available = min(PT1bits,PT2bits)-1.</doc>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='330'>// Teach SmallPtrSet that PointerUnion3 is &quot;basically a pointer&quot;, that has
+// # low bits available = min(PT1bits,PT2bits,PT2bits)-2.</doc>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='443'>// Teach SmallPtrSet that PointerUnion4 is &quot;basically a pointer&quot;, that has
+// # low bits available = min(PT1bits,PT2bits,PT2bits)-2.</doc>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPT_E16getAsVoidPointerES2_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPT_E18getFromVoidPointerEPv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPvE16getAsVoidPointerES1_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPvE18getFromVoidPointerES1_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIKT_E16getAsVoidPointerES1_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIKT_E18getFromVoidPointerEPKv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPKT_E16getAsVoidPointerES3_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsIPKT_E18getFromVoidPointerEPKv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsImE16getAsVoidPointerEm'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsImE18getFromVoidPointerEPv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_14PointerIntPairIT_XT0_ET1_T2_NS_18PointerIntPairInfoIS2_XT0_ES4_EEEEE16getAsVoidPointerERKNS1_IS2_XT0_ES3_NS0_IS2_5631094'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_14PointerIntPairIT_XT0_ET1_T2_NS_18PointerIntPairInfoIS2_XT0_ES4_EEEEE18getFromVoidPointerEPv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_14PointerIntPairIT_XT0_ET1_T2_NS_18PointerIntPairInfoIS2_XT0_ES4_EEEEE18getFromVoidPointerEPKv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_12PointerUnionIT_T0_EEE16getAsVoidPointerERKS4_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_12PointerUnionIT_T0_EEE18getFromVoidPointerEPv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_13PointerUnion3IT_T0_T1_EEE16getAsVoidPointerERKS5_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_13PointerUnion3IT_T0_T1_EEE18getFromVoidPointerEPv'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_13PointerUnion4IT_T0_T1_T2_EEE16getAsVoidPointerERKS6_'/>
+<fun r='_ZN4llvm21PointerLikeTypeTraitsINS_13PointerUnion4IT_T0_T1_T2_EEE18getFromVoidPointerEPv'/>

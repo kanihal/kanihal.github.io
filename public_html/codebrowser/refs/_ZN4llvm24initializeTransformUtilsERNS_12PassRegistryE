@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='26' type='void llvm::initializeTransformUtils(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='25'>/// Initialize all passes linked into the TransformUtils library.</doc>

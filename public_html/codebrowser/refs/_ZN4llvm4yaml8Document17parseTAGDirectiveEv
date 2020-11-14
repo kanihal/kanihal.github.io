@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='573' type='void llvm::yaml::Document::parseTAGDirective()'/>
+<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='572'>/// Parse %TAG</doc>

@@ -1,0 +1,24 @@
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='93'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='94'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='96'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='96'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='97'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='97'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='98'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='98'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='99'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='99'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='100'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='100'/>
+<def f='include/llvm-7/llvm/Support/Chrono.h' l='101'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='101'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='132' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<size>1</size>
+<smbr r='llvm::detail::unit::value' t='const char []'/>
+<smbr r='llvm::detail::unit::value' t='const char [1]'/>
+<smbr r='llvm::detail::unit{std::ratio{3600,1}}::value' t='const char []'/>
+<smbr r='llvm::detail::unit{std::ratio{60,1}}::value' t='const char []'/>
+<smbr r='llvm::detail::unit{std::ratio{1,1}}::value' t='const char []'/>
+<smbr r='llvm::detail::unit{std::ratio{1,1000}}::value' t='const char []'/>
+<smbr r='llvm::detail::unit{std::ratio{1,1000000}}::value' t='const char []'/>
+<smbr r='llvm::detail::unit{std::ratio{1,1000000000}}::value' t='const char []'/>

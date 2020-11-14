@@ -1,0 +1,14 @@
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='221' ll='242'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='251'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='367' c='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='375' c='_ZN4llvm22DefaultFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDE'/>
+<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='217'>//===----------------------------------------------------------------------===//
+
+/// DefaultFoldingSetTrait - This class provides default implementations
+/// for FoldingSetTrait implementations.</doc>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait7ProfileERKT_RNS_16FoldingSetNodeIDE'/>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait7ProfileERT_RNS_16FoldingSetNodeIDE'/>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDE'/>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<fun r='_ZN4llvm22DefaultFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDE'/>

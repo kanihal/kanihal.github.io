@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/stl_list.h' l='850' ll='852' type='std::__cxx11::list::iterator std::__cxx11::list::begin()'/>
+<doc f='include/c++/7/bits/stl_list.h' l='846'>/**
+       *  Returns a read/write iterator that points to the first element in the
+       *  %list.  Iteration is done in ordinary element order.
+       */</doc>

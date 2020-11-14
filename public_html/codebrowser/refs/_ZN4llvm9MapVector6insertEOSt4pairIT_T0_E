@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/MapVector.h' l='130' ll='141' type='std::pair&lt;iterator, bool&gt; llvm::MapVector::insert(std::pair&lt;KeyT, ValueT&gt; &amp;&amp; KV)'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='847' ll='849' type='llvm::sys::fs::OpenFlags llvm::sys::fs::operator|(llvm::sys::fs::OpenFlags A, llvm::sys::fs::OpenFlags B)'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='852' u='c' c='_ZN4llvm3sys2fsoRERNS1_9OpenFlagsES2_'/>

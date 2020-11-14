@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/Support/Endian.h' l='39' ll='41'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='71' c='_ZN4llvm7support6endian4readEPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='103' c='_ZN4llvm7support6endian5writeEPvT_NS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='129' c='_ZN4llvm7support6endian18readAtBitAlignmentEPKvm'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='164' c='_ZN4llvm7support6endian19writeAtBitAlignmentEPvT_m'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='198' c='_ZN4llvm7support6endian19writeAtBitAlignmentEPvT_m'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='246'/>

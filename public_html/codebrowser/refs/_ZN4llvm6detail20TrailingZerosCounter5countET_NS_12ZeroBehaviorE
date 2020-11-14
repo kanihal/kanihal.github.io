@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='55' ll='74' type='static std::size_t llvm::detail::TrailingZerosCounter::count(T Val, llvm::ZeroBehavior )'/>

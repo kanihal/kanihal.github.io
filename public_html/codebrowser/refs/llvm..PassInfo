@@ -1,0 +1,55 @@
+<use f='include/llvm-7/llvm/Pass.h' l='177' c='_ZN4llvm4Pass14lookupPassInfoEPKv'/>
+<use f='include/llvm-7/llvm/Pass.h' l='181' c='_ZN4llvm4Pass14lookupPassInfoENS_9StringRefE'/>
+<def f='include/llvm-7/llvm/PassInfo.h' l='31' ll='117'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='42'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='59' c='_ZN4llvm8PassInfoC1ERKS0_'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='60' c='_ZN4llvm8PassInfoaSERKS0_'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='60' c='_ZN4llvm8PassInfoaSERKS0_'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='108' c='_ZN4llvm8PassInfo23addInterfaceImplementedEPKS0_'/>
+<use f='include/llvm-7/llvm/PassInfo.h' l='114' c='_ZNK4llvm8PassInfo24getInterfacesImplementedEv'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='43'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='46'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='49'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='63' c='_ZNK4llvm12PassRegistry11getPassInfoEPKv'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='67' c='_ZNK4llvm12PassRegistry11getPassInfoENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='71' c='_ZN4llvm12PassRegistry12registerPassERKNS_8PassInfoEb'/>
+<use f='include/llvm-7/llvm/PassRegistry.h' l='77' c='_ZN4llvm12PassRegistry21registerAnalysisGroupEPKvS2_RNS_8PassInfoEbb'/>
+<ovr f='include/llvm-7/llvm/PassSupport.h' l='91' c='llvm::RegisterPass'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='91'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='95' c='_ZN4llvm12RegisterPassC1ENS_9StringRefES1_bb'/>
+<ovr f='include/llvm-7/llvm/PassSupport.h' l='120' c='llvm::RegisterAGBase'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='120'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='128' c='_ZN4llvm21RegisterAnalysisGroupC1ERNS_8PassInfoE'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='203' c='_ZN4llvm24PassRegistrationListener14passRegisteredEPKNS_8PassInfoE'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='211' c='_ZN4llvm24PassRegistrationListener13passEnumerateEPKNS_8PassInfoE'/>
+<size>80</size>
+<doc f='include/llvm-7/llvm/PassInfo.h' l='25'>//===---------------------------------------------------------------------------
+/// PassInfo class - An instance of this class exists for every pass known by
+/// the system, and can be obtained from a live Pass by calling its
+/// getPassInfo() method.  These objects are set up by the RegisterPass&lt;&gt;
+/// template.
+///</doc>
+<mbr r='llvm::PassInfo::PassName' o='0' t='llvm::StringRef'/>
+<mbr r='llvm::PassInfo::PassArgument' o='128' t='llvm::StringRef'/>
+<mbr r='llvm::PassInfo::PassID' o='256' t='const void *'/>
+<mbr r='llvm::PassInfo::IsCFGOnlyPass' o='320' t='const bool'/>
+<mbr r='llvm::PassInfo::IsAnalysis' o='328' t='const bool'/>
+<mbr r='llvm::PassInfo::IsAnalysisGroup' o='336' t='const bool'/>
+<mbr r='llvm::PassInfo::ItfImpl' o='384' t='std::vector&lt;const PassInfo *&gt;'/>
+<mbr r='llvm::PassInfo::NormalCtor' o='576' t='llvm::PassInfo::NormalCtor_t'/>
+<fun r='_ZN4llvm8PassInfoC1ENS_9StringRefES1_PKvPFPNS_4PassEvEbb'/>
+<fun r='_ZN4llvm8PassInfoC1ENS_9StringRefEPKv'/>
+<fun r='_ZN4llvm8PassInfoC1ERKS0_'/>
+<fun r='_ZN4llvm8PassInfoaSERKS0_'/>
+<fun r='_ZNK4llvm8PassInfo11getPassNameEv'/>
+<fun r='_ZNK4llvm8PassInfo15getPassArgumentEv'/>
+<fun r='_ZNK4llvm8PassInfo11getTypeInfoEv'/>
+<fun r='_ZNK4llvm8PassInfo8isPassIDEPKv'/>
+<fun r='_ZNK4llvm8PassInfo15isAnalysisGroupEv'/>
+<fun r='_ZNK4llvm8PassInfo10isAnalysisEv'/>
+<fun r='_ZNK4llvm8PassInfo13isCFGOnlyPassEv'/>
+<fun r='_ZNK4llvm8PassInfo13getNormalCtorEv'/>
+<fun r='_ZN4llvm8PassInfo13setNormalCtorEPFPNS_4PassEvE'/>
+<fun r='_ZNK4llvm8PassInfo10createPassEv'/>
+<fun r='_ZN4llvm8PassInfo23addInterfaceImplementedEPKS0_'/>
+<fun r='_ZNK4llvm8PassInfo24getInterfacesImplementedEv'/>

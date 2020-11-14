@@ -1,0 +1,11 @@
+<dec f='codebrowser/generator/annotator.h' l='67' type='1'/>
+<use f='codebrowser/generator/annotator.cpp' l='380' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='583' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='662' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='666' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='706' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='748' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='785' u='r' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='77' u='r' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='127' u='r' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='138' u='r' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>

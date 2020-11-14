@@ -1,0 +1,14 @@
+<dec f='codebrowser/generator/annotator.h' l='67' type='0'/>
+<use f='codebrowser/generator/annotator.cpp' l='377' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='785' u='r' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='837' u='r' c='_ZN9Annotator13registerMacroERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang14SourceLocationENS_8DeclTypeE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='56' u='r' c='_ZN17BrowserASTVisitor20VisitTypedefNameDeclEPN5clang15TypedefNameDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='77' u='r' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='82' u='r' c='_ZN17BrowserASTVisitor18VisitNamespaceDeclEPN5clang13NamespaceDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='86' u='r' c='_ZN17BrowserASTVisitor23VisitNamespaceAliasDeclEPN5clang18NamespaceAliasDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='127' u='r' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='132' u='r' c='_ZN17BrowserASTVisitor21VisitEnumConstantDeclEPN5clang16EnumConstantDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='138' u='r' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='143' u='r' c='_ZN17BrowserASTVisitor14VisitFieldDeclEPN5clang9FieldDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='307' u='r' c='_ZN17BrowserASTVisitor14VisitLabelStmtEPN5clang9LabelStmtE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='196' u='r' c='_ZN20PreprocessorCallback12MacroDefinedERKN5clang5TokenEPKNS0_14MacroDirectiveE'/>

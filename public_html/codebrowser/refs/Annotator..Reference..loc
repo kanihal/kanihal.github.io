@@ -1,0 +1,3 @@
+<dec f='codebrowser/generator/annotator.h' l='89' type='clang::SourceRange'/>
+<use f='codebrowser/generator/annotator.cpp' l='341' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<offset>32</offset>

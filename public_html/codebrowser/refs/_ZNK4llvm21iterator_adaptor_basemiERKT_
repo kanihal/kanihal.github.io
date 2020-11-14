@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/iterator.h' l='243' ll='248' type='llvm::iterator_adaptor_base::difference_type llvm::iterator_adaptor_base::operator-(const DerivedT &amp; RHS) const'/>

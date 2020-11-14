@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='61' type='const char * llvm::MemoryBuffer::getBufferEnd() const'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='174' u='c' c='_ZN4llvm20WritableMemoryBuffer12getBufferEndEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='236' u='c' c='_ZN4llvm24WriteThroughMemoryBuffer12getBufferEndEv'/>
+<use f='codebrowser/generator/annotator.cpp' l='301' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='1036' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<use f='codebrowser/generator/main.cpp' l='568' u='c' c='main'/>

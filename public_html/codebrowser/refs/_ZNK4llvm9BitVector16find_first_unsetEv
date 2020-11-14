@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='348' type='int llvm::BitVector::find_first_unset() const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='259' u='c' c='_ZNK4llvm14SmallBitVector16find_first_unsetEv'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='346'>/// find_first_unset - Returns the index of the first unset bit, -1 if all
+  /// of the bits are set.</doc>

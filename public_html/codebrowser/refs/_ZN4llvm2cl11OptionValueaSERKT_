@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='549' ll='552' type='OptionValue&lt;DataType&gt; &amp; llvm::cl::OptionValue::operator=(const DT &amp; V)'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='548'>// Some options may take their value from a different data type.</doc>

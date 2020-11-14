@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='177' ll='179' type='llvm::SmallBitVector::const_set_bits_iterator llvm::SmallBitVector::set_bits_begin() const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='186' u='c' c='_ZNK4llvm14SmallBitVector8set_bitsEv'/>

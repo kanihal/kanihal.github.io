@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='726' type='4'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='725'>/// Delete the file on close. Only makes a difference on windows.</doc>

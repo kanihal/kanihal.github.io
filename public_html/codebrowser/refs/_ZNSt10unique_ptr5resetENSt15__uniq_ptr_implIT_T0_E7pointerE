@@ -1,0 +1,13 @@
+<use f='include/c++/7/bits/unique_ptr.h' l='278' u='c' c='_ZNSt10unique_ptraSEOSt10unique_ptrIT_T0_E'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='298' u='c' c='_ZNSt10unique_ptraSEOSt10unique_ptrIT_T0_E'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='307' u='c' c='_ZNSt10unique_ptraSEDn'/>
+<def f='include/c++/7/bits/unique_ptr.h' l='365' ll='372' type='void std::unique_ptr::reset(std::unique_ptr::pointer __p = std::unique_ptr::pointer())'/>
+<doc f='include/c++/7/bits/unique_ptr.h' l='359'>/** @brief Replace the stored pointer.
+       *
+       * @param __p  The new pointer to store.
+       *
+       * The deleter will be invoked if a pointer is already owned.
+       */</doc>
+<use f='codebrowser/generator/annotator.h' l='127' u='c' c='_ZN9Annotator16setMangleContextEPN5clang13MangleContextE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='598' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='601' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>

@@ -1,0 +1,19 @@
+<def f='include/llvm-7/llvm/ADT/Triple.h' l='285' type='llvm::Triple::ArchType llvm::Triple::getArch() const'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='609' u='c' c='_ZNK4llvm6Triple8isPS4CPUEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='645' u='c' c='_ZNK4llvm6Triple7isNVPTXEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='645' u='c' c='_ZNK4llvm6Triple7isNVPTXEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='650' u='c' c='_ZNK4llvm6Triple7isThumbEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='650' u='c' c='_ZNK4llvm6Triple7isThumbEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='655' u='c' c='_ZNK4llvm6Triple5isARMEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='655' u='c' c='_ZNK4llvm6Triple5isARMEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='660' u='c' c='_ZNK4llvm6Triple9isAArch64Ev'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='660' u='c' c='_ZNK4llvm6Triple9isAArch64Ev'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='665' u='c' c='_ZNK4llvm6Triple8isMIPS32Ev'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='665' u='c' c='_ZNK4llvm6Triple8isMIPS32Ev'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='670' u='c' c='_ZNK4llvm6Triple8isMIPS64Ev'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='670' u='c' c='_ZNK4llvm6Triple8isMIPS64Ev'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='280'>/// @}
+  /// @name Typed Component Access
+  /// @{
+
+  /// getArch - Get the parsed architecture type of this triple.</doc>

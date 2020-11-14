@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='76' ll='86'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='257' c='_ZN4llvm11raw_ostream11changeColorENS0_6ColorsEbb'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='430' c='_ZN4llvm14raw_fd_ostream11changeColorENS_11raw_ostream6ColorsEbb'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='75'>// color order matches ANSI escape sequence, don&apos;t change</doc>

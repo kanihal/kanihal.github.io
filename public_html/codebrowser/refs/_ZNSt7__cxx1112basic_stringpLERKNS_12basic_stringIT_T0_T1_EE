@@ -1,0 +1,8 @@
+<def f='include/c++/7/bits/basic_string.h' l='1157' ll='1159' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator+=(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<doc f='include/c++/7/bits/basic_string.h' l='1152'>/**
+       *  @brief  Append a string to this string.
+       *  @param __str  The string to append.
+       *  @return  Reference to this string.
+       */</doc>
+<use f='codebrowser/generator/stringbuilder.h' l='26' u='c' c='_ZN21string_builder_helperINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9append_toERS5_RKS5_'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='134' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

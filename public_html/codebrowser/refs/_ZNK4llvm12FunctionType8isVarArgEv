@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='123' type='bool llvm::FunctionType::isVarArg() const'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='150' u='c' c='_ZNK4llvm4Type16isFunctionVarArgEv'/>

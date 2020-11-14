@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/annotator.h' l='112' type='std::map&lt;clang::FileID, std::set&lt;std::string&gt; &gt;'/>
+<use f='codebrowser/generator/annotator.cpp' l='234' u='m' c='_ZN9Annotator29registerInterestingDefinitionEN5clang11SourceRangeEPNS0_9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='304' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<offset>5248</offset>

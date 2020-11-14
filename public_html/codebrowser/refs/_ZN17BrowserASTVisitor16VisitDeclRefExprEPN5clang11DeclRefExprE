@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='159' ll='166' type='bool BrowserASTVisitor::VisitDeclRefExpr(clang::DeclRefExpr * e)'/>

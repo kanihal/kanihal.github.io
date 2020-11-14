@@ -1,0 +1,3 @@
+<dec f='codebrowser/generator/commenthandler.h' l='41' type='std::string'/>
+<use f='codebrowser/generator/annotator.cpp' l='422' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<offset>0</offset>

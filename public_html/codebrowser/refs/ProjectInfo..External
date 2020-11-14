@@ -1,0 +1,7 @@
+<dec f='codebrowser/generator/projectmanager.h' l='43' type='2'/>
+<doc f='codebrowser/generator/projectmanager.h' l='43'>//links to external projects somewhere else, do not generate refs or anything,</doc>
+<use f='codebrowser/generator/annotator.cpp' l='507' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='522' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='550' u='r' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/main.cpp' l='359' u='r' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='80' u='r' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>

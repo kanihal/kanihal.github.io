@@ -1,0 +1,33 @@
+<def f='include/c++/7/bits/basic_string.h' l='531' ll='551' type='void std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;(basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp;&amp; __str)'/>
+<use f='codebrowser/generator/projectmanager.h' l='48' u='c' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_NS_4TypeE'/>
+<use f='codebrowser/generator/projectmanager.h' l='48' u='c' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_NS_4TypeE'/>
+<use f='codebrowser/generator/projectmanager.h' l='50' u='c' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_'/>
+<use f='codebrowser/generator/projectmanager.h' l='50' u='c' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_'/>
+<use f='codebrowser/generator/projectmanager.h' l='50' u='c' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_'/>
+<doc f='include/c++/7/bits/basic_string.h' l='524'>/**
+       *  @brief  Move construct string.
+       *  @param  __str  Source string.
+       *
+       *  The newly-created string contains the exact contents of @a __str.
+       *  @a __str is a valid, but unspecified string.
+       **/</doc>
+<use f='codebrowser/generator/generator.h' l='70' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>
+<use f='codebrowser/generator/generator.h' l='70' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1145' u='c' c='_ZN4llvm11ExitOnErrorC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1106' u='c' c='_ZN4llvm3sys2fs15directory_entryC1ERKNS_5TwineEbNS1_17basic_file_statusE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='236' u='c' c='_ZN4llvm7SMFixItC1ENS_5SMLocERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='242' u='c' c='_ZN4llvm7SMFixItC1ENS_7SMRangeERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='276' u='c' c='_ZN4llvm12SMDiagnosticC1ENS_9StringRefENS_9SourceMgr8DiagKindES1_'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='276' u='c' c='_ZN4llvm12SMDiagnosticC1ENS_9StringRefENS_9SourceMgr8DiagKindES1_'/>
+<use f='codebrowser/generator/annotator.cpp' l='555' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='799' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='825' u='c' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='826' u='c' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='868' u='c' c='_ZN9Annotator19annotateSourceRangeEN5clang11SourceRangeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_'/>
+<use f='codebrowser/generator/annotator.cpp' l='868' u='c' c='_ZN9Annotator19annotateSourceRangeEN5clang11SourceRangeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_'/>
+<use f='codebrowser/generator/annotator.cpp' l='998' u='c' c='_ZN9Annotator13getContextStrB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1006' u='c' c='_ZN9Annotator13getVisibleRefB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='283' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='32' u='c' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='33' u='c' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='107' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

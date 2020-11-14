@@ -1,0 +1,1 @@
+<def f='include/c++/7/bits/stl_vector.h' l='411' ll='414' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(_InputIterator __first, _InputIterator __last, const std::vector::allocator_type &amp; __a = std::vector::allocator_type())'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='212' type='bool llvm::Type::isIntOrPtrTy() const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='211'>/// Return true if this is an integer type or a pointer type.</doc>

@@ -1,0 +1,2 @@
+<use f='codebrowser/generator/main.cpp' l='160' u='c' c='_ZN18BrowserASTConsumerD1Ev'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='96' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

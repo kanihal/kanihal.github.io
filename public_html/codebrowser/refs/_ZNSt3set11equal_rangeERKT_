@@ -1,0 +1,17 @@
+<def f='include/c++/7/bits/stl_set.h' l='868' ll='870' type='std::pair&lt;iterator, iterator&gt; std::set::equal_range(const std::set::key_type &amp; __x)'/>
+<def f='include/c++/7/bits/stl_set.h' l='878' ll='881' type='decltype(pair&lt;std::set::iterator, std::set::iterator&gt;(this-&gt;_M_t._M_equal_range_tr(__x))) std::set::equal_range(const _Kt &amp; __x)'/>
+<doc f='include/c++/7/bits/stl_set.h' l='853'>/**
+       *  @brief Finds a subsequence matching given key.
+       *  @param  __x  Key to be located.
+       *  @return  Pair of iterators that possibly points to the subsequence
+       *           matching given key.
+       *
+       *  This function is equivalent to
+       *  @code
+       *    std::make_pair(c.lower_bound(val),
+       *                   c.upper_bound(val))
+       *  @endcode
+       *  (but is faster than making the calls separately).
+       *
+       *  This function probably only makes sense for multisets.
+       */</doc>

@@ -1,0 +1,9 @@
+<def f='codebrowser/build/generator/embedded_includes.h' l='30' ll='38'/>
+<use f='codebrowser/build/generator/embedded_includes.h' l='40'/>
+<use f='codebrowser/generator/main.cpp' l='301' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<size>24</size>
+<mbr r='EmbeddedFile::filename' o='0' t='const char *'/>
+<mbr r='EmbeddedFile::content' o='64' t='const char *'/>
+<mbr r='EmbeddedFile::size' o='128' t='size_t'/>
+<fun r='_ZN12EmbeddedFileC1EPKcRAT__S0_'/>
+<fun r='_ZN12EmbeddedFileC1Ev'/>

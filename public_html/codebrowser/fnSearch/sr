@@ -1,0 +1,2 @@
+_ZN4llvm9SourceMgr9SrcBufferC1Ev|llvm::SourceMgr::SrcBuffer::SrcBuffer
+_ZN4llvm9SourceMgr9SrcBufferaSERKS1_|llvm::SourceMgr::SrcBuffer::operator=

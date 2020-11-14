@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='170' type='void llvm::DataLayout::setPointerAlignment(uint32_t AddrSpace, unsigned int ABIAlign, unsigned int PrefAlign, uint32_t TypeByteWidth, uint32_t IndexWidth)'/>

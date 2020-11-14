@@ -1,0 +1,10 @@
+<dec f='include/llvm-7/llvm/Support/Compiler.h' l='176'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='219' u='c'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='226' u='c'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='311' u='c'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='653' u='c'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='545' u='c'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='549' u='c'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='97' u='c'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='604' u='c'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='653' u='c'/>

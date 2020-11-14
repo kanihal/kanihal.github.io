@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Pass.h' l='227' type='void llvm::ModulePass::ModulePass(char &amp; pid)'/>
+<use f='include/llvm-7/llvm/Pass.h' l='258' u='c' c='_ZN4llvm13ImmutablePassC1ERc'/>

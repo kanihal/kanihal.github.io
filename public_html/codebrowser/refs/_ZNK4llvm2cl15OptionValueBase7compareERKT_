@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='482' type='bool llvm::cl::OptionValueBase::compare(const DataType &amp; ) const'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='482'>/*V*/</doc>

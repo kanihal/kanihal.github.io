@@ -1,0 +1,9 @@
+<def f='include/c++/7/bits/stl_multimap.h' l='965' ll='967' type='std::multimap::const_iterator std::multimap::upper_bound(const std::multimap::key_type &amp; __x) const'/>
+<def f='include/c++/7/bits/stl_multimap.h' l='971' ll='974' type='decltype(std::multimap::const_iterator(this-&gt;_M_t._M_upper_bound_tr(__x))) std::multimap::upper_bound(const _Kt &amp; __x) const'/>
+<doc f='include/c++/7/bits/stl_multimap.h' l='959'>/**
+       *  @brief Finds the end of a subsequence matching given key.
+       *  @param  __x  Key of (key, value) pair to be located.
+       *  @return  Read-only (constant) iterator pointing to first iterator
+       *           greater than key, or end().
+       */</doc>
+<use f='codebrowser/generator/commenthandler.cpp' l='375' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

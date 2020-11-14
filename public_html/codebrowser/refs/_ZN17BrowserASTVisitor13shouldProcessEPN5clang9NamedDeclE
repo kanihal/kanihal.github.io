@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/browserastvisitor.h' l='62' u='c' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='91' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='136' u='c' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<def f='codebrowser/generator/browserastvisitor.h' l='494' ll='497' type='bool BrowserASTVisitor::shouldProcess(clang::NamedDecl * d)'/>

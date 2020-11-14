@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='269' ll='270'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='386' c='_ZN4llvm32DefaultContextualFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_T0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='394' c='_ZN4llvm32DefaultContextualFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDET0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='531' c='_ZNK4llvm20ContextualFoldingSet14GetNodeProfileEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='537' c='_ZNK4llvm20ContextualFoldingSet10NodeEqualsEPNS_14FoldingSetImplIT_E4NodeERKNS_16FoldingSetNodeIDEjRS6_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='543' c='_ZNK4llvm20ContextualFoldingSet15ComputeNodeHashEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='267'>/// ContextualFoldingSetTrait - Like FoldingSetTrait, but for
+/// ContextualFoldingSets.</doc>

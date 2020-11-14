@@ -1,0 +1,5 @@
+<dec f='include/time.h' l='75' type='time_t time(time_t * __timer)'/>
+<doc f='include/time.h' l='74'>/* Return the current time and put it in *TIMER if TIMER is not NULL.  */</doc>
+<use f='codebrowser/generator/annotator.cpp' l='284' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='543' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='167' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

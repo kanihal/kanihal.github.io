@@ -1,0 +1,63 @@
+<use f='include/c++/7/type_traits' l='1019'/>
+<use f='include/c++/7/type_traits' l='1045'/>
+<inh f='include/c++/7/type_traits' l='69' c='std::integral_constant'/>
+<def f='include/c++/7/type_traits' l='1503' ll='1504'/>
+<inh f='include/c++/7/type_traits' l='69' c='std::integral_constant'/>
+<def f='include/c++/7/type_traits' l='1506' ll='1508'/>
+<use f='include/c++/7/type_traits' l='2365'/>
+<use f='include/c++/7/type_traits' l='2381'/>
+<use f='include/c++/7/bits/stl_pair.h' l='281'/>
+<use f='include/c++/7/bits/stl_pair.h' l='282'/>
+<use f='include/c++/7/bits/ptr_traits.h' l='114'/>
+<use f='include/c++/7/bits/stl_algobase.h' l='1120' c='_ZSt5equalT_S_T0_S0_'/>
+<use f='include/c++/7/bits/stl_algobase.h' l='1120' c='_ZSt5equalT_S_T0_S0_'/>
+<use f='include/c++/7/bits/stl_algobase.h' l='1167' c='_ZSt5equalT_S_T0_S0_T1_'/>
+<use f='include/c++/7/bits/stl_algobase.h' l='1167' c='_ZSt5equalT_S_T0_S0_T1_'/>
+<use f='include/c++/7/ext/alloc_traits.h' l='75'/>
+<use f='include/c++/7/bits/stl_algo.h' l='3601' c='_ZSt16__is_permutationT_S_T0_S0_T1_'/>
+<use f='include/c++/7/bits/stl_algo.h' l='3602' c='_ZSt16__is_permutationT_S_T0_S0_T1_'/>
+<use f='include/c++/7/ext/string_conversions.h' l='85' c='__gnu_cxx::__stoa'/>
+<use f='include/c++/7/bits/uses_allocator.h' l='43'/>
+<use f='include/c++/7/tuple' l='497' c='_ZNSt3_TC15_NonNestedTupleEv'/>
+<use f='include/c++/7/tuple' l='508' c='_ZNSt3_TC13_NotSameTupleEv'/>
+<use f='include/c++/7/tuple' l='597'/>
+<use f='include/c++/7/tuple' l='634'/>
+<use f='include/c++/7/tuple' l='667'/>
+<use f='include/c++/7/tuple' l='939'/>
+<use f='include/c++/7/tuple' l='968'/>
+<use f='include/c++/7/tuple' l='979'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='245'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='254'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='407'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='422'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='423'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='430'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='431'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='433'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='512'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='619'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='620'/>
+<use f='include/c++/7/bits/allocated_ptr.h' l='58'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='295' c='_ZN4llvm23SmallVectorTemplateBaseIT_Lb1EE18uninitialized_copyEPT_S4_PT0_PNSt9enable_ifIXsr3std7is_sameINSt12remove_constIS3_E4typeES5_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='199'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='203'/>
+<use f='include/c++/7/bits/std_function.h' l='380'/>
+<use f='include/c++/7/bits/std_function.h' l='463'/>
+<use f='include/c++/7/functional' l='99'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='126' c='_ZN4llvm12function_refIFT_DpT0_EEC1EOT_PNSt9enable_ifIXntsr3std7is_sameINSt16remove_referenceIS6_E4typeENS0_IS4_EEEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='779'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1046' c='_ZN4llvm4sizeEOT_PNSt9enable_ifIXsr3std7is_sameINSt15iterator_traitsIDTcldtfL0p_5beginEEE17iterator_categoryESt26random_access_iterator_tagEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='248' c='_ZN4llvm9StringRefaSB5cxx11EOT_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='227'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='87' c='_ZN4llvm13AllocatorBase10DeallocateEPT_m'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='250' c='_ZN4llvm8ArrayRefaSEOT_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='258' c='_ZN4llvm8ArrayRefaSESt16initializer_listIT_E'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='81' c='_ZN4llvm6detail18has_StreamOperator4testENSt9enable_ifIXsr3std7is_sameIDTlsclL_ZSt7declvalIRNS_11raw_ostreamEENSt20add_rvalue_referenceIT_E4typeEvEEcl7746695'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='149' c='_ZN4llvm6detail20build_format_adapterEOT_'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='39'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='770' c='_ZN4llvm7APFloat10usesLayoutERKNS_12fltSemanticsE'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='771' c='_ZN4llvm7APFloat10usesLayoutERKNS_12fltSemanticsE'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='772' c='_ZN4llvm7APFloat10usesLayoutERKNS_12fltSemanticsE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='337' c='_ZN4llvm15TrailingObjects21additionalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='349' c='_ZN4llvm15TrailingObjects16totalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
+<use f='include/c++/7/fstream' l='84'/>

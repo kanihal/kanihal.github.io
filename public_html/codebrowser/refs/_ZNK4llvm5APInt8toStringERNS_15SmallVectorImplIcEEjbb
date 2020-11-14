@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1664' type='void llvm::APInt::toString(SmallVectorImpl&lt;char&gt; &amp; Str, unsigned int Radix, bool Signed, bool formatAsCLiteral = false) const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1670' u='c' c='_ZNK4llvm5APInt16toStringUnsignedERNS_15SmallVectorImplIcEEj'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1676' u='c' c='_ZNK4llvm5APInt14toStringSignedERNS_15SmallVectorImplIcEEj'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='66' u='c' c='_ZNK4llvm6APSInt8toStringERNS_15SmallVectorImplIcEEj'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1662'>/// Converts an APInt to a string and append it to Str.  Str is commonly a
+  /// SmallString.</doc>

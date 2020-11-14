@@ -1,0 +1,30 @@
+<def f='include/llvm-7/llvm/Support/type_traits.h' l='31' ll='49'/>
+<def f='include/llvm-7/llvm/Support/type_traits.h' l='52' ll='55'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='54'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='54'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='132'/>
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='205' ll='208'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='207'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='323'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='324'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='334' c='_ZN4llvm15SmallVectorImplC1Ej'/>
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='933'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='933'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/Support/type_traits.h' l='51'>// std::pair&apos;s are pod-like if their elements are.</doc>
+<smbr r='llvm::isPodLike::value' t='const bool'/>
+<smbr r='llvm::isPodLike{pair{type-parameter-0-0,type-parameter-0-1}}::value' t='const bool'/>
+<smbr r='llvm::isPodLike{Optional{type-parameter-0-0}}::value' t='const bool'/>
+<smbr r='llvm::isPodLike{llvm::StringRef}::value' t='const bool'/>
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='531' ll='533'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='119' c='_ZN4llvm12DenseMapBase5clearEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='119' c='_ZN4llvm12DenseMapBase5clearEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='395' c='_ZN4llvm12DenseMapBase8copyFromERKNS_12DenseMapBaseIT_T0_T1_T2_T3_EE'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='395' c='_ZN4llvm12DenseMapBase8copyFromERKNS_12DenseMapBaseIT_T0_T1_T2_T3_EE'/>
+<def f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='178' ll='181'/>
+<def f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='163'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='163'/>
+<size>1</size>
+<smbr r='llvm::isPodLike{ArrayRef{type-parameter-0-0}}::value' t='const bool'/>
+<smbr r='llvm::isPodLike{PointerIntPair{type-parameter-0-0,IntBits,type-parameter-0-2,PointerLikeTypeTraits{type-parameter-0-0},PointerIntPairInfo{type-paramet12816618' t='const bool'/>
+<smbr r='llvm::isPodLike{llvm::BitCodeAbbrevOp}::value' t='const bool'/>

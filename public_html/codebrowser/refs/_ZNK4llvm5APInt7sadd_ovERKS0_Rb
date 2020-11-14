@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1097' type='llvm::APInt llvm::APInt::sadd_ov(const llvm::APInt &amp; RHS, bool &amp; Overflow) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1096'>// Operations that return overflow indicators.</doc>

@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='278' ll='282' macro='1' type='bool llvm::StringRef::endswith(llvm::StringRef Suffix) const'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='690' u='c' c='_ZN4llvm9StringRef12consume_backES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='79' u='c' c='_ZN4llvm12StringSwitch8EndsWithENS_13StringLiteralET_'/>
+<use f='codebrowser/generator/main.cpp' l='523' u='c' c='main'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='269' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='161' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

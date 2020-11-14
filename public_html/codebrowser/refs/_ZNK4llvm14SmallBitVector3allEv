@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='216' ll='220' type='bool llvm::SmallBitVector::all() const'/>
+<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='215'>/// Returns true if all bits are set.</doc>

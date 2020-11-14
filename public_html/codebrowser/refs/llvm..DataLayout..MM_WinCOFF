@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='124' type='3'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='269' u='r' c='_ZNK4llvm10DataLayout30doNotMangleLeadingQuestionMarkEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='285' c='_ZNK4llvm10DataLayout15getGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='299' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>

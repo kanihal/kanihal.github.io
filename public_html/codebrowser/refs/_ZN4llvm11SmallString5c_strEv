@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/ADT/SmallString.h' l='270' ll='274' type='const char * llvm::SmallString::c_str()'/>
+<use f='codebrowser/generator/annotator.cpp' l='551' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='555' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<doc f='include/llvm-7/llvm/ADT/SmallString.h' l='269'>// TODO: Make this const, if it&apos;s safe...</doc>
+<use f='codebrowser/generator/main.cpp' l='133' u='c' c='_ZN23BrowserDiagnosticClient16HandleDiagnosticEN5clang17DiagnosticsEngine5LevelERKNS0_10DiagnosticE'/>
+<use f='codebrowser/generator/main.cpp' l='143' u='c' c='_ZN23BrowserDiagnosticClient16HandleDiagnosticEN5clang17DiagnosticsEngine5LevelERKNS0_10DiagnosticE'/>
+<use f='codebrowser/generator/main.cpp' l='463' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='467' u='c' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='52' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

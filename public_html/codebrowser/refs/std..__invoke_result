@@ -1,0 +1,7 @@
+<def f='include/c++/7/type_traits' l='2444' ll='2454'/>
+<use f='include/c++/7/type_traits' l='2458'/>
+<use f='include/c++/7/type_traits' l='2768'/>
+<use f='include/c++/7/type_traits' l='2814'/>
+<use f='include/c++/7/bits/invoke.h' l='88' c='_ZSt8__invokeOT_DpOT0_'/>
+<use f='include/c++/7/bits/invoke.h' l='92' c='_ZSt8__invokeOT_DpOT0_'/>
+<use f='include/c++/7/functional' l='912'/>

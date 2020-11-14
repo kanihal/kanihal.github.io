@@ -1,0 +1,12 @@
+<def f='include/c++/7/bits/stl_set.h' l='737' ll='739' type='std::set::size_type std::set::count(const std::set::key_type &amp; __x) const'/>
+<def f='include/c++/7/bits/stl_set.h' l='743' ll='746' type='decltype(this-&gt;_M_t._M_count_tr(__x)) std::set::count(const _Kt &amp; __x) const'/>
+<use f='codebrowser/generator/annotator.cpp' l='259' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<doc f='include/c++/7/bits/stl_set.h' l='729'>/**
+       *  @brief  Finds the number of elements.
+       *  @param  __x  Element to located.
+       *  @return  Number of elements with specified key.
+       *
+       *  This function only makes sense for multisets; for set the result will
+       *  either be 0 (not present) or 1 (present).
+       */</doc>
+<use f='codebrowser/generator/main.cpp' l='214' u='c' c='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>

@@ -1,0 +1,4 @@
+<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='109' u='w' c='_ZN4llvm13TargetOptionsC1Ev'/>
+<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='211' type='unsigned int'/>
+<offset>130</offset>
+<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='210'>/// Emit data into separate sections.</doc>

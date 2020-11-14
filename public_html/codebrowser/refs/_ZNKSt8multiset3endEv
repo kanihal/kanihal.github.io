@@ -1,0 +1,7 @@
+<def f='include/c++/7/bits/stl_multiset.h' l='338' ll='340' type='std::multiset::iterator std::multiset::end() const'/>
+<use f='codebrowser/generator/generator.h' l='72' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>
+<doc f='include/c++/7/bits/stl_multiset.h' l='333'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  element in the %multiset.  Iteration is done in ascending order
+       *  according to the keys.
+       */</doc>

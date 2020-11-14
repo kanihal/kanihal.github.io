@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='45' ll='50' type='std::vector&lt;StringRef&gt; llvm::toStringRefArray(const char *const * Strings)'/>
+<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='42'>/// Given an array of c-style strings terminated by a null pointer, construct
+/// a vector of StringRefs representing the same strings without the terminating
+/// null string.</doc>

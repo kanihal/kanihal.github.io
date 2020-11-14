@@ -1,0 +1,24 @@
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='39' ll='46'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='55'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='91' c='_ZN4llvm13StringMapImpl9RemoveKeyEPNS_18StringMapEntryBaseE'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='95' c='_ZN4llvm13StringMapImpl9RemoveKeyENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='102' c='_ZN4llvm13StringMapImpl15getTombstoneValEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='105' c='_ZN4llvm13StringMapImpl15getTombstoneValEv'/>
+<ovr f='include/llvm-7/llvm/ADT/StringMap.h' l='126' c='llvm::StringMapEntry'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='126'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='131' c='_ZN4llvm14StringMapEntryC1Em'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='134' c='_ZN4llvm14StringMapEntryC1EmDpOT_'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='263' c='_ZN4llvm9StringMapC1ERKNS_9StringMapIT_T0_EE'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='295' c='_ZN4llvm9StringMapD1Ev'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='368' c='_ZN4llvm9StringMap6insertEPNS_14StringMapEntryIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='397' c='_ZN4llvm9StringMap11try_emplaceENS_9StringRefEDpOT_'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='419' c='_ZN4llvm9StringMap5clearEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='455'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='460' c='_ZN4llvm17StringMapIterBaseC1EPPNS_18StringMapEntryBaseEb'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='501' c='_ZN4llvm22StringMapConstIteratorC1EPPNS_18StringMapEntryBaseEb'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='518' c='_ZN4llvm17StringMapIteratorC1EPPNS_18StringMapEntryBaseEb'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='38'>/// StringMapEntryBase - Shared base class of StringMapEntry instances.</doc>
+<mbr r='llvm::StringMapEntryBase::StrLen' o='0' t='size_t'/>
+<fun r='_ZN4llvm18StringMapEntryBaseC1Em'/>
+<fun r='_ZNK4llvm18StringMapEntryBase12getKeyLengthEv'/>

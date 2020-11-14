@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='314' type='void llvm::cl::Option::setValueExpectedFlag(enum ValueExpected Val)'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1156' u='c' c='_ZN4llvm2cl10applicatorINS0_13ValueExpectedEE3optES2_RNS0_6OptionE'/>

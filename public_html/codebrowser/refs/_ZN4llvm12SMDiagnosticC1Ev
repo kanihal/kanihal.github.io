@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='273' type='void llvm::SMDiagnostic::SMDiagnostic()'/>
+<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='272'>// Null diagnostic.</doc>

@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='484' type='llvm::Type * llvm::DataLayout::getIndexType(llvm::Type * PtrTy) const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='481'>/// Returns the type of a GEP index.
+  /// If it was not specified explicitly, it will be the integer type of the
+  /// pointer width - IntPtrType.</doc>

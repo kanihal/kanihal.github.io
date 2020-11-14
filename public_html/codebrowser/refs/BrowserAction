@@ -1,0 +1,5 @@
+<def f='codebrowser/generator/main.cpp' l='203' ll='229'/>
+<use f='codebrowser/generator/main.cpp' l='297' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<size>80</size>
+<fun r='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>
+<fun r='_ZNK13BrowserAction24hasCodeCompletionSupportEv'/>

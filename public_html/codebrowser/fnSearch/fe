@@ -1,0 +1,4 @@
+feof_unlocked|feof_unlocked
+ferror_unlocked|ferror_unlocked
+_ZN4llvm7hashing6detail7fetch32EPKc|llvm::hashing::detail::fetch32
+_ZN4llvm7hashing6detail7fetch64EPKc|llvm::hashing::detail::fetch64

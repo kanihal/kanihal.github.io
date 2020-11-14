@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1977' ll='1980' type='llvm::APInt llvm::operator&amp;(const llvm::APInt &amp; a, llvm::APInt &amp;&amp; b)'/>

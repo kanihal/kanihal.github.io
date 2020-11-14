@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='617' type='llvm::Expected::const_pointer llvm::Expected::toPointer(const llvm::Expected::wrap * Val) const'/>

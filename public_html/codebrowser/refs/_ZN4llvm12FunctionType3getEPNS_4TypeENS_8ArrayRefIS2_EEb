@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='111' type='static llvm::FunctionType * llvm::FunctionType::get(llvm::Type * Result, ArrayRef&lt;llvm::Type *&gt; Params, bool isVarArg)'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='110'>/// This static method is the primary way of constructing a FunctionType.</doc>

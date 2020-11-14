@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='384' type='void llvm::cl::desc::desc(llvm::StringRef Str)'/>
+<use f='codebrowser/generator/main.cpp' l='53' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='58' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='64' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='70' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='77' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='83' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='88' u='c'/>

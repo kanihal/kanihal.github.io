@@ -1,0 +1,3 @@
+<def f='include/c++/7/bits/atomic_base.h' l='389' ll='397' macro='1' type='std::__atomic_base::__int_type std::__atomic_base::load(std::memory_order __m = memory_order_seq_cst) const'/>
+<use f='include/c++/7/atomic' l='86' u='c' c='_ZNKSt6atomicIbEcvbEv'/>
+<use f='include/c++/7/atomic' l='111' u='c' c='_ZNKSt6atomicIbE4loadESt12memory_order'/>

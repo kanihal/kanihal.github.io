@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='80' ll='82' type='T * llvm::AllocatorBase::Allocate(size_t Num = 1)'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='76'>// The rest of these methods are helpers that redirect to one of the above
+  // core methods.
+
+  /// Allocate space for a sequence of objects without constructing them.</doc>

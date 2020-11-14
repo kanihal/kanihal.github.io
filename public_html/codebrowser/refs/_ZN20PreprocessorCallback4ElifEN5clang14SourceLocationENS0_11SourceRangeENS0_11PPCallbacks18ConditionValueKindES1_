@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/preprocessorcallback.h' l='86' ll='89' type='void PreprocessorCallback::Elif(clang::SourceLocation Loc, clang::SourceRange ConditionRange, clang::PPCallbacks::ConditionValueKind ConditionValue, clang::SourceLocation IfLoc)'/>

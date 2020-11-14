@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='266' ll='273' type='decltype(make_range(llvm::make_reverse_iterator(std::end(C)), llvm::make_reverse_iterator(std::begin(C)))) llvm::reverse(ContainerTy &amp;&amp; C, typename std::enable_if&lt;!has_rbegin&lt;ContainerTy&gt;::value&gt;::type *  = nullptr)'/>

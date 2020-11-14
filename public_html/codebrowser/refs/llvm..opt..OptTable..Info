@@ -1,0 +1,20 @@
+<def f='include/llvm-7/llvm/Option/OptTable.h' l='42' ll='57'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='61'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='77' c='_ZNK4llvm3opt8OptTable7getInfoENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='84' c='_ZN4llvm3opt8OptTableC1ENS_8ArrayRefINS1_4InfoEEEb'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='78'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='82' c='_ZN4llvm3opt6OptionC1EPKNS0_8OptTable4InfoEPKS2_'/>
+<size>64</size>
+<doc f='include/llvm-7/llvm/Option/OptTable.h' l='41'>/// Entry for a single option instance in the option data table.</doc>
+<mbr r='llvm::opt::OptTable::Info::Prefixes' o='0' t='const char *const *'/>
+<mbr r='llvm::opt::OptTable::Info::Name' o='64' t='const char *'/>
+<mbr r='llvm::opt::OptTable::Info::HelpText' o='128' t='const char *'/>
+<mbr r='llvm::opt::OptTable::Info::MetaVar' o='192' t='const char *'/>
+<mbr r='llvm::opt::OptTable::Info::ID' o='256' t='unsigned int'/>
+<mbr r='llvm::opt::OptTable::Info::Kind' o='288' t='unsigned char'/>
+<mbr r='llvm::opt::OptTable::Info::Param' o='296' t='unsigned char'/>
+<mbr r='llvm::opt::OptTable::Info::Flags' o='304' t='unsigned short'/>
+<mbr r='llvm::opt::OptTable::Info::GroupID' o='320' t='unsigned short'/>
+<mbr r='llvm::opt::OptTable::Info::AliasID' o='336' t='unsigned short'/>
+<mbr r='llvm::opt::OptTable::Info::AliasArgs' o='384' t='const char *'/>
+<mbr r='llvm::opt::OptTable::Info::Values' o='448' t='const char *'/>

@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='433' type='static llvm::PointerType * llvm::Type::getFloatPtrTy(llvm::LLVMContext &amp; C, unsigned int AS = 0)'/>

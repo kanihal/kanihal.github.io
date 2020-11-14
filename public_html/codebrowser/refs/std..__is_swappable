@@ -1,0 +1,13 @@
+<use f='include/c++/7/type_traits' l='2588' c='_ZSt4swapRAT0__T_S1_'/>
+<def f='include/c++/7/type_traits' l='2633' ll='2635'/>
+<use f='include/c++/7/bits/move.h' l='209' c='_ZSt4swapRAT0__T_S1_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='490' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='491' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='501' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='502' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/c++/7/array' l='51'/>
+<use f='include/c++/7/tuple' l='1597' c='_ZSt4swapRSt5tupleIJDpT_EES3_'/>
+<use f='include/c++/7/tuple' l='1608' c='_ZSt4swapRSt5tupleIJDpT_EES3_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='661' c='_ZSt4swapRSt10unique_ptrIT_T0_ES3_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='671' c='_ZSt4swapRSt10unique_ptrIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='343' c='_ZSt4swapRSt5stackIT_T0_ES3_'/>

@@ -1,0 +1,30 @@
+<def f='include/c++/7/bits/basic_string.h' l='2813' ll='2816' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::__cxx11::basic_string::substr(std::__cxx11::basic_string::size_type __pos = 0, std::__cxx11::basic_string::size_type __n = npos) const'/>
+<doc f='include/c++/7/bits/basic_string.h' l='2801'>/**
+       *  @brief  Get a substring.
+       *  @param __pos  Index of first character (default 0).
+       *  @param __n  Number of characters in substring (default remainder).
+       *  @return  The new string.
+       *  @throw  std::out_of_range  If __pos &gt; size().
+       *
+       *  Construct and return a new string using the @a __n
+       *  characters starting at @a __pos.  If the string is too
+       *  short, use the remainder of the characters.  If @a __pos is
+       *  beyond the end of the string, out_of_range is thrown.
+      */</doc>
+<use f='codebrowser/generator/annotator.cpp' l='732' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/main.cpp' l='341' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='341' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='342' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='358' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='358' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='360' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='48' u='c' c='_Z19extractMetaFromHTMLNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='57' u='c' c='_Z12cutNameSpaceRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='99' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='105' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='111' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='117' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='211' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='211' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='243' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='248' u='c' c='main'/>

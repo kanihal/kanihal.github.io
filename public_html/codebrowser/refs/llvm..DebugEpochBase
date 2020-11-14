@@ -1,0 +1,12 @@
+<def f='include/llvm-7/llvm/ADT/EpochTracker.h' l='82' ll='93'/>
+<use f='include/llvm-7/llvm/ADT/EpochTracker.h' l='89' c='_ZN4llvm14DebugEpochBase10HandleBaseC1EPKS0_'/>
+<ovr f='include/llvm-7/llvm/ADT/DenseMap.h' l='56' c='llvm::DenseMapBase'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='56'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='430' c='_ZN4llvm12DenseMapBase12makeIteratorEPT3_S2_RNS_14DebugEpochBaseEb'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='440' c='_ZNK4llvm12DenseMapBase17makeConstIteratorEPKT3_S3_RKNS_14DebugEpochBaseEb'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1129' c='_ZN4llvm16DenseMapIteratorC1EPNSt11conditionalIXT3_EKT2_S2_E4typeES6_RKNS_14DebugEpochBaseEb'/>
+<ovr f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='50' c='llvm::SmallPtrSetImplBase'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='50'/>
+<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='279' c='_ZN4llvm19SmallPtrSetIteratorC1EPKPKvS4_RKNS_14DebugEpochBaseE'/>
+<size>1</size>
+<fun r='_ZN4llvm14DebugEpochBase14incrementEpochEv'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/annotator.cpp' l='1056' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='60' u='r' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='92' u='r' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='85' u='r' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

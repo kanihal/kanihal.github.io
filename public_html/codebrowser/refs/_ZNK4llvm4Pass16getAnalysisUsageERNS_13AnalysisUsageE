@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Pass.h' l='146' type='void llvm::Pass::getAnalysisUsage(llvm::AnalysisUsage &amp; ) const'/>
+<doc f='include/llvm-7/llvm/Pass.h' l='142'>/// getAnalysisUsage - This function should be overriden by passes that need
+  /// analysis information to do their job.  If a pass specifies that it uses a
+  /// particular analysis result to this function, it can then use the
+  /// getAnalysis&lt;AnalysisType&gt;() function, below.</doc>

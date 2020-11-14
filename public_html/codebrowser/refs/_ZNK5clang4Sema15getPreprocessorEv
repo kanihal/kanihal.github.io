@@ -1,0 +1,3 @@
+<use f='codebrowser/generator/annotator.cpp' l='1031' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='41' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='347' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

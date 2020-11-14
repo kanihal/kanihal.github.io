@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='699' ll='701' type='uint64_t llvm::divideCeil(uint64_t Numerator, uint64_t Denominator)'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='698'>/// Returns the integer ceil(Numerator / Denominator).</doc>

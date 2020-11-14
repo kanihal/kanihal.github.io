@@ -1,0 +1,24 @@
+<use f='include/c++/7/type_traits' l='2135'/>
+<use f='include/c++/7/type_traits' l='2400'/>
+<def f='include/c++/7/bits/refwrap.h' l='326' ll='358'/>
+<use f='include/c++/7/bits/refwrap.h' l='363' c='_ZSt3refRT_'/>
+<use f='include/c++/7/bits/refwrap.h' l='365' c='_ZSt3refRT_'/>
+<use f='include/c++/7/bits/refwrap.h' l='369' c='_ZSt4crefRKT_'/>
+<use f='include/c++/7/bits/refwrap.h' l='371' c='_ZSt4crefRKT_'/>
+<use f='include/c++/7/bits/refwrap.h' l='381' c='_ZSt3refSt17reference_wrapperIT_E'/>
+<use f='include/c++/7/bits/refwrap.h' l='382' c='_ZSt3refSt17reference_wrapperIT_E'/>
+<use f='include/c++/7/bits/refwrap.h' l='387' c='_ZSt4crefSt17reference_wrapperIT_E'/>
+<use f='include/c++/7/bits/refwrap.h' l='388' c='_ZSt4crefSt17reference_wrapperIT_E'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='662' c='_ZNSt14__shared_countC1EOSt10unique_ptrIT_T0_E'/>
+<use f='include/c++/7/bits/std_function.h' l='550' c='_ZNSt8functionIFT_DpT0_EEaSESt17reference_wrapperIT_E'/>
+<use f='include/c++/7/functional' l='353'/>
+<mbr r='std::reference_wrapper::_M_data' t='_Tp *'/>
+<fun r='_ZNSt17reference_wrapperC1ERT_'/>
+<fun r='_ZNSt17reference_wrapperC1EOT_'/>
+<fun r='_ZNSt17reference_wrapperC1ERKSt17reference_wrapperIT_E'/>
+<fun r='_ZNSt17reference_wrapperaSERKSt17reference_wrapperIT_E'/>
+<fun r='_ZNKSt17reference_wrappercvRT_Ev'/>
+<fun r='_ZNKSt17reference_wrapper3getEv'/>
+<fun r='_ZNKSt17reference_wrapperclEDpOT_'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='62'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='433'/>

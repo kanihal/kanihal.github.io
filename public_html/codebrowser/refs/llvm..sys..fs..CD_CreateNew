@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='694' type='1'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='691'>/// CD_CreateNew - When opening a file:
+  ///   * If it already exists, fail.
+  ///   * If it does not already exist, create a new file.</doc>

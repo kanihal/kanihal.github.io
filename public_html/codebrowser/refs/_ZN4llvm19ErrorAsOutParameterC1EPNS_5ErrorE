@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='1013' ll='1017' type='void llvm::ErrorAsOutParameter::ErrorAsOutParameter(llvm::Error * Err)'/>

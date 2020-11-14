@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1000' type='void llvm::cl::parser&lt;double&gt;::anchor()'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='999'>// An out-of-line virtual method to provide a &apos;home&apos; for this class.</doc>

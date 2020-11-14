@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/VersionTuple.h' l='102' ll='104' type='bool llvm::operator!=(const llvm::VersionTuple &amp; X, const llvm::VersionTuple &amp; Y)'/>
+<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='98'>/// Determine if two version numbers are not equivalent.
+  ///
+  /// If not provided, minor and subminor version numbers are considered to be
+  /// zero.</doc>

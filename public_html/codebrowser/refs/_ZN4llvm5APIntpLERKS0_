@@ -1,0 +1,10 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='888' type='llvm::APInt &amp; llvm::APInt::operator+=(const llvm::APInt &amp; RHS)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2043' u='c' c='_ZN4llvmplENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2048' u='c' c='_ZN4llvmplERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2069' u='c' c='_ZN4llvmmiERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='208' u='c' c='_ZN4llvm6APSIntpLERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='883'>/// Addition assignment operator.
+  ///
+  /// Adds RHS to *this and assigns the result to *this.
+  ///
+  /// \returns *this</doc>

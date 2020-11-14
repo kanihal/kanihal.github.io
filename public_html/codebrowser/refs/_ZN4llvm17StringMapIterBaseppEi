@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='479' ll='483' type='DerivedTy llvm::StringMapIterBase::operator++(int )'/>
+<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='479'>// Post-increment</doc>

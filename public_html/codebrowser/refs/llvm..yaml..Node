@@ -1,0 +1,75 @@
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='104' c='_ZN4llvm4yaml6Stream10printErrorEPNS0_4NodeERKNS_5TwineE'/>
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='114' ll='186'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='133' c='_ZN4llvm4yaml4NodeC1ERKS1_'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='134' c='_ZN4llvm4yaml4NodeaSERKS1_'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='166' c='_ZN4llvm4yaml4Node14parseBlockNodeEv'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='192' c='llvm::yaml::NullNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='192'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='197' c='_ZN4llvm4yaml8NullNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='199' c='_ZN4llvm4yaml8NullNode7classofEPKNS0_4NodeE'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='207' c='llvm::yaml::ScalarNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='207'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='213' c='_ZN4llvm4yaml10ScalarNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_S8_'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='231' c='_ZN4llvm4yaml10ScalarNode7classofEPKNS0_4NodeE'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='250' c='llvm::yaml::BlockScalarNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='250'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='256' c='_ZN4llvm4yaml15BlockScalarNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='265' c='_ZN4llvm4yaml15BlockScalarNode7classofEPKNS0_4NodeE'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='280' c='llvm::yaml::KeyValueNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='280'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='285' c='_ZN4llvm4yaml12KeyValueNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='292' c='_ZN4llvm4yaml12KeyValueNode6getKeyEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='299' c='_ZN4llvm4yaml12KeyValueNode8getValueEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='302' c='_ZN4llvm4yaml12KeyValueNode4skipEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='304' c='_ZN4llvm4yaml12KeyValueNode4skipEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='309' c='_ZN4llvm4yaml12KeyValueNode7classofEPKNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='314'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='315'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='405' c='llvm::yaml::MappingNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='405'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='417' c='_ZN4llvm4yaml11MappingNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_NS1_11MappingTypeE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='432' c='_ZN4llvm4yaml11MappingNode7classofEPKNS0_4NodeE'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='453' c='llvm::yaml::SequenceNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='453'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='472' c='_ZN4llvm4yaml12SequenceNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_NS1_12SequenceTypeE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='474'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='476'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='489' c='_ZN4llvm4yaml12SequenceNode7classofEPKNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='498'/>
+<ovr f='include/llvm-7/llvm/Support/YAMLParser.h' l='505' c='llvm::yaml::AliasNode'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='505'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='510' c='_ZN4llvm4yaml9AliasNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='513' c='_ZN4llvm4yaml9AliasNode9getTargetEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='515' c='_ZN4llvm4yaml9AliasNode7classofEPKNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='528' c='_ZN4llvm4yaml8Document14parseBlockNodeEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='535' c='_ZN4llvm4yaml8Document7getRootEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='544'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='556'/>
+<size>72</size>
+<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='113'>/// Abstract base class for all Nodes.</doc>
+<fun r='_ZN4llvm4yaml4Node6anchorEv'/>
+<fun r='_ZN4llvm4yaml4NodeC1EjRSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_'/>
+<fun r='_ZN4llvm4yaml4NodeC1ERKS1_'/>
+<fun r='_ZN4llvm4yaml4NodeaSERKS1_'/>
+<fun r='_ZN4llvm4yaml4NodenwEmRNS_20BumpPtrAllocatorImplINS_15MallocAllocatorELm4096ELm4096EEEm'/>
+<fun r='_ZN4llvm4yaml4NodedlEPvRNS_20BumpPtrAllocatorImplINS_15MallocAllocatorELm4096ELm4096EEEm'/>
+<fun r='_ZN4llvm4yaml4NodedlEPv'/>
+<fun r='_ZNK4llvm4yaml4Node9getAnchorEv'/>
+<fun r='_ZNK4llvm4yaml4Node9getRawTagEv'/>
+<fun r='_ZNK4llvm4yaml4Node14getVerbatimTagB5cxx11Ev'/>
+<fun r='_ZNK4llvm4yaml4Node14getSourceRangeEv'/>
+<fun r='_ZN4llvm4yaml4Node14setSourceRangeENS_7SMRangeE'/>
+<fun r='_ZN4llvm4yaml4Node8peekNextEv'/>
+<fun r='_ZN4llvm4yaml4Node7getNextEv'/>
+<fun r='_ZN4llvm4yaml4Node14parseBlockNodeEv'/>
+<fun r='_ZN4llvm4yaml4Node12getAllocatorEv'/>
+<fun r='_ZNK4llvm4yaml4Node8setErrorERKNS_5TwineERNS0_5TokenE'/>
+<fun r='_ZNK4llvm4yaml4Node6failedEv'/>
+<fun r='_ZN4llvm4yaml4Node4skipEv'/>
+<fun r='_ZNK4llvm4yaml4Node7getTypeEv'/>
+<mbr r='llvm::yaml::Node::Doc' o='64' t='std::unique_ptr&lt;Document&gt; &amp;'/>
+<mbr r='llvm::yaml::Node::SourceRange' o='128' t='llvm::SMRange'/>
+<fun r='_ZN4llvm4yaml4NodeD1Ev'/>
+<mbr r='llvm::yaml::Node::TypeID' o='256' t='unsigned int'/>
+<mbr r='llvm::yaml::Node::Anchor' o='320' t='llvm::StringRef'/>
+<mbr r='llvm::yaml::Node::Tag' o='448' t='llvm::StringRef'/>

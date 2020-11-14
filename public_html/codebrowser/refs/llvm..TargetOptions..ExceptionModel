@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='285' type='llvm::ExceptionHandling'/>
+<offset>352</offset>
+<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='284'>/// What exception model to use</doc>

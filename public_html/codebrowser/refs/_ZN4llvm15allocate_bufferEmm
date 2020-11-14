@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/Support/Compiler.h' l='520' ll='527' type='void * llvm::allocate_buffer(size_t Size, size_t Alignment)'/>
+<doc f='include/llvm-7/llvm/Support/Compiler.h' l='511'>/// Allocate a buffer of memory with the given size and alignment.
+///
+/// When the compiler supports aligned operator new, this will use it to to
+/// handle even over-aligned allocations.
+///
+/// However, this doesn&apos;t make any attempt to leverage the fancier techniques
+/// like posix_memalign due to portability. It is mostly intended to allow
+/// compatibility with platforms that, after aligned allocation was added, use
+/// reduced default alignment.</doc>

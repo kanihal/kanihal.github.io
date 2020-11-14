@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='130' type='2'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='722' u='r' c='_ZNK4llvm2cl19generic_parser_base27getValueExpectedFlagDefaultEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='814' u='r' c='_ZNK4llvm2cl17basic_parser_impl27getValueExpectedFlagDefaultEv'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='130'>// The value is required to appear!</doc>

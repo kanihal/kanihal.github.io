@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/Format.h' l='43' type='void llvm::format_object_base::home()'/>
+<doc f='include/llvm-7/llvm/Support/Format.h' l='43'>// Out of line virtual method.</doc>

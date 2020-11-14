@@ -1,0 +1,25 @@
+<def f='include/llvm-7/llvm/ADT/iterator.h' l='68' ll='184'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='209'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='440'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='586'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1164'/>
+<fun r='_ZNK4llvm20iterator_facade_baseplET2_'/>
+<fun r='_ZNK4llvm20iterator_facade_basemiET2_'/>
+<fun r='_ZN4llvm20iterator_facade_baseppEv'/>
+<fun r='_ZN4llvm20iterator_facade_baseppEi'/>
+<fun r='_ZN4llvm20iterator_facade_basemmEv'/>
+<fun r='_ZN4llvm20iterator_facade_basemmEi'/>
+<fun r='_ZNK4llvm20iterator_facade_baseneERKT_'/>
+<fun r='_ZNK4llvm20iterator_facade_basegtERKT_'/>
+<fun r='_ZNK4llvm20iterator_facade_baseleERKT_'/>
+<fun r='_ZNK4llvm20iterator_facade_basegeERKT_'/>
+<fun r='_ZN4llvm20iterator_facade_baseptEv'/>
+<fun r='_ZNK4llvm20iterator_facade_baseptEv'/>
+<fun r='_ZN4llvm20iterator_facade_baseixET2_'/>
+<fun r='_ZNK4llvm20iterator_facade_baseixET2_'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='452'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='35'/>
+<ovr f='include/llvm-7/llvm/Support/Path.h' l='53' c='llvm::sys::path::const_iterator'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='54'/>
+<ovr f='include/llvm-7/llvm/Support/Path.h' l='79' c='llvm::sys::path::reverse_iterator'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='80'/>

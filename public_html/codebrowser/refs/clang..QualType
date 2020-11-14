@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/annotator.h' l='177' c='_ZN9Annotator10getTypeRefB5cxx11EN5clang8QualTypeE'/>
+<use f='codebrowser/generator/annotator.cpp' l='62' c='_ZN12_GLOBAL__N_111getTypeSizeERKT_'/>
+<use f='codebrowser/generator/annotator.cpp' l='982' c='_ZN9Annotator10getTypeRefB5cxx11EN5clang8QualTypeE'/>
+<size>8</size>

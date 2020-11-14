@@ -1,0 +1,18 @@
+<inh f='include/llvm-7/llvm/Pass.h' l='81' c='llvm::Pass'/>
+<def f='include/llvm-7/llvm/Pass.h' l='285' ll='307'/>
+<size>32</size>
+<doc f='include/llvm-7/llvm/Pass.h' l='276'>//===----------------------------------------------------------------------===//
+/// FunctionPass class - This class is used to implement most global
+/// optimizations.  Optimizations should subclass this class if they meet the
+/// following constraints:
+///
+///  1. Optimizations are organized globally, i.e., a function at a time
+///  2. Optimizing a function does not cause the addition or removal of any
+///     functions in the module
+///</doc>
+<fun r='_ZN4llvm12FunctionPassC1ERc'/>
+<fun r='_ZNK4llvm12FunctionPass17createPrinterPassERNS_11raw_ostreamERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN4llvm12FunctionPass13runOnFunctionERNS_8FunctionE'/>
+<fun r='_ZN4llvm12FunctionPass17assignPassManagerERNS_7PMStackENS_15PassManagerTypeE'/>
+<fun r='_ZNK4llvm12FunctionPass27getPotentialPassManagerTypeEv'/>
+<fun r='_ZNK4llvm12FunctionPass12skipFunctionERKNS_8FunctionE'/>

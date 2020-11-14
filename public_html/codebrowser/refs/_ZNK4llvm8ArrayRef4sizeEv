@@ -1,0 +1,22 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='149' type='size_t llvm::ArrayRef::size() const'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='185' u='c' c='_ZNK4llvm8ArrayRef5sliceEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='190' u='c' c='_ZNK4llvm8ArrayRef10drop_frontEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='196' u='c' c='_ZNK4llvm8ArrayRef9drop_backEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='213' u='c' c='_ZNK4llvm8ArrayRef10take_frontEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='215' u='c' c='_ZNK4llvm8ArrayRef10take_frontEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='220' u='c' c='_ZNK4llvm8ArrayRef9take_backEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='222' u='c' c='_ZNK4llvm8ArrayRef9take_backEm'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='57' u='c' c='_ZN4llvm11toStringRefENS_8ArrayRefIhEE'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='374' u='c' c='_ZN4llvm9BitVector6resizeEjb'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='808' u='c' c='_ZN4llvm9BitVector7wordShlEj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='826' u='c' c='_ZN4llvm9BitVector7wordShrEj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='849' u='c' c='_ZN4llvm9BitVector15set_unused_bitsEb'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='869' u='c' c='_ZN4llvm9BitVector4growEj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='878' u='c' c='_ZN4llvm9BitVector10init_wordsENS_15MutableArrayRefImEEb'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='879' u='c' c='_ZN4llvm9BitVector10init_wordsENS_15MutableArrayRefImEEb'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='911' u='c' c='_ZNK4llvm9BitVector13getMemorySizeEv'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='912' u='c' c='_ZNK4llvm9BitVector14getBitCapacityEv'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='148'>/// size - Get the array size.</doc>
+<use f='codebrowser/generator/main.cpp' l='403' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='477' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='520' u='c' c='main'/>

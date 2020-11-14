@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='99' ll='105'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='108' c='_ZN4llvm15BitCodeAbbrevOpC1ENS0_8EncodingEm'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='118' c='_ZNK4llvm15BitCodeAbbrevOp11getEncodingEv'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='118' c='_ZNK4llvm15BitCodeAbbrevOp11getEncodingEv'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='125' c='_ZN4llvm15BitCodeAbbrevOp15hasEncodingDataENS0_8EncodingE'/>

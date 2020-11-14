@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='340' type='int llvm::BitVector::find_next(unsigned int Prev) const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='284' u='c' c='_ZNK4llvm14SmallBitVector9find_nextEj'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='338'>/// find_next - Returns the index of the next set bit following the
+  /// &quot;Prev&quot; bit. Returns -1 if the next set bit is not found.</doc>

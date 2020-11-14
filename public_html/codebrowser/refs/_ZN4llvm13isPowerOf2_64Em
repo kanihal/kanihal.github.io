@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='434' ll='436' type='bool llvm::isPowerOf2_64(uint64_t Value)'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='433'>/// Return true if the argument is a power of two &gt; 0 (64 bit edition.)</doc>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='812' u='c'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='465' u='c' c='_ZNK4llvm5APInt10isPowerOf2Ev'/>

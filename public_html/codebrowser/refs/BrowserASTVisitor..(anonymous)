@@ -1,0 +1,3 @@
+<inh f='include/c++/7/bits/stl_deque.h' l='831' c='std::deque'/>
+<mbr r='BrowserASTVisitor::(anonymous)::topExpr' o='640' t='clang::Expr *'/>
+<mbr r='BrowserASTVisitor::(anonymous)::topType' o='704' t='Annotator::DeclType'/>

@@ -1,0 +1,34 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1128' ll='1130'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1133' ll='1137'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1138' ll='1142'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1143' ll='1147'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1143'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1149' ll='1153'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1149'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1155' ll='1157'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1155'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1159' ll='1161'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1159'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1163' ll='1165'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1163'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1167' ll='1169'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1167'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1174' c='_ZN4llvm2cl5applyEPT_RKT0_DpRKT1_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1179' c='_ZN4llvm2cl5applyEPT_RKT0_'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1122'>//===----------------------------------------------------------------------===//
+// applicator class - This class is used because we must use partial
+// specialization to handle literal string arguments specially (const char* does
+// not correctly respond to the apply method).  Because the syntax to use this
+// is a pain, we have the &apos;apply&apos; method below to handle the nastiness...
+//</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1132'>// Handle const char* as a special case...</doc>
+<fun r='_ZN4llvm2cl10applicator3optERKT_RT_'/>
+<fun r='_ZN4llvm2cl10applicatorIAT__cE3optENS_9StringRefERT_'/>
+<fun r='_ZN4llvm2cl10applicatorIAT__KcE3optENS_9StringRefERT_'/>
+<fun r='_ZN4llvm2cl10applicatorINS_9StringRefEE3optES2_RT_'/>
+<fun r='_ZN4llvm2cl10applicatorINS0_18NumOccurrencesFlagEE3optES2_RNS0_6OptionE'/>
+<fun r='_ZN4llvm2cl10applicatorINS0_13ValueExpectedEE3optES2_RNS0_6OptionE'/>
+<fun r='_ZN4llvm2cl10applicatorINS0_12OptionHiddenEE3optES2_RNS0_6OptionE'/>
+<fun r='_ZN4llvm2cl10applicatorINS0_15FormattingFlagsEE3optES2_RNS0_6OptionE'/>
+<fun r='_ZN4llvm2cl10applicatorINS0_9MiscFlagsEE3optES2_RNS0_6OptionE'/>

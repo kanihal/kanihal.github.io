@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1732' ll='1734' type='static llvm::APInt llvm::APInt::floatToBits(float V)'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1728'>/// Converts a float to APInt bits.
+  ///
+  /// The conversion does not do a translation from float to integer, it just
+  /// re-interprets the bits of the float.</doc>

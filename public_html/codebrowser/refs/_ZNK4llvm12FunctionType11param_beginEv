@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='128' type='llvm::FunctionType::param_iterator llvm::FunctionType::param_begin() const'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='131' u='c' c='_ZNK4llvm12FunctionType6paramsEv'/>

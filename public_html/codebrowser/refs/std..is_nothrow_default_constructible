@@ -1,0 +1,7 @@
+<def f='include/c++/7/type_traits' l='1191' ll='1194'/>
+<use f='include/c++/7/type_traits' l='1209'/>
+<use f='include/c++/7/bits/basic_string.h' l='421' c='_ZNSt7__cxx1112basic_stringC1Ev'/>
+<use f='include/c++/7/bits/stl_vector.h' l='261' c='_ZNSt6vectorC1Ev'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='579' c='_ZNSt6vectorIbT_EC1Ev'/>
+<use f='include/c++/7/bits/stl_tree.h' l='148' c='_ZNSt20_Rb_tree_key_compareC1Ev'/>
+<use f='include/c++/7/bits/stl_list.h' l='591' c='_ZNSt7__cxx114listC1Ev'/>

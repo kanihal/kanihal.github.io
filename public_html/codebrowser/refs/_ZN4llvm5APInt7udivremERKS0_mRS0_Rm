@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1088' type='static void llvm::APInt::udivrem(const llvm::APInt &amp; LHS, uint64_t RHS, llvm::APInt &amp; Quotient, uint64_t &amp; Remainder)'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='602' ll='649' type='llvm::BitVector &amp; llvm::BitVector::operator&gt;&gt;=(unsigned int N)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='583' u='c' c='_ZN4llvm14SmallBitVectorrSEj'/>

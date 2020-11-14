@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='238' type='llvm::StringRef llvm::yaml::ScalarNode::unescapeDoubleQuoted(llvm::StringRef UnquotedValue, StringRef::size_type Start, SmallVectorImpl&lt;char&gt; &amp; Storage) const'/>

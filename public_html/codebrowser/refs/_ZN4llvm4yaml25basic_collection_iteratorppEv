@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='366' ll='373' type='basic_collection_iterator&lt;BaseT, ValueT&gt; &amp; llvm::yaml::basic_collection_iterator::operator++()'/>

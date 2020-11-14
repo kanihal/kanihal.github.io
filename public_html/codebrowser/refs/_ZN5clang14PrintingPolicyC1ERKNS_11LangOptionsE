@@ -1,0 +1,3 @@
+<use f='codebrowser/generator/annotator.cpp' l='984' u='c' c='_ZN9Annotator10getTypeRefB5cxx11EN5clang8QualTypeE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='115' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='126' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

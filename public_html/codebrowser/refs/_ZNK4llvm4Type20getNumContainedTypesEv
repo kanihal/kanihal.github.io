@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='339' type='unsigned int llvm::Type::getNumContainedTypes() const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='338'>/// Return the number of types in the derived type.</doc>

@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='23' ll='29'/>
+<ovr f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='31' c='llvm::detail::provider_format_adapter'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='31'/>
+<ovr f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='43' c='llvm::detail::stream_operator_format_adapter'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='43'/>
+<size>8</size>
+<fun r='_ZN4llvm6detail14format_adapterD1Ev'/>
+<fun r='_ZN4llvm6detail14format_adapter6formatERNS_11raw_ostreamENS_9StringRefE'/>

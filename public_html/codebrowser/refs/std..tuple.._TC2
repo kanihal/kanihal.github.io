@@ -1,0 +1,6 @@
+<def f='include/c++/7/tuple' l='563' ll='574'/>
+<use f='include/c++/7/tuple' l='578'/>
+<use f='include/c++/7/tuple' l='585'/>
+<use f='include/c++/7/tuple' l='588'/>
+<fun r='_ZNSt5tuple4_TC226_DefaultConstructibleTupleEv'/>
+<fun r='_ZNSt5tuple4_TC236_ImplicitlyDefaultConstructibleTupleEv'/>

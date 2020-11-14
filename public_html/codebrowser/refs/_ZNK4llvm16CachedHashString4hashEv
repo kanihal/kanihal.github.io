@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='139' type='uint32_t llvm::CachedHashString::hash() const'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='166' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE12getHashValueERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='170' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE7isEqualERKS1_S4_'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='170' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE7isEqualERKS1_S4_'/>

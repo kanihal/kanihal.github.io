@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/type_traits.h' l='98' ll='100'/>
+<def f='include/llvm-7/llvm/Support/type_traits.h' l='101' ll='105'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='58'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='60'/>

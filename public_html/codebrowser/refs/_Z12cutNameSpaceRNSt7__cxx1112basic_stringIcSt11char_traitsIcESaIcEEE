@@ -1,0 +1,2 @@
+<def f='codebrowser/indexgenerator/indexer.cpp' l='54' ll='60' type='std::string cutNameSpace(std::string &amp; className)'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='77' u='c' c='_Z26linkInterestingDefinitionsRSt14basic_ofstreamIcSt11char_traitsIcEENSt7__cxx1112basic_stringIcS1_SaIcEEERS7_'/>

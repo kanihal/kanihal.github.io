@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MemAlloc.h' l='33' ll='39' macro='1' type='void * llvm::safe_calloc(size_t Count, size_t Sz)'/>

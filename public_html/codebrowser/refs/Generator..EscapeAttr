@@ -1,0 +1,6 @@
+<def f='codebrowser/generator/generator.h' l='96'/>
+<use f='codebrowser/generator/generator.h' l='99' c='_ZlsRN4llvm11raw_ostreamEN9Generator10EscapeAttrE'/>
+<use f='codebrowser/generator/annotator.cpp' l='435' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='440' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<size>16</size>
+<mbr r='Generator::EscapeAttr::value' o='0' t='llvm::StringRef'/>

@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='297' ll='306' macro='1' type='size_t llvm::StringRef::find(char C, size_t From = 0) const'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='396' u='c' c='_ZNK4llvm9StringRef13find_first_ofEcm'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='293' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='305' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='314' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='315' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='109' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='110' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='113' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='114' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

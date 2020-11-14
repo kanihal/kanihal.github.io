@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/ErrorOr.h' l='231' ll='233' type='llvm::ErrorOr::pointer llvm::ErrorOr::toPointer(llvm::ErrorOr::pointer Val)'/>

@@ -1,0 +1,9 @@
+<def f='include/c++/7/bits/stl_tree.h' l='318' ll='320' type='bool std::_Rb_tree_iterator::operator!=(const std::_Rb_tree_iterator::_Self &amp; __x) const'/>
+<use f='codebrowser/generator/annotator.cpp' l='197' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='406' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='410' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='414' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='426' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='437' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='506' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

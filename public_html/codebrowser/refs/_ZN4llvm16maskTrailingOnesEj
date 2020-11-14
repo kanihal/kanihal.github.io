@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='212' ll='217' type='T llvm::maskTrailingOnes(unsigned int N)'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='210'>/// Create a bitmask with the N right-most bits set to 1, and all other
+/// bits set to 0.  Only unsigned types are allowed.</doc>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='227' u='c' c='_ZNK4llvm9BitVector13find_first_inEjj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='251' u='c' c='_ZNK4llvm9BitVector12find_last_inEjj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='282' u='c' c='_ZNK4llvm9BitVector19find_first_unset_inEjj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='318' u='c' c='_ZNK4llvm9BitVector18find_last_unset_inEjj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='638' u='c' c='_ZN4llvm9BitVectorrSEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='313' u='c' c='_ZNK4llvm14SmallBitVector9find_prevEj'/>

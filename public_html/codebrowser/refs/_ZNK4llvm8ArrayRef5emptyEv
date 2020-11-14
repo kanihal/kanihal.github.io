@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='144' type='bool llvm::ArrayRef::empty() const'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='143'>/// empty - Check if the array is empty.</doc>
+<use f='codebrowser/generator/main.cpp' l='397' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='436' u='c' c='main'/>

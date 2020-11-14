@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1639' ll='1643' type='unsigned int llvm::APInt::countTrailingOnes() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1631'>/// Count the number of trailing one bits.
+  ///
+  /// This function is an APInt version of the countTrailingOnes
+  /// functions in MathExtras.h. It counts the number of ones from the least
+  /// significant bit to the first zero bit.
+  ///
+  /// \returns BitWidth if the value is all ones, otherwise returns the number
+  /// of ones from the least significant bit to the first zero bit.</doc>

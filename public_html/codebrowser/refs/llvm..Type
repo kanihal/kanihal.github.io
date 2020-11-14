@@ -1,0 +1,260 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='46' ll='455'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='111'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='236' c='_ZNK4llvm4Type22canLosslesslyBitCastToEPS0_'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='265' c='_ZNK4llvm4Type7isSizedEPNS_15SmallPtrSetImplIPS0_EE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='304' c='_ZNK4llvm4Type13getScalarTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='307' c='_ZNK4llvm4Type13getScalarTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='313'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='317' c='_ZNK4llvm4Type8subtypesEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='333' c='_ZNK4llvm4Type16getContainedTypeEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='350' c='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='356' c='_ZNK4llvm4Type20getStructElementTypeEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='358' c='_ZNK4llvm4Type24getSequentialElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='365' c='_ZNK4llvm4Type19getArrayElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='371' c='_ZNK4llvm4Type20getVectorElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='376' c='_ZNK4llvm4Type21getPointerElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='390' c='_ZN4llvm4Type16getPrimitiveTypeERNS_11LLVMContextENS0_6TypeIDE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='395' c='_ZN4llvm4Type9getVoidTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='396' c='_ZN4llvm4Type10getLabelTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='397' c='_ZN4llvm4Type9getHalfTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='398' c='_ZN4llvm4Type10getFloatTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='399' c='_ZN4llvm4Type11getDoubleTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='400' c='_ZN4llvm4Type13getMetadataTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='401' c='_ZN4llvm4Type13getX86_FP80TyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='402' c='_ZN4llvm4Type10getFP128TyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='403' c='_ZN4llvm4Type14getPPC_FP128TyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='404' c='_ZN4llvm4Type12getX86_MMXTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='405' c='_ZN4llvm4Type10getTokenTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='413' c='_ZN4llvm4Type11getScalarTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='416' c='_ZN4llvm4Type11getScalarTyERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='454' c='_ZNK4llvm4Type18isSizedDerivedTypeEPNS_15SmallPtrSetImplIPS0_EE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='458' c='_ZN4llvmlsERNS_11raw_ostreamERKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='464'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='465' c='_ZN4llvm8isa_implINS_11PointerTypeENS_4TypeEvE4doitERKS2_'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='474'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='475'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='478' c='_ZN4llvm11GraphTraitsIPNS_4TypeEE12getEntryNodeES2_'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='483'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='484'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='493' c='_ZN4llvm6unwrapEP14LLVMOpaqueType'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='493' c='_ZN4llvm6unwrapEP14LLVMOpaqueType'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='493' c='_ZN4llvm4wrapEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='493' c='_ZN4llvm4wrapEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='497' c='_ZN4llvm6unwrapEPP14LLVMOpaqueType'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='498' c='_ZN4llvm6unwrapEPP14LLVMOpaqueType'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='501' c='_ZN4llvm4wrapEPPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='502' c='_ZN4llvm4wrapEPPNS_4TypeE'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='40' c='llvm::IntegerType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='40'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='44' c='_ZN4llvm11IntegerTypeC1ERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='92' c='_ZN4llvm11IntegerType7classofEPKNS_4TypeE'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='103' c='llvm::FunctionType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='103'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='104' c='_ZN4llvm12FunctionTypeC1EPNS_4TypeENS_8ArrayRefIS2_EEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='104' c='_ZN4llvm12FunctionTypeC1EPNS_4TypeENS_8ArrayRefIS2_EEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='111' c='_ZN4llvm12FunctionType3getEPNS_4TypeENS_8ArrayRefIS2_EEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='112' c='_ZN4llvm12FunctionType3getEPNS_4TypeENS_8ArrayRefIS2_EEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='115' c='_ZN4llvm12FunctionType3getEPNS_4TypeEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='118' c='_ZN4llvm12FunctionType17isValidReturnTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='121' c='_ZN4llvm12FunctionType19isValidArgumentTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='124' c='_ZNK4llvm12FunctionType13getReturnTypeEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='130' c='_ZNK4llvm12FunctionType6paramsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='135' c='_ZNK4llvm12FunctionType12getParamTypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='142' c='_ZN4llvm12FunctionType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='146'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='153' c='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='162' c='llvm::CompositeType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='162'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='164' c='_ZN4llvm13CompositeTypeC1ERNS_11LLVMContextENS_4Type6TypeIDE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='168' c='_ZNK4llvm13CompositeType14getTypeAtIndexEPKNS_5ValueE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='169' c='_ZNK4llvm13CompositeType14getTypeAtIndexEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='174' c='_ZN4llvm13CompositeType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='226' c='_ZN4llvm10StructType6createENS_8ArrayRefIPNS_4TypeEEENS_9StringRefEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='228' c='_ZN4llvm10StructType6createENS_8ArrayRefIPNS_4TypeEEE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='229' c='_ZN4llvm10StructType6createERNS_11LLVMContextENS_8ArrayRefIPNS_4TypeEEENS_9StringRefEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='231' c='_ZN4llvm10StructType6createERNS_11LLVMContextENS_8ArrayRefIPNS_4TypeEEE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='235' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='237' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='242' c='_ZN4llvm10StructType3getERNS_11LLVMContextENS_8ArrayRefIPNS_4TypeEEEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='254' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='257' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='272' c='_ZNK4llvm10StructType7isSizedEPNS_15SmallPtrSetImplIPNS_4TypeEEE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='287' c='_ZN4llvm10StructType7setBodyENS_8ArrayRefIPNS_4TypeEEEb'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='291' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='293' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='298' c='_ZN4llvm10StructType18isValidElementTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='305' c='_ZNK4llvm10StructType8elementsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='314' c='_ZNK4llvm10StructType14getElementTypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='320' c='_ZN4llvm10StructType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='333' c='_ZNK4llvm4Type20getStructElementTypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='344'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='348' c='_ZN4llvm14SequentialTypeC1ENS_4Type6TypeIDEPS1_m'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='360' c='_ZNK4llvm14SequentialType14getElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='363' c='_ZN4llvm14SequentialType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='370' c='_ZN4llvm9ArrayTypeC1EPNS_4TypeEm'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='377' c='_ZN4llvm9ArrayType3getEPNS_4TypeEm'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='380' c='_ZN4llvm9ArrayType18isValidElementTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='383' c='_ZN4llvm9ArrayType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='394' c='_ZN4llvm10VectorTypeC1EPNS_4TypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='401' c='_ZN4llvm10VectorType3getEPNS_4TypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='409' c='_ZN4llvm10VectorType10getIntegerEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='417' c='_ZN4llvm10VectorType28getExtendedElementVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='427' c='_ZN4llvm10VectorType29getTruncatedElementVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='448' c='_ZN4llvm10VectorType18isValidElementTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='457' c='_ZN4llvm10VectorType7classofEPKNS_4TypeE'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='467' c='llvm::PointerType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='467'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='468' c='_ZN4llvm11PointerTypeC1EPNS_4TypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='470'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='478' c='_ZN4llvm11PointerType3getEPNS_4TypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='482' c='_ZN4llvm11PointerType9getUnqualEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='486' c='_ZNK4llvm11PointerType14getElementTypeEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='489' c='_ZN4llvm11PointerType18isValidElementTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='492' c='_ZN4llvm11PointerType24isLoadableOrStorableTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='498' c='_ZN4llvm11PointerType7classofEPKNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='169' c='_ZNK4llvm10DataLayout16getAlignmentInfoENS_13AlignTypeEnumEjbPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='175' c='_ZNK4llvm10DataLayout12getAlignmentEPNS_4TypeEb'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='352' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='374' c='_ZNK4llvm10DataLayout24getPointerTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='378' c='_ZNK4llvm10DataLayout22getIndexTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='380' c='_ZNK4llvm10DataLayout18getPointerTypeSizeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='405' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='411' c='_ZNK4llvm10DataLayout16getTypeStoreSizeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='419' c='_ZNK4llvm10DataLayout22getTypeStoreSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='428' c='_ZNK4llvm10DataLayout16getTypeAllocSizeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='438' c='_ZNK4llvm10DataLayout22getTypeAllocSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='443' c='_ZNK4llvm10DataLayout19getABITypeAlignmentEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='453' c='_ZNK4llvm10DataLayout20getPrefTypeAlignmentEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='457' c='_ZNK4llvm10DataLayout30getPreferredTypeAlignmentShiftEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='465' c='_ZNK4llvm10DataLayout13getIntPtrTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='465' c='_ZNK4llvm10DataLayout13getIntPtrTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='469' c='_ZNK4llvm10DataLayout23getSmallestLegalIntTypeERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='472' c='_ZNK4llvm10DataLayout22getLargestLegalIntTypeERNS_11LLVMContextE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='484' c='_ZNK4llvm10DataLayout12getIndexTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='484' c='_ZNK4llvm10DataLayout12getIndexTypeEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='491' c='_ZNK4llvm10DataLayout22getIndexedOffsetInTypeEPNS_4TypeENS_8ArrayRefIPNS_5ValueEEE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='560' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<size>24</size>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='38'>/// The instances of the Type class are immutable: once they are created,
+/// they are never changed.  Also note that only one instance of a particular
+/// type is ever created.  Thus seeing if two types are equal is a matter of
+/// doing a trivial pointer comparison. To enforce that no two equal instances
+/// are created, Type instances can only be created via static factory methods
+/// in class Type and in derived classes.  Once allocated, Types are never
+/// free&apos;d.
+///</doc>
+<mbr r='llvm::Type::Context' o='0' t='llvm::LLVMContext &amp;'/>
+<mbr r='llvm::Type::ID' o='64' t='llvm::Type::TypeID'/>
+<mbr r='llvm::Type::SubclassData' o='72' t='unsigned int'/>
+<fun r='_ZN4llvm4TypeC1ERNS_11LLVMContextENS0_6TypeIDE'/>
+<fun r='_ZN4llvm4TypeD1Ev'/>
+<fun r='_ZNK4llvm4Type15getSubclassDataEv'/>
+<fun r='_ZN4llvm4Type15setSubclassDataEj'/>
+<mbr r='llvm::Type::NumContainedTys' o='96' t='unsigned int'/>
+<mbr r='llvm::Type::ContainedTys' o='128' t='llvm::Type *const *'/>
+<fun r='_ZN4llvm4Type16isSequentialTypeENS0_6TypeIDE'/>
+<fun r='_ZNK4llvm4Type5printERNS_11raw_ostreamEbb'/>
+<fun r='_ZNK4llvm4Type4dumpEv'/>
+<fun r='_ZNK4llvm4Type10getContextEv'/>
+<fun r='_ZNK4llvm4Type9getTypeIDEv'/>
+<fun r='_ZNK4llvm4Type8isVoidTyEv'/>
+<fun r='_ZNK4llvm4Type8isHalfTyEv'/>
+<fun r='_ZNK4llvm4Type9isFloatTyEv'/>
+<fun r='_ZNK4llvm4Type10isDoubleTyEv'/>
+<fun r='_ZNK4llvm4Type12isX86_FP80TyEv'/>
+<fun r='_ZNK4llvm4Type9isFP128TyEv'/>
+<fun r='_ZNK4llvm4Type13isPPC_FP128TyEv'/>
+<fun r='_ZNK4llvm4Type17isFloatingPointTyEv'/>
+<fun r='_ZNK4llvm4Type15getFltSemanticsEv'/>
+<fun r='_ZNK4llvm4Type11isX86_MMXTyEv'/>
+<fun r='_ZNK4llvm4Type16isFPOrFPVectorTyEv'/>
+<fun r='_ZNK4llvm4Type9isLabelTyEv'/>
+<fun r='_ZNK4llvm4Type12isMetadataTyEv'/>
+<fun r='_ZNK4llvm4Type9isTokenTyEv'/>
+<fun r='_ZNK4llvm4Type11isIntegerTyEv'/>
+<fun r='_ZNK4llvm4Type11isIntegerTyEj'/>
+<fun r='_ZNK4llvm4Type18isIntOrIntVectorTyEv'/>
+<fun r='_ZNK4llvm4Type18isIntOrIntVectorTyEj'/>
+<fun r='_ZNK4llvm4Type12isIntOrPtrTyEv'/>
+<fun r='_ZNK4llvm4Type12isFunctionTyEv'/>
+<fun r='_ZNK4llvm4Type10isStructTyEv'/>
+<fun r='_ZNK4llvm4Type9isArrayTyEv'/>
+<fun r='_ZNK4llvm4Type11isPointerTyEv'/>
+<fun r='_ZNK4llvm4Type18isPtrOrPtrVectorTyEv'/>
+<fun r='_ZNK4llvm4Type10isVectorTyEv'/>
+<fun r='_ZNK4llvm4Type22canLosslesslyBitCastToEPS0_'/>
+<fun r='_ZNK4llvm4Type9isEmptyTyEv'/>
+<fun r='_ZNK4llvm4Type16isFirstClassTypeEv'/>
+<fun r='_ZNK4llvm4Type17isSingleValueTypeEv'/>
+<fun r='_ZNK4llvm4Type15isAggregateTypeEv'/>
+<fun r='_ZNK4llvm4Type7isSizedEPNS_15SmallPtrSetImplIPS0_EE'/>
+<fun r='_ZNK4llvm4Type22getPrimitiveSizeInBitsEv'/>
+<fun r='_ZNK4llvm4Type19getScalarSizeInBitsEv'/>
+<fun r='_ZNK4llvm4Type18getFPMantissaWidthEv'/>
+<fun r='_ZNK4llvm4Type13getScalarTypeEv'/>
+<fun r='_ZNK4llvm4Type13subtype_beginEv'/>
+<fun r='_ZNK4llvm4Type11subtype_endEv'/>
+<fun r='_ZNK4llvm4Type8subtypesEv'/>
+<fun r='_ZNK4llvm4Type14subtype_rbeginEv'/>
+<fun r='_ZNK4llvm4Type12subtype_rendEv'/>
+<fun r='_ZNK4llvm4Type16getContainedTypeEj'/>
+<fun r='_ZNK4llvm4Type20getNumContainedTypesEv'/>
+<fun r='_ZNK4llvm4Type18getIntegerBitWidthEv'/>
+<fun r='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<fun r='_ZNK4llvm4Type20getFunctionNumParamsEv'/>
+<fun r='_ZNK4llvm4Type16isFunctionVarArgEv'/>
+<fun r='_ZNK4llvm4Type13getStructNameEv'/>
+<fun r='_ZNK4llvm4Type20getStructNumElementsEv'/>
+<fun r='_ZNK4llvm4Type20getStructElementTypeEj'/>
+<fun r='_ZNK4llvm4Type24getSequentialElementTypeEv'/>
+<fun r='_ZNK4llvm4Type19getArrayNumElementsEv'/>
+<fun r='_ZNK4llvm4Type19getArrayElementTypeEv'/>
+<fun r='_ZNK4llvm4Type20getVectorNumElementsEv'/>
+<fun r='_ZNK4llvm4Type20getVectorElementTypeEv'/>
+<fun r='_ZNK4llvm4Type21getPointerElementTypeEv'/>
+<fun r='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>
+<fun r='_ZN4llvm4Type16getPrimitiveTypeERNS_11LLVMContextENS0_6TypeIDE'/>
+<fun r='_ZN4llvm4Type9getVoidTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getLabelTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type9getHalfTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getFloatTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type11getDoubleTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type13getMetadataTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type13getX86_FP80TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getFP128TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type14getPPC_FP128TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type12getX86_MMXTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getTokenTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type9getIntNTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type9getInt1TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type9getInt8TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getInt16TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getInt32TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type10getInt64TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type11getInt128TyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type11getScalarTyERNS_11LLVMContextE'/>
+<fun r='_ZN4llvm4Type12getHalfPtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type13getFloatPtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type14getDoublePtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type16getX86_FP80PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type13getFP128PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type17getPPC_FP128PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type15getX86_MMXPtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type12getIntNPtrTyERNS_11LLVMContextEjj'/>
+<fun r='_ZN4llvm4Type12getInt1PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type12getInt8PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type13getInt16PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type13getInt32PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZN4llvm4Type13getInt64PtrTyERNS_11LLVMContextEj'/>
+<fun r='_ZNK4llvm4Type12getPointerToEj'/>
+<fun r='_ZNK4llvm4Type18isSizedDerivedTypeEPNS_15SmallPtrSetImplIPS0_EE'/>
+<fun r='_ZNK4llvm4Type18getIntegerBitWidthEv'/>
+<fun r='_ZNK4llvm4Type16isFunctionVarArgEv'/>
+<fun r='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<fun r='_ZNK4llvm4Type20getFunctionNumParamsEv'/>
+<fun r='_ZNK4llvm4Type13getStructNameEv'/>
+<fun r='_ZNK4llvm4Type20getStructNumElementsEv'/>
+<fun r='_ZNK4llvm4Type20getStructElementTypeEj'/>
+<fun r='_ZNK4llvm4Type19getArrayNumElementsEv'/>
+<fun r='_ZNK4llvm4Type20getVectorNumElementsEv'/>
+<fun r='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>

@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='491' ll='494' type='llvm::BitVector::reference llvm::BitVector::operator[](unsigned int Idx)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='341' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='461' u='c' c='_ZNK4llvm14SmallBitVectorixEj'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='490'>// Indexing.</doc>

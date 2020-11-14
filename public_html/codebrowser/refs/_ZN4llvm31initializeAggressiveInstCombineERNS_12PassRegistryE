@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='41' type='void llvm::initializeAggressiveInstCombine(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='40'>/// Initialize all passes linked into the AggressiveInstCombine library.</doc>

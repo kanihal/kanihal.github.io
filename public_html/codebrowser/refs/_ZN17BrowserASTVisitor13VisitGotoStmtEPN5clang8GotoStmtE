@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='299' ll='304' type='bool BrowserASTVisitor::VisitGotoStmt(clang::GotoStmt * stm)'/>

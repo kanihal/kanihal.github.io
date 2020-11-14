@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='472' type='bool llvm::APInt::isSignMask() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='469'>/// Check if the APInt&apos;s value is returned by getSignMask.
+  ///
+  /// \returns true if this is the value returned by getSignMask.</doc>

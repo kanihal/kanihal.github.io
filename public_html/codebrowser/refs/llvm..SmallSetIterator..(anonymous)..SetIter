@@ -1,0 +1,12 @@
+<dec f='include/llvm-7/llvm/ADT/SmallSet.h' l='45' type='llvm::SmallSetIterator::SetIterTy'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='52' c='_ZN4llvm16SmallSetIteratorC1ENSt3setIT_T1_SaIS2_EE14const_iteratorE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='62' u='c' c='_ZN4llvm16SmallSetIteratorD1Ev'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='71' c='_ZN4llvm16SmallSetIteratorC1ERKNS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='80' c='_ZN4llvm16SmallSetIteratorC1EONS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='87' u='c' c='_ZN4llvm16SmallSetIteratoraSERKNS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='93' c='_ZN4llvm16SmallSetIteratoraSERKNS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='101' u='c' c='_ZN4llvm16SmallSetIteratoraSEONS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='107' c='_ZN4llvm16SmallSetIteratoraSEONS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='116' c='_ZNK4llvm16SmallSetIteratoreqERKNS_16SmallSetIteratorIT_XT0_ET1_EE'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='123' u='w' c='_ZN4llvm16SmallSetIteratorppEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='127' c='_ZNK4llvm16SmallSetIteratordeEv'/>

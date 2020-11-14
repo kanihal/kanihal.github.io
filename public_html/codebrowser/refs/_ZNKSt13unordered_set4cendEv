@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/unordered_set.h' l='352' ll='354' type='std::unordered_set::const_iterator std::unordered_set::cend() const'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='348'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  element in the %unordered_set.
+       */</doc>

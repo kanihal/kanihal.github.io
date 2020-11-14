@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='330' type='unsigned int llvm::DataLayout::getPointerPrefAlignment(unsigned int AS = 0) const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='327'>/// Return target&apos;s alignment for stack-based pointers
+  /// FIXME: The defaults need to be removed once all of
+  /// the backends/clients are updated.</doc>

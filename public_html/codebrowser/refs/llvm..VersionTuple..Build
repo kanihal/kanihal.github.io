@@ -1,0 +1,13 @@
+<dec f='include/llvm-7/llvm/Support/VersionTuple.h' l='36' type='unsigned int'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='42' u='w' c='_ZN4llvm12VersionTupleC1Ev'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='46' u='w' c='_ZN4llvm12VersionTupleC1Ej'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='50' u='w' c='_ZN4llvm12VersionTupleC1Ejj'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='54' u='w' c='_ZN4llvm12VersionTupleC1Ejjj'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='59' u='w' c='_ZN4llvm12VersionTupleC1Ejjjj'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='64' u='r' c='_ZNK4llvm12VersionTuple5emptyEv'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='88' u='r' c='_ZNK4llvm12VersionTuple8getBuildEv'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='95' u='r' c='_ZN4llvmeqERKNS_12VersionTupleES2_'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='95' u='r' c='_ZN4llvmeqERKNS_12VersionTupleES2_'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='111' u='r' c='_ZN4llvmltERKNS_12VersionTupleES2_'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='112' u='r' c='_ZN4llvmltERKNS_12VersionTupleES2_'/>
+<offset>96</offset>

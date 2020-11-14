@@ -1,0 +1,2 @@
+<use f='codebrowser/generator/annotator.cpp' l='299' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='1033' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='112' ll='116' type='char llvm::toLower(char x)'/>
+<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='111'>/// Returns the corresponding lowercase character if \p x is uppercase.</doc>

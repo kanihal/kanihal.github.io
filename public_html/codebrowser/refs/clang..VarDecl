@@ -1,0 +1,8 @@
+<use f='codebrowser/generator/annotator.cpp' l='167' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='805' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='906' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='906' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<size>96</size>
+<use f='codebrowser/generator/browserastvisitor.h' l='135' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='319' c='_ZN17BrowserASTVisitor12TraverseDeclEPN5clang4DeclE'/>
+<size>96</size>

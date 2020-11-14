@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='201' ll='211' type='bool BrowserASTVisitor::VisitTemplateSpecializationTypeLoc(clang::TemplateSpecializationTypeLoc TL)'/>

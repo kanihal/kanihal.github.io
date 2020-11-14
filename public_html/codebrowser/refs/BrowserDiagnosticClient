@@ -1,0 +1,4 @@
+<def f='codebrowser/generator/main.cpp' l='118' ll='145'/>
+<use f='codebrowser/generator/main.cpp' l='168' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
+<size>24</size>
+<fun r='_ZN23BrowserDiagnosticClient16HandleDiagnosticEN5clang17DiagnosticsEngine5LevelERKNS0_10DiagnosticE'/>

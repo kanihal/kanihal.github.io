@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='290' type='SourceMgr::DiagKind llvm::SMDiagnostic::getKind() const'/>

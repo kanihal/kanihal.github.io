@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='511' ll='522' type='llvm::SmallBitVector &amp; llvm::SmallBitVector::reset(const llvm::SmallBitVector &amp; RHS)'/>
+<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='510'>/// Reset bits that are set in RHS. Same as *this &amp;= ~RHS.</doc>

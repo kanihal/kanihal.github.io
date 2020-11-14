@@ -1,0 +1,153 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='84' ll='86' macro='1' type='void llvm::StringRef::StringRef(const char * Str)'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='99' u='c' c='_ZN4llvm9StringRef15withNullAsEmptyEPKc'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='827' u='c' c='_ZNK4llvm9StringRef5ltrimES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='841' u='c' c='_ZNK4llvm9StringRef5rtrimES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='855' u='c' c='_ZNK4llvm9StringRef4trimES0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='442' u='c' c='_ZNK4llvm5Twine18getSingleStringRefEv'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='187' u='c' c='_ZN4llvm11raw_ostreamlsEPKc'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='79' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='82' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='84' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='86' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='86' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='88' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='88' u='c' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='142' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail22use_integral_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='142' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail22use_integral_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='144' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail22use_integral_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='144' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail22use_integral_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='305' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='305' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='307' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='307' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='309' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='311' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='390' u='c' c='_ZN4llvm15format_providerINS_14iterator_rangeIT_EEvE12parseOptionsENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='391' u='c' c='_ZN4llvm15format_providerINS_14iterator_rangeIT_EEvE12parseOptionsENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='120' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='122' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='124' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='126' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='128' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='130' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='138' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE15consumeShowUnitERNS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='140' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE15consumeShowUnitERNS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='48' u='c' c='_ZN4llvm16toStringRefArrayEPKPKc'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='53' u='c' c='_ZN4llvm11toStringRefEb'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='257' u='c' c='_ZN4llvm8getTokenENS_9StringRefES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='263' u='c' c='_ZN4llvm11SplitStringENS_9StringRefERNS_15SmallVectorImplIS0_EES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='273' u='c' c='_ZN4llvm16getOrdinalSuffixEj'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='276' u='c' c='_ZN4llvm16getOrdinalSuffixEj'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='277' u='c' c='_ZN4llvm16getOrdinalSuffixEj'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='278' u='c' c='_ZN4llvm16getOrdinalSuffixEj'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='279' u='c' c='_ZN4llvm16getOrdinalSuffixEj'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='961' u='c' c='_ZN4llvm8toStringB5cxx11ENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='70' u='c' c='_ZNK4llvm12MemoryBuffer19getBufferIdentifierEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='110' u='c' c='_ZN4llvm12MemoryBuffer12getMemBufferENS_9StringRefES1_b'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='299' u='c' c='_ZNK4llvm6Triple14hasEnvironmentEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='276' u='c' c='_ZNK4llvm10DataLayout28getLinkerPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='277' u='c' c='_ZNK4llvm10DataLayout28getLinkerPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='297' u='c' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='300' u='c' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='302' u='c' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='305' u='c' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='99' u='c' c='_ZN4llvm16CachedHashStringC1EPKc'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='60' u='c' c='_ZN4llvm2cl23ParseCommandLineOptionsEiPKPKcNS_9StringRefEPNS_11raw_ostreamE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='180' u='c' c='_ZN4llvm2cl14OptionCategoryC1ENS_9StringRefES2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='205' u='c' c='_ZN4llvm2cl10SubCommandC1ENS_9StringRefES2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='834' u='c' c='_ZNK4llvm2cl17basic_parser_impl12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='925' u='c' c='_ZNK4llvm2cl6parserIiE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='947' u='c' c='_ZNK4llvm2cl6parserIjE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='972' u='c' c='_ZNK4llvm2cl6parserIyE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='994' u='c' c='_ZNK4llvm2cl6parserIdE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1016' u='c' c='_ZNK4llvm2cl6parserIfE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1041' u='c' c='_ZNK4llvm2cl6parserINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1066' u='c' c='_ZNK4llvm2cl6parserIcE12getValueNameEv'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='101' u='c' c='_ZNK4llvm3opt6Option7getNameEv'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='129' u='c' c='_ZNK4llvm3opt6Option9getPrefixEv'/>
+<use f='codebrowser/generator/annotator.cpp' l='302' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='316' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='585' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='933' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='177' u='c' c='_ZN14CommentHandler14CommentVisitor25visitInlineCommandCommentEPKN5clang8comments20InlineCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='179' u='c' c='_ZN14CommentHandler14CommentVisitor25visitInlineCommandCommentEPKN5clang8comments20InlineCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='182' u='c' c='_ZN14CommentHandler14CommentVisitor24visitHTMLStartTagCommentEPKN5clang8comments19HTMLStartTagCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='189' u='c' c='_ZN14CommentHandler14CommentVisitor22visitHTMLEndTagCommentEPKN5clang8comments17HTMLEndTagCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='196' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='198' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='199' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='212' u='c' c='_ZN14CommentHandler14CommentVisitor29visitVerbatimBlockLineCommentEPKN5clang8comments24VerbatimBlockLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='232' u='c' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='277' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='290' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='293' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='298' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='303' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='338' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='338' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='339' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='339' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='340' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='340' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='349' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/generator.cpp' l='152' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/main.cpp' l='52' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='53' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='58' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='63' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='64' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='69' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='70' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='76' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='77' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='82' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='83' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='88' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='92' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='263' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='303' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='408' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='413' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='523' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='569' u='c' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='103' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='53' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='96' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='161' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='161' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='201' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='204' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='311' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='314' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='315' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='315' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='329' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='329' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='334' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='334' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='339' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='339' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='344' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='344' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='352' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='353' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='354' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='355' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='356' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='357' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='358' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='359' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='360' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='361' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='366' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='366' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='373' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='373' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='380' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='380' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='385' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='385' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='399' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='402' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='408' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='408' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>

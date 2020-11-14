@@ -1,0 +1,3 @@
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='168' c='_ZNK4llvm13CompositeType14getTypeAtIndexEPKNS_5ValueE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='170' c='_ZNK4llvm13CompositeType10indexValidEPKNS_5ValueE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='491' c='_ZNK4llvm10DataLayout22getIndexedOffsetInTypeEPNS_4TypeENS_8ArrayRefIPNS_5ValueEEE'/>

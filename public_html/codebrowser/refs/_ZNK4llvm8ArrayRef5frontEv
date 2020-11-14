@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='152' ll='155' type='const T &amp; llvm::ArrayRef::front() const'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='151'>/// front - Get the first element.</doc>
+<use f='codebrowser/generator/main.cpp' l='403' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='407' u='c' c='main'/>

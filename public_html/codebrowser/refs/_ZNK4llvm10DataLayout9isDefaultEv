@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='234' type='bool llvm::DataLayout::isDefault() const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='233'>/// Test if the DataLayout was constructed from an empty string.</doc>

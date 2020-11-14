@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='520' ll='525' type='unsigned int llvm::countPopulation(T Value)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1653' u='c' c='_ZNK4llvm5APInt15countPopulationEv'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='176' u='c' c='_ZNK4llvm9BitVector5countEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='203' u='c' c='_ZNK4llvm14SmallBitVector5countEv'/>

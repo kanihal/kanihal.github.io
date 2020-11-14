@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='999' type='llvm::APInt llvm::APInt::rotl(unsigned int rotateAmt) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='998'>/// Rotate left by rotateAmt.</doc>

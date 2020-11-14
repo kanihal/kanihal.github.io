@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='401' type='std::error_code llvm::sys::fs::copy_file(const llvm::Twine &amp; From, int ToFD)'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='397'>/// Copy the contents of \a From to \a To.
+///
+/// @param From The path to copy from.
+/// @param ToFD The open file descriptor of the destination file.</doc>

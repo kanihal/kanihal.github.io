@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='253' ll='255' type='bool llvm::DataLayout::exceedsNaturalStackAlignment(unsigned int Align) const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='252'>/// Returns true if the given alignment exceeds the natural stack alignment.</doc>

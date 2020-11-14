@@ -1,0 +1,28 @@
+<dec f='codebrowser/generator/annotator.h' l='152' type='void Annotator::registerReference(clang::NamedDecl * decl, clang::SourceRange range, Annotator::TokenType type, Annotator::DeclType declType = Annotator::Use, std::string typeRef = std::string(), clang::NamedDecl * usedContext = nullptr)'/>
+<use f='codebrowser/generator/annotator.h' l='158' u='c' c='_ZN9Annotator11registerUseEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeES2_NS_8DeclTypeE'/>
+<def f='codebrowser/generator/annotator.cpp' l='570' ll='779' type='void Annotator::registerReference(clang::NamedDecl * decl, clang::SourceRange range, Annotator::TokenType type, Annotator::DeclType declType = Annotator::Use, std::string typeText = std::string(), clang::NamedDecl * usedContext = nullptr)'/>
+<doc f='codebrowser/generator/annotator.h' l='142'>/**
+     * Registers that the code in the given \a range refers to the specified declaration.
+     * This will highlight the rights portion of the code and registers it in the database.
+     *
+     * When the range.getEndLocation refers to an invalid location, this means this is a
+     * virtual range with no associated token (e.g. implicit conversions) which will be handled
+     * with an empty &lt;span&gt;.
+     *
+     * Only use typeRef for declarations (or definition), only use usedContext for uses
+     */</doc>
+<use f='codebrowser/generator/browserastvisitor.h' l='56' u='c' c='_ZN17BrowserASTVisitor20VisitTypedefNameDeclEPN5clang15TypedefNameDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='76' u='c' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='82' u='c' c='_ZN17BrowserASTVisitor18VisitNamespaceDeclEPN5clang13NamespaceDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='86' u='c' c='_ZN17BrowserASTVisitor23VisitNamespaceAliasDeclEPN5clang18NamespaceAliasDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='87' u='c' c='_ZN17BrowserASTVisitor23VisitNamespaceAliasDeclEPN5clang18NamespaceAliasDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='126' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='132' u='c' c='_ZN17BrowserASTVisitor21VisitEnumConstantDeclEPN5clang16EnumConstantDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='137' u='c' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='143' u='c' c='_ZN17BrowserASTVisitor14VisitFieldDeclEPN5clang9FieldDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='188' u='c' c='_ZN17BrowserASTVisitor19VisitTypedefTypeLocEN5clang14TypedefTypeLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='221' u='c' c='_ZN17BrowserASTVisitor30TraverseNestedNameSpecifierLocEN5clang22NestedNameSpecifierLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='225' u='c' c='_ZN17BrowserASTVisitor30TraverseNestedNameSpecifierLocEN5clang22NestedNameSpecifierLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='236' u='c' c='_ZN17BrowserASTVisitor26TraverseUsingDirectiveDeclEPN5clang18UsingDirectiveDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='301' u='c' c='_ZN17BrowserASTVisitor13VisitGotoStmtEPN5clang8GotoStmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='307' u='c' c='_ZN17BrowserASTVisitor14VisitLabelStmtEPN5clang9LabelStmtE'/>

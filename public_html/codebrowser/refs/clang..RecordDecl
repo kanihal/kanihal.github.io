@@ -1,0 +1,10 @@
+<use f='codebrowser/generator/annotator.cpp' l='94' c='_ZN12_GLOBAL__N_111getDeclSizeEPKN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='94' c='_ZN12_GLOBAL__N_111getDeclSizeEPKN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='109' c='_ZN12_GLOBAL__N_114getFieldOffsetEPKN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='559' c='_ZL17getDefinitionDeclPN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='559' c='_ZL17getDefinitionDeclPN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='798' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<size>136</size>
+<use f='codebrowser/generator/commenthandler.cpp' l='102' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='128' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<size>136</size>

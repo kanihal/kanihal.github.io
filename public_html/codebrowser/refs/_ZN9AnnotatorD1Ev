@@ -1,0 +1,2 @@
+<dec f='codebrowser/generator/annotator.h' l='121' type='void Annotator::~Annotator()'/>
+<def f='codebrowser/generator/annotator.cpp' l='120' ll='121' type='void Annotator::~Annotator()'/>

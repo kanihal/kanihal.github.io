@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/annotator.h' l='160' type='void Annotator::registerOverride(clang::NamedDecl * decl, clang::NamedDecl * overrided, clang::SourceLocation loc)'/>
+<def f='codebrowser/generator/annotator.cpp' l='815' ll='832' type='void Annotator::registerOverride(clang::NamedDecl * decl, clang::NamedDecl * overrided, clang::SourceLocation loc)'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='72' u='c' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='104' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>

@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='186' ll='189' type='decltype(adl_detail::adl_end(std::forward&lt;ContainerTy&gt;(container))) llvm::adl_end(ContainerTy &amp;&amp; container)'/>

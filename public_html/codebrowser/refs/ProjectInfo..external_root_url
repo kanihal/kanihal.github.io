@@ -1,0 +1,6 @@
+<dec f='codebrowser/generator/projectmanager.h' l='37' type='std::string'/>
+<offset>768</offset>
+<use f='codebrowser/generator/annotator.cpp' l='523' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='527' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='551' u='r' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/main.cpp' l='360' u='w' c='main'/>

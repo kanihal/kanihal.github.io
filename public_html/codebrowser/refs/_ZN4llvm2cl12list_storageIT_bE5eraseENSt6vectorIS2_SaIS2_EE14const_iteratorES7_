@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1440' ll='1442' type='llvm::cl::list_storage&lt;type-parameter-0-0, bool&gt;::iterator llvm::cl::list_storage&lt;type-parameter-0-0, bool&gt;::erase(llvm::cl::list_storage&lt;type-parameter-0-0, bool&gt;::const_iterator first, llvm::cl::list_storage&lt;type-parameter-0-0, bool&gt;::const_iterator last)'/>

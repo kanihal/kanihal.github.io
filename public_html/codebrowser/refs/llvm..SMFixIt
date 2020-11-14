@@ -1,0 +1,18 @@
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='193' c='_ZNK4llvm9SourceMgr12PrintMessageERNS_11raw_ostreamENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS8_INS_7SMFixItEEEb'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='199' c='_ZNK4llvm9SourceMgr12PrintMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEEb'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='216' c='_ZNK4llvm9SourceMgr10GetMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEE'/>
+<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='228' ll='256'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='249' c='_ZNK4llvm7SMFixItltERKS0_'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='269'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='283' c='_ZN4llvm12SMDiagnosticC1ERKNS_9SourceMgrENS_5SMLocENS_9StringRefEiiNS1_8DiagKindES5_S5_NS_8ArrayRefISt4pairIjjEEENS7_INS_7SMFixItEEE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='295' c='_ZN4llvm12SMDiagnostic8addFixItERKNS_7SMFixItE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='299' c='_ZNK4llvm12SMDiagnostic9getFixItsEv'/>
+<size>48</size>
+<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='227'>/// Represents a single fixit, a replacement of one range of text with another.</doc>
+<mbr r='llvm::SMFixIt::Range' o='0' t='llvm::SMRange'/>
+<mbr r='llvm::SMFixIt::Text' o='128' t='std::string'/>
+<fun r='_ZN4llvm7SMFixItC1ENS_5SMLocERKNS_5TwineE'/>
+<fun r='_ZN4llvm7SMFixItC1ENS_7SMRangeERKNS_5TwineE'/>
+<fun r='_ZNK4llvm7SMFixIt7getTextEv'/>
+<fun r='_ZNK4llvm7SMFixIt8getRangeEv'/>
+<fun r='_ZNK4llvm7SMFixItltERKS0_'/>

@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='168' ll='184' type='bool BrowserASTVisitor::VisitDesignatedInitExpr(clang::DesignatedInitExpr * e)'/>

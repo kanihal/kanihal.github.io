@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/IntrusiveRefCntPtr.h' l='78' type='void llvm::RefCountedBase::Retain() const'/>
+<use f='codebrowser/generator/main.cpp' l='446' u='c' c='main'/>

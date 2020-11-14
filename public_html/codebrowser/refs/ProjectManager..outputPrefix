@@ -1,0 +1,14 @@
+<dec f='codebrowser/generator/projectmanager.h' l='60' type='std::string'/>
+<offset>192</offset>
+<use f='codebrowser/generator/annotator.cpp' l='241' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='243' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='244' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='300' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='314' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='324' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='447' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='475' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='567' u='r' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='573' u='r' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='32' u='w' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='83' u='r' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>

@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='448' type='llvm::PointerType * llvm::Type::getPointerTo(unsigned int AddrSpace = 0) const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='446'>/// Return a pointer to the current type. This is equivalent to
+  /// PointerType::get(Foo, AddrSpace).</doc>

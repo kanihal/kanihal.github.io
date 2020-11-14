@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallString.h' l='289' ll='292' type='SmallString&lt;InternalLen&gt; &amp; llvm::SmallString::operator+=(char C)'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='51' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

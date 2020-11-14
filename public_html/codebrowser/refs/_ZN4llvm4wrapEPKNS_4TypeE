@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='493' macro='1' type='LLVMTypeRef llvm::wrap(const llvm::Type * P)'/>

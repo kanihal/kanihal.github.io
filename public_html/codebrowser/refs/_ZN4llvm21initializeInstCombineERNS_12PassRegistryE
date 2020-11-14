@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='38' type='void llvm::initializeInstCombine(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='37'>/// Initialize all passes linked into the InstCombine library.</doc>

@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/Allocator.h' l='119' type='void llvm::detail::printBumpPtrAllocatorStats(unsigned int NumSlabs, size_t BytesAllocated, size_t TotalMemory)'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='302' u='c' c='_ZNK4llvm20BumpPtrAllocatorImpl10PrintStatsEv'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='117'>// We call out to an external function to actually print the message as the
+// printing code uses Allocator.h in its implementation.</doc>

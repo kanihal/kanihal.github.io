@@ -1,0 +1,79 @@
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='131' ll='203'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='205'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='211' c='_ZN4llvmeqERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='211' c='_ZN4llvmeqERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='218' c='_ZN4llvmneERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='218' c='_ZN4llvmneERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='223' c='_ZN4llvmltERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='223' c='_ZN4llvmltERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='230' c='_ZN4llvmleERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='230' c='_ZN4llvmleERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='235' c='_ZN4llvmgtERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='235' c='_ZN4llvmgtERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='240' c='_ZN4llvmgeERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='240' c='_ZN4llvmgeERKNS_8OptionalIT_EERKNS0_IT0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='245' c='_ZN4llvmeqERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='250' c='_ZN4llvmeqENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='255' c='_ZN4llvmneERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='260' c='_ZN4llvmneENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='264' c='_ZN4llvmltERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='268' c='_ZN4llvmltENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='272' c='_ZN4llvmleERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='276' c='_ZN4llvmleENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='280' c='_ZN4llvmgtERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='284' c='_ZN4llvmgtENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='288' c='_ZN4llvmgeERKNS_8OptionalIT_EENS_8NoneTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='292' c='_ZN4llvmgeENS_8NoneTypeERKNS_8OptionalIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='296' c='_ZN4llvmeqERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='300' c='_ZN4llvmeqERKT_RKNS_8OptionalIS0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='304' c='_ZN4llvmneERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='308' c='_ZN4llvmneERKT_RKNS_8OptionalIS0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='312' c='_ZN4llvmltERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='316' c='_ZN4llvmltERKT_RKNS_8OptionalIS0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='320' c='_ZN4llvmleERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='324' c='_ZN4llvmleERKT_RKNS_8OptionalIS0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='328' c='_ZN4llvmgtERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='332' c='_ZN4llvmgtERKT_RKNS_8OptionalIS0_EE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='336' c='_ZN4llvmgeERKNS_8OptionalIT_EERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='340' c='_ZN4llvmgeERKT_RKNS_8OptionalIS0_EE'/>
+<mbr r='llvm::Optional::Storage' t='optional_detail::OptionalStorage&lt;T, isPodLike&lt;T&gt;::value&gt;'/>
+<fun r='_ZN4llvm8OptionalC1Ev'/>
+<fun r='_ZN4llvm8OptionalC1ENS_8NoneTypeE'/>
+<fun r='_ZN4llvm8OptionalC1ERKT_'/>
+<fun r='_ZN4llvm8OptionalC1ERKNS_8OptionalIT_EE'/>
+<fun r='_ZN4llvm8OptionalC1EOT_'/>
+<fun r='_ZN4llvm8OptionalC1EONS_8OptionalIT_EE'/>
+<fun r='_ZN4llvm8OptionalaSEOT_'/>
+<fun r='_ZN4llvm8OptionalaSEONS_8OptionalIT_EE'/>
+<fun r='_ZN4llvm8Optional7emplaceEDpOT_'/>
+<fun r='_ZN4llvm8Optional6createEPKT_'/>
+<fun r='_ZN4llvm8OptionalaSERKT_'/>
+<fun r='_ZN4llvm8OptionalaSERKNS_8OptionalIT_EE'/>
+<fun r='_ZN4llvm8Optional5resetEv'/>
+<fun r='_ZNK4llvm8Optional10getPointerEv'/>
+<fun r='_ZN4llvm8Optional10getPointerEv'/>
+<fun r='_ZNKR4llvm8Optional8getValueEv'/>
+<fun r='_ZNR4llvm8Optional8getValueEv'/>
+<fun r='_ZNK4llvm8OptionalcvbEv'/>
+<fun r='_ZNK4llvm8Optional8hasValueEv'/>
+<fun r='_ZNK4llvm8OptionalptEv'/>
+<fun r='_ZN4llvm8OptionalptEv'/>
+<fun r='_ZNKR4llvm8OptionaldeEv'/>
+<fun r='_ZNR4llvm8OptionaldeEv'/>
+<fun r='_ZNKR4llvm8Optional10getValueOrEOT_'/>
+<fun r='_ZNO4llvm8Optional8getValueEv'/>
+<fun r='_ZNO4llvm8OptionaldeEv'/>
+<fun r='_ZNO4llvm8Optional10getValueOrEOT_'/>
+<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='49'/>
+<use f='include/llvm-7/llvm/Support/NativeFormatting.h' l='43' c='_ZN4llvm9write_hexERNS_11raw_ostreamEmNS_13HexPrintStyleENS_8OptionalImEE'/>
+<use f='include/llvm-7/llvm/Support/NativeFormatting.h' l='45' c='_ZN4llvm12write_doubleERNS_11raw_ostreamEdNS_10FloatStyleENS_8OptionalImEE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='63' c='_ZN4llvm6detail15HelperFunctions21parseNumericPrecisionENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='65' c='_ZN4llvm6detail15HelperFunctions21parseNumericPrecisionENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='316' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_double_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='219'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='228' c='_ZN4llvm14FormattedBytesC1ENS_8ArrayRefIhEEjNS_8OptionalImEEjhbb'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='239' c='_ZN4llvm12format_bytesENS_8ArrayRefIhEENS_8OptionalImEEjhjb'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='248' c='_ZN4llvm23format_bytes_with_asciiENS_8ArrayRefIhEENS_8OptionalImEEjhjb'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='71' c='_ZNK4llvm12VersionTuple8getMinorEv'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='78' c='_ZNK4llvm12VersionTuple11getSubminorEv'/>
+<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='85' c='_ZNK4llvm12VersionTuple8getBuildEv'/>

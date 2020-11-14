@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/main.cpp' l='149'/>
+<use f='codebrowser/generator/main.cpp' l='153' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='212' c='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>
+<size>368</size>

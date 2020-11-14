@@ -1,0 +1,9 @@
+<def f='codebrowser/generator/stringbuilder.h' l='6' ll='21'/>
+<use f='codebrowser/generator/stringbuilder.h' l='35'/>
+<use f='codebrowser/generator/stringbuilder.h' l='36'/>
+<use f='codebrowser/generator/stringbuilder.h' l='51' c='_ZrmRKT_RKT0_'/>
+<fun r='_ZNK14string_buildercvNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEv'/>
+<fun r='_ZNK14string_builder4sizeEv'/>
+<fun r='_ZN14string_builderC1ERKT_RKT0_'/>
+<mbr r='string_builder::a' t='const A &amp;'/>
+<mbr r='string_builder::b' t='const B &amp;'/>

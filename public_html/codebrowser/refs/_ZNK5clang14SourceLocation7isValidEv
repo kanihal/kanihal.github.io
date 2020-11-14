@@ -1,0 +1,8 @@
+<use f='codebrowser/generator/browserastvisitor.h' l='237' u='c' c='_ZN17BrowserASTVisitor26TraverseUsingDirectiveDeclEPN5clang18UsingDirectiveDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='263' u='c' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='46' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='185' u='c' c='_ZN20PreprocessorCallback12MacroDefinedERKN5clang5TokenEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='209' u='c' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='291' u='c' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='312' u='c' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='365' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

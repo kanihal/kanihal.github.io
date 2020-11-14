@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/ADT/STLExtras.h' l='423' type='bool llvm::all_of(R &amp;&amp; range, UnaryPredicate P)'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='514' u='c' c='_ZNK4llvm6detail12zip_shortest4testERKNS0_12zip_shortestIJDpT_EEENS_14index_sequenceIJXspT_EEEE'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='921' ll='923' type='bool llvm::all_of(R &amp;&amp; Range, UnaryPredicate P)'/>

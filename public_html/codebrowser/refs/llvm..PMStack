@@ -1,0 +1,5 @@
+<use f='include/llvm-7/llvm/Pass.h' l='129' c='_ZN4llvm4Pass17assignPassManagerERNS_7PMStackENS_15PassManagerTypeE'/>
+<use f='include/llvm-7/llvm/Pass.h' l='133' c='_ZN4llvm4Pass18preparePassManagerERNS_7PMStackE'/>
+<use f='include/llvm-7/llvm/Pass.h' l='240' c='_ZN4llvm10ModulePass17assignPassManagerERNS_7PMStackENS_15PassManagerTypeE'/>
+<use f='include/llvm-7/llvm/Pass.h' l='297' c='_ZN4llvm12FunctionPass17assignPassManagerERNS_7PMStackENS_15PassManagerTypeE'/>
+<use f='include/llvm-7/llvm/Pass.h' l='342' c='_ZN4llvm14BasicBlockPass17assignPassManagerERNS_7PMStackENS_15PassManagerTypeE'/>

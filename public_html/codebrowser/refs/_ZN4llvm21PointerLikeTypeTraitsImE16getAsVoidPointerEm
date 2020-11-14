@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='105' ll='107' type='static void * llvm::PointerLikeTypeTraits&lt;unsigned long&gt;::getAsVoidPointer(uintptr_t P)'/>

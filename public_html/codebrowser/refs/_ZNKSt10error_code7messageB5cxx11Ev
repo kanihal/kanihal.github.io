@@ -1,0 +1,11 @@
+<def f='include/c++/7/system_error' l='186' ll='189' macro='1' type='std::__cxx11::string std::error_code::message() const'/>
+<use f='include/c++/7/system_error' l='348' u='c' c='_ZNSt12system_errorC1ESt10error_code'/>
+<use f='include/c++/7/system_error' l='351' u='c' c='_ZNSt12system_errorC1ESt10error_codeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/7/system_error' l='354' u='c' c='_ZNSt12system_errorC1ESt10error_codePKc'/>
+<use f='include/c++/7/system_error' l='360' u='c' c='_ZNSt12system_errorC1EiRKNSt3_V214error_categoryE'/>
+<use f='include/c++/7/system_error' l='364' u='c' c='_ZNSt12system_errorC1EiRKNSt3_V214error_categoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1061' u='c' c='_ZNK4llvm7ECError3logERNS_11raw_ostreamE'/>
+<use f='codebrowser/generator/annotator.cpp' l='336' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='487' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/generator.cpp' l='133' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/main.cpp' l='422' u='c' c='main'/>

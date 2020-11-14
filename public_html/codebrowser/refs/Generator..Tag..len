@@ -1,0 +1,12 @@
+<dec f='codebrowser/generator/generator.h' l='44' type='int'/>
+<use f='codebrowser/generator/generator.h' l='50' u='r' c='_ZNK9Generator3TagltERKS0_'/>
+<use f='codebrowser/generator/generator.h' l='50' u='r' c='_ZNK9Generator3TagltERKS0_'/>
+<use f='codebrowser/generator/generator.h' l='50' u='r' c='_ZNK9Generator3TagltERKS0_'/>
+<use f='codebrowser/generator/generator.h' l='50' u='r' c='_ZNK9Generator3TagltERKS0_'/>
+<use f='codebrowser/generator/generator.h' l='53' u='r' c='_ZNK9Generator3TageqERKS0_'/>
+<use f='codebrowser/generator/generator.h' l='54' u='r' c='_ZNK9Generator3TageqERKS0_'/>
+<offset>544</offset>
+<use f='codebrowser/generator/generator.cpp' l='98' u='r' c='_ZNK9Generator3Tag4openERN4llvm11raw_ostreamE'/>
+<use f='codebrowser/generator/generator.cpp' l='237' u='r' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/generator.cpp' l='246' u='r' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/generator.cpp' l='248' u='r' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

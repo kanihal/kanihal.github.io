@@ -1,0 +1,11 @@
+<def f='include/c++/7/bits/stl_deque.h' l='1600' ll='1613' type='void std::deque::pop_back()'/>
+<use f='include/c++/7/bits/deque.tcc' l='248' u='c' c='_ZNSt5deque8_M_eraseENSt11_Deque_baseIT_T0_E8iteratorE'/>
+<doc f='include/c++/7/bits/stl_deque.h' l='1592'>/**
+       *  @brief  Removes last element.
+       *
+       *  This is a typical stack operation.  It shrinks the %deque by one.
+       *
+       *  Note that no data is returned, and if the last element&apos;s data is
+       *  needed, it should be retrieved before pop_back() is called.
+       */</doc>
+<use f='codebrowser/generator/generator.cpp' l='232' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

@@ -1,0 +1,15 @@
+<def f='include/c++/7/bits/stl_map.h' l='365' ll='367' type='std::map::iterator std::map::end()'/>
+<use f='codebrowser/generator/annotator.cpp' l='184' u='c' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='197' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='406' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='410' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='426' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='437' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='506' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='519' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/c++/7/bits/stl_map.h' l='360'>/**
+       *  Returns a read/write iterator that points one past the last
+       *  pair in the %map.  Iteration is done in ascending order
+       *  according to the keys.
+       */</doc>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

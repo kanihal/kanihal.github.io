@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/Triple.h' l='603' ll='605' type='bool llvm::Triple::isOSBinFormatWasm() const'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='602'>/// Tests whether the OS uses the Wasm binary format.</doc>

@@ -1,0 +1,4 @@
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='260' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl8AllocateEmm'/>
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='343' ll='354' type='void llvm::BumpPtrAllocatorImpl::StartNewSlab()'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='341'>/// Allocate a new slab and move the bump pointers over into the new
+  /// slab, modifying CurPtr and End.</doc>

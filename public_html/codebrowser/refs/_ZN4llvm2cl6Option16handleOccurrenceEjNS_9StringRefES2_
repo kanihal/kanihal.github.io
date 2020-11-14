@@ -1,0 +1,10 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='241' type='bool llvm::cl::Option::handleOccurrence(unsigned int pos, llvm::StringRef ArgName, llvm::StringRef Arg)'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1292' c='_ZN4llvm2cl3opt16handleOccurrenceEjNS_9StringRefES2_'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1491' c='_ZN4llvm2cl4list16handleOccurrenceEjNS_9StringRefES2_'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1634' c='_ZN4llvm2cl4bits16handleOccurrenceEjNS_9StringRefES2_'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1693' c='_ZN4llvm2cl5alias16handleOccurrenceEjNS_9StringRefES2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1695' u='c' c='_ZN4llvm2cl5alias16handleOccurrenceEjNS_9StringRefES2_'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='237'>// handleOccurrences - Overriden by subclasses to handle the value passed into
+  // an argument.  Should return true if there was an error processing the
+  // argument and the program should exit.
+  //</doc>

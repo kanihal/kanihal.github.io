@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/browserastvisitor.h' l='46' type='bool'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='197' u='r' c='_ZN17BrowserASTVisitor15VisitTagTypeLocEN5clang10TagTypeLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='230' u='a' c='_ZN17BrowserASTVisitor30TraverseNestedNameSpecifierLocEN5clang22NestedNameSpecifierLocE'/>
+<offset>160</offset>

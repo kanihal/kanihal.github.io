@@ -1,0 +1,7 @@
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='657' u='w' c='_ZN4llvm2cl19generic_parser_baseC1ERNS0_6OptionE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='704' u='m' c='_ZN4llvm2cl19generic_parser_base19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='721' u='m' c='_ZNK4llvm2cl19generic_parser_base27getValueExpectedFlagDefaultEv'/>
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='733' type='llvm::cl::Option &amp;'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='773' u='m' c='_ZN4llvm2cl6parser5parseERNS0_6OptionENS_9StringRefES4_RT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='794' c='_ZN4llvm2cl6parser16addLiteralOptionENS_9StringRefERKT_S2_'/>
+<offset>64</offset>

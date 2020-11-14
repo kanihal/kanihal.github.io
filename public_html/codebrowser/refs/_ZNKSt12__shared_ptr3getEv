@@ -1,0 +1,3 @@
+<def f='include/c++/7/bits/shared_ptr_base.h' l='1256' ll='1258' type='std::__shared_ptr::element_type * std::__shared_ptr::get() const'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='150' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='245' u='c' c='main'/>

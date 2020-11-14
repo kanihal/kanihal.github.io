@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='143' ll='149' type='MutableArrayRef&lt;EltTy&gt; llvm::TinyPtrVector::operator MutableArrayRef&lt;type-parameter-0-0&gt;()'/>
+<doc f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='142'>// implicit conversion operator to MutableArrayRef.</doc>

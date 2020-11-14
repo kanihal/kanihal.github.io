@@ -1,0 +1,16 @@
+<dec f='include/llvm-7/llvm/ADT/Optional.h' l='34' type='bool'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='38' u='w' c='_ZN4llvm15optional_detail15OptionalStorageC1ERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='39' u='w' c='_ZN4llvm15optional_detail15OptionalStorageC1ERKNS0_15OptionalStorageIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='40' u='r' c='_ZN4llvm15optional_detail15OptionalStorageC1ERKNS0_15OptionalStorageIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='43' u='w' c='_ZN4llvm15optional_detail15OptionalStorageC1EOT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='46' u='w' c='_ZN4llvm15optional_detail15OptionalStorageC1EONS0_15OptionalStorageIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='53' u='r' c='_ZN4llvm15optional_detail15OptionalStorageaSEOT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='57' u='w' c='_ZN4llvm15optional_detail15OptionalStorageaSEOT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='76' u='r' c='_ZN4llvm15optional_detail15OptionalStorageaSERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='80' u='w' c='_ZN4llvm15optional_detail15OptionalStorageaSERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='95' u='r' c='_ZN4llvm15optional_detail15OptionalStorage5resetEv'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='97' u='w' c='_ZN4llvm15optional_detail15OptionalStorage5resetEv'/>
+<dec f='include/llvm-7/llvm/ADT/Optional.h' l='115' type='bool'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='119' u='w' c='_ZN4llvm15optional_detail15OptionalStorageIT_Lb1EEC1ERKS2_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='122' u='w' c='_ZN4llvm15optional_detail15OptionalStorageIT_Lb1EEaSERKS2_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='126' u='w' c='_ZN4llvm15optional_detail15OptionalStorageIT_Lb1EE5resetEv'/>

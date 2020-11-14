@@ -1,0 +1,6 @@
+<def f='include/c++/7/type_traits' l='747' ll='749'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='213' c='_ZN4llvm16maskTrailingOnesEj'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='766' c='_ZN4llvm18AbsoluteDifferenceET_S0_'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='775' c='_ZN4llvm13SaturatingAddET_S0_Pb'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='792' c='_ZN4llvm18SaturatingMultiplyET_S0_Pb'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='838' c='_ZN4llvm21SaturatingMultiplyAddET_S0_S0_Pb'/>

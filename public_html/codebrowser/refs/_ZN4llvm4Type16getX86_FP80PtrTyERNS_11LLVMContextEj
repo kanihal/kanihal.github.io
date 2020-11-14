@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='435' type='static llvm::PointerType * llvm::Type::getX86_FP80PtrTy(llvm::LLVMContext &amp; C, unsigned int AS = 0)'/>

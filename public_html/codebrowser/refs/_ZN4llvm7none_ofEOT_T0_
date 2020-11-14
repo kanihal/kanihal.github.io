@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='935' ll='937' type='bool llvm::none_of(R &amp;&amp; Range, UnaryPredicate P)'/>

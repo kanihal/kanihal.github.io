@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='889' ll='891' type='static llvm::StringLiteral llvm::StringLiteral::withInnerNUL(const char (&amp;)[N] Str)'/>

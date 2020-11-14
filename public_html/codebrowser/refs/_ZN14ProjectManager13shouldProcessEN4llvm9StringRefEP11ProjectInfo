@@ -1,0 +1,8 @@
+<dec f='codebrowser/generator/projectmanager.h' l='68' type='bool ProjectManager::shouldProcess(llvm::StringRef filename, ProjectInfo * project)'/>
+<doc f='codebrowser/generator/projectmanager.h' l='66'>// return true if the filename should be proesseded.
+    // &apos;project&apos; is the value returned by projectForFile</doc>
+<use f='codebrowser/generator/annotator.cpp' l='212' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/main.cpp' l='462' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='496' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='540' u='c' c='main'/>
+<def f='codebrowser/generator/projectmanager.cpp' l='76' ll='86' type='bool ProjectManager::shouldProcess(llvm::StringRef filename, ProjectInfo * project)'/>

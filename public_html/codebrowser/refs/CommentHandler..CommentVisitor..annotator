@@ -1,0 +1,8 @@
+<use f='codebrowser/generator/commenthandler.cpp' l='158' u='w' c='_ZN14CommentHandler14CommentVisitorC1ER9AnnotatorR9GeneratorRKN5clang8comments13CommandTraitsERNS5_4SemaE'/>
+<dec f='codebrowser/generator/commenthandler.cpp' l='159' type='Annotator &amp;'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='228' u='m' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='247' u='m' c='_ZN14CommentHandler14CommentVisitor3tagEN4llvm9StringRefEN5clang11SourceRangeES2_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='261' u='m' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='275' u='m' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='282' u='m' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<offset>0</offset>

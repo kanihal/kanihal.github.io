@@ -1,0 +1,11 @@
+<dec f='codebrowser/generator/annotator.h' l='82' type='std::string Annotator::htmlNameForFile(clang::FileID id)'/>
+<use f='codebrowser/generator/annotator.cpp' l='185' u='c' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<def f='codebrowser/generator/annotator.cpp' l='193' ll='221' type='std::string Annotator::htmlNameForFile(clang::FileID id)'/>
+<use f='codebrowser/generator/annotator.cpp' l='252' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='281' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='345' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='418' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='515' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='516' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='540' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<doc f='codebrowser/generator/annotator.h' l='82'>// keep a cache;</doc>

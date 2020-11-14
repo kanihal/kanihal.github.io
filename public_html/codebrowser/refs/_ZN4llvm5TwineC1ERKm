@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/Twine.h' l='330' ll='332' type='void llvm::Twine::Twine(const unsigned long &amp; Val)'/>
+<use f='codebrowser/generator/annotator.cpp' l='975' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='329'>/// Construct a twine to print \p Val as an unsigned decimal integer.</doc>

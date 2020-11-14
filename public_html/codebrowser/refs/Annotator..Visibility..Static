@@ -1,0 +1,10 @@
+<dec f='codebrowser/generator/annotator.h' l='72' type='1'/>
+<use f='codebrowser/generator/annotator.cpp' l='135' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='140' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='147' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='165' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='169' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='175' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='177' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='678' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<doc f='codebrowser/generator/annotator.h' l='72'>// If it is only visible to this file</doc>

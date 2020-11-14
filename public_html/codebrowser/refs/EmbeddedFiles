@@ -1,0 +1,2 @@
+<def f='codebrowser/build/generator/embedded_includes.h' l='40' ll='54610' type='const EmbeddedFile [94]'/>
+<use f='codebrowser/generator/main.cpp' l='301' u='r' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>

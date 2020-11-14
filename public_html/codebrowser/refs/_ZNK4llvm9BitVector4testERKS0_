@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='571' ll='584' type='bool llvm::BitVector::test(const llvm::BitVector &amp; RHS) const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='529' u='c' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='569'>/// test - Check if (This - RHS) is zero.
+  /// This is the same as reset(RHS) and any().</doc>

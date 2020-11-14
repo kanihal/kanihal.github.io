@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='922' type='bool llvm::cl::parser&lt;int&gt;::parse(llvm::cl::Option &amp; O, llvm::StringRef ArgName, llvm::StringRef Arg, int &amp; Val)'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='921'>// parse - Return true on error.</doc>

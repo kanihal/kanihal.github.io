@@ -1,0 +1,8 @@
+<def f='include/c++/7/bits/stl_map.h' l='1276' ll='1278' type='std::map::iterator std::map::upper_bound(const std::map::key_type &amp; __x)'/>
+<def f='include/c++/7/bits/stl_map.h' l='1282' ll='1285' type='decltype(std::map::iterator(this-&gt;_M_t._M_upper_bound_tr(__x))) std::map::upper_bound(const _Kt &amp; __x)'/>
+<doc f='include/c++/7/bits/stl_map.h' l='1270'>/**
+       *  @brief Finds the end of a subsequence matching given key.
+       *  @param  __x  Key of (key, value) pair to be located.
+       *  @return Iterator pointing to the first element
+       *          greater than key, or end().
+       */</doc>

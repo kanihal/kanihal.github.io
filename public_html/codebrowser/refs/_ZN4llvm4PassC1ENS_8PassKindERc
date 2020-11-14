@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Pass.h' l='87' type='void llvm::Pass::Pass(llvm::PassKind K, char &amp; pid)'/>
+<use f='include/llvm-7/llvm/Pass.h' l='227' u='c' c='_ZN4llvm10ModulePassC1ERc'/>
+<use f='include/llvm-7/llvm/Pass.h' l='287' u='c' c='_ZN4llvm12FunctionPassC1ERc'/>
+<use f='include/llvm-7/llvm/Pass.h' l='321' u='c' c='_ZN4llvm14BasicBlockPassC1ERc'/>

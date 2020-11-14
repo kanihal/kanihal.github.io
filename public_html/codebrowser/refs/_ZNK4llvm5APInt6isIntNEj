@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='449' ll='452' type='bool llvm::APInt::isIntN(unsigned int N) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='448'>/// Check if this APInt has an N-bits unsigned integer value.</doc>

@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/stl_map.h' l='801' ll='803' type='std::pair&lt;iterator, bool&gt; std::map::insert(std::map::value_type &amp;&amp; __x)'/>
+<use f='codebrowser/generator/generator.h' l='76' u='c' c='_ZN9Generator10addProjectENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
+<use f='codebrowser/generator/annotator.cpp' l='668' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<doc f='include/c++/7/bits/stl_map.h' l='799'>// _GLIBCXX_RESOLVE_LIB_DEFECTS
+      // 2354. Unnecessary copying when inserting into maps with braced-init</doc>

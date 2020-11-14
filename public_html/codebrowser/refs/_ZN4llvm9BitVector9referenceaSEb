@@ -1,0 +1,3 @@
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='104' u='c' c='_ZN4llvm9BitVector9referenceaSES1_'/>
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='108' ll='114' type='llvm::BitVector::reference &amp; llvm::BitVector::reference::operator=(bool t)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='341' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>

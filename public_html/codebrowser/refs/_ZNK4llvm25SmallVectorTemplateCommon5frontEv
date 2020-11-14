@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='168' ll='171' type='llvm::SmallVectorTemplateCommon::const_reference llvm::SmallVectorTemplateCommon::front() const'/>

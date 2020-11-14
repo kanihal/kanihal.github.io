@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='436' type='T * llvm::SpecificBumpPtrAllocator::Allocate(size_t num = 1)'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='435'>/// Allocate space for an array of objects without constructing them.</doc>

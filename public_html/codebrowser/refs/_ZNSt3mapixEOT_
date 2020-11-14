@@ -1,0 +1,4 @@
+<def f='include/c++/7/bits/stl_map.h' l='503' ll='516' type='std::map::mapped_type &amp; std::map::operator[](std::map::key_type &amp;&amp; __k)'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='211' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='243' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='248' u='c' c='main'/>

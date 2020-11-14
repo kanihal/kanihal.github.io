@@ -1,0 +1,3 @@
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='153' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='230' u='c' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='334' u='c' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>

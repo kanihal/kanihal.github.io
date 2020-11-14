@@ -1,0 +1,5 @@
+<dec f='codebrowser/generator/annotator.h' l='108' type='std::map&lt;std::string, std::string&gt;'/>
+<use f='codebrowser/generator/annotator.cpp' l='448' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='668' u='m' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<offset>4416</offset>
+<doc f='codebrowser/generator/annotator.h' l='107'>// project -&gt; { pretty name, ref }</doc>

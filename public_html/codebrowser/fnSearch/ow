@@ -1,0 +1,2 @@
+_ZN4llvm14OwningArrayRefaSEONS_14OwningArrayRefIT_EE|llvm::OwningArrayRef::operator=
+_ZNKSt11unique_lock9owns_lockEv|std::unique_lock::owns_lock

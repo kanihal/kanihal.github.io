@@ -1,0 +1,10 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1337' type='llvm::APInt llvm::APInt::trunc(unsigned int width) const'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='82' u='c' c='_ZNK4llvm6APSInt5truncEj'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1329'>/// @}
+  /// \name Resizing Operators
+  /// @{
+
+  /// Truncate to new width.
+  ///
+  /// Truncate the APInt to a specified width. It is an error to specify a width
+  /// that is greater than or equal to the current width.</doc>

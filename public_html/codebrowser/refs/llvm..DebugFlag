@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/Debug.h' l='80' type='bool'/>
+<doc f='include/llvm-7/llvm/Support/Debug.h' l='76'>/// This boolean is set to true if the &apos;-debug&apos; command line option
+/// is specified.  This should probably not be referenced directly, instead, use
+/// the DEBUG macro below.
+///</doc>

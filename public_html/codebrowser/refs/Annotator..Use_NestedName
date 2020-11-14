@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/annotator.h' l='67' type='8'/>
+<use f='codebrowser/generator/annotator.cpp' l='354' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='785' u='r' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='197' u='r' c='_ZN17BrowserASTVisitor15VisitTagTypeLocEN5clang10TagTypeLocE'/>

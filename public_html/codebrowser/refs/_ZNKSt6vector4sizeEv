@@ -1,0 +1,25 @@
+<def f='include/c++/7/bits/stl_vector.h' l='669' ll='671' type='std::vector::size_type std::vector::size() const'/>
+<use f='include/c++/7/bits/stl_vector.h' l='691' u='c' c='_ZNSt6vector6resizeEm'/>
+<use f='include/c++/7/bits/stl_vector.h' l='692' u='c' c='_ZNSt6vector6resizeEm'/>
+<use f='include/c++/7/bits/stl_vector.h' l='693' u='c' c='_ZNSt6vector6resizeEm'/>
+<use f='include/c++/7/bits/stl_vector.h' l='711' u='c' c='_ZNSt6vector6resizeEmRKT_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='712' u='c' c='_ZNSt6vector6resizeEmRKT_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='713' u='c' c='_ZNSt6vector6resizeEmRKT_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1504' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1507' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1507' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1508' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/7/bits/vector.tcc' l='72' u='c' c='_ZNSt6vector7reserveEm'/>
+<use f='include/c++/7/bits/vector.tcc' l='216' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/7/bits/vector.tcc' l='223' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/7/bits/vector.tcc' l='225' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/7/bits/vector.tcc' l='245' u='c' c='_ZNSt6vector14_M_fill_assignEmRKT_'/>
+<use f='include/c++/7/bits/vector.tcc' l='250' u='c' c='_ZNSt6vector14_M_fill_assignEmRKT_'/>
+<use f='include/c++/7/bits/vector.tcc' l='296' u='c' c='_ZNSt6vector13_M_assign_auxET_S0_St20forward_iterator_tag'/>
+<use f='include/c++/7/bits/vector.tcc' l='301' u='c' c='_ZNSt6vector13_M_assign_auxET_S0_St20forward_iterator_tag'/>
+<use f='include/c++/7/bits/vector.tcc' l='607' u='c' c='_ZNSt6vector16_M_shrink_to_fitEv'/>
+<doc f='include/c++/7/bits/stl_vector.h' l='668'>/**  Returns the number of elements in the %vector.  */</doc>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='104' u='c' c='_ZNK4llvm9SourceMgr15isValidBufferIDEj'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='137' u='c' c='_ZNK4llvm9SourceMgr13getNumBuffersEv'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='158' u='c' c='_ZN4llvm9SourceMgr18AddNewSourceBufferESt10unique_ptrINS_12MemoryBufferESt14default_deleteIS2_EENS_5SMLocE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='90' u='c' c='_ZNK4llvm3opt8OptTable13getNumOptionsEv'/>

@@ -1,0 +1,67 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='291' ll='421'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='351' c='_ZNK4llvm15MutableArrayRef5sliceEmm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='353' c='_ZNK4llvm15MutableArrayRef5sliceEmm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='357' c='_ZNK4llvm15MutableArrayRef5sliceEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='362' c='_ZNK4llvm15MutableArrayRef10drop_frontEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='367' c='_ZNK4llvm15MutableArrayRef9drop_backEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='375' c='_ZNK4llvm15MutableArrayRef10drop_whileET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='376' c='_ZNK4llvm15MutableArrayRef10drop_whileET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='382' c='_ZNK4llvm15MutableArrayRef10drop_untilET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='383' c='_ZNK4llvm15MutableArrayRef10drop_untilET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='387' c='_ZNK4llvm15MutableArrayRef10take_frontEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='394' c='_ZNK4llvm15MutableArrayRef9take_backEm'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='403' c='_ZNK4llvm15MutableArrayRef10take_whileET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='404' c='_ZNK4llvm15MutableArrayRef10take_whileET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='410' c='_ZNK4llvm15MutableArrayRef10take_untilET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='411' c='_ZNK4llvm15MutableArrayRef10take_untilET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='424'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='427' c='_ZN4llvm14OwningArrayRefC1Em'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='430' c='_ZN4llvm14OwningArrayRefC1ENS_8ArrayRefIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='438' c='_ZN4llvm14OwningArrayRefaSEONS_14OwningArrayRefIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='439' c='_ZN4llvm14OwningArrayRefaSEONS_14OwningArrayRefIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='439' c='_ZN4llvm14OwningArrayRefaSEONS_14OwningArrayRefIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='503' c='_ZN4llvm19makeMutableArrayRefERT_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='509' c='_ZN4llvm19makeMutableArrayRefEPT_m'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='510' c='_ZN4llvm19makeMutableArrayRefEPT_m'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='176' c='_ZN4llvm20WritableMemoryBuffer9getBufferEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='238' c='_ZN4llvm24WriteThroughMemoryBuffer9getBufferEv'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='82'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='150' c='_ZN4llvm9BitVectorC1ERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='160' c='_ZN4llvm9BitVectorC1EOS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='734' c='_ZN4llvm9BitVectoraSEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='830' c='_ZN4llvm9BitVector8allocateEm'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='833' c='_ZN4llvm9BitVector8allocateEm'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='873' c='_ZN4llvm9BitVector4growEj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='877' c='_ZN4llvm9BitVector10init_wordsENS_15MutableArrayRefImEEb'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='280' c='_ZNK4llvm6detail9IEEEFloat16convertToIntegerENS_15MutableArrayRefImEEjbNS_11APFloatBase12roundingModeEPb'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='508' c='_ZNK4llvm6detail9IEEEFloat28convertToSignExtendedIntegerENS_15MutableArrayRefImEEjbNS_11APFloatBase12roundingModeEPb'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='639' c='_ZNK4llvm6detail13DoubleAPFloat16convertToIntegerENS_15MutableArrayRefImEEjbNS_11APFloatBase12roundingModeEPb'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1069' c='_ZNK4llvm7APFloat16convertToIntegerENS_15MutableArrayRefImEEjbNS_11APFloatBase12roundingModeEPb'/>
+<use f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='143' c='_ZN4llvm13TinyPtrVectorcvNS_15MutableArrayRefIT_EEEv'/>
+<fun r='_ZN4llvm15MutableArrayRefC1Ev'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ENS_8NoneTypeE'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ERT_'/>
+<fun r='_ZN4llvm15MutableArrayRefC1EPT_m'/>
+<fun r='_ZN4llvm15MutableArrayRefC1EPT_S2_'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ERNS_15SmallVectorImplIT_EE'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ERSt6vectorIT_SaIS2_EE'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ERSt5arrayIT_XT_EE'/>
+<fun r='_ZN4llvm15MutableArrayRefC1ERAT__T_'/>
+<fun r='_ZNK4llvm15MutableArrayRef4dataEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef5beginEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef3endEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef6rbeginEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef4rendEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef5frontEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef4backEv'/>
+<fun r='_ZNK4llvm15MutableArrayRef5sliceEmm'/>
+<fun r='_ZNK4llvm15MutableArrayRef5sliceEm'/>
+<fun r='_ZNK4llvm15MutableArrayRef10drop_frontEm'/>
+<fun r='_ZNK4llvm15MutableArrayRef9drop_backEm'/>
+<fun r='_ZNK4llvm15MutableArrayRef10drop_whileET_'/>
+<fun r='_ZNK4llvm15MutableArrayRef10drop_untilET_'/>
+<fun r='_ZNK4llvm15MutableArrayRef10take_frontEm'/>
+<fun r='_ZNK4llvm15MutableArrayRef9take_backEm'/>
+<fun r='_ZNK4llvm15MutableArrayRef10take_whileET_'/>
+<fun r='_ZNK4llvm15MutableArrayRef10take_untilET_'/>
+<fun r='_ZNK4llvm15MutableArrayRefixEm'/>

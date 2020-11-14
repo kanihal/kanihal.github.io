@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='58' ll='62' type='static unsigned int llvm::DenseMapInfo&lt;llvm::CachedHashStringRef&gt;::getHashValue(const llvm::CachedHashStringRef &amp; S)'/>

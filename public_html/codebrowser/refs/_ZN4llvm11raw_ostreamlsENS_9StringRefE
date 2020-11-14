@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='168' ll='181' type='llvm::raw_ostream &amp; llvm::raw_ostream::operator&lt;&lt;(llvm::StringRef Str)'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='187' u='c' c='_ZN4llvm11raw_ostreamlsEPKc'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='553' u='c' c='_ZN4llvm14buffer_ostreamD1Ev'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='209' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail20use_string_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='413' u='c' c='_ZN4llvm15format_providerINS_14iterator_rangeIT_EEvE6formatERKS3_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='157' u='c' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE6formatERKS5_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='112' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='275' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='274' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

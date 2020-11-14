@@ -1,0 +1,13 @@
+<dec f='include/x86_64-linux-gnu/c++/7/bits/c++config.h' l='129'/>
+<use f='include/c++/7/type_traits' l='2661' u='c'/>
+<use f='include/c++/7/type_traits' l='2666' u='c'/>
+<use f='include/c++/7/type_traits' l='2745' u='c'/>
+<use f='include/c++/7/type_traits' l='2750' u='c'/>
+<use f='include/c++/7/bits/stl_pair.h' l='79' u='c'/>
+<use f='include/c++/7/bits/uses_allocator.h' l='48' u='c'/>
+<use f='include/c++/7/bits/uses_allocator.h' l='138' u='c'/>
+<use f='include/c++/7/bits/uses_allocator.h' l='151' u='c'/>
+<use f='include/c++/7/tuple' l='1626' u='c'/>
+<use f='include/c++/7/bits/std_mutex.h' l='142' u='c'/>
+<use f='include/c++/7/bits/std_mutex.h' l='145' u='c'/>
+<use f='include/c++/7/bits/std_mutex.h' l='148' u='c'/>

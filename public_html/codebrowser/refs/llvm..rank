@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='767'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='767'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='768'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='768'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='765'>/// Utility type to build an inheritance chain that makes it easy to rank
+/// overload candidates.</doc>

@@ -1,0 +1,15 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='660' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='663' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='665' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1123' ll='1128' type='bool llvm::APInt::operator==(const llvm::APInt &amp; RHS) const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1146' u='c' c='_ZNK4llvm5APInt2eqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1154' u='c' c='_ZNK4llvm5APIntneERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1170' u='c' c='_ZNK4llvm5APInt2neERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1115'>/// @}
+  /// \name Comparison Operators
+  /// @{
+
+  /// Equality operator.
+  ///
+  /// Compares this APInt with RHS for the validity of the equality
+  /// relationship.</doc>

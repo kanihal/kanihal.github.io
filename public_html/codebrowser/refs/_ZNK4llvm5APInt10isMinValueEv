@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='436' type='bool llvm::APInt::isMinValue() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='432'>/// Determine if this is the smallest unsigned value.
+  ///
+  /// This checks to see if the value of this APInt is the minimum unsigned
+  /// value for the APInt&apos;s bit width.</doc>

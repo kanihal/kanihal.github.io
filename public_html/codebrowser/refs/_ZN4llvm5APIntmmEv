@@ -1,0 +1,8 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='707' u='c' c='_ZN4llvm5APIntmmEi'/>
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='714' type='llvm::APInt &amp; llvm::APInt::operator--()'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1746' u='c' c='_ZNK4llvm5APInt12ceilLogBase2Ev'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='194' u='c' c='_ZN4llvm6APSIntmmEv'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='201' u='c' c='_ZN4llvm6APSIntmmEi'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='711'>/// Prefix decrement operator.
+  ///
+  /// \returns *this decremented by one.</doc>

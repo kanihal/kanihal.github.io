@@ -1,0 +1,13 @@
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='451' ll='490'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='494'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='496'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='511'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='514'/>
+<mbr r='llvm::StringMapIterBase::Ptr' t='llvm::StringMapEntryBase **'/>
+<fun r='_ZN4llvm17StringMapIterBaseC1Ev'/>
+<fun r='_ZN4llvm17StringMapIterBaseC1EPPNS_18StringMapEntryBaseEb'/>
+<fun r='_ZN4llvm17StringMapIterBaseaSERKT_'/>
+<fun r='_ZNK4llvm17StringMapIterBaseeqERKT_'/>
+<fun r='_ZN4llvm17StringMapIterBaseppEv'/>
+<fun r='_ZN4llvm17StringMapIterBaseppEi'/>
+<fun r='_ZN4llvm17StringMapIterBase23AdvancePastEmptyBucketsEv'/>

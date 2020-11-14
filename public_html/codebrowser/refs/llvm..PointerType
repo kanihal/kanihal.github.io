@@ -1,0 +1,38 @@
+<use f='include/llvm-7/llvm/IR/Type.h' l='432' c='_ZN4llvm4Type12getHalfPtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='433' c='_ZN4llvm4Type13getFloatPtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='434' c='_ZN4llvm4Type14getDoublePtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='435' c='_ZN4llvm4Type16getX86_FP80PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='436' c='_ZN4llvm4Type13getFP128PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='437' c='_ZN4llvm4Type17getPPC_FP128PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='438' c='_ZN4llvm4Type15getX86_MMXPtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='439' c='_ZN4llvm4Type12getIntNPtrTyERNS_11LLVMContextEjj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='440' c='_ZN4llvm4Type12getInt1PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='441' c='_ZN4llvm4Type12getInt8PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='442' c='_ZN4llvm4Type13getInt16PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='443' c='_ZN4llvm4Type13getInt32PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='444' c='_ZN4llvm4Type13getInt64PtrTyERNS_11LLVMContextEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='448' c='_ZNK4llvm4Type12getPointerToEj'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='464'/>
+<inh f='include/llvm-7/llvm/IR/Type.h' l='46' c='llvm::Type'/>
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='467' ll='501'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='473' c='_ZN4llvm11PointerTypeC1ERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='474' c='_ZN4llvm11PointerTypeaSERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='474' c='_ZN4llvm11PointerTypeaSERKS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='478' c='_ZN4llvm11PointerType3getEPNS_4TypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='482' c='_ZN4llvm11PointerType9getUnqualEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='504' c='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='346' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_11PointerTypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='353' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_4TypeE'/>
+<size>32</size>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='466'>/// Class to represent pointers.</doc>
+<fun r='_ZN4llvm11PointerTypeC1EPNS_4TypeEj'/>
+<mbr r='llvm::PointerType::PointeeTy' o='192' t='llvm::Type *'/>
+<fun r='_ZN4llvm11PointerTypeC1ERKS0_'/>
+<fun r='_ZN4llvm11PointerTypeaSERKS0_'/>
+<fun r='_ZN4llvm11PointerType3getEPNS_4TypeEj'/>
+<fun r='_ZN4llvm11PointerType9getUnqualEPNS_4TypeE'/>
+<fun r='_ZNK4llvm11PointerType14getElementTypeEv'/>
+<fun r='_ZN4llvm11PointerType18isValidElementTypeEPNS_4TypeE'/>
+<fun r='_ZN4llvm11PointerType24isLoadableOrStorableTypeEPNS_4TypeE'/>
+<fun r='_ZNK4llvm11PointerType15getAddressSpaceEv'/>
+<fun r='_ZN4llvm11PointerType7classofEPKNS_4TypeE'/>

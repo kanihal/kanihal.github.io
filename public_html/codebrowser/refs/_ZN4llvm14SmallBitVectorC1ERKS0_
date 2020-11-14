@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='158' ll='163' type='void llvm::SmallBitVector::SmallBitVector(const llvm::SmallBitVector &amp; RHS)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='448' u='c' c='_ZNK4llvm14SmallBitVectorcoEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='448' u='c' c='_ZNK4llvm14SmallBitVectorcoEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='503' u='c' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='550' u='c' c='_ZN4llvm14SmallBitVectoroRERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='564' u='c' c='_ZN4llvm14SmallBitVectoreOERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='671' u='c' c='_ZN4llvmanERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='678' u='c' c='_ZN4llvmorERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='685' u='c' c='_ZN4llvmeoERKNS_14SmallBitVectorES2_'/>
+<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='157'>/// SmallBitVector copy ctor.</doc>

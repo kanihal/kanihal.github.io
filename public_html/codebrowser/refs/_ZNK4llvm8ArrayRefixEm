@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='240' ll='243' type='const T &amp; llvm::ArrayRef::operator[](size_t Index) const'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='237'>/// @}
+    /// @name Operator Overloads
+    /// @{</doc>

@@ -1,0 +1,7 @@
+<def f='include/c++/7/type_traits' l='437' ll='439'/>
+<use f='include/c++/7/type_traits' l='611'/>
+<use f='include/c++/7/type_traits' l='1773'/>
+<use f='include/c++/7/type_traits' l='1892'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='72'/>
+<use f='include/c++/7/bits/functional_hash.h' l='77'/>
+<use f='include/c++/7/functional' l='851'/>

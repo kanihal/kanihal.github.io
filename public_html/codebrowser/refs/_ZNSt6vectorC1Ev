@@ -1,0 +1,9 @@
+<def f='include/c++/7/bits/stl_vector.h' l='259' ll='263' type='void std::vector::vector&lt;_Tp, _Alloc&gt;()'/>
+<use f='codebrowser/build/generator/projectmanager_systemprojects.cpp' l='28' u='c' c='_ZN14ProjectManager14systemProjectsEv'/>
+<doc f='include/c++/7/bits/stl_vector.h' l='256'>/**
+       *  @brief  Creates a %vector with no elements.
+       */</doc>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='46' u='c' c='_ZN4llvm16toStringRefArrayEPKPKc'/>
+<use f='codebrowser/generator/main.cpp' l='393' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='449' u='c' c='main'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='60' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

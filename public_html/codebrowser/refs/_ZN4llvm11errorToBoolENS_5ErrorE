@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='980' ll='985' type='bool llvm::errorToBool(llvm::Error Err)'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='975'>/// Helper for converting an Error to a bool.
+///
+/// This method returns true if Err is in an error state, or false if it is
+/// in a success state.  Puts Err in a checked state in both cases (unlike
+/// Error::operator bool(), which only does this for success states).</doc>

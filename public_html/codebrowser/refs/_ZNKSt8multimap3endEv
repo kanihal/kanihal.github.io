@@ -1,0 +1,7 @@
+<def f='include/c++/7/bits/stl_multimap.h' l='369' ll='371' type='std::multimap::const_iterator std::multimap::end() const'/>
+<doc f='include/c++/7/bits/stl_multimap.h' l='364'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  pair in the %multimap.  Iteration is done in ascending order according
+       *  to the keys.
+       */</doc>
+<use f='codebrowser/generator/commenthandler.cpp' l='376' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

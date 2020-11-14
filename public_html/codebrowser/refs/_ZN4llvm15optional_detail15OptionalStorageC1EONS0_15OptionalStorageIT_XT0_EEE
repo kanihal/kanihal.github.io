@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='46' ll='50' type='void llvm::optional_detail::OptionalStorage::OptionalStorage&lt;T, IsPodLike&gt;(OptionalStorage&lt;T, IsPodLike&gt; &amp;&amp; O)'/>

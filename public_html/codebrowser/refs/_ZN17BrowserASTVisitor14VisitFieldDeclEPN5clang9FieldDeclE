@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='142' ll='146' type='bool BrowserASTVisitor::VisitFieldDecl(clang::FieldDecl * d)'/>

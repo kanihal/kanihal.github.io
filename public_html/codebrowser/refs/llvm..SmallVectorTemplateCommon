@@ -1,0 +1,32 @@
+<inh f='include/llvm-7/llvm/ADT/SmallVector.h' l='39' c='llvm::SmallVectorBase'/>
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='83' ll='181'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='186'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='188' c='_ZN4llvm23SmallVectorTemplateBaseC1Em'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='267'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='269' c='_ZN4llvm23SmallVectorTemplateBaseIT_Lb1EEC1Em'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon10getFirstElEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommonC1Em'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon8grow_podEmm'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon7isSmallEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon12resetToSmallEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon5beginEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon5beginEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon3endEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon3endEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon6rbeginEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon6rbeginEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon4rendEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon4rendEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon13size_in_bytesEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon8max_sizeEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon17capacity_in_bytesEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon4dataEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon4dataEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommonixEm'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommonixEm'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon5frontEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon5frontEv'/>
+<fun r='_ZN4llvm25SmallVectorTemplateCommon4backEv'/>
+<fun r='_ZNK4llvm25SmallVectorTemplateCommon4backEv'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='82' c='_ZN4llvm8ArrayRefC1ERKNS_25SmallVectorTemplateCommonIT_T_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='119' c='_ZN4llvm8ArrayRefC1ERKNS_25SmallVectorTemplateCommonIPT_T0_EEPNSt9enable_ifIXsr3std14is_convertibleIPKS3_PKT_EE5valueEvE4typeE'/>

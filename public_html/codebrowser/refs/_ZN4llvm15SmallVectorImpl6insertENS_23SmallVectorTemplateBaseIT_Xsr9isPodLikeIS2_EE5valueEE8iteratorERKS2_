@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='508' ll='535' type='llvm::SmallVectorImpl::iterator llvm::SmallVectorImpl::insert(llvm::SmallVectorImpl::iterator I, const T &amp; Elt)'/>

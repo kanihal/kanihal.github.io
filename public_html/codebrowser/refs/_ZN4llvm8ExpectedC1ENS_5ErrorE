@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='449' ll='458' type='void llvm::Expected::Expected&lt;T&gt;(llvm::Error Err)'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='448'>/// Create an Expected&lt;T&gt; error value from the given Error.</doc>

@@ -1,0 +1,2 @@
+<use f='codebrowser/generator/stringbuilder.h' l='11' u='c' c='_ZNK14string_buildercvNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEv'/>
+<def f='codebrowser/generator/stringbuilder.h' l='16' type='unsigned int string_builder::size() const'/>

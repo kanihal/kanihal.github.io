@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/MapVector.h' l='143' ll='146' type='llvm::MapVector::size_type llvm::MapVector::count(const KeyT &amp; Key) const'/>

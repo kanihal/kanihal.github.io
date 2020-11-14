@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='941' type='llvm::APInt llvm::APInt::operator&lt;&lt;(const llvm::APInt &amp; Bits) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='938'>/// Left logical shift operator.
+  ///
+  /// Shifts this APInt left by \p Bits and returns the result.</doc>

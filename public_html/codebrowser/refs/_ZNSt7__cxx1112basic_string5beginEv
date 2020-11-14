@@ -1,0 +1,12 @@
+<def f='include/c++/7/bits/basic_string.h' l='815' ll='817' type='std::__cxx11::basic_string::iterator std::__cxx11::basic_string::begin()'/>
+<doc f='include/c++/7/bits/basic_string.h' l='811'>/**
+       *  Returns a read/write iterator that points to the first character in
+       *  the %string.
+       */</doc>
+<use f='codebrowser/generator/annotator.cpp' l='961' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='964' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='965' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/filesystem.cpp' l='49' u='c' c='_Z20make_forward_slashesRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/filesystem.cpp' l='55' u='c' c='_Z30replace_invalid_filename_charsRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='272' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='272' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/browserastvisitor.h' l='280' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='423' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='443' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<size>48</size>

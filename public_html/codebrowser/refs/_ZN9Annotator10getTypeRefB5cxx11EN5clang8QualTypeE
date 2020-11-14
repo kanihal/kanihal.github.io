@@ -1,0 +1,8 @@
+<dec f='codebrowser/generator/annotator.h' l='177' type='std::string Annotator::getTypeRef(clang::QualType type)'/>
+<def f='codebrowser/generator/annotator.cpp' l='982' ll='985' type='std::string Annotator::getTypeRef(clang::QualType type)'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='57' u='c' c='_ZN17BrowserASTVisitor20VisitTypedefNameDeclEPN5clang15TypedefNameDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='108' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='112' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='139' u='c' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='144' u='c' c='_ZN17BrowserASTVisitor14VisitFieldDeclEPN5clang9FieldDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='189' u='c' c='_ZN17BrowserASTVisitor19VisitTypedefTypeLocEN5clang14TypedefTypeLocE'/>

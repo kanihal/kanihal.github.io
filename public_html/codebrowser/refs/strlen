@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='384' type='size_t strlen(const char * __s)'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='86' u='c' c='_ZN4llvm9StringRefC1EPKc'/>
+<doc f='include/string.h' l='383'>/* Return the length of S.  */</doc>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='349' u='c' c='_ZN4llvm6detail18join_one_item_sizeEPKc'/>
+<use f='codebrowser/generator/stringbuilder.h' l='31' u='c' c='_ZN21string_builder_helperIPKcE4sizeES1_'/>

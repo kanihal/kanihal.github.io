@@ -1,0 +1,11 @@
+<def f='codebrowser/generator/annotator.h' l='156' ll='159' type='void Annotator::registerUse(clang::NamedDecl * decl, clang::SourceRange range, Annotator::TokenType tt, clang::NamedDecl * currentContext, Annotator::DeclType useType = Use)'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='154' u='c' c='_ZN17BrowserASTVisitor15VisitMemberExprEPN5clang10MemberExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='161' u='c' c='_ZN17BrowserASTVisitor16VisitDeclRefExprEPN5clang11DeclRefExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='178' u='c' c='_ZN17BrowserASTVisitor23VisitDesignatedInitExprEPN5clang18DesignatedInitExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='196' u='c' c='_ZN17BrowserASTVisitor15VisitTagTypeLocEN5clang10TagTypeLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='206' u='c' c='_ZN17BrowserASTVisitor34VisitTemplateSpecializationTypeLocEN5clang29TemplateSpecializationTypeLocE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='246' u='c' c='_ZN17BrowserASTVisitor30TraverseConstructorInitializerEPN5clang18CXXCtorInitializerE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='265' u='c' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='267' u='c' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='262' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='298' u='c' c='_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_'/>

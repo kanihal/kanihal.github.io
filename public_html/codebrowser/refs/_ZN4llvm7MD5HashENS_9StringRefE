@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/MD5.h' l='109' ll='118' type='uint64_t llvm::MD5Hash(llvm::StringRef Str)'/>
+<doc f='include/llvm-7/llvm/Support/MD5.h' l='108'>/// Helper to compute and return lower 64 bits of the given string&apos;s MD5 hash.</doc>

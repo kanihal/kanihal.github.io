@@ -1,0 +1,5 @@
+<dec f='codebrowser/generator/commenthandler.cpp' l='166' type='std::vector&lt;std::pair&lt;std::string, Doc&gt; &gt;'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='283' u='m' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='362' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<offset>576</offset>
+<doc f='codebrowser/generator/commenthandler.cpp' l='166'>// typically for enum values</doc>

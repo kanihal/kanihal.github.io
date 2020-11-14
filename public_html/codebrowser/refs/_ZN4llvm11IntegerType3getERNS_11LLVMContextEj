@@ -1,0 +1,9 @@
+<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='63' type='static llvm::IntegerType * llvm::IntegerType::get(llvm::LLVMContext &amp; C, unsigned int NumBits)'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='409' u='c' c='_ZN4llvm10VectorType10getIntegerEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='417' u='c' c='_ZN4llvm10VectorType28getExtendedElementVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='427' u='c' c='_ZN4llvm10VectorType29getTruncatedElementVectorTypeEPS0_'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='58'>/// This static method is the primary way of constructing an IntegerType.
+  /// If an IntegerType with the same NumBits value was previously instantiated,
+  /// that instance will be returned. Otherwise a new one will be created. Only
+  /// one instance with a given NumBits value is ever created.
+  /// Get or create an IntegerType instance.</doc>

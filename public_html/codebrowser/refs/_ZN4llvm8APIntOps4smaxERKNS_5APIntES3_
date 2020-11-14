@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='2103' ll='2105' type='const llvm::APInt &amp; llvm::APIntOps::smax(const llvm::APInt &amp; A, const llvm::APInt &amp; B)'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2102'>/// Determine the larger of two APInts considered to be signed.</doc>

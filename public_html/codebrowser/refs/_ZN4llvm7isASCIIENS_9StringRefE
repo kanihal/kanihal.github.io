@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='95' ll='100' type='bool llvm::isASCII(llvm::StringRef S)'/>
+<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='94'>/// Checks whether all characters in S are ASCII.</doc>

@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='326' ll='328' type='llvm::Type::subtype_reverse_iterator llvm::Type::subtype_rend() const'/>

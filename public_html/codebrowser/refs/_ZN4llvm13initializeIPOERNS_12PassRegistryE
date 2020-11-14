@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='44' type='void llvm::initializeIPO(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='43'>/// Initialize all passes linked into the IPO library.</doc>

@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1383' ll='1391' type='void llvm::APInt::setAllBits()'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1378'>/// @}
+  /// \name Bit Manipulation Operators
+  /// @{
+
+  /// Set every bit to 1.</doc>

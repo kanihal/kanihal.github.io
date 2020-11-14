@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/StringExtras.h' l='293' type='void llvm::printLowerCase(llvm::StringRef String, llvm::raw_ostream &amp; Out)'/>
+<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='292'>/// printLowerCase - Print each character as lowercase if it is uppercase.</doc>

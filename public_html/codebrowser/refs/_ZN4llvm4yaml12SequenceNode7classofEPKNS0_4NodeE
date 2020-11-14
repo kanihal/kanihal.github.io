@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='489' ll='491' type='static bool llvm::yaml::SequenceNode::classof(const llvm::yaml::Node * N)'/>

@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='405' type='static llvm::Type * llvm::Type::getTokenTy(llvm::LLVMContext &amp; C)'/>

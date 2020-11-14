@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='129' ll='143' type='static std::size_t llvm::detail::LeadingZerosCounter::count(T Val, llvm::ZeroBehavior )'/>

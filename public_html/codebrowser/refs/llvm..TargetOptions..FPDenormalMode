@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='282' type='FPDenormal::DenormalMode'/>
+<offset>320</offset>
+<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='280'>/// FPDenormalMode - This flags specificies which denormal numbers the code
+    /// is permitted to require.</doc>

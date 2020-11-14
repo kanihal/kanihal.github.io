@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='365' ll='367' type='unsigned int llvm::DataLayout::getIndexSizeInBits(unsigned int AS) const'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='364'>/// Size in bits of index used for address calculation in getelementptr.</doc>

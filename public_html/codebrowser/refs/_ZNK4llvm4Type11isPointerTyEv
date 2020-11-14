@@ -1,0 +1,5 @@
+<use f='include/llvm-7/llvm/IR/Type.h' l='212' u='c' c='_ZNK4llvm4Type12isIntOrPtrTyEv'/>
+<def f='include/llvm-7/llvm/IR/Type.h' l='224' type='bool llvm::Type::isPointerTy() const'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='227' u='c' c='_ZNK4llvm4Type18isPtrOrPtrVectorTyEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='252' u='c' c='_ZNK4llvm4Type17isSingleValueTypeEv'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='223'>/// True if this is an instance of PointerType.</doc>

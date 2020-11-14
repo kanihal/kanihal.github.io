@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='2062' ll='2065' type='llvm::APInt llvm::operator-(llvm::APInt a, const llvm::APInt &amp; b)'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='262' u='c' c='_ZNK4llvm6APSIntmiERKS0_'/>

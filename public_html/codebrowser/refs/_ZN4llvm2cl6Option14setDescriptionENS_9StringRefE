@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='311' type='void llvm::cl::Option::setDescription(llvm::StringRef S)'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='386' u='c' c='_ZNK4llvm2cl4desc5applyERNS0_6OptionE'/>

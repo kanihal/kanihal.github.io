@@ -1,0 +1,57 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='847' ll='913'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='916' c='_ZN4llvm17capacity_in_bytesERKNS_11SmallVectorIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='934' c='_ZSt4swapRN4llvm11SmallVectorIT_XT0_EEES3_'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='934' c='_ZSt4swapRN4llvm11SmallVectorIT_XT0_EEES3_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1025' c='_ZN4llvm9to_vectorEOT0_'/>
+<fun r='_ZN4llvm11SmallVectorC1Ev'/>
+<fun r='_ZN4llvm11SmallVectorD1Ev'/>
+<fun r='_ZN4llvm11SmallVectorC1EmRKT_'/>
+<fun r='_ZN4llvm11SmallVectorC1ET_S1_'/>
+<fun r='_ZN4llvm11SmallVectorC1ERKNS_14iterator_rangeIT_EE'/>
+<fun r='_ZN4llvm11SmallVectorC1ESt16initializer_listIT_E'/>
+<fun r='_ZN4llvm11SmallVectorC1ERKNS_11SmallVectorIT_XT0_EEE'/>
+<fun r='_ZN4llvm11SmallVectoraSERKNS_11SmallVectorIT_XT0_EEE'/>
+<fun r='_ZN4llvm11SmallVectorC1EONS_11SmallVectorIT_XT0_EEE'/>
+<fun r='_ZN4llvm11SmallVectorC1EONS_15SmallVectorImplIT_EE'/>
+<fun r='_ZN4llvm11SmallVectoraSEONS_11SmallVectorIT_XT0_EEE'/>
+<fun r='_ZN4llvm11SmallVectoraSEONS_15SmallVectorImplIT_EE'/>
+<fun r='_ZN4llvm11SmallVectoraSESt16initializer_listIT_E'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='316'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='319'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='475' c='_ZN4llvm12makeArrayRefERKNS_11SmallVectorIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='309'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='558'/>
+<use f='include/llvm-7/llvm/ADT/SmallString.h' l='26'/>
+<use f='include/llvm-7/llvm/ADT/SmallString.h' l='32' c='_ZN4llvm11SmallStringC1ENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/SmallString.h' l='36' c='_ZN4llvm11SmallStringC1ET_S1_'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='549'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='957' c='_ZN4llvm8toStringB5cxx11ENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='269'/>
+<use f='include/llvm-7/llvm/Support/PrettyStackTrace.h' l='63'/>
+<use f='include/llvm-7/llvm/ADT/SetVector.h' l='299'/>
+<use f='include/llvm-7/llvm/Support/TrigramIndex.h' l='65'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='39'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='139'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='142'/>
+<use f='include/llvm-7/llvm/ADT/SmallSet.h' l='143'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='237' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='257' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='293' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='52'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='53'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='54'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='55'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='130'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='134'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='149'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='164'/>
+<use f='include/llvm-7/llvm/ADT/MapVector.h' l='235'/>
+<use f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='33'/>
+<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='169'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='218'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='219'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='615'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='751'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='31'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='38' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='41' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>

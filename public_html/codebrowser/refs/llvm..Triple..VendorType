@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/Triple.h' l='130' ll='150'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='230'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='291' c='_ZNK4llvm6Triple9getVendorEv'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='698' c='_ZN4llvm6Triple9setVendorENS0_10VendorTypeE'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='803' c='_ZN4llvm6Triple17getVendorTypeNameENS0_10VendorTypeE'/>

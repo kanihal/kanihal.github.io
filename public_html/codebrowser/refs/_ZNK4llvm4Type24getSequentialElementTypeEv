@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='358' ll='361' type='llvm::Type * llvm::Type::getSequentialElementType() const'/>

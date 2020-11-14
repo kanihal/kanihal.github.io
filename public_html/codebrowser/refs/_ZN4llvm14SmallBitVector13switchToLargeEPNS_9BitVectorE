@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='110' ll='113' type='void llvm::SmallBitVector::switchToLarge(llvm::BitVector * BV)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='154' u='c' c='_ZN4llvm14SmallBitVectorC1Ejb'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='162' u='c' c='_ZN4llvm14SmallBitVectorC1ERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='342' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='356' u='c' c='_ZN4llvm14SmallBitVector7reserveEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='593' u='c' c='_ZN4llvm14SmallBitVectoraSERKS0_'/>

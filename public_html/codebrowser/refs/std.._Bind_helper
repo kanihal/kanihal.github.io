@@ -1,0 +1,7 @@
+<def f='include/c++/7/functional' l='854' ll='859'/>
+<def f='include/c++/7/functional' l='864' ll='866'/>
+<use f='include/c++/7/functional' l='874' c='_ZSt4bindOT_DpOT0_'/>
+<use f='include/c++/7/functional' l='877' c='_ZSt4bindOT_DpOT0_'/>
+<doc f='include/c++/7/functional' l='861'>// Partial specialization for is_socketlike == true, does not define
+  // nested type so std::bind() will not participate in overload resolution
+  // when the first argument might be a socket file descriptor.</doc>

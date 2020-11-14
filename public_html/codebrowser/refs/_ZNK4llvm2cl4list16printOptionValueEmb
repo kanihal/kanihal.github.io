@@ -1,0 +1,5 @@
+<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='351' c='_ZNK4llvm2cl6Option16printOptionValueEmb'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1513' ll='1514' type='void llvm::cl::list::printOptionValue(size_t , bool ) const'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1512'>// Unimplemented: list options don&apos;t currently store their default value.</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1513'>/*GlobalWidth*/</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1513'>/*Force*/</doc>

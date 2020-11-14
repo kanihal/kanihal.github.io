@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='326' ll='328' type='llvm::Error llvm::make_error(ArgTs &amp;&amp;... Args)'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1132' u='c' c='_ZN4llvm17createStringErrorESt10error_codePKcDpRKT_'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='324'>/// Make a Error instance representing failure using the given error info
+/// type.</doc>

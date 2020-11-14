@@ -1,0 +1,8 @@
+<use f='include/c++/7/bits/alloc_traits.h' l='206'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='456'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='518'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='825'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='2009'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='2015'/>
+<use f='include/c++/7/bits/hashtable.h' l='185'/>
+<use f='include/c++/7/bits/hashtable.h' l='192'/>

@@ -1,0 +1,10 @@
+<def f='include/c++/7/bits/stl_vector.h' l='562' ll='564' type='std::vector::iterator std::vector::begin()'/>
+<doc f='include/c++/7/bits/stl_vector.h' l='557'>/**
+       *  Returns a read/write iterator that points to the first
+       *  element in the %vector.  Iteration is done in ordinary
+       *  element order.
+       */</doc>
+<use f='include/llvm-7/llvm/Support/Error.h' l='404' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='codebrowser/generator/main.cpp' l='395' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='522' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='524' u='c' c='main'/>

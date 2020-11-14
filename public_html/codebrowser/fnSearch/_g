@@ -1,0 +1,2 @@
+_ZN4llvm2cl18GenericOptionValueD1Ev|llvm::cl::GenericOptionValue::~GenericOptionValue
+_ZN4llvm2cl19generic_parser_baseD1Ev|llvm::cl::generic_parser_base::~generic_parser_base

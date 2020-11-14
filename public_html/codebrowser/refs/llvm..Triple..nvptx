@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/ADT/Triple.h' l='82' type='34'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='645' u='r' c='_ZNK4llvm6Triple7isNVPTXEv'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='82'>// NVPTX: 32-bit</doc>

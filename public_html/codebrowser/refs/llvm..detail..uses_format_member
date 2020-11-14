@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='94' ll='98'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='106'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='113'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='123'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='129' c='_ZN4llvm6detail20build_format_adapterEOT_'/>

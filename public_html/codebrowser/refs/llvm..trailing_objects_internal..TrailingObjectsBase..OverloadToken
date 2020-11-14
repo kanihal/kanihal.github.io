@@ -1,0 +1,19 @@
+<def f='include/llvm-7/llvm/Support/TrailingObjects.h' l='88'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='168' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPKS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='170' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPKS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='172' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPKS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='183' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='185' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='187' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE22getTrailingObjectsImplEPS2_NS0_19TrailingObjectsBase13OverloadTokenIS5_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='266' c='_ZN4llvm15TrailingObjects22getTrailingObjectsImplEPKT_NS_25trailing_objects_internal19TrailingObjectsBase13OverloadTokenIS1_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='272' c='_ZN4llvm15TrailingObjects22getTrailingObjectsImplEPT_NS_25trailing_objects_internal19TrailingObjectsBase13OverloadTokenIS1_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='285' c='_ZN4llvm15TrailingObjects22callNumTrailingObjectsEPKT_NS_25trailing_objects_internal19TrailingObjectsBase13OverloadTokenIS1_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='291' c='_ZN4llvm15TrailingObjects22callNumTrailingObjectsEPKT_NS_25trailing_objects_internal19TrailingObjectsBase13OverloadTokenIT_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='292' c='_ZN4llvm15TrailingObjects22callNumTrailingObjectsEPKT_NS_25trailing_objects_internal19TrailingObjectsBase13OverloadTokenIT_EE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='315' c='_ZNK4llvm15TrailingObjects18getTrailingObjectsEv'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='326' c='_ZN4llvm15TrailingObjects18getTrailingObjectsEv'/>
+<doc f='include/llvm-7/llvm/Support/TrailingObjects.h' l='83'>/// OverloadToken&apos;s purpose is to allow specifying function overloads
+  /// for different types, without actually taking the types as
+  /// parameters. (Necessary because member function templates cannot
+  /// be specialized, so overloads must be used instead of
+  /// specialization.)</doc>

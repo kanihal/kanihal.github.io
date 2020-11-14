@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='235' ll='237' type='char * llvm::WriteThroughMemoryBuffer::getBufferEnd()'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='239' u='c' c='_ZN4llvm24WriteThroughMemoryBuffer9getBufferEv'/>

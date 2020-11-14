@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='124' ll='135'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='146'/>
+<fun r='_ZN4llvm29FunctionPointerLikeTypeTraits16getAsVoidPointerET0_'/>
+<fun r='_ZN4llvm29FunctionPointerLikeTypeTraits18getFromVoidPointerEPv'/>

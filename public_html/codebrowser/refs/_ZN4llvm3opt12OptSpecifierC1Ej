@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Option/OptSpecifier.h' l='25' type='void llvm::opt::OptSpecifier::OptSpecifier(unsigned int ID)'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='107' u='c' c='_ZNK4llvm3opt6Option8getGroupEv'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='113' u='c' c='_ZNK4llvm3opt6Option8getAliasEv'/>
+<doc f='include/llvm-7/llvm/Option/OptSpecifier.h' l='25'>/*implicit*/</doc>

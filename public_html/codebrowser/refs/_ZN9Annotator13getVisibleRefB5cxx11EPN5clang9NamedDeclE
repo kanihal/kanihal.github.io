@@ -1,0 +1,8 @@
+<dec f='codebrowser/generator/annotator.h' l='184' type='std::string Annotator::getVisibleRef(clang::NamedDecl * Decl)'/>
+<def f='codebrowser/generator/annotator.cpp' l='1002' ll='1007' type='std::string Annotator::getVisibleRef(clang::NamedDecl * Decl)'/>
+<doc f='codebrowser/generator/annotator.h' l='180'>/**
+     * returns the reference of a class iff this class is visible
+     * (that is, if a tooltip file should be generated for it)
+     */</doc>
+<use f='codebrowser/generator/commenthandler.cpp' l='228' u='c' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='275' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>

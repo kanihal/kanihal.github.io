@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='266' ll='282' type='llvm::StringRef llvm::getOrdinalSuffix(unsigned int Val)'/>
+<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='265'>/// Returns the English suffix for an ordinal integer (-st, -nd, -rd, -th).</doc>

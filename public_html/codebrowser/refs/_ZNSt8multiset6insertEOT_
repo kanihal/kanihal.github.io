@@ -1,0 +1,2 @@
+<def f='include/c++/7/bits/stl_multiset.h' l='496' ll='498' type='std::multiset::iterator std::multiset::insert(std::multiset::value_type &amp;&amp; __x)'/>
+<use f='codebrowser/generator/generator.h' l='73' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>

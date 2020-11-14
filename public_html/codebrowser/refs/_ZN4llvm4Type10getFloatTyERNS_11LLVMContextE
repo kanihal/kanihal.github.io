@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='398' type='static llvm::Type * llvm::Type::getFloatTy(llvm::LLVMContext &amp; C)'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='420' u='c' c='_ZN4llvm4Type11getScalarTyERNS_11LLVMContextE'/>

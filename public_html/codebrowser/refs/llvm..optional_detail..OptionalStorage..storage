@@ -1,0 +1,12 @@
+<dec f='include/llvm-7/llvm/ADT/Optional.h' l='33' type='AlignedCharArrayUnion&lt;T&gt;'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='38' c='_ZN4llvm15optional_detail15OptionalStorageC1ERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='41' c='_ZN4llvm15optional_detail15OptionalStorageC1ERKNS0_15OptionalStorageIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='44' c='_ZN4llvm15optional_detail15OptionalStorageC1EOT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='48' c='_ZN4llvm15optional_detail15OptionalStorageC1EONS0_15OptionalStorageIT_XT0_EEE'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='56' c='_ZN4llvm15optional_detail15OptionalStorageaSEOT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='79' c='_ZN4llvm15optional_detail15OptionalStorageaSERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='103' u='r' c='_ZN4llvm15optional_detail15OptionalStorage10getPointerEv'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='107' u='r' c='_ZNK4llvm15optional_detail15OptionalStorage10getPointerEv'/>
+<dec f='include/llvm-7/llvm/ADT/Optional.h' l='114' type='AlignedCharArrayUnion&lt;T&gt;'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='119' c='_ZN4llvm15optional_detail15OptionalStorageIT_Lb1EEC1ERKS2_'/>
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='121' u='r' c='_ZN4llvm15optional_detail15OptionalStorageIT_Lb1EEaSERKS2_'/>

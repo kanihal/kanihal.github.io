@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='155' type='static const llvm::fltSemantics &amp; llvm::APFloatBase::IEEEquad()'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='175' u='c' c='_ZNK4llvm4Type15getFltSemanticsEv'/>

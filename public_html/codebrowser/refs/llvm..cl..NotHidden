@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='135' type='0'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1363' u='r' c='_ZN4llvm2cl3optC1EDpRKT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1539' u='r' c='_ZN4llvm2cl4listC1EDpRKT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1680' u='r' c='_ZN4llvm2cl4bitsC1EDpRKT_'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='135'>// Option included in -help &amp; -help-hidden</doc>

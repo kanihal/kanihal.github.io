@@ -1,0 +1,16 @@
+<inh f='include/llvm-7/llvm/IR/Type.h' l='46' c='llvm::Type'/>
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='162' ll='179'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='201' c='llvm::StructType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='201'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='202' c='_ZN4llvm10StructTypeC1ERNS_11LLVMContextE'/>
+<ovr f='include/llvm-7/llvm/IR/DerivedTypes.h' l='343' c='llvm::SequentialType'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='343'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='349' c='_ZN4llvm14SequentialTypeC1ENS_4Type6TypeIDEPS1_m'/>
+<size>24</size>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='161'>/// Common super class of ArrayType, StructType and VectorType.</doc>
+<fun r='_ZN4llvm13CompositeTypeC1ERNS_11LLVMContextENS_4Type6TypeIDE'/>
+<fun r='_ZNK4llvm13CompositeType14getTypeAtIndexEPKNS_5ValueE'/>
+<fun r='_ZNK4llvm13CompositeType14getTypeAtIndexEj'/>
+<fun r='_ZNK4llvm13CompositeType10indexValidEPKNS_5ValueE'/>
+<fun r='_ZNK4llvm13CompositeType10indexValidEj'/>
+<fun r='_ZN4llvm13CompositeType7classofEPKNS_4TypeE'/>

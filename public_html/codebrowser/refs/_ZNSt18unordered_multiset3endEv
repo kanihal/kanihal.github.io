@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/unordered_set.h' l='1064' ll='1066' type='std::unordered_multiset::iterator std::unordered_multiset::end()'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='1060'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  element in the %unordered_multiset.
+       */</doc>

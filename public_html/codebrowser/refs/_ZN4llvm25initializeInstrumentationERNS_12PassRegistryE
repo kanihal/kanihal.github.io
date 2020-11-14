@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='47' type='void llvm::initializeInstrumentation(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='46'>/// Initialize all passes linked into the Instrumentation library.</doc>

@@ -1,0 +1,22 @@
+<def f='include/llvm-7/llvm/ADT/DenseSet.h' l='105' ll='129'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='125' c='_ZN4llvm6detail12DenseSetImpl8IteratorppEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='126' c='_ZN4llvm6detail12DenseSetImpl8IteratorppEi'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='134'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='144' c='_ZN4llvm6detail12DenseSetImpl13ConstIteratorC1ERKNS1_8IteratorE'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='156'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='159' c='_ZN4llvm6detail12DenseSetImpl5beginEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='160' c='_ZN4llvm6detail12DenseSetImpl3endEv'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='165' c='_ZN4llvm6detail12DenseSetImpl4findENS_26const_pointer_or_const_refIT_vE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='177' c='_ZN4llvm6detail12DenseSetImpl7find_asERKT_'/>
+<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='184' c='_ZN4llvm6detail12DenseSetImpl5eraseENS1_8IteratorE'/>
+<mbr r='llvm::detail::DenseSetImpl::Iterator::I' t='typename MapTy::iterator'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratorC1Ev'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratorC1ERKNT0_8iteratorE'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratordeEv'/>
+<fun r='_ZNK4llvm6detail12DenseSetImpl8IteratordeEv'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratorptEv'/>
+<fun r='_ZNK4llvm6detail12DenseSetImpl8IteratorptEv'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratorppEv'/>
+<fun r='_ZN4llvm6detail12DenseSetImpl8IteratorppEi'/>
+<fun r='_ZNK4llvm6detail12DenseSetImpl8IteratoreqERKNS1_13ConstIteratorE'/>
+<fun r='_ZNK4llvm6detail12DenseSetImpl8IteratorneERKNS1_13ConstIteratorE'/>

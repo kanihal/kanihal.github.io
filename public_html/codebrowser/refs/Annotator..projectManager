@@ -1,0 +1,19 @@
+<use f='codebrowser/generator/annotator.h' l='120' u='w' c='_ZN9AnnotatorC1ER14ProjectManager'/>
+<dec f='codebrowser/generator/annotator.h' l='123' type='ProjectManager &amp;'/>
+<use f='codebrowser/generator/annotator.cpp' l='210' u='m' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='212' u='m' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='241' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='243' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='244' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='263' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='263' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='266' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='300' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='300' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='314' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='324' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='447' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='475' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='546' u='m' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<offset>6016</offset>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='268' u='m' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

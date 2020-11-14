@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='1083' type='static int llvm::sys::fs::mapped_file_region::alignment()'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1082'>/// \returns The minimum alignment offset must be.</doc>

@@ -1,0 +1,13 @@
+<def f='include/c++/7/bits/stl_stack.h' l='197' ll='202' type='std::stack::reference std::stack::top()'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1248' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1259' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1261' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1262' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1271' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1283' u='c' c='_ZNK4llvm3sys2fs28recursive_directory_iteratordeEv'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1284' u='c' c='_ZNK4llvm3sys2fs28recursive_directory_iteratorptEv'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1307' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator3popEv'/>
+<doc f='include/c++/7/bits/stl_stack.h' l='193'>/**
+       *  Returns a read/write reference to the data at the first
+       *  element of the %stack.
+       */</doc>

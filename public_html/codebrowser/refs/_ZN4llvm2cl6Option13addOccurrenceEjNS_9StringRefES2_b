@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='362' type='bool llvm::cl::Option::addOccurrence(unsigned int pos, llvm::StringRef ArgName, llvm::StringRef Value, bool MultiArg = false)'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1698' c='_ZN4llvm2cl5alias13addOccurrenceEjNS_9StringRefES2_b'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1700' u='c' c='_ZN4llvm2cl5alias13addOccurrenceEjNS_9StringRefES2_b'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='360'>// addOccurrence - Wrapper around handleOccurrence that enforces Flags.
+  //</doc>

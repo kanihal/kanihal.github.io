@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='261' type='int llvm::APInt::compareSigned(const llvm::APInt &amp; RHS) const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1197' u='c' c='_ZNK4llvm5APInt3sltERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1232' u='c' c='_ZNK4llvm5APInt3sleERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='291' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='259'>/// Signed comparison. Returns -1, 0, or 1 if this APInt is less than, equal
+  /// to, or greater than RHS.</doc>

@@ -1,0 +1,401 @@
+<def f='include/c++/7/atomic' l='62' ll='165'/>
+<use f='include/c++/7/atomic' l='63'/>
+<use f='include/c++/7/atomic' l='71' c='_ZNSt6atomicIbEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='72' c='_ZNSt6atomicIbEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='72' c='_ZNSt6atomicIbEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='73' c='_ZNVSt6atomicIbEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='73' c='_ZNVSt6atomicIbEaSERKS0_'/>
+<def f='include/c++/7/atomic' l='174' ll='347'/>
+<def f='include/c++/7/atomic' l='351' ll='541'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='545' ll='565'/>
+<use f='include/c++/7/atomic' l='546'/>
+<use f='include/c++/7/atomic' l='553' c='_ZNSt6atomicIcEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='554' c='_ZNSt6atomicIcEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='554' c='_ZNSt6atomicIcEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='555' c='_ZNVSt6atomicIcEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='555' c='_ZNVSt6atomicIcEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='568' ll='588'/>
+<use f='include/c++/7/atomic' l='569'/>
+<use f='include/c++/7/atomic' l='576' c='_ZNSt6atomicIaEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='577' c='_ZNSt6atomicIaEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='577' c='_ZNSt6atomicIaEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='578' c='_ZNVSt6atomicIaEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='578' c='_ZNVSt6atomicIaEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='591' ll='611'/>
+<use f='include/c++/7/atomic' l='592'/>
+<use f='include/c++/7/atomic' l='599' c='_ZNSt6atomicIhEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='600' c='_ZNSt6atomicIhEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='600' c='_ZNSt6atomicIhEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='601' c='_ZNVSt6atomicIhEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='601' c='_ZNVSt6atomicIhEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='614' ll='634'/>
+<use f='include/c++/7/atomic' l='615'/>
+<use f='include/c++/7/atomic' l='622' c='_ZNSt6atomicIsEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='623' c='_ZNSt6atomicIsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='623' c='_ZNSt6atomicIsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='624' c='_ZNVSt6atomicIsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='624' c='_ZNVSt6atomicIsEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='637' ll='657'/>
+<use f='include/c++/7/atomic' l='638'/>
+<use f='include/c++/7/atomic' l='645' c='_ZNSt6atomicItEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='646' c='_ZNSt6atomicItEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='646' c='_ZNSt6atomicItEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='647' c='_ZNVSt6atomicItEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='647' c='_ZNVSt6atomicItEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='660' ll='680'/>
+<use f='include/c++/7/atomic' l='661'/>
+<use f='include/c++/7/atomic' l='668' c='_ZNSt6atomicIiEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='669' c='_ZNSt6atomicIiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='669' c='_ZNSt6atomicIiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='670' c='_ZNVSt6atomicIiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='670' c='_ZNVSt6atomicIiEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='683' ll='703'/>
+<use f='include/c++/7/atomic' l='684'/>
+<use f='include/c++/7/atomic' l='691' c='_ZNSt6atomicIjEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='692' c='_ZNSt6atomicIjEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='692' c='_ZNSt6atomicIjEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='693' c='_ZNVSt6atomicIjEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='693' c='_ZNVSt6atomicIjEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='706' ll='726'/>
+<use f='include/c++/7/atomic' l='707'/>
+<use f='include/c++/7/atomic' l='714' c='_ZNSt6atomicIlEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='715' c='_ZNSt6atomicIlEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='715' c='_ZNSt6atomicIlEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='716' c='_ZNVSt6atomicIlEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='716' c='_ZNVSt6atomicIlEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='729' ll='749'/>
+<use f='include/c++/7/atomic' l='730'/>
+<use f='include/c++/7/atomic' l='737' c='_ZNSt6atomicImEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='738' c='_ZNSt6atomicImEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='738' c='_ZNSt6atomicImEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='739' c='_ZNVSt6atomicImEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='739' c='_ZNVSt6atomicImEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='752' ll='772'/>
+<use f='include/c++/7/atomic' l='753'/>
+<use f='include/c++/7/atomic' l='760' c='_ZNSt6atomicIxEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='761' c='_ZNSt6atomicIxEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='761' c='_ZNSt6atomicIxEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='762' c='_ZNVSt6atomicIxEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='762' c='_ZNVSt6atomicIxEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='775' ll='795'/>
+<use f='include/c++/7/atomic' l='776'/>
+<use f='include/c++/7/atomic' l='783' c='_ZNSt6atomicIyEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='784' c='_ZNSt6atomicIyEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='784' c='_ZNSt6atomicIyEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='785' c='_ZNVSt6atomicIyEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='785' c='_ZNVSt6atomicIyEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='798' ll='818'/>
+<use f='include/c++/7/atomic' l='799'/>
+<use f='include/c++/7/atomic' l='806' c='_ZNSt6atomicIwEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='807' c='_ZNSt6atomicIwEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='807' c='_ZNSt6atomicIwEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='808' c='_ZNVSt6atomicIwEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='808' c='_ZNVSt6atomicIwEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='821' ll='841'/>
+<use f='include/c++/7/atomic' l='822'/>
+<use f='include/c++/7/atomic' l='829' c='_ZNSt6atomicIDsEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='830' c='_ZNSt6atomicIDsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='830' c='_ZNSt6atomicIDsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='831' c='_ZNVSt6atomicIDsEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='831' c='_ZNVSt6atomicIDsEaSERKS0_'/>
+<inh f='include/c++/7/bits/atomic_base.h' l='238' c='std::__atomic_base'/>
+<def f='include/c++/7/atomic' l='844' ll='864'/>
+<use f='include/c++/7/atomic' l='845'/>
+<use f='include/c++/7/atomic' l='852' c='_ZNSt6atomicIDiEC1ERKS0_'/>
+<use f='include/c++/7/atomic' l='853' c='_ZNSt6atomicIDiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='853' c='_ZNSt6atomicIDiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='854' c='_ZNVSt6atomicIDiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='854' c='_ZNVSt6atomicIDiEaSERKS0_'/>
+<use f='include/c++/7/atomic' l='868'/>
+<use f='include/c++/7/atomic' l='871'/>
+<use f='include/c++/7/atomic' l='874'/>
+<use f='include/c++/7/atomic' l='877'/>
+<use f='include/c++/7/atomic' l='880'/>
+<use f='include/c++/7/atomic' l='883'/>
+<use f='include/c++/7/atomic' l='886'/>
+<use f='include/c++/7/atomic' l='889'/>
+<use f='include/c++/7/atomic' l='892'/>
+<use f='include/c++/7/atomic' l='895'/>
+<use f='include/c++/7/atomic' l='898'/>
+<use f='include/c++/7/atomic' l='901'/>
+<use f='include/c++/7/atomic' l='904'/>
+<use f='include/c++/7/atomic' l='907'/>
+<use f='include/c++/7/atomic' l='910'/>
+<use f='include/c++/7/atomic' l='917'/>
+<use f='include/c++/7/atomic' l='920'/>
+<use f='include/c++/7/atomic' l='923'/>
+<use f='include/c++/7/atomic' l='926'/>
+<use f='include/c++/7/atomic' l='929'/>
+<use f='include/c++/7/atomic' l='932'/>
+<use f='include/c++/7/atomic' l='935'/>
+<use f='include/c++/7/atomic' l='938'/>
+<use f='include/c++/7/atomic' l='942'/>
+<use f='include/c++/7/atomic' l='945'/>
+<use f='include/c++/7/atomic' l='948'/>
+<use f='include/c++/7/atomic' l='951'/>
+<use f='include/c++/7/atomic' l='954'/>
+<use f='include/c++/7/atomic' l='957'/>
+<use f='include/c++/7/atomic' l='960'/>
+<use f='include/c++/7/atomic' l='963'/>
+<use f='include/c++/7/atomic' l='967'/>
+<use f='include/c++/7/atomic' l='970'/>
+<use f='include/c++/7/atomic' l='973'/>
+<use f='include/c++/7/atomic' l='976'/>
+<use f='include/c++/7/atomic' l='979'/>
+<use f='include/c++/7/atomic' l='982'/>
+<use f='include/c++/7/atomic' l='985'/>
+<use f='include/c++/7/atomic' l='988'/>
+<use f='include/c++/7/atomic' l='992'/>
+<use f='include/c++/7/atomic' l='995'/>
+<use f='include/c++/7/atomic' l='998'/>
+<use f='include/c++/7/atomic' l='1001'/>
+<use f='include/c++/7/atomic' l='1004'/>
+<use f='include/c++/7/atomic' l='1007'/>
+<use f='include/c++/7/atomic' l='1050' c='_ZSt19atomic_is_lock_freePKSt6atomicIT_E'/>
+<use f='include/c++/7/atomic' l='1055' c='_ZSt19atomic_is_lock_freePVKSt6atomicIT_E'/>
+<use f='include/c++/7/atomic' l='1060' c='_ZSt11atomic_initPSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1065' c='_ZSt11atomic_initPVSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1070' c='_ZSt21atomic_store_explicitPSt6atomicIT_ES0_St12memory_order'/>
+<use f='include/c++/7/atomic' l='1076' c='_ZSt21atomic_store_explicitPVSt6atomicIT_ES0_St12memory_order'/>
+<use f='include/c++/7/atomic' l='1082' c='_ZSt20atomic_load_explicitPKSt6atomicIT_ESt12memory_order'/>
+<use f='include/c++/7/atomic' l='1087' c='_ZSt20atomic_load_explicitPVKSt6atomicIT_ESt12memory_order'/>
+<use f='include/c++/7/atomic' l='1093' c='_ZSt24atomic_exchange_explicitPSt6atomicIT_ES0_St12memory_order'/>
+<use f='include/c++/7/atomic' l='1099' c='_ZSt24atomic_exchange_explicitPVSt6atomicIT_ES0_St12memory_order'/>
+<use f='include/c++/7/atomic' l='1105' c='_ZSt37atomic_compare_exchange_weak_explicitPSt6atomicIT_EPS0_S0_St12memory_orderS4_'/>
+<use f='include/c++/7/atomic' l='1113' c='_ZSt37atomic_compare_exchange_weak_explicitPVSt6atomicIT_EPS0_S0_St12memory_orderS5_'/>
+<use f='include/c++/7/atomic' l='1121' c='_ZSt39atomic_compare_exchange_strong_explicitPSt6atomicIT_EPS0_S0_St12memory_orderS4_'/>
+<use f='include/c++/7/atomic' l='1129' c='_ZSt39atomic_compare_exchange_strong_explicitPVSt6atomicIT_EPS0_S0_St12memory_orderS5_'/>
+<use f='include/c++/7/atomic' l='1138' c='_ZSt12atomic_storePSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1143' c='_ZSt12atomic_storePVSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1148' c='_ZSt11atomic_loadPKSt6atomicIT_E'/>
+<use f='include/c++/7/atomic' l='1153' c='_ZSt11atomic_loadPVKSt6atomicIT_E'/>
+<use f='include/c++/7/atomic' l='1158' c='_ZSt15atomic_exchangePSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1163' c='_ZSt15atomic_exchangePVSt6atomicIT_ES0_'/>
+<use f='include/c++/7/atomic' l='1168' c='_ZSt28atomic_compare_exchange_weakPSt6atomicIT_EPS0_S0_'/>
+<use f='include/c++/7/atomic' l='1178' c='_ZSt28atomic_compare_exchange_weakPVSt6atomicIT_EPS0_S0_'/>
+<use f='include/c++/7/atomic' l='1188' c='_ZSt30atomic_compare_exchange_strongPSt6atomicIT_EPS0_S0_'/>
+<use f='include/c++/7/atomic' l='1198' c='_ZSt30atomic_compare_exchange_strongPVSt6atomicIT_EPS0_S0_'/>
+<use f='include/c++/7/atomic' l='1324' c='_ZSt25atomic_fetch_add_explicitPSt6atomicIPT_ElSt12memory_order'/>
+<use f='include/c++/7/atomic' l='1330' c='_ZSt25atomic_fetch_add_explicitPVSt6atomicIPT_ElSt12memory_order'/>
+<use f='include/c++/7/atomic' l='1336' c='_ZSt16atomic_fetch_addPVSt6atomicIPT_El'/>
+<use f='include/c++/7/atomic' l='1341' c='_ZSt16atomic_fetch_addPSt6atomicIPT_El'/>
+<use f='include/c++/7/atomic' l='1346' c='_ZSt25atomic_fetch_sub_explicitPVSt6atomicIPT_ElSt12memory_order'/>
+<use f='include/c++/7/atomic' l='1352' c='_ZSt25atomic_fetch_sub_explicitPSt6atomicIPT_ElSt12memory_order'/>
+<use f='include/c++/7/atomic' l='1358' c='_ZSt16atomic_fetch_subPVSt6atomicIPT_El'/>
+<use f='include/c++/7/atomic' l='1363' c='_ZSt16atomic_fetch_subPSt6atomicIPT_El'/>
+<use f='include/llvm-7/llvm/ADT/IntrusiveRefCntPtr.h' l='89'/>
+<use f='include/llvm-7/llvm/Support/ManagedStatic.h' l='41'/>
+<size>4</size>
+<doc f='include/c++/7/atomic' l='60'>/// atomic&lt;bool&gt;
+  // NB: No operators or fetch-operations for this type.</doc>
+<doc f='include/c++/7/atomic' l='350'>/// Partial specialization for pointer types.</doc>
+<doc f='include/c++/7/atomic' l='544'>/// Explicit specialization for char.</doc>
+<doc f='include/c++/7/atomic' l='567'>/// Explicit specialization for signed char.</doc>
+<doc f='include/c++/7/atomic' l='590'>/// Explicit specialization for unsigned char.</doc>
+<doc f='include/c++/7/atomic' l='613'>/// Explicit specialization for short.</doc>
+<doc f='include/c++/7/atomic' l='636'>/// Explicit specialization for unsigned short.</doc>
+<doc f='include/c++/7/atomic' l='659'>/// Explicit specialization for int.</doc>
+<doc f='include/c++/7/atomic' l='682'>/// Explicit specialization for unsigned int.</doc>
+<doc f='include/c++/7/atomic' l='705'>/// Explicit specialization for long.</doc>
+<doc f='include/c++/7/atomic' l='728'>/// Explicit specialization for unsigned long.</doc>
+<doc f='include/c++/7/atomic' l='751'>/// Explicit specialization for long long.</doc>
+<doc f='include/c++/7/atomic' l='774'>/// Explicit specialization for unsigned long long.</doc>
+<doc f='include/c++/7/atomic' l='797'>/// Explicit specialization for wchar_t.</doc>
+<doc f='include/c++/7/atomic' l='820'>/// Explicit specialization for char16_t.</doc>
+<doc f='include/c++/7/atomic' l='843'>/// Explicit specialization for char32_t.</doc>
+<mbr r='std::atomic::_M_base' o='0' t='__atomic_base&lt;bool&gt;'/>
+<fun r='_ZNSt6atomicIbEC1Ev'/>
+<fun r='_ZNSt6atomicIbED1Ev'/>
+<fun r='_ZNSt6atomicIbEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIbEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIbEaSERKS0_'/>
+<fun r='_ZNSt6atomicIbEC1Eb'/>
+<fun r='_ZNSt6atomicIbEaSEb'/>
+<fun r='_ZNVSt6atomicIbEaSEb'/>
+<fun r='_ZNKSt6atomicIbEcvbEv'/>
+<fun r='_ZNVKSt6atomicIbEcvbEv'/>
+<fun r='_ZNKSt6atomicIbE12is_lock_freeEv'/>
+<fun r='_ZNVKSt6atomicIbE12is_lock_freeEv'/>
+<fun r='_ZNSt6atomicIbE5storeEbSt12memory_order'/>
+<fun r='_ZNVSt6atomicIbE5storeEbSt12memory_order'/>
+<fun r='_ZNKSt6atomicIbE4loadESt12memory_order'/>
+<fun r='_ZNVKSt6atomicIbE4loadESt12memory_order'/>
+<fun r='_ZNSt6atomicIbE8exchangeEbSt12memory_order'/>
+<fun r='_ZNVSt6atomicIbE8exchangeEbSt12memory_order'/>
+<fun r='_ZNSt6atomicIbE21compare_exchange_weakERbbSt12memory_orderS2_'/>
+<fun r='_ZNVSt6atomicIbE21compare_exchange_weakERbbSt12memory_orderS2_'/>
+<fun r='_ZNSt6atomicIbE21compare_exchange_weakERbbSt12memory_order'/>
+<fun r='_ZNVSt6atomicIbE21compare_exchange_weakERbbSt12memory_order'/>
+<fun r='_ZNSt6atomicIbE23compare_exchange_strongERbbSt12memory_orderS2_'/>
+<fun r='_ZNVSt6atomicIbE23compare_exchange_strongERbbSt12memory_orderS2_'/>
+<fun r='_ZNSt6atomicIbE23compare_exchange_strongERbbSt12memory_order'/>
+<fun r='_ZNVSt6atomicIbE23compare_exchange_strongERbbSt12memory_order'/>
+<smbr r='std::atomic::_S_min_alignment' t='const int'/>
+<smbr r='std::atomic::_S_alignment' t='const int'/>
+<mbr r='std::atomic::_M_i' t='_Tp'/>
+<fun r='_ZNSt6atomicC1Ev'/>
+<fun r='_ZNSt6atomicD1Ev'/>
+<fun r='_ZNSt6atomicC1ERKSt6atomicIT_E'/>
+<fun r='_ZNSt6atomicaSERKSt6atomicIT_E'/>
+<fun r='_ZNVSt6atomicaSERKSt6atomicIT_E'/>
+<fun r='_ZNSt6atomicC1ET_'/>
+<fun r='_ZNKSt6atomiccvT_Ev'/>
+<fun r='_ZNVKSt6atomiccvT_Ev'/>
+<fun r='_ZNSt6atomicaSET_'/>
+<fun r='_ZNVSt6atomicaSET_'/>
+<fun r='_ZNKSt6atomic12is_lock_freeEv'/>
+<fun r='_ZNVKSt6atomic12is_lock_freeEv'/>
+<fun r='_ZNSt6atomic5storeET_St12memory_order'/>
+<fun r='_ZNVSt6atomic5storeET_St12memory_order'/>
+<fun r='_ZNKSt6atomic4loadESt12memory_order'/>
+<fun r='_ZNVKSt6atomic4loadESt12memory_order'/>
+<fun r='_ZNSt6atomic8exchangeET_St12memory_order'/>
+<fun r='_ZNVSt6atomic8exchangeET_St12memory_order'/>
+<fun r='_ZNSt6atomic21compare_exchange_weakERT_S0_St12memory_orderS2_'/>
+<fun r='_ZNVSt6atomic21compare_exchange_weakERT_S0_St12memory_orderS2_'/>
+<fun r='_ZNSt6atomic21compare_exchange_weakERT_S0_St12memory_order'/>
+<fun r='_ZNVSt6atomic21compare_exchange_weakERT_S0_St12memory_order'/>
+<fun r='_ZNSt6atomic23compare_exchange_strongERT_S0_St12memory_orderS2_'/>
+<fun r='_ZNVSt6atomic23compare_exchange_strongERT_S0_St12memory_orderS2_'/>
+<fun r='_ZNSt6atomic23compare_exchange_strongERT_S0_St12memory_order'/>
+<fun r='_ZNVSt6atomic23compare_exchange_strongERT_S0_St12memory_order'/>
+<mbr r='std::atomic::_M_b' t='std::atomic&lt;type-parameter-0-0 *&gt;::__base_type'/>
+<fun r='_ZNSt6atomicIPT_EC1Ev'/>
+<fun r='_ZNSt6atomicIPT_ED1Ev'/>
+<fun r='_ZNSt6atomicIPT_EC1ERKS_IS1_E'/>
+<fun r='_ZNSt6atomicIPT_EaSERKS_IS1_E'/>
+<fun r='_ZNVSt6atomicIPT_EaSERKS_IS1_E'/>
+<fun r='_ZNSt6atomicIPT_EC1ES1_'/>
+<fun r='_ZNKSt6atomicIPT_EcvS1_Ev'/>
+<fun r='_ZNVKSt6atomicIPT_EcvS1_Ev'/>
+<fun r='_ZNSt6atomicIPT_EaSES1_'/>
+<fun r='_ZNVSt6atomicIPT_EaSES1_'/>
+<fun r='_ZNSt6atomicIPT_EppEi'/>
+<fun r='_ZNVSt6atomicIPT_EppEi'/>
+<fun r='_ZNSt6atomicIPT_EmmEi'/>
+<fun r='_ZNVSt6atomicIPT_EmmEi'/>
+<fun r='_ZNSt6atomicIPT_EppEv'/>
+<fun r='_ZNVSt6atomicIPT_EppEv'/>
+<fun r='_ZNSt6atomicIPT_EmmEv'/>
+<fun r='_ZNVSt6atomicIPT_EmmEv'/>
+<fun r='_ZNSt6atomicIPT_EpLEl'/>
+<fun r='_ZNVSt6atomicIPT_EpLEl'/>
+<fun r='_ZNSt6atomicIPT_EmIEl'/>
+<fun r='_ZNVSt6atomicIPT_EmIEl'/>
+<fun r='_ZNKSt6atomicIPT_E12is_lock_freeEv'/>
+<fun r='_ZNVKSt6atomicIPT_E12is_lock_freeEv'/>
+<fun r='_ZNSt6atomicIPT_E5storeES1_St12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E5storeES1_St12memory_order'/>
+<fun r='_ZNKSt6atomicIPT_E4loadESt12memory_order'/>
+<fun r='_ZNVKSt6atomicIPT_E4loadESt12memory_order'/>
+<fun r='_ZNSt6atomicIPT_E8exchangeES1_St12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E8exchangeES1_St12memory_order'/>
+<fun r='_ZNSt6atomicIPT_E21compare_exchange_weakERS1_S1_St12memory_orderS4_'/>
+<fun r='_ZNVSt6atomicIPT_E21compare_exchange_weakERS1_S1_St12memory_orderS4_'/>
+<fun r='_ZNSt6atomicIPT_E21compare_exchange_weakERS1_S1_St12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E21compare_exchange_weakERS1_S1_St12memory_order'/>
+<fun r='_ZNSt6atomicIPT_E23compare_exchange_strongERS1_S1_St12memory_orderS4_'/>
+<fun r='_ZNVSt6atomicIPT_E23compare_exchange_strongERS1_S1_St12memory_orderS4_'/>
+<fun r='_ZNSt6atomicIPT_E23compare_exchange_strongERS1_S1_St12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E23compare_exchange_strongERS1_S1_St12memory_order'/>
+<fun r='_ZNSt6atomicIPT_E9fetch_addElSt12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E9fetch_addElSt12memory_order'/>
+<fun r='_ZNSt6atomicIPT_E9fetch_subElSt12memory_order'/>
+<fun r='_ZNVSt6atomicIPT_E9fetch_subElSt12memory_order'/>
+<fun r='_ZNSt6atomicIcEC1Ev'/>
+<fun r='_ZNSt6atomicIcED1Ev'/>
+<fun r='_ZNSt6atomicIcEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIcEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIcEaSERKS0_'/>
+<fun r='_ZNSt6atomicIcEC1Ec'/>
+<fun r='_ZNSt6atomicIaEC1Ev'/>
+<fun r='_ZNSt6atomicIaED1Ev'/>
+<fun r='_ZNSt6atomicIaEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIaEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIaEaSERKS0_'/>
+<fun r='_ZNSt6atomicIaEC1Ea'/>
+<fun r='_ZNSt6atomicIhEC1Ev'/>
+<fun r='_ZNSt6atomicIhED1Ev'/>
+<fun r='_ZNSt6atomicIhEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIhEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIhEaSERKS0_'/>
+<fun r='_ZNSt6atomicIhEC1Eh'/>
+<fun r='_ZNSt6atomicIsEC1Ev'/>
+<fun r='_ZNSt6atomicIsED1Ev'/>
+<fun r='_ZNSt6atomicIsEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIsEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIsEaSERKS0_'/>
+<fun r='_ZNSt6atomicIsEC1Es'/>
+<fun r='_ZNSt6atomicItEC1Ev'/>
+<fun r='_ZNSt6atomicItED1Ev'/>
+<fun r='_ZNSt6atomicItEC1ERKS0_'/>
+<fun r='_ZNSt6atomicItEaSERKS0_'/>
+<fun r='_ZNVSt6atomicItEaSERKS0_'/>
+<fun r='_ZNSt6atomicItEC1Et'/>
+<fun r='_ZNSt6atomicIiEC1Ev'/>
+<fun r='_ZNSt6atomicIiED1Ev'/>
+<fun r='_ZNSt6atomicIiEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIiEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIiEaSERKS0_'/>
+<fun r='_ZNSt6atomicIiEC1Ei'/>
+<fun r='_ZNSt6atomicIjEC1Ev'/>
+<fun r='_ZNSt6atomicIjED1Ev'/>
+<fun r='_ZNSt6atomicIjEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIjEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIjEaSERKS0_'/>
+<fun r='_ZNSt6atomicIjEC1Ej'/>
+<fun r='_ZNSt6atomicIlEC1Ev'/>
+<fun r='_ZNSt6atomicIlED1Ev'/>
+<fun r='_ZNSt6atomicIlEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIlEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIlEaSERKS0_'/>
+<fun r='_ZNSt6atomicIlEC1El'/>
+<fun r='_ZNSt6atomicImEC1Ev'/>
+<fun r='_ZNSt6atomicImED1Ev'/>
+<fun r='_ZNSt6atomicImEC1ERKS0_'/>
+<fun r='_ZNSt6atomicImEaSERKS0_'/>
+<fun r='_ZNVSt6atomicImEaSERKS0_'/>
+<fun r='_ZNSt6atomicImEC1Em'/>
+<fun r='_ZNSt6atomicIxEC1Ev'/>
+<fun r='_ZNSt6atomicIxED1Ev'/>
+<fun r='_ZNSt6atomicIxEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIxEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIxEaSERKS0_'/>
+<fun r='_ZNSt6atomicIxEC1Ex'/>
+<fun r='_ZNSt6atomicIyEC1Ev'/>
+<fun r='_ZNSt6atomicIyED1Ev'/>
+<fun r='_ZNSt6atomicIyEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIyEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIyEaSERKS0_'/>
+<fun r='_ZNSt6atomicIyEC1Ey'/>
+<fun r='_ZNSt6atomicIwEC1Ev'/>
+<fun r='_ZNSt6atomicIwED1Ev'/>
+<fun r='_ZNSt6atomicIwEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIwEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIwEaSERKS0_'/>
+<fun r='_ZNSt6atomicIwEC1Ew'/>
+<fun r='_ZNSt6atomicIDsEC1Ev'/>
+<fun r='_ZNSt6atomicIDsED1Ev'/>
+<fun r='_ZNSt6atomicIDsEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIDsEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIDsEaSERKS0_'/>
+<fun r='_ZNSt6atomicIDsEC1EDs'/>
+<fun r='_ZNSt6atomicIDiEC1Ev'/>
+<fun r='_ZNSt6atomicIDiED1Ev'/>
+<fun r='_ZNSt6atomicIDiEC1ERKS0_'/>
+<fun r='_ZNSt6atomicIDiEaSERKS0_'/>
+<fun r='_ZNVSt6atomicIDiEaSERKS0_'/>
+<fun r='_ZNSt6atomicIDiEC1EDi'/>

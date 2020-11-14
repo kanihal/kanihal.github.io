@@ -1,0 +1,17 @@
+<dec f='include/llvm-7/llvm/Config/abi-breaking.h' l='16'/>
+<use f='include/llvm-7/llvm/Config/abi-breaking.h' l='38' u='c'/>
+<use f='include/llvm-7/llvm/ADT/EpochTracker.h' l='25' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='250' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='261' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='274' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='285' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='451' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='472' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='519' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='547' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='590' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='641' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='646' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='663' u='c'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='674' u='c'/>
+<doc f='include/llvm-7/llvm/Config/abi-breaking.h' l='15'>/* Define to enable checks that alter the LLVM C++ ABI */</doc>

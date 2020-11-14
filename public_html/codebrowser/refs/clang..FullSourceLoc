@@ -1,0 +1,5 @@
+<use f='codebrowser/generator/annotator.cpp' l='796' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<size>16</size>
+<use f='codebrowser/generator/browserastvisitor.h' l='495' c='_ZN17BrowserASTVisitor13shouldProcessEPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/main.cpp' l='198' c='_ZN18BrowserASTConsumer22shouldSkipFunctionBodyEPN5clang4DeclE'/>
+<size>16</size>

@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='42'/>
+<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='41'>/* LLVM name for the native AsmPrinter init function, if available */</doc>

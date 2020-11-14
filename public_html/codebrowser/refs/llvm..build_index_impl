@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='757'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='757'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='758' ll='759'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='763'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1257' c='_ZN4llvm11apply_tupleEOT_OT0_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1259' c='_ZN4llvm11apply_tupleEOT_OT0_'/>

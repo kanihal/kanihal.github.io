@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Option/Option.h' l='70' ll='75'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='143' c='_ZNK4llvm3opt6Option14getRenderStyleEv'/>

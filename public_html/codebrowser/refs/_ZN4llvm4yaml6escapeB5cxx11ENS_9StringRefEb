@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='80' type='std::string llvm::yaml::escape(llvm::StringRef Input, bool EscapePrintable = true)'/>
+<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='76'>/// Escape \a Input for a double quoted scalar; if \p EscapePrintable
+/// is true, all UTF8 sequences will be escaped, if \p EscapePrintable is
+/// false, those UTF8 sequences encoding printable unicode scalars will not be
+/// escaped, but emitted verbatim.</doc>

@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/Error.h' l='1064' type='char'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='1063'>// Used by ErrorInfo::classID.</doc>

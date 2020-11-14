@@ -1,0 +1,17 @@
+<use f='codebrowser/generator/annotator.cpp' l='162' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='162' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1013' c='_ZN9Annotator11computeClasB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1013' c='_ZN9Annotator11computeClasB5cxx11EPN5clang9NamedDeclE'/>
+<size>160</size>
+<use f='codebrowser/generator/browserastvisitor.h' l='97' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='97' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='103' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='104' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<size>160</size>
+<use f='codebrowser/generator/qtsupport.cpp' l='38' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='41' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='42' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='231' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='303' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='303' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<size>160</size>

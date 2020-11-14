@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='819' type='std::error_code llvm::sys::fs::createTemporaryFile(const llvm::Twine &amp; Prefix, llvm::StringRef Suffix, SmallVectorImpl&lt;char&gt; &amp; ResultPath)'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='817'>/// Simpler version for clients that don&apos;t want an open file. An empty
+/// file will still be created.</doc>

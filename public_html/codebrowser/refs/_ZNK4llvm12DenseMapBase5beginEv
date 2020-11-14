@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/DenseMap.h' l='82' ll='88' type='llvm::DenseMapBase::const_iterator llvm::DenseMapBase::begin() const'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='203' type='bool llvm::Type::isIntOrIntVectorTy() const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='202'>/// Return true if this is an integer type or a vector of integer types.</doc>

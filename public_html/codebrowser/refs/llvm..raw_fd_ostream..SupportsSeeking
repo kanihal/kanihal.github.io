@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='374' type='bool'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='424' u='r' c='_ZN4llvm14raw_fd_ostream15supportsSeekingEv'/>
+<offset>576</offset>

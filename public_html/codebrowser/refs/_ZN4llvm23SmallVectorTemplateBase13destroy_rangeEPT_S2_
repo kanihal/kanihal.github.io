@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='190' ll='195' type='static void llvm::SmallVectorTemplateBase::destroy_range(T * S, T * E)'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='253' u='c' c='_ZN4llvm23SmallVectorTemplateBase4growEm'/>

@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/MC/MCTargetOptions.h' l='68' type='std::vector&lt;std::string&gt;'/>
+<offset>576</offset>
+<doc f='include/llvm-7/llvm/MC/MCTargetOptions.h' l='66'>/// Additional paths to search for `.include` directives when using the
+  /// integrated assembler.</doc>

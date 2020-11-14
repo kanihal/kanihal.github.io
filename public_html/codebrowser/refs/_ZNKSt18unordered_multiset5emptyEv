@@ -1,0 +1,4 @@
+<def f='include/c++/7/bits/unordered_set.h' l='1029' ll='1031' type='bool std::unordered_multiset::empty() const'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='1026'>// size and capacity:
+
+      ///  Returns true if the %unordered_multiset is empty.</doc>

@@ -1,0 +1,15 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='128' type='size_t llvm::SmallBitVector::getSmallSize() const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='136' u='c' c='_ZNK4llvm14SmallBitVector12getSmallBitsEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='140' u='c' c='_ZN4llvm14SmallBitVector12setSmallBitsEm'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='141' u='c' c='_ZN4llvm14SmallBitVector12setSmallBitsEm'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='191' u='c' c='_ZNK4llvm14SmallBitVector5emptyEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='196' u='c' c='_ZNK4llvm14SmallBitVector4sizeEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='218' u='c' c='_ZNK4llvm14SmallBitVector3allEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='253' u='c' c='_ZNK4llvm14SmallBitVector16find_first_unsetEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='264' u='c' c='_ZNK4llvm14SmallBitVector15find_last_unsetEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='280' u='c' c='_ZNK4llvm14SmallBitVector9find_nextEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='297' u='c' c='_ZNK4llvm14SmallBitVector15find_next_unsetEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='334' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='340' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='350' u='c' c='_ZN4llvm14SmallBitVector7reserveEj'/>
+<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='127'>// Return the size.</doc>

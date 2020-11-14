@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='112' type='0'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1363' u='r' c='_ZN4llvm2cl3optC1EDpRKT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1739' u='r' c='_ZN4llvm2cl5aliasC1EDpRKT_'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='112'>// Zero or One occurrence</doc>
+<use f='codebrowser/generator/main.cpp' l='54' u='r'/>
+<use f='codebrowser/generator/main.cpp' l='84' u='r'/>

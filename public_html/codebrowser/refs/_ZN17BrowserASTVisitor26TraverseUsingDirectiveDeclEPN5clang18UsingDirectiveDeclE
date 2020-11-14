@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='233' ll='241' type='bool BrowserASTVisitor::TraverseUsingDirectiveDecl(clang::UsingDirectiveDecl * d)'/>

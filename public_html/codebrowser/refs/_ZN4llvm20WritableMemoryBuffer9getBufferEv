@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='176' ll='178' type='MutableArrayRef&lt;char&gt; llvm::WritableMemoryBuffer::getBuffer()'/>

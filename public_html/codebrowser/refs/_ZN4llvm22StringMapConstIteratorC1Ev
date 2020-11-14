@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='500' type='void llvm::StringMapConstIterator::StringMapConstIterator&lt;ValueTy&gt;()'/>

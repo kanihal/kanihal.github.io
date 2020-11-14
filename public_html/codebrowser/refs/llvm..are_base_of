@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='784' ll='786'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='788' ll='792'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='791'/>
+<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='782'>/// traits class for checking whether type T is a base class for all
+///  the given types in the variadic list.</doc>
+<smbr r='llvm::are_base_of::value' t='const bool'/>
+<smbr r='llvm::are_base_of{type-parameter-0-0,type-parameter-0-1,type-parameter-0-2...}::value' t='const bool'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='233' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='252' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='290' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>

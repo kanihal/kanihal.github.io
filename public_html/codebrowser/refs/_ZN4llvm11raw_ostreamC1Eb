@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='88' ll='92' type='void llvm::raw_ostream::raw_ostream(bool unbuffered = false)'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='347' u='c' c='_ZN4llvm17raw_pwrite_streamC1Eb'/>

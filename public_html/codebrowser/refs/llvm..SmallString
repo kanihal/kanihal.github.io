@@ -1,0 +1,59 @@
+<def f='include/llvm-7/llvm/ADT/SmallString.h' l='26' ll='293'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='200' c='_ZN4llvm6detail8to_floatERKNS_5TwineERT_PFS4_PKcPPcE'/>
+<use f='include/llvm-7/llvm/Support/MD5.h' l='63' c='_ZNK4llvm3MD59MD5Result6digestEv'/>
+<use f='include/llvm-7/llvm/Support/MD5.h' l='95' c='_ZN4llvm3MD515stringifyResultERNS0_9MD5ResultERNS_11SmallStringILj32EEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1161' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
+<use f='codebrowser/generator/annotator.cpp' l='207' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='459' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='542' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='646' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='673' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='739' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='744' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='770' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='873' c='_ZN9Annotator16reportDiagnosticEN5clang11SourceRangeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<use f='codebrowser/generator/annotator.cpp' l='967' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<fun r='_ZN4llvm11SmallStringC1Ev'/>
+<fun r='_ZN4llvm11SmallStringC1ENS_9StringRefE'/>
+<fun r='_ZN4llvm11SmallStringC1ET_S1_'/>
+<fun r='_ZN4llvm11SmallString6assignEmc'/>
+<fun r='_ZN4llvm11SmallString6assignET_S1_'/>
+<fun r='_ZN4llvm11SmallString6assignENS_9StringRefE'/>
+<fun r='_ZN4llvm11SmallString6assignERKNS_15SmallVectorImplIcEE'/>
+<fun r='_ZN4llvm11SmallString6appendET_S1_'/>
+<fun r='_ZN4llvm11SmallString6appendEmc'/>
+<fun r='_ZN4llvm11SmallString6appendENS_9StringRefE'/>
+<fun r='_ZN4llvm11SmallString6appendERKNS_15SmallVectorImplIcEE'/>
+<fun r='_ZNK4llvm11SmallString6equalsENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString12equals_lowerENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString7compareENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString13compare_lowerENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString15compare_numericENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString10startswithENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString8endswithENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString4findEcm'/>
+<fun r='_ZNK4llvm11SmallString4findENS_9StringRefEm'/>
+<fun r='_ZNK4llvm11SmallString5rfindEcm'/>
+<fun r='_ZNK4llvm11SmallString5rfindENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString13find_first_ofEcm'/>
+<fun r='_ZNK4llvm11SmallString13find_first_ofENS_9StringRefEm'/>
+<fun r='_ZNK4llvm11SmallString17find_first_not_ofEcm'/>
+<fun r='_ZNK4llvm11SmallString17find_first_not_ofENS_9StringRefEm'/>
+<fun r='_ZNK4llvm11SmallString12find_last_ofEcm'/>
+<fun r='_ZNK4llvm11SmallString12find_last_ofENS_9StringRefEm'/>
+<fun r='_ZNK4llvm11SmallString5countEc'/>
+<fun r='_ZNK4llvm11SmallString5countENS_9StringRefE'/>
+<fun r='_ZNK4llvm11SmallString6substrEmm'/>
+<fun r='_ZNK4llvm11SmallString5sliceEmm'/>
+<fun r='_ZNK4llvm11SmallString3strEv'/>
+<fun r='_ZN4llvm11SmallString5c_strEv'/>
+<fun r='_ZNK4llvm11SmallStringcvNS_9StringRefEEv'/>
+<fun r='_ZN4llvm11SmallStringaSENS_9StringRefE'/>
+<fun r='_ZN4llvm11SmallStringpLENS_9StringRefE'/>
+<fun r='_ZN4llvm11SmallStringpLEc'/>
+<use f='codebrowser/generator/filesystem.cpp' l='180' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/main.cpp' l='124' c='_ZN23BrowserDiagnosticClient16HandleDiagnosticEN5clang17DiagnosticsEngine5LevelERKNS0_10DiagnosticE'/>
+<use f='codebrowser/generator/main.cpp' l='406' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='458' c='main'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='155' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='46' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

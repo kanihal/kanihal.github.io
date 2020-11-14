@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='352' ll='354' type='int llvm::BitVector::find_next_unset(unsigned int Prev) const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='301' u='c' c='_ZNK4llvm14SmallBitVector15find_next_unsetEj'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='350'>/// find_next_unset - Returns the index of the next unset bit following the
+  /// &quot;Prev&quot; bit.  Returns -1 if all remaining bits are set.</doc>

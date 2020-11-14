@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/MC/MCTargetOptions.h' l='28' type='0'/>
+<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='203'/>
+<doc f='include/llvm-7/llvm/MC/MCTargetOptions.h' l='28'>/// No compression</doc>

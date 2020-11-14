@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='538' ll='540' type='bool llvm::Expected::errorIsA() const'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='537'>/// Check that this Expected&lt;T&gt; is an error of type ErrT.</doc>

@@ -1,0 +1,6 @@
+<use f='codebrowser/generator/main.cpp' l='160' u='c' c='_ZN18BrowserASTConsumerD1Ev'/>
+<use f='codebrowser/generator/main.cpp' l='168' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
+<use f='codebrowser/generator/main.cpp' l='169' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
+<use f='codebrowser/generator/main.cpp' l='173' u='c' c='_ZN18BrowserASTConsumer18HandleTopLevelDeclEN5clang12DeclGroupRefE'/>
+<use f='codebrowser/generator/main.cpp' l='175' u='c' c='_ZN18BrowserASTConsumer18HandleTopLevelDeclEN5clang12DeclGroupRefE'/>
+<use f='codebrowser/generator/main.cpp' l='177' u='c' c='_ZN18BrowserASTConsumer18HandleTopLevelDeclEN5clang12DeclGroupRefE'/>

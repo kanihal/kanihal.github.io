@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='258' ll='260' type='std::reverse_iterator&lt;IteratorTy&gt; llvm::make_reverse_iterator(IteratorTy It)'/>

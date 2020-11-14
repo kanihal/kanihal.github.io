@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='162' ll='164' type='uint64_t llvm::APInt::getWord(unsigned int bitPosition) const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1112' u='c' c='_ZNK4llvm5APIntixEj'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1708' u='c' c='_ZNK4llvm5APInt12bitsToDoubleEv'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1717' u='c' c='_ZNK4llvm5APInt11bitsToFloatEv'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='160'>/// Get the word corresponding to a bit position
+  /// \returns the corresponding word for the specified bit position.</doc>

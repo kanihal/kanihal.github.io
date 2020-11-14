@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/Support/type_traits.h' l='116' ll='121'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='140'/>
+<doc f='include/llvm-7/llvm/Support/type_traits.h' l='115'>/// Internal utility to detect trivial move construction.</doc>
+<mbr r='llvm::detail::move_construction_triviality_helper::t' t='T'/>
+<fun r='_ZN4llvm6detail35move_construction_triviality_helperC1Ev'/>
+<fun r='_ZN4llvm6detail35move_construction_triviality_helperC1EONS0_35move_construction_triviality_helperIT_EE'/>
+<fun r='_ZN4llvm6detail35move_construction_triviality_helperD1Ev'/>

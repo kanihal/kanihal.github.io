@@ -1,0 +1,3 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='336' u='c' c='_ZN4llvm5APIntD1Ev'/>
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='348' type='bool llvm::APInt::needsCleanup() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='347'>/// Returns whether this instance allocated memory.</doc>

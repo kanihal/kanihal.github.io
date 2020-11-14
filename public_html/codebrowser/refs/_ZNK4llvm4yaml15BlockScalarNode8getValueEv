@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='263' type='llvm::StringRef llvm::yaml::BlockScalarNode::getValue() const'/>
+<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='262'>/// Gets the value of this node as a StringRef.</doc>

@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/Path.h' l='362' type='bool llvm::sys::path::home_directory(SmallVectorImpl&lt;char&gt; &amp; result)'/>
+<doc f='include/llvm-7/llvm/Support/Path.h' l='358'>/// Get the user&apos;s home directory.
+///
+/// @param result Holds the resulting path name.
+/// @result True if a home directory is set, false otherwise.</doc>

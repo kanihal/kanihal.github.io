@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='809' ll='811' type='static bool llvm::ErrorHandlerTraits&lt;void (&amp;)(unique_ptr&lt;type-parameter-0-0, default_delete&lt;type-parameter-0-0&gt; &gt;)&gt;::appliesTo(const llvm::ErrorInfoBase &amp; E)'/>

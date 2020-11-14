@@ -1,0 +1,27 @@
+<def f='include/c++/7/limits' l='167' ll='174'/>
+<use f='include/c++/7/limits' l='299'/>
+<use f='include/c++/7/limits' l='446'/>
+<use f='include/c++/7/limits' l='513'/>
+<use f='include/c++/7/limits' l='583'/>
+<use f='include/c++/7/limits' l='656'/>
+<use f='include/c++/7/limits' l='724'/>
+<use f='include/c++/7/limits' l='787'/>
+<use f='include/c++/7/limits' l='848'/>
+<use f='include/c++/7/limits' l='915'/>
+<use f='include/c++/7/limits' l='988'/>
+<use f='include/c++/7/limits' l='1055'/>
+<use f='include/c++/7/limits' l='1127'/>
+<use f='include/c++/7/limits' l='1194'/>
+<use f='include/c++/7/limits' l='1267'/>
+<use f='include/c++/7/limits' l='1337'/>
+<use f='include/c++/7/limits' l='1410'/>
+<use f='include/c++/7/limits' l='1481'/>
+<use f='include/c++/7/limits' l='1548'/>
+<use f='include/c++/7/limits' l='1659'/>
+<use f='include/c++/7/limits' l='1734'/>
+<use f='include/c++/7/limits' l='1809'/>
+<doc f='include/c++/7/limits' l='162'>/**
+   *  @brief Describes the rounding style for floating-point types.
+   *
+   *  This is used in the std::numeric_limits class.
+  */</doc>

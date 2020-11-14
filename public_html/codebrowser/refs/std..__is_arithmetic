@@ -1,0 +1,14 @@
+<def f='include/c++/7/bits/cpp_type_traits.h' l='328' ll='330'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='337'/>
+<use f='include/c++/7/cmath' l='705' c='_ZSt9isgreaterT_T0_'/>
+<use f='include/c++/7/cmath' l='706' c='_ZSt9isgreaterT_T0_'/>
+<use f='include/c++/7/cmath' l='731' c='_ZSt14isgreaterequalT_T0_'/>
+<use f='include/c++/7/cmath' l='732' c='_ZSt14isgreaterequalT_T0_'/>
+<use f='include/c++/7/cmath' l='757' c='_ZSt6islessT_T0_'/>
+<use f='include/c++/7/cmath' l='758' c='_ZSt6islessT_T0_'/>
+<use f='include/c++/7/cmath' l='783' c='_ZSt11islessequalT_T0_'/>
+<use f='include/c++/7/cmath' l='784' c='_ZSt11islessequalT_T0_'/>
+<use f='include/c++/7/cmath' l='809' c='_ZSt13islessgreaterT_T0_'/>
+<use f='include/c++/7/cmath' l='810' c='_ZSt13islessgreaterT_T0_'/>
+<use f='include/c++/7/cmath' l='835' c='_ZSt11isunorderedT_T0_'/>
+<use f='include/c++/7/cmath' l='836' c='_ZSt11isunorderedT_T0_'/>

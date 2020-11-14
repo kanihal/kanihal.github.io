@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='257' ll='264' type='llvm::raw_ostream &amp; llvm::raw_ostream::changeColor(enum Colors Color, bool Bold = false, bool BG = false)'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='250'>/// Changes the foreground color of text that will be output from this point
+  /// forward.
+  /// @param Color ANSI color to use, the special SAVEDCOLOR can be used to
+  /// change only the bold attribute, and keep colors untouched
+  /// @param Bold bold/brighter text, default false
+  /// @param BG if true change the background, default: change foreground
+  /// @returns itself so it can be used within &lt;&lt; invocations</doc>

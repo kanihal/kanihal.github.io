@@ -1,0 +1,5 @@
+<dec f='include/stdio.h' l='199' type='int fclose(FILE * __stream)'/>
+<doc f='include/stdio.h' l='195'>/* Close STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

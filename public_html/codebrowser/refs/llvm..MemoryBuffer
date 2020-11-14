@@ -1,0 +1,71 @@
+<def f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='42' ll='150'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='56' c='_ZN4llvm12MemoryBufferC1ERKS0_'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='57' c='_ZN4llvm12MemoryBufferaSERKS0_'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='57' c='_ZN4llvm12MemoryBufferaSERKS0_'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='80' c='_ZN4llvm12MemoryBuffer7getFileERKNS_5TwineElbb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='87' c='_ZN4llvm12MemoryBuffer15getFileAsStreamERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='93' c='_ZN4llvm12MemoryBuffer16getOpenFileSliceEiRKNS_5TwineEmlb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='103' c='_ZN4llvm12MemoryBuffer11getOpenFileEiRKNS_5TwineEmbb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='109' c='_ZN4llvm12MemoryBuffer12getMemBufferENS_9StringRefES1_b'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='113' c='_ZN4llvm12MemoryBuffer12getMemBufferENS_15MemoryBufferRefEb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='118' c='_ZN4llvm12MemoryBuffer16getMemBufferCopyENS_9StringRefERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='122' c='_ZN4llvm12MemoryBuffer8getSTDINEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='126' c='_ZN4llvm12MemoryBuffer14getFileOrSTDINERKNS_5TwineElb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='131' c='_ZN4llvm12MemoryBuffer12getFileSliceERKNS_5TwineEmmb'/>
+<ovr f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='156' c='llvm::WritableMemoryBuffer'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='156'/>
+<ovr f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='218' c='llvm::WriteThroughMemoryBuffer'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='218'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='268' c='_ZN4llvm15MemoryBufferRefC1ERNS_12MemoryBufferE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='283' c='_ZN4llvm6unwrapEP22LLVMOpaqueMemoryBuffer'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='283' c='_ZN4llvm6unwrapEP22LLVMOpaqueMemoryBuffer'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='283' c='_ZN4llvm4wrapEPKNS_12MemoryBufferE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='283' c='_ZN4llvm4wrapEPKNS_12MemoryBufferE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='59'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='131' c='_ZNK4llvm9SourceMgr15getMemoryBufferEj'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='152' c='_ZN4llvm9SourceMgr18AddNewSourceBufferESt10unique_ptrINS_12MemoryBufferESt14default_deleteIS2_EENS_5SMLocE'/>
+<use f='include/llvm-7/llvm/Support/SpecialCaseList.h' l='75' c='_ZN4llvm15SpecialCaseList6createEPKNS_12MemoryBufferERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/llvm-7/llvm/Support/SpecialCaseList.h' l='108' c='_ZN4llvm15SpecialCaseList14createInternalEPKNS_12MemoryBufferERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/llvm-7/llvm/Support/SpecialCaseList.h' l='143' c='_ZN4llvm15SpecialCaseList5parseEPKNS_12MemoryBufferERNS_9StringMapImNS_15MallocAllocatorEEERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='299' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='1033' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<size>24</size>
+<doc f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='32'>/// This interface provides simple read-only access to a block of memory, and
+/// provides simple methods for reading files and standard input into a memory
+/// buffer.  In addition to basic access to the characters in the file, this
+/// interface guarantees you can read one character past the end of the file,
+/// and that this character will read as &apos;\0&apos;.
+///
+/// The &apos;\0&apos; guarantee is needed to support an optimization -- it&apos;s intended to
+/// be more efficient for clients which are reading all the data to stop
+/// reading when they encounter a &apos;\0&apos; than to continually check the file
+/// position to see if it has reached the end of the file.</doc>
+<mbr r='llvm::MemoryBuffer::BufferStart' o='64' t='const char *'/>
+<mbr r='llvm::MemoryBuffer::BufferEnd' o='128' t='const char *'/>
+<fun r='_ZN4llvm12MemoryBufferC1Ev'/>
+<fun r='_ZN4llvm12MemoryBuffer4initEPKcS2_b'/>
+<smbr r='llvm::MemoryBuffer::Mapmode' t='const sys::fs::mapped_file_region::mapmode'/>
+<fun r='_ZN4llvm12MemoryBufferC1ERKS0_'/>
+<fun r='_ZN4llvm12MemoryBufferaSERKS0_'/>
+<fun r='_ZN4llvm12MemoryBufferD1Ev'/>
+<fun r='_ZNK4llvm12MemoryBuffer14getBufferStartEv'/>
+<fun r='_ZNK4llvm12MemoryBuffer12getBufferEndEv'/>
+<fun r='_ZNK4llvm12MemoryBuffer13getBufferSizeEv'/>
+<fun r='_ZNK4llvm12MemoryBuffer9getBufferEv'/>
+<fun r='_ZNK4llvm12MemoryBuffer19getBufferIdentifierEv'/>
+<fun r='_ZN4llvm12MemoryBuffer7getFileERKNS_5TwineElbb'/>
+<fun r='_ZN4llvm12MemoryBuffer15getFileAsStreamERKNS_5TwineE'/>
+<fun r='_ZN4llvm12MemoryBuffer16getOpenFileSliceEiRKNS_5TwineEmlb'/>
+<fun r='_ZN4llvm12MemoryBuffer11getOpenFileEiRKNS_5TwineEmbb'/>
+<fun r='_ZN4llvm12MemoryBuffer12getMemBufferENS_9StringRefES1_b'/>
+<fun r='_ZN4llvm12MemoryBuffer12getMemBufferENS_15MemoryBufferRefEb'/>
+<fun r='_ZN4llvm12MemoryBuffer16getMemBufferCopyENS_9StringRefERKNS_5TwineE'/>
+<fun r='_ZN4llvm12MemoryBuffer8getSTDINEv'/>
+<fun r='_ZN4llvm12MemoryBuffer14getFileOrSTDINERKNS_5TwineElb'/>
+<fun r='_ZN4llvm12MemoryBuffer12getFileSliceERKNS_5TwineEmmb'/>
+<fun r='_ZNK4llvm12MemoryBuffer13getBufferKindEv'/>
+<fun r='_ZNK4llvm12MemoryBuffer15getMemBufferRefEv'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='44' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<size>24</size>
+<use f='codebrowser/generator/main.cpp' l='561' c='main'/>
+<size>24</size>

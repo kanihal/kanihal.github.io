@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='89'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='91' c='_ZN4llvm16CachedHashStringC1ENS0_27ConstructEmptyOrTombstoneTyEPc'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='156' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE11getEmptyKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='160' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE15getTombstoneKeyEv'/>
+<size>1</size>

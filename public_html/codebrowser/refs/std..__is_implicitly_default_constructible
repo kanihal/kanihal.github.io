@@ -1,0 +1,10 @@
+<def f='include/c++/7/type_traits' l='1399' ll='1402'/>
+<use f='include/c++/7/bits/stl_pair.h' l='225'/>
+<use f='include/c++/7/bits/stl_pair.h' l='226'/>
+<use f='include/c++/7/bits/stl_pair.h' l='239'/>
+<use f='include/c++/7/bits/stl_pair.h' l='240'/>
+<use f='include/c++/7/tuple' l='571' c='_ZNSt5tuple4_TC236_ImplicitlyDefaultConstructibleTupleEv'/>
+<use f='include/c++/7/tuple' l='915'/>
+<use f='include/c++/7/tuple' l='916'/>
+<use f='include/c++/7/tuple' l='929'/>
+<use f='include/c++/7/tuple' l='930'/>

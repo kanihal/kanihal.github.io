@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='689' ll='693' type='const llvm::APInt llvm::APInt::operator++(int )'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='680'>/// @}
+  /// \name Unary Operators
+  /// @{
+
+  /// Postfix increment operator.
+  ///
+  /// Increments *this by 1.
+  ///
+  /// \returns a new APInt value representing the original value of *this.</doc>

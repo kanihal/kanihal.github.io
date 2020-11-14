@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/MathExtras.h' l='851' type='const float'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='850'>/// Use this rather than HUGE_VALF; the latter causes warnings on MSVC.</doc>

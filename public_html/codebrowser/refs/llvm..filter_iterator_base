@@ -1,0 +1,12 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='292' ll='332'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='294'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='300'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='338'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='339'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='351'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='353'/>
+<mbr r='llvm::filter_iterator_base::End' t='WrappedIteratorT'/>
+<mbr r='llvm::filter_iterator_base::Pred' t='PredicateT'/>
+<fun r='_ZN4llvm20filter_iterator_base13findNextValidEv'/>
+<fun r='_ZN4llvm20filter_iterator_baseC1ET_S1_T0_'/>
+<fun r='_ZN4llvm20filter_iterator_baseppEv'/>

@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='59' ll='69'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='90'/>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='57'>/// Provide PointerLikeTypeTraits for void* that is used by PointerUnion
+/// for the two template arguments.</doc>
+<fun r='_ZN4llvm22PointerUnionUIntTraits16getAsVoidPointerEPv'/>
+<fun r='_ZN4llvm22PointerUnionUIntTraits18getFromVoidPointerEPv'/>

@@ -1,0 +1,23 @@
+<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='30' ll='49'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='38' c='_ZN4llvm19CachedHashStringRefC1ENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='51'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='52' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE11getEmptyKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='53' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE11getEmptyKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='55' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE15getTombstoneKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='56' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE15getTombstoneKeyEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='58' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE12getHashValueERKS1_'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='63' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE7isEqualERKS1_S4_'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='64' c='_ZN4llvm12DenseMapInfoINS_19CachedHashStringRefEE7isEqualERKS1_S4_'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='142' c='_ZNK4llvm16CachedHashStringcvNS_19CachedHashStringRefEEv'/>
+<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='143' c='_ZNK4llvm16CachedHashStringcvNS_19CachedHashStringRefEEv'/>
+<size>16</size>
+<doc f='include/llvm-7/llvm/ADT/CachedHashString.h' l='29'>/// A container which contains a StringRef plus a precomputed hash.</doc>
+<mbr r='llvm::CachedHashStringRef::P' o='0' t='const char *'/>
+<mbr r='llvm::CachedHashStringRef::Size' o='64' t='uint32_t'/>
+<mbr r='llvm::CachedHashStringRef::Hash' o='96' t='uint32_t'/>
+<fun r='_ZN4llvm19CachedHashStringRefC1ENS_9StringRefE'/>
+<fun r='_ZN4llvm19CachedHashStringRefC1ENS_9StringRefEj'/>
+<fun r='_ZNK4llvm19CachedHashStringRef3valEv'/>
+<fun r='_ZNK4llvm19CachedHashStringRef4dataEv'/>
+<fun r='_ZNK4llvm19CachedHashStringRef4sizeEv'/>
+<fun r='_ZNK4llvm19CachedHashStringRef4hashEv'/>

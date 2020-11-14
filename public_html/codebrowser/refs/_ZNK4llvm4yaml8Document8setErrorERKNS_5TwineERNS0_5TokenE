@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='563' type='void llvm::yaml::Document::setError(const llvm::Twine &amp; Message, llvm::yaml::Token &amp; Location) const'/>

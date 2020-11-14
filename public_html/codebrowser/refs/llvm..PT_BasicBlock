@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Pass.h' l='67' type='0'/>
+<use f='include/llvm-7/llvm/Pass.h' l='321' u='r' c='_ZN4llvm14BasicBlockPassC1ERc'/>

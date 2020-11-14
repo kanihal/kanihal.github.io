@@ -1,0 +1,12 @@
+<dec f='codebrowser/generator/generator.h' l='93' type='static llvm::StringRef Generator::escapeAttrForFilename(llvm::StringRef s, llvm::SmallVectorImpl&lt;char&gt; &amp; buffer)'/>
+<use f='codebrowser/generator/annotator.cpp' l='745' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<doc f='codebrowser/generator/generator.h' l='85'>/**
+     * This function takes a reference name that was already processed by `escapeAttr` and
+     * replaces additional chars which are not allowed in filenames on all platforms.
+     *
+     * @param s already escaped ref
+     * @param buffer
+     * @return
+     */</doc>
+<def f='codebrowser/generator/generator.cpp' l='78' ll='90' type='static llvm::StringRef Generator::escapeAttrForFilename(llvm::StringRef s, llvm::SmallVectorImpl&lt;char&gt; &amp; buffer)'/>
+<doc f='codebrowser/generator/generator.cpp' l='77'>// ATTENTION: Keep in sync with `replace_invalid_filename_chars` functions in filesystem.cpp and in .js files</doc>

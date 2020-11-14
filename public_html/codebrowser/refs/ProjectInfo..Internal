@@ -1,0 +1,3 @@
+<dec f='codebrowser/generator/projectmanager.h' l='42' type='1'/>
+<use f='codebrowser/build/generator/projectmanager_systemprojects.cpp' l='38' u='a' c='_ZN14ProjectManager14systemProjectsEv'/>
+<doc f='codebrowser/generator/projectmanager.h' l='42'>//includes and stuffs</doc>

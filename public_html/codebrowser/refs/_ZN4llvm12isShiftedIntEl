@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='315' ll='320' type='bool llvm::isShiftedInt(int64_t x)'/>

@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APFloat.h' l='843' type='void llvm::APFloat::APFloat(double d)'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1132' u='c' c='_ZNK4llvm7APFloat14isExactlyValueEd'/>

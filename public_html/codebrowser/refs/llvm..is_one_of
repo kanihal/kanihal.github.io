@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='772' ll='774'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='776' ll='780'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='779'/>
+<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='770'>/// traits class for checking whether type T is one of any of the given
+/// types in the variadic list.</doc>
+<smbr r='llvm::is_one_of::value' t='const bool'/>
+<smbr r='llvm::is_one_of{type-parameter-0-0,type-parameter-0-1,type-parameter-0-2...}::value' t='const bool'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='33'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='44'/>

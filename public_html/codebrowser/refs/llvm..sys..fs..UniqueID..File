@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='137' type='uint64_t'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='141' u='w' c='_ZN4llvm3sys2fs8UniqueIDC1Emm'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='144' u='r' c='_ZNK4llvm3sys2fs8UniqueIDeqERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='144' u='r' c='_ZNK4llvm3sys2fs8UniqueIDeqERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='148' u='r' c='_ZNK4llvm3sys2fs8UniqueIDltERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='148' u='r' c='_ZNK4llvm3sys2fs8UniqueIDltERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='152' u='r' c='_ZNK4llvm3sys2fs8UniqueID7getFileEv'/>
+<offset>64</offset>

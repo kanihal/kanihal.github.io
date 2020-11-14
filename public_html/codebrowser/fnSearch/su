@@ -1,0 +1,17 @@
+_ZNK4llvm9StringRef6substrEmm|llvm::StringRef::substr
+_ZNSt15basic_streambuf7sungetcEv|std::basic_streambuf::sungetc
+_ZN4llvm7APFloat8subtractERKS0_NS_11APFloatBase12roundingModeE|llvm::APFloat::subtract
+_ZN4llvm5Error7successEv|llvm::Error::success
+_ZNK4llvm11SmallString6substrEmm|llvm::SmallString::substr
+_ZNK4llvm6Triple14supportsCOMDATEv|llvm::Triple::supportsCOMDAT
+_ZNK4llvm4Type13subtype_beginEv|llvm::Type::subtype_begin
+_ZNK4llvm4Type11subtype_endEv|llvm::Type::subtype_end
+_ZNK4llvm4Type14subtype_rbeginEv|llvm::Type::subtype_rbegin
+_ZNK4llvm4Type12subtype_rendEv|llvm::Type::subtype_rend
+_ZNK4llvm4Type8subtypesEv|llvm::Type::subtypes
+_ZN4llvm2cl10SubCommandC1ENS_9StringRefES2_|llvm::cl::SubCommand::SubCommand
+_ZNK4llvm2cl10SubCommand14getDescriptionEv|llvm::cl::SubCommand::getDescription
+_ZNK4llvm2cl10SubCommand7getNameEv|llvm::cl::SubCommand::getName
+_ZNK4llvm2cl3sub5applyERT_|llvm::cl::sub::apply
+_ZN4llvm2cl3subC1ERNS0_10SubCommandE|llvm::cl::sub::sub
+_ZN4llvm14raw_fd_ostream15supportsSeekingEv|llvm::raw_fd_ostream::supportsSeeking

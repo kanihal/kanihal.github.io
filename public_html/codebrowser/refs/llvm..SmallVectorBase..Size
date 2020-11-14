@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/ADT/SmallVector.h' l='42' type='unsigned int'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='53' u='r' c='_ZNK4llvm15SmallVectorBase4sizeEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='56' u='r' c='_ZNK4llvm15SmallVectorBase5emptyEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='69' u='w' c='_ZN4llvm15SmallVectorBase8set_sizeEm'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='109' u='w' c='_ZN4llvm25SmallVectorTemplateCommon12resetToSmallEv'/>
+<offset>64</offset>

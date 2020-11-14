@@ -1,0 +1,32 @@
+<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='43' ll='215'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='266' c='_ZN4llvm15format_providerIbvE6formatERKbRNS_11raw_ostreamENS_9StringRefE'/>
+<mbr r='llvm::StringSwitch::Str' t='const llvm::StringRef'/>
+<mbr r='llvm::StringSwitch::Result' t='Optional&lt;T&gt;'/>
+<fun r='_ZN4llvm12StringSwitchC1ENS_9StringRefE'/>
+<fun r='_ZN4llvm12StringSwitchC1ERKNS_12StringSwitchIT_T0_EE'/>
+<fun r='_ZN4llvm12StringSwitchaSERKNS_12StringSwitchIT_T0_EE'/>
+<fun r='_ZN4llvm12StringSwitchaSEONS_12StringSwitchIT_T0_EE'/>
+<fun r='_ZN4llvm12StringSwitchC1EONS_12StringSwitchIT_T0_EE'/>
+<fun r='_ZN4llvm12StringSwitchD1Ev'/>
+<fun r='_ZN4llvm12StringSwitch4CaseENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch8EndsWithENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch10StartsWithENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_S1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch5CasesENS_13StringLiteralES1_S1_S1_S1_S1_S1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch9CaseLowerENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch13EndsWithLowerENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch15StartsWithLowerENS_13StringLiteralET_'/>
+<fun r='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_T_'/>
+<fun r='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_S1_S1_T_'/>
+<fun r='_ZN4llvm12StringSwitch7DefaultET_'/>
+<fun r='_ZN4llvm12StringSwitchcvT0_Ev'/>
+<use f='codebrowser/generator/main.cpp' l='471' c='main'/>

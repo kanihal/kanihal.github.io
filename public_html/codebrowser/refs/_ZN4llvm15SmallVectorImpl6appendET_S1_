@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='394' ll='403' type='void llvm::SmallVectorImpl::append(in_iter in_start, in_iter in_end)'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='272' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

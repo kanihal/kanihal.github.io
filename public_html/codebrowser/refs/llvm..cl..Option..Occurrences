@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='254' type='unsigned int'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='273' u='r' c='_ZNK4llvm2cl6Option21getNumOccurrencesFlagEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='313' u='w' c='_ZN4llvm2cl6Option21setNumOccurrencesFlagENS0_18NumOccurrencesFlagE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='325' u='w' c='_ZN4llvm2cl6OptionC1ENS0_18NumOccurrencesFlagENS0_12OptionHiddenE'/>
+<offset>96</offset>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='252'>// Occurrences, HiddenFlag, and Formatting are all enum types but to avoid
+  // problems with signed enums in bitfields.</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='254'>// enum NumOccurrencesFlag</doc>

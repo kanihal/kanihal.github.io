@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/PassSupport.h' l='93' ll='99' type='void llvm::RegisterPass::RegisterPass&lt;passName&gt;(llvm::StringRef PassArg, llvm::StringRef Name, bool CFGOnly = false, bool is_analysis = false)'/>
+<doc f='include/llvm-7/llvm/PassSupport.h' l='92'>// Register Pass using default constructor...</doc>

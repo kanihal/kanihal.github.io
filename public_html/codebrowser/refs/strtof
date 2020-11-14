@@ -1,0 +1,4 @@
+<dec f='include/stdlib.h' l='123' type='float strtof(const char *__restrict __nptr, char **__restrict __endptr)'/>
+<use f='include/c++/7/bits/basic_string.h' l='6398' u='a' c='_ZNSt7__cxx114stofERKNS_12basic_stringIcSt11char_traitsIcESaIcEEEPm'/>
+<doc f='include/stdlib.h' l='122'>/* Likewise for `float&apos; and `long double&apos; sizes of floating-point numbers.  */</doc>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='212' u='r' c='_ZN4llvm8to_floatERKNS_5TwineERf'/>

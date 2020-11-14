@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='74' type='2'/>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='67'>/// Note, we assume here that void* is related to raw malloc&apos;ed memory and
+  /// that malloc returns objects at least 4-byte aligned. However, this may be
+  /// wrong, or pointers may be from something other than malloc. In this case,
+  /// you should specify a real typed pointer or avoid this template.
+  ///
+  /// All clients should use assertions to do a run-time check to ensure that
+  /// this is actually true.</doc>

@@ -1,0 +1,14 @@
+<def f='include/c++/7/bits/stl_tree.h' l='544' ll='560'/>
+<use f='include/c++/7/bits/stl_tree.h' l='885' c='_ZNSt8_Rb_tree7_M_copyERKSt8_Rb_treeIT_T0_T1_T2_T3_E'/>
+<use f='include/c++/7/bits/stl_tree.h' l='1025' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_EOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='1037' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_EOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='1607' c='_ZNSt8_Rb_tree12_M_move_dataERSt8_Rb_treeIT_T0_T1_T2_T3_ESt17integral_constantIbLb0EE'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2095' c='_ZNSt8_Rb_tree16_M_insert_uniqueEOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2119' c='_ZNSt8_Rb_tree15_M_insert_equalEOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2450' c='_ZNSt8_Rb_tree16_M_insert_uniqueET_S0_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2462' c='_ZNSt8_Rb_tree15_M_insert_equalET_S0_'/>
+<doc f='include/c++/7/bits/stl_tree.h' l='542'>// Functor similar to the previous one but without any pool of nodes to
+      // recycle.</doc>
+<fun r='_ZNSt8_Rb_tree11_Alloc_nodeC1ERSt8_Rb_treeIT_T0_T1_T2_T3_E'/>
+<fun r='_ZNKSt8_Rb_tree11_Alloc_nodeclEOT_'/>
+<mbr r='std::_Rb_tree::_Alloc_node::_M_t' t='_Rb_tree&lt;_Key, _Val, _KeyOfValue, _Compare, _Alloc&gt; &amp;'/>

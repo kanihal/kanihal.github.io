@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='723' type='2'/>
+<use f='codebrowser/generator/annotator.cpp' l='334' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='485' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='723'>// For compatibility</doc>

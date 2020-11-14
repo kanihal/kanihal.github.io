@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='242' type='static llvm::StructType * llvm::StructType::get(llvm::LLVMContext &amp; Context, ArrayRef&lt;llvm::Type *&gt; Elements, bool isPacked = false)'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='258' u='c' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='241'>/// This static method is the primary way to create a literal StructType.</doc>

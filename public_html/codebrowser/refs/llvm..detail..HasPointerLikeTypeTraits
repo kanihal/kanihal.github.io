@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='36' ll='38'/>
+<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='41' ll='44'/>
+<use f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='47'/>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='35'>// Provide a trait to check if T is pointer-like.</doc>
+<doc f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='40'>// sizeof(T) is valid only for a complete T.</doc>
+<smbr r='llvm::detail::HasPointerLikeTypeTraits::value' t='const bool'/>
+<smbr r='llvm::detail::HasPointerLikeTypeTraits{type-parameter-0-0,decltype((sizeof(PointerLikeTypeTraits{T})+sizeof(T)),void())}::value' t='const bool'/>

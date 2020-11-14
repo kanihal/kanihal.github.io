@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='35' type='void llvm::initializeVectorization(llvm::PassRegistry &amp; )'/>
+<doc f='include/llvm-7/llvm/InitializePasses.h' l='34'>/// Initialize all passes linked into the Vectorize library.</doc>

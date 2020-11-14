@@ -1,0 +1,7 @@
+<def f='include/c++/7/bits/stl_deque.h' l='1245' ll='1247' type='std::deque::const_iterator std::deque::cend() const'/>
+<doc f='include/c++/7/bits/stl_deque.h' l='1240'>/**
+       *  Returns a read-only (constant) iterator that points one past
+       *  the last element in the %deque.  Iteration is done in
+       *  ordinary element order.
+       */</doc>
+<use f='codebrowser/generator/generator.cpp' l='268' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

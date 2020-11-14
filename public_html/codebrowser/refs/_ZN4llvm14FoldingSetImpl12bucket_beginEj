@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='423' ll='425' type='llvm::FoldingSetImpl::bucket_iterator llvm::FoldingSetImpl::bucket_begin(unsigned int hash)'/>

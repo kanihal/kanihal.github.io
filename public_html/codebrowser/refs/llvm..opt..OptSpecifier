@@ -1,0 +1,22 @@
+<def f='include/llvm-7/llvm/Option/OptSpecifier.h' l='19' ll='34'/>
+<use f='include/llvm-7/llvm/Option/OptSpecifier.h' l='32' c='_ZNK4llvm3opt12OptSpecifiereqES1_'/>
+<use f='include/llvm-7/llvm/Option/OptSpecifier.h' l='33' c='_ZNK4llvm3opt12OptSpecifierneES1_'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='77' c='_ZNK4llvm3opt8OptTable7getInfoENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='96' c='_ZNK4llvm3opt8OptTable9getOptionENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='99' c='_ZNK4llvm3opt8OptTable13getOptionNameENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='104' c='_ZNK4llvm3opt8OptTable13getOptionKindENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='109' c='_ZNK4llvm3opt8OptTable16getOptionGroupIDENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='114' c='_ZNK4llvm3opt8OptTable17getOptionHelpTextENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/OptTable.h' l='120' c='_ZNK4llvm3opt8OptTable16getOptionMetaVarENS0_12OptSpecifierE'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='195' c='_ZNK4llvm3opt6Option7matchesENS0_12OptSpecifierE'/>
+<size>4</size>
+<doc f='include/llvm-7/llvm/Option/OptSpecifier.h' l='18'>/// OptSpecifier - Wrapper class for abstracting references to option IDs.</doc>
+<mbr r='llvm::opt::OptSpecifier::ID' o='0' t='unsigned int'/>
+<fun r='_ZN4llvm3opt12OptSpecifierC1Ev'/>
+<fun r='_ZN4llvm3opt12OptSpecifierC1Eb'/>
+<fun r='_ZN4llvm3opt12OptSpecifierC1Ej'/>
+<fun r='_ZN4llvm3opt12OptSpecifierC1EPKNS0_6OptionE'/>
+<fun r='_ZNK4llvm3opt12OptSpecifier7isValidEv'/>
+<fun r='_ZNK4llvm3opt12OptSpecifier5getIDEv'/>
+<fun r='_ZNK4llvm3opt12OptSpecifiereqES1_'/>
+<fun r='_ZNK4llvm3opt12OptSpecifierneES1_'/>

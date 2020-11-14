@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='101' ll='104' type='T * llvm::optional_detail::OptionalStorage::getPointer()'/>

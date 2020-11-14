@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/PassInfo.h' l='97' ll='103' type='llvm::Pass * llvm::PassInfo::createPass() const'/>
+<doc f='include/llvm-7/llvm/PassInfo.h' l='96'>/// createPass() - Use this method to create an instance of this pass.</doc>

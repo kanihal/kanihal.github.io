@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='293' type='bool llvm::cl::Option::hasArgStr() const'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='704' u='c' c='_ZN4llvm2cl19generic_parser_base19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='721' u='c' c='_ZNK4llvm2cl19generic_parser_base27getValueExpectedFlagDefaultEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='773' u='c' c='_ZN4llvm2cl6parser5parseERNS0_6OptionENS_9StringRefES4_RT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1718' u='c' c='_ZN4llvm2cl5alias4doneEv'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='292'>// hasArgStr - Return true if the argstr != &quot;&quot;</doc>

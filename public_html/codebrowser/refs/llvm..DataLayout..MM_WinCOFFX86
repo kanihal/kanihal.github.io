@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='125' type='4'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='263' u='r' c='_ZNK4llvm10DataLayout31hasMicrosoftFastStdCallManglingEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='269' u='r' c='_ZNK4llvm10DataLayout30doNotMangleLeadingQuestionMarkEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='288' c='_ZNK4llvm10DataLayout15getGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='304' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>

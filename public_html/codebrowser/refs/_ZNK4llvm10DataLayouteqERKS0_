@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='212' type='bool llvm::DataLayout::operator==(const llvm::DataLayout &amp; Other) const'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='213' u='c' c='_ZNK4llvm10DataLayoutneERKS0_'/>

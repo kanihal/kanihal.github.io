@@ -1,0 +1,16 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='57' ll='61'/>
+<def f='include/llvm-7/llvm/Support/Casting.h' l='64' ll='68'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='72' c='_ZN4llvm11isa_impl_cl4doitERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='78' c='_ZN4llvm11isa_impl_clIT_KT0_E4doitERS3_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='93' c='_ZN4llvm11isa_impl_clIT_PT0_E4doitEPKS2_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='100' c='_ZN4llvm11isa_impl_clIT_KPT0_E4doitEPKS2_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='107' c='_ZN4llvm11isa_impl_clIT_PKT0_E4doitES4_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='114' c='_ZN4llvm11isa_impl_clIT_KPKT0_E4doitES4_'/>
+<def f='include/llvm-7/llvm/IR/Type.h' l='464' ll='468'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='464'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/Support/Casting.h' l='63'>/// Always allow upcasts, and perform no dynamic check for them.</doc>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='463'>// allow isa&lt;PointerType&gt;(x) to work without DerivedTypes.h included.</doc>
+<fun r='_ZN4llvm8isa_impl4doitERKT0_'/>
+<fun r='_ZN4llvm8isa_implIT_T0_NSt9enable_ifIXsr3std10is_base_ofIS1_S2_EE5valueEvE4typeEE4doitERKS2_'/>
+<fun r='_ZN4llvm8isa_implINS_11PointerTypeENS_4TypeEvE4doitERKS2_'/>

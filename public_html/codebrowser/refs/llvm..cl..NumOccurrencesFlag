@@ -1,0 +1,11 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='111' ll='125'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='272' c='_ZNK4llvm2cl6Option21getNumOccurrencesFlagEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='273' c='_ZNK4llvm2cl6Option21getNumOccurrencesFlagEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='313' c='_ZN4llvm2cl6Option21setNumOccurrencesFlagENS0_18NumOccurrencesFlagE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='323' c='_ZN4llvm2cl6OptionC1ENS0_18NumOccurrencesFlagENS0_12OptionHiddenE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1149'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1150' c='_ZN4llvm2cl10applicatorINS0_18NumOccurrencesFlagEE3optES2_RNS0_6OptionE'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='107'>//===----------------------------------------------------------------------===//
+// Flags permitted to be passed to command line arguments
+//</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='111'>// Flags for the number of occurrences allowed</doc>

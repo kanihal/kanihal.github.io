@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='152' ll='153' type='void llvm::BumpPtrAllocatorImpl::BumpPtrAllocatorImpl&lt;AllocatorT, SlabSize, SizeThreshold&gt;(T &amp;&amp; Allocator)'/>

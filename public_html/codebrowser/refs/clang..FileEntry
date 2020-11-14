@@ -1,0 +1,9 @@
+<use f='codebrowser/generator/annotator.h' l='140' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='202' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='533' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<size>112</size>
+<use f='codebrowser/generator/preprocessorcallback.h' l='65' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>
+<size>112</size>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='265' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='283' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>
+<size>112</size>

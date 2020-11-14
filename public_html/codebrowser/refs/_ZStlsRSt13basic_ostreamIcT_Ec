@@ -1,0 +1,5 @@
+<def f='include/c++/7/ostream' l='507' ll='509' type='basic_ostream&lt;char, _Traits&gt; &amp; std::operator&lt;&lt;(basic_ostream&lt;char, _Traits&gt; &amp; __out, char __c)'/>
+<use f='codebrowser/generator/annotator.cpp' l='307' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='477' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='520' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='576' u='c' c='main'/>

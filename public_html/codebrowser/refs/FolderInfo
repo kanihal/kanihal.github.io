@@ -1,0 +1,7 @@
+<def f='codebrowser/indexgenerator/indexer.cpp' l='37' ll='40'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='39'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='85' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='235' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='238' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='244' c='main'/>
+<size>48</size>

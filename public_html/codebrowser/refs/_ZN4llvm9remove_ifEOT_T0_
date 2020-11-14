@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='961' ll='963' type='decltype(adl_begin(Range)) llvm::remove_if(R &amp;&amp; Range, UnaryPredicate P)'/>

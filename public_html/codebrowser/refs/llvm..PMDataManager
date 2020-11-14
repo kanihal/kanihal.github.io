@@ -1,0 +1,4 @@
+<use f='include/llvm-7/llvm/Pass.h' l='166' c='_ZN4llvm4Pass18getAsPMDataManagerEv'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='151' c='_ZN4llvm16AnalysisResolverC1ERNS_13PMDataManagerE'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='153' c='_ZN4llvm16AnalysisResolver16getPMDataManagerEv'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='191'/>

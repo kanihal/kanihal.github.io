@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='182' type='void llvm::Error::Error(const llvm::Error &amp; Other)'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='181'>// Errors are not copy-constructable.</doc>

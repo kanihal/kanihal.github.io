@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='265' ll='267' type='static bool llvm::yaml::BlockScalarNode::classof(const llvm::yaml::Node * N)'/>

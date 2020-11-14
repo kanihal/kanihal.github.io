@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='227' type='bool llvm::Type::isPtrOrPtrVectorTy() const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='226'>/// Return true if this is a pointer type or a vector of pointer types.</doc>

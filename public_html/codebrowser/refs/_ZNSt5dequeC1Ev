@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/stl_deque.h' l='888' type='void std::deque::deque&lt;_Tp, _Alloc&gt;()'/>
+<doc f='include/c++/7/bits/stl_deque.h' l='885'>/**
+       *  @brief  Creates a %deque with no elements.
+       */</doc>
+<use f='codebrowser/generator/generator.cpp' l='224' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

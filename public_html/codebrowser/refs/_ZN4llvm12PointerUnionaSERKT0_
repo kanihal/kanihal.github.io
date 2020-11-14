@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='178' ll='183' type='const PointerUnion&lt;PT1, PT2&gt; &amp; llvm::PointerUnion::operator=(const PT2 &amp; RHS)'/>

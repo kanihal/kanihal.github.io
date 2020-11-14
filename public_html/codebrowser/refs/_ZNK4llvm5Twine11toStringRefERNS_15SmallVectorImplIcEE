@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/Twine.h' l='453' ll='458' type='llvm::StringRef llvm::Twine::toStringRef(SmallVectorImpl&lt;char&gt; &amp; Out) const'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1163' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
+<use f='codebrowser/generator/annotator.cpp' l='772' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='975' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='450'>/// This returns the twine as a single StringRef if it can be
+    /// represented as such. Otherwise the twine is written into the given
+    /// SmallVector and a StringRef to the SmallVector&apos;s data is returned.</doc>

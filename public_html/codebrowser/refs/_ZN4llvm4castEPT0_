@@ -1,0 +1,16 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='254' ll='258' type='typename cast_retty&lt;X, Y *&gt;::ret_type llvm::cast(Y * Val)'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='98' u='c' c='_ZNK4llvm4Type18getIntegerBitWidthEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='150' u='c' c='_ZNK4llvm4Type16isFunctionVarArgEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='154' u='c' c='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='158' u='c' c='_ZNK4llvm4Type20getFunctionNumParamsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='326' u='c' c='_ZNK4llvm4Type13getStructNameEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='330' u='c' c='_ZNK4llvm4Type20getStructNumElementsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='334' u='c' c='_ZNK4llvm4Type20getStructElementTypeEj'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='389' u='c' c='_ZNK4llvm4Type19getArrayNumElementsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='463' u='c' c='_ZNK4llvm4Type20getVectorNumElementsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='504' u='c' c='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='568' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='574' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='592' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
+<use f='codebrowser/generator/annotator.cpp' l='936' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='938' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>

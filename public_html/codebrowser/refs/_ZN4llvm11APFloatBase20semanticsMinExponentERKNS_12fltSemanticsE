@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='215' type='static llvm::APFloatBase::ExponentType llvm::APFloatBase::semanticsMinExponent(const llvm::fltSemantics &amp; )'/>

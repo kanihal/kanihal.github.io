@@ -1,0 +1,285 @@
+<use f='include/llvm-7/llvm/Support/ErrorHandling.h' l='78' c='_ZN4llvm18report_fatal_errorERKNS_5TwineEb'/>
+<def f='include/llvm-7/llvm/ADT/Twine.h' l='81' ll='481'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='139'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='175' c='_ZN4llvm5TwineC1ERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='175' c='_ZN4llvm5TwineC1ERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='261' c='_ZN4llvm5TwineC1ERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='372' c='_ZN4llvm5TwineaSERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='372' c='_ZN4llvm5TwineaSERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='376' c='_ZN4llvm5Twine10createNullEv'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='377' c='_ZN4llvm5Twine10createNullEv'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='385' c='_ZN4llvm5Twine9utohexstrERKm'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='389' c='_ZN4llvm5Twine9utohexstrERKm'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='423' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='423' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='486' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='486' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='489' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='512' c='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='515' c='_ZN4llvmplERKNS_5TwineES2_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='515' c='_ZN4llvmplERKNS_5TwineES2_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='515' c='_ZN4llvmplERKNS_5TwineES2_'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='522' c='_ZN4llvmplEPKcRKNS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='523' c='_ZN4llvmplEPKcRKNS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='529' c='_ZN4llvmplERKNS_9StringRefEPKc'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='530' c='_ZN4llvmplERKNS_9StringRefEPKc'/>
+<use f='include/llvm-7/llvm/ADT/Twine.h' l='533' c='_ZN4llvmlsERNS_11raw_ostreamERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='217'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='218' c='_ZN4llvm15format_providerINS_5TwineEvE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='199' c='_ZN4llvm6detail8to_floatERKNS_5TwineERT_PFS4_PKcPPcE'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='211' c='_ZN4llvm8to_floatERKNS_5TwineERf'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='215' c='_ZN4llvm8to_floatERKNS_5TwineERd'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='219' c='_ZN4llvm8to_floatERKNS_5TwineERe'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='952' c='_ZN4llvm21logAllUnhandledErrorsENS_5ErrorERNS_11raw_ostreamENS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1113' c='_ZN4llvm11StringErrorC1ERKNS_5TwineESt10error_code'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='286' c='_ZN4llvm3sys2fs13make_absoluteERKNS_5TwineERNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='308' c='_ZN4llvm3sys2fs18create_directoriesERKNS_5TwineEbNS1_5permsE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='318' c='_ZN4llvm3sys2fs16create_directoryERKNS_5TwineEbNS1_5permsE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='332' c='_ZN4llvm3sys2fs11create_linkERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='332' c='_ZN4llvm3sys2fs11create_linkERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='340' c='_ZN4llvm3sys2fs16create_hard_linkERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='340' c='_ZN4llvm3sys2fs16create_hard_linkERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='349' c='_ZN4llvm3sys2fs9real_pathERKNS_5TwineERNS_15SmallVectorImplIcEEb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='364' c='_ZN4llvm3sys2fs16set_current_pathERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='372' c='_ZN4llvm3sys2fs6removeERKNS_5TwineEb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='379' c='_ZN4llvm3sys2fs18remove_directoriesERKNS_5TwineEb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='389' c='_ZN4llvm3sys2fs6renameERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='389' c='_ZN4llvm3sys2fs6renameERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='395' c='_ZN4llvm3sys2fs9copy_fileERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='395' c='_ZN4llvm3sys2fs9copy_fileERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='401' c='_ZN4llvm3sys2fs9copy_fileERKNS_5TwineEi'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='419' c='_ZN4llvm3sys2fs12md5_contentsERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='439' c='_ZN4llvm3sys2fs6accessERKNS_5TwineENS1_10AccessModeE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='445' c='_ZN4llvm3sys2fs6existsERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='453' c='_ZN4llvm3sys2fs11can_executeERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='459' c='_ZN4llvm3sys2fs9can_writeERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='484' c='_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_Rb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='484' c='_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_Rb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='488' c='_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='488' c='_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='500' c='_ZN4llvm3sys2fs8is_localERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='507' c='_ZN4llvm3sys2fs8is_localERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='525' c='_ZN4llvm3sys2fs13get_file_typeERKNS_5TwineEb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='540' c='_ZN4llvm3sys2fs12is_directoryERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='544' c='_ZN4llvm3sys2fs12is_directoryERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='562' c='_ZN4llvm3sys2fs15is_regular_fileERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='566' c='_ZN4llvm3sys2fs15is_regular_fileERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='586' c='_ZN4llvm3sys2fs15is_symlink_fileERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='590' c='_ZN4llvm3sys2fs15is_symlink_fileERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='612' c='_ZN4llvm3sys2fs8is_otherERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='622' c='_ZN4llvm3sys2fs6statusERKNS_5TwineERNS1_11file_statusEb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='637' c='_ZN4llvm3sys2fs14setPermissionsERKNS_5TwineENS1_5permsE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='647' c='_ZN4llvm3sys2fs14getPermissionsERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='655' c='_ZN4llvm3sys2fs9file_sizeERKNS_5TwineERm'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='683' c='_ZN4llvm3sys2fs12status_knownERKNS_5TwineERb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='757' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERiRNS_15SmallVectorImplIcEEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='763' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERNS_15SmallVectorImplIcEEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='781' c='_ZN4llvm3sys2fs8TempFile6createERKNS_5TwineEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='793' c='_ZN4llvm3sys2fs8TempFile4keepERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='813' c='_ZN4llvm3sys2fs19createTemporaryFileERKNS_5TwineENS_9StringRefERiRNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='819' c='_ZN4llvm3sys2fs19createTemporaryFileERKNS_5TwineENS_9StringRefERNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='822' c='_ZN4llvm3sys2fs21createUniqueDirectoryERKNS_5TwineERNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='832' c='_ZN4llvm3sys2fs28getPotentiallyUniqueFileNameERKNS_5TwineERNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='844' c='_ZN4llvm3sys2fs32getPotentiallyUniqueTempFileNameERKNS_5TwineENS_9StringRefERNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='881' c='_ZN4llvm3sys2fs8openFileERKNS_5TwineERiNS1_19CreationDispositionENS1_10FileAccessENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='899' c='_ZN4llvm3sys2fs14openNativeFileERKNS_5TwineENS1_19CreationDispositionENS1_10FileAccessENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='919' c='_ZN4llvm3sys2fs16openFileForWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='938' c='_ZN4llvm3sys2fs22openNativeFileForWriteERKNS_5TwineENS1_19CreationDispositionENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='960' c='_ZN4llvm3sys2fs20openFileForReadWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='980' c='_ZN4llvm3sys2fs26openNativeFileForReadWriteERKNS_5TwineENS1_19CreationDispositionENS1_9OpenFlagsEj'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1001' c='_ZN4llvm3sys2fs15openFileForReadERKNS_5TwineERiNS1_9OpenFlagsEPNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1018' c='_ZN4llvm3sys2fs21openNativeFileForReadERKNS_5TwineENS1_9OpenFlagsEPNS_15SmallVectorImplIcEE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1028' c='_ZN4llvm3sys2fs11getUniqueIDENS_5TwineERNS1_8UniqueIDE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1039' c='_ZN4llvm3sys2fs10disk_spaceERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1104' c='_ZN4llvm3sys2fs15directory_entryC1ERKNS_5TwineEbNS1_17basic_file_statusE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1110' c='_ZN4llvm3sys2fs15directory_entry6assignERKNS_5TwineENS1_17basic_file_statusE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1115' c='_ZN4llvm3sys2fs15directory_entry16replace_filenameERKNS_5TwineENS1_17basic_file_statusE'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1157' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1243' c='_ZN4llvm3sys2fs28recursive_directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
+<use f='codebrowser/generator/filesystem.h' l='35' c='_Z12canonicalizeRKN4llvm5TwineERNS_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/filesystem.h' l='38' c='_Z18create_directoriesRKN4llvm5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='81' c='_ZN4llvm12MemoryBuffer7getFileERKNS_5TwineElbb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='88' c='_ZN4llvm12MemoryBuffer15getFileAsStreamERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='94' c='_ZN4llvm12MemoryBuffer16getOpenFileSliceEiRKNS_5TwineEmlb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='104' c='_ZN4llvm12MemoryBuffer11getOpenFileEiRKNS_5TwineEmbb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='119' c='_ZN4llvm12MemoryBuffer16getMemBufferCopyENS_9StringRefERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='127' c='_ZN4llvm12MemoryBuffer14getFileOrSTDINERKNS_5TwineElb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='132' c='_ZN4llvm12MemoryBuffer12getFileSliceERKNS_5TwineEmmb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='181' c='_ZN4llvm20WritableMemoryBuffer7getFileERKNS_5TwineElb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='186' c='_ZN4llvm20WritableMemoryBuffer12getFileSliceERKNS_5TwineEmmb'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='193' c='_ZN4llvm20WritableMemoryBuffer21getNewUninitMemBufferEmRKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='199' c='_ZN4llvm20WritableMemoryBuffer15getNewMemBufferEmRKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='243' c='_ZN4llvm24WriteThroughMemoryBuffer7getFileERKNS_5TwineEl'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='247' c='_ZN4llvm24WriteThroughMemoryBuffer12getFileSliceERKNS_5TwineEmm'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='191' c='_ZNK4llvm9SourceMgr12PrintMessageERNS_11raw_ostreamENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS8_INS_7SMFixItEEEb'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='197' c='_ZNK4llvm9SourceMgr12PrintMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEEb'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='214' c='_ZNK4llvm9SourceMgr10GetMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='235' c='_ZN4llvm7SMFixItC1ENS_5SMLocERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='241' c='_ZN4llvm7SMFixItC1ENS_7SMRangeERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='251' c='_ZN4llvm6TripleC1ERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='252' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='252' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='252' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='253' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='253' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='253' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='254' c='_ZN4llvm6TripleC1ERKNS_5TwineES3_S3_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='712' c='_ZN4llvm6Triple9setTripleERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/Threading.h' l='158' c='_ZN4llvm15set_thread_nameERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='366' c='_ZN4llvm2cl6Option5errorERKNS_5TwineENS_9StringRefERNS_11raw_ostreamE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='367' c='_ZN4llvm2cl6Option5errorERKNS_5TwineERNS_11raw_ostreamE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='147' c='_ZN4llvm3sys4path17replace_extensionERNS_15SmallVectorImplIcEERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='177' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='178' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='179' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='180' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='182' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='209' c='_ZN4llvm3sys4path6nativeERKNS_5TwineERNS_15SmallVectorImplIcEENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='377' c='_ZN4llvm3sys4path20user_cache_directoryERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='378' c='_ZN4llvm3sys4path20user_cache_directoryERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='378' c='_ZN4llvm3sys4path20user_cache_directoryERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='386' c='_ZN4llvm3sys4path13has_root_nameERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='394' c='_ZN4llvm3sys4path18has_root_directoryERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='402' c='_ZN4llvm3sys4path13has_root_pathERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='410' c='_ZN4llvm3sys4path17has_relative_pathERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='418' c='_ZN4llvm3sys4path15has_parent_pathERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='426' c='_ZN4llvm3sys4path12has_filenameERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='434' c='_ZN4llvm3sys4path8has_stemERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='442' c='_ZN4llvm3sys4path13has_extensionERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='448' c='_ZN4llvm3sys4path11is_absoluteERKNS_5TwineENS1_5StyleE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='454' c='_ZN4llvm3sys4path11is_relativeERKNS_5TwineENS1_5StyleE'/>
+<use f='codebrowser/generator/annotator.cpp' l='314' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='447' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='644' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='648' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='772' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='975' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<size>24</size>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='25'>/// Twine - A lightweight data structure for efficiently representing the
+  /// concatenation of temporary values as strings.
+  ///
+  /// A Twine is a kind of rope, it represents a concatenated string using a
+  /// binary-tree, where the string is the preorder of the nodes. Since the
+  /// Twine can be efficiently rendered into a buffer when its result is used,
+  /// it avoids the cost of generating temporary values for intermediate string
+  /// results -- particularly in cases when the Twine result is never
+  /// required. By explicitly tracking the type of leaf nodes, we can also avoid
+  /// the creation of temporary strings for conversions operations (such as
+  /// appending an integer to a string).
+  ///
+  /// A Twine is not intended for use directly and should not be stored, its
+  /// implementation relies on the ability to store pointers to temporary stack
+  /// objects which may be deallocated at the end of a statement. Twines should
+  /// only be used accepted as const references in arguments, when an API wishes
+  /// to accept possibly-concatenated strings.
+  ///
+  /// Twines support a special &apos;null&apos; value, which always concatenates to form
+  /// itself, and renders as an empty string. This can be returned from APIs to
+  /// effectively nullify any concatenations performed on the result.
+  ///
+  /// \b Implementation
+  ///
+  /// Given the nature of a Twine, it is not possible for the Twine&apos;s
+  /// concatenation method to construct interior nodes; the result must be
+  /// represented inside the returned value. For this reason a Twine object
+  /// actually holds two values, the left- and right-hand sides of a
+  /// concatenation. We also have nullary Twine objects, which are effectively
+  /// sentinel values that represent empty strings.
+  ///
+  /// Thus, a Twine can effectively have zero, one, or two children. The \see
+  /// isNullary(), \see isUnary(), and \see isBinary() predicates exist for
+  /// testing the number of children.
+  ///
+  /// We maintain a number of invariants on Twine objects (FIXME: Why):
+  ///  - Nullary twines are always represented with their Kind on the left-hand
+  ///    side, and the Empty kind on the right-hand side.
+  ///  - Unary twines are always represented with the value on the left-hand
+  ///    side, and the Empty kind on the right-hand side.
+  ///  - If a Twine has another Twine as a child, that child should always be
+  ///    binary (otherwise it could have been folded into the parent).
+  ///
+  /// These invariants are check by \see isValid().
+  ///
+  /// \b Efficiency Considerations
+  ///
+  /// The Twine is designed to yield efficient and small code for common
+  /// situations. For this reason, the concat() method is inlined so that
+  /// concatenations of leaf nodes can be optimized into stores directly into a
+  /// single stack allocated object.
+  ///
+  /// In practice, not all compilers can be trusted to optimize concat() fully,
+  /// so we provide two additional methods (and accompanying operator+
+  /// overloads) to guarantee that particularly important cases (cstring plus
+  /// StringRef) codegen as desired.</doc>
+<mbr r='llvm::Twine::LHS' o='0' t='llvm::Twine::Child'/>
+<mbr r='llvm::Twine::RHS' o='64' t='llvm::Twine::Child'/>
+<mbr r='llvm::Twine::LHSKind' o='128' t='llvm::Twine::NodeKind'/>
+<mbr r='llvm::Twine::RHSKind' o='136' t='llvm::Twine::NodeKind'/>
+<fun r='_ZN4llvm5TwineC1ENS0_8NodeKindE'/>
+<fun r='_ZN4llvm5TwineC1ERKS0_S2_'/>
+<fun r='_ZN4llvm5TwineC1ENS0_5ChildENS0_8NodeKindES1_S2_'/>
+<fun r='_ZNK4llvm5Twine6isNullEv'/>
+<fun r='_ZNK4llvm5Twine7isEmptyEv'/>
+<fun r='_ZNK4llvm5Twine9isNullaryEv'/>
+<fun r='_ZNK4llvm5Twine7isUnaryEv'/>
+<fun r='_ZNK4llvm5Twine8isBinaryEv'/>
+<fun r='_ZNK4llvm5Twine7isValidEv'/>
+<fun r='_ZNK4llvm5Twine10getLHSKindEv'/>
+<fun r='_ZNK4llvm5Twine10getRHSKindEv'/>
+<fun r='_ZNK4llvm5Twine13printOneChildERNS_11raw_ostreamENS0_5ChildENS0_8NodeKindE'/>
+<fun r='_ZNK4llvm5Twine17printOneChildReprERNS_11raw_ostreamENS0_5ChildENS0_8NodeKindE'/>
+<fun r='_ZN4llvm5TwineC1Ev'/>
+<fun r='_ZN4llvm5TwineC1ERKS0_'/>
+<fun r='_ZN4llvm5TwineC1EPKc'/>
+<fun r='_ZN4llvm5TwineC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN4llvm5TwineC1ERKNS_9StringRefE'/>
+<fun r='_ZN4llvm5TwineC1ERKNS_15SmallVectorImplIcEE'/>
+<fun r='_ZN4llvm5TwineC1ERKNS_19formatv_object_baseE'/>
+<fun r='_ZN4llvm5TwineC1Ec'/>
+<fun r='_ZN4llvm5TwineC1Ea'/>
+<fun r='_ZN4llvm5TwineC1Eh'/>
+<fun r='_ZN4llvm5TwineC1Ej'/>
+<fun r='_ZN4llvm5TwineC1Ei'/>
+<fun r='_ZN4llvm5TwineC1ERKm'/>
+<fun r='_ZN4llvm5TwineC1ERKl'/>
+<fun r='_ZN4llvm5TwineC1ERKy'/>
+<fun r='_ZN4llvm5TwineC1ERKx'/>
+<fun r='_ZN4llvm5TwineC1EPKcRKNS_9StringRefE'/>
+<fun r='_ZN4llvm5TwineC1ERKNS_9StringRefEPKc'/>
+<fun r='_ZN4llvm5TwineaSERKS0_'/>
+<fun r='_ZN4llvm5Twine10createNullEv'/>
+<fun r='_ZN4llvm5Twine9utohexstrERKm'/>
+<fun r='_ZNK4llvm5Twine16isTriviallyEmptyEv'/>
+<fun r='_ZNK4llvm5Twine17isSingleStringRefEv'/>
+<fun r='_ZNK4llvm5Twine6concatERKS0_'/>
+<fun r='_ZNK4llvm5Twine3strB5cxx11Ev'/>
+<fun r='_ZNK4llvm5Twine8toVectorERNS_15SmallVectorImplIcEE'/>
+<fun r='_ZNK4llvm5Twine18getSingleStringRefEv'/>
+<fun r='_ZNK4llvm5Twine11toStringRefERNS_15SmallVectorImplIcEE'/>
+<fun r='_ZNK4llvm5Twine25toNullTerminatedStringRefERNS_15SmallVectorImplIcEE'/>
+<fun r='_ZNK4llvm5Twine5printERNS_11raw_ostreamE'/>
+<fun r='_ZNK4llvm5Twine4dumpEv'/>
+<fun r='_ZNK4llvm5Twine9printReprERNS_11raw_ostreamE'/>
+<fun r='_ZNK4llvm5Twine8dumpReprEv'/>
+<fun r='_ZNK4llvm5Twine6concatERKS0_'/>
+<use f='codebrowser/generator/filesystem.cpp' l='58' c='_Z12canonicalizeRKN4llvm5TwineERNS_15SmallVectorImplIcEE'/>
+<use f='codebrowser/generator/filesystem.cpp' l='88' c='_Z18create_directoriesRKN4llvm5TwineE'/>
+<size>24</size>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='104' c='_ZN4llvm4yaml6Stream10printErrorEPNS0_4NodeERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='168' c='_ZNK4llvm4yaml4Node8setErrorERKNS_5TwineERNS0_5TokenE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='563' c='_ZNK4llvm4yaml8Document8setErrorERKNS_5TwineERNS0_5TokenE'/>
+<use f='codebrowser/generator/main.cpp' l='108' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
+<use f='codebrowser/generator/main.cpp' l='108' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
+<size>24</size>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='151' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='176' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='193' c='_ZN20PreprocessorCallback12MacroDefinedERKN5clang5TokenEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='217' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='254' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='321' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='358' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>
+<size>24</size>

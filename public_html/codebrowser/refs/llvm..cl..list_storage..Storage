@@ -1,0 +1,26 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1411' type='std::vector&lt;DataType&gt;'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1416' u='c' c='_ZN4llvm2cl12list_storageIT_bE5beginEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1417' u='c' c='_ZN4llvm2cl12list_storageIT_bE3endEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1421' u='c' c='_ZNK4llvm2cl12list_storageIT_bE5beginEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1422' u='c' c='_ZNK4llvm2cl12list_storageIT_bE3endEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1426' u='c' c='_ZNK4llvm2cl12list_storageIT_bE4sizeEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1428' u='c' c='_ZNK4llvm2cl12list_storageIT_bE5emptyEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1430' u='c' c='_ZN4llvm2cl12list_storageIT_bE9push_backERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1431' u='c' c='_ZN4llvm2cl12list_storageIT_bE9push_backEOS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1436' u='r' c='_ZN4llvm2cl12list_storageIT_bEixENSt6vectorIS2_SaIS2_EE9size_typeE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1437' u='r' c='_ZNK4llvm2cl12list_storageIT_bEixENSt6vectorIS2_SaIS2_EE9size_typeE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1439' u='c' c='_ZN4llvm2cl12list_storageIT_bE5eraseENSt6vectorIS2_SaIS2_EE14const_iteratorE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1441' u='c' c='_ZN4llvm2cl12list_storageIT_bE5eraseENSt6vectorIS2_SaIS2_EE14const_iteratorES7_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1444' u='c' c='_ZN4llvm2cl12list_storageIT_bE5eraseENSt6vectorIS2_SaIS2_EE8iteratorE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1446' u='c' c='_ZN4llvm2cl12list_storageIT_bE5eraseENSt6vectorIS2_SaIS2_EE8iteratorES7_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1450' u='c' c='_ZN4llvm2cl12list_storageIT_bE6insertENSt6vectorIS2_SaIS2_EE14const_iteratorERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1453' u='c' c='_ZN4llvm2cl12list_storageIT_bE6insertENSt6vectorIS2_SaIS2_EE14const_iteratorEOS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1457' u='c' c='_ZN4llvm2cl12list_storageIT_bE6insertENSt6vectorIS2_SaIS2_EE8iteratorERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1460' u='c' c='_ZN4llvm2cl12list_storageIT_bE6insertENSt6vectorIS2_SaIS2_EE8iteratorEOS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1463' u='c' c='_ZN4llvm2cl12list_storageIT_bE5frontEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1464' u='c' c='_ZNK4llvm2cl12list_storageIT_bE5frontEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1466' u='a' c='_ZN4llvm2cl12list_storageIT_bEcvRSt6vectorIS2_SaIS2_EEEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1467' u='r' c='_ZN4llvm2cl12list_storageIT_bEcvNS_8ArrayRefIS2_EEEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1468' c='_ZN4llvm2cl12list_storageIT_bEadEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1469' c='_ZNK4llvm2cl12list_storageIT_bEadEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1471' u='c' c='_ZN4llvm2cl12list_storageIT_bE8addValueERKT_'/>

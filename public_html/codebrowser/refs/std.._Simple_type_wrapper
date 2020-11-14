@@ -1,0 +1,6 @@
+<def f='include/c++/7/bits/std_function.h' l='134' ll='139'/>
+<use f='include/c++/7/bits/std_function.h' l='142'/>
+<use f='include/c++/7/bits/std_function.h' l='341'/>
+<use f='include/c++/7/bits/std_function.h' l='344'/>
+<fun r='_ZNSt20_Simple_type_wrapperC1ET_'/>
+<mbr r='std::_Simple_type_wrapper::__value' t='_Tp'/>

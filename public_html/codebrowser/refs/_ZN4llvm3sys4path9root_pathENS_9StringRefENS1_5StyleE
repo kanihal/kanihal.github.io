@@ -1,0 +1,9 @@
+<dec f='include/llvm-7/llvm/Support/Path.h' l='262' type='llvm::StringRef llvm::sys::path::root_path(llvm::StringRef path, llvm::sys::path::Style style = Style::native)'/>
+<doc f='include/llvm-7/llvm/Support/Path.h' l='256'>/// Get root path.
+///
+/// Equivalent to root_name + root_directory.
+///
+/// @param path Input path.
+/// @result The root path of \a path if it has one, otherwise &quot;&quot;.</doc>
+<use f='codebrowser/generator/filesystem.cpp' l='161' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/filesystem.cpp' l='161' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>

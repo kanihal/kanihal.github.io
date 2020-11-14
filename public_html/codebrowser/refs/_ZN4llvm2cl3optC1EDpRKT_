@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1362' ll='1366' type='void llvm::cl::opt::opt&lt;DataType, ExternalStorage, ParserClass&gt;(const Mods &amp;... Ms)'/>
+<use f='codebrowser/generator/main.cpp' l='50' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='61' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='80' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='86' u='c'/>

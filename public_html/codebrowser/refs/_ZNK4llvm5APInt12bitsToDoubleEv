@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1707' ll='1709' type='double llvm::APInt::bitsToDouble() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1702'>/// Converts APInt bits to a double
+  ///
+  /// The conversion does not do a translation from integer to double, it just
+  /// re-interprets the bits as a double. Note that it is valid to do this on
+  /// any bit width. Exactly 64 bits will be translated.</doc>

@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='432' ll='434' type='void llvm::StringMap::remove(llvm::StringMap::MapEntryTy * KeyValue)'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='438' u='c' c='_ZN4llvm9StringMap5eraseENS_17StringMapIteratorIT_EE'/>
+<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='430'>/// remove - Remove the specified key/value pair from the map, but do not
+  /// erase it.  This aborts if the key is not in the map.</doc>

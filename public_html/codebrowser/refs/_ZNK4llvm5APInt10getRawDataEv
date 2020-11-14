@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='674' ll='678' type='const uint64_t * llvm::APInt::getRawData() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='671'>/// This function returns a pointer to the internal storage of the APInt.
+  /// This is useful for writing out the APInt in binary form without any
+  /// conversions.</doc>

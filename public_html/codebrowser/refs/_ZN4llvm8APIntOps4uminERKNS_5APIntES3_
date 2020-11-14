@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='2108' ll='2110' type='const llvm::APInt &amp; llvm::APIntOps::umin(const llvm::APInt &amp; A, const llvm::APInt &amp; B)'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2107'>/// Determine the smaller of two APInts considered to be signed.</doc>

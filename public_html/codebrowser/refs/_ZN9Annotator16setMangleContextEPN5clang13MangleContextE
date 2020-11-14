@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/annotator.h' l='127' type='void Annotator::setMangleContext(clang::MangleContext * m)'/>
+<use f='codebrowser/generator/main.cpp' l='165' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>

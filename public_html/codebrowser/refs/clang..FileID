@@ -1,0 +1,38 @@
+<use f='codebrowser/generator/annotator.h' l='78'/>
+<use f='codebrowser/generator/annotator.h' l='79'/>
+<use f='codebrowser/generator/annotator.h' l='80'/>
+<use f='codebrowser/generator/annotator.h' l='82' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.h' l='112'/>
+<use f='codebrowser/generator/annotator.h' l='118' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<use f='codebrowser/generator/annotator.h' l='139' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.h' l='139' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.h' l='140' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.h' l='174' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.h' l='175' c='_ZN9Annotator9generatorEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.h' l='186' c='_ZN9Annotator22externalProjectForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='151' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='181' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='193' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='233' c='_ZN9Annotator29registerInterestingDefinitionEN5clang11SourceRangeEPNS0_9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='271' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='279' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='500' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='500' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='533' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/annotator.cpp' l='600' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='622' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='751' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='819' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='851' c='_ZN9Annotator19annotateSourceRangeEN5clang11SourceRangeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_'/>
+<use f='codebrowser/generator/annotator.cpp' l='1028' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<size>4</size>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='49' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='154' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='189' c='_ZN20PreprocessorCallback12MacroDefinedERKN5clang5TokenEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='213' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='221' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='294' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='317' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='325' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='369' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>
+<size>4</size>

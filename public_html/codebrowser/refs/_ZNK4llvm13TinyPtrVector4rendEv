@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='211' ll='213' type='llvm::TinyPtrVector::const_reverse_iterator llvm::TinyPtrVector::rend() const'/>

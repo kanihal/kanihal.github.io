@@ -1,0 +1,33 @@
+<use f='include/c++/7/bits/shared_ptr.h' l='264'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='265' c='_ZNSt10shared_ptrC1ERKSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='352' c='_ZNSt10shared_ptrC1ERKSt8weak_ptrIT_ESt9nothrow_t'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='355'/>
+<def f='include/c++/7/bits/shared_ptr.h' l='520' ll='585'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='542'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='543' c='_ZNSt8weak_ptrC1ERKSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='548'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='549' c='_ZNSt8weak_ptrC1EOSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='556' c='_ZNSt8weak_ptraSERKSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='557' c='_ZNSt8weak_ptraSERKSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='575' c='_ZNSt8weak_ptraSEOSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='576' c='_ZNSt8weak_ptraSEOSt8weak_ptrIT_E'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='595' c='_ZSt4swapRSt8weak_ptrIT_ES2_'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='595' c='_ZSt4swapRSt8weak_ptrIT_ES2_'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='611'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='616'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='617'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='648' c='_ZNSt23enable_shared_from_this14weak_from_thisEv'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='652' c='_ZNKSt23enable_shared_from_this14weak_from_thisEv'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='672'/>
+<fun r='_ZNSt8weak_ptrC1Ev'/>
+<fun r='_ZNSt8weak_ptrC1ERKSt10shared_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptrC1ERKSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptrC1ERKSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptrC1EOSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptrC1EOSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptraSERKSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptraSERKSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptraSERKSt10shared_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptraSEOSt8weak_ptrIT_E'/>
+<fun r='_ZNSt8weak_ptraSEOSt8weak_ptrIT_E'/>
+<fun r='_ZNKSt8weak_ptr4lockEv'/>

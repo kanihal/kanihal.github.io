@@ -1,0 +1,20 @@
+<def f='include/c++/7/bits/stl_vector.h' l='952' ll='954' type='void std::vector::push_back(std::vector::value_type &amp;&amp; __x)'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='48' u='c' c='_ZN4llvm16toStringRefArrayEPKPKc'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='381' u='c' c='_ZN4llvm9ErrorListC1ESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS2_EES5_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='382' u='c' c='_ZN4llvm9ErrorListC1ESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS2_EES5_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='396' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='398' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='157' u='c' c='_ZN4llvm9SourceMgr18AddNewSourceBufferESt10unique_ptrINS_12MemoryBufferESt14default_deleteIS2_EENS_5SMLocE'/>
+<use f='codebrowser/generator/annotator.cpp' l='790' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='827' u='c' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='831' u='c' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='836' u='c' c='_ZN9Annotator13registerMacroERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang14SourceLocationENS_8DeclTypeE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='283' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/main.cpp' l='287' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='292' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='295' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='296' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='485' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='526' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='527' u='c' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='54' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

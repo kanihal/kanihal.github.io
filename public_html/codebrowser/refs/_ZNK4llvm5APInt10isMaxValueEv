@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='420' type='bool llvm::APInt::isMaxValue() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='416'>/// Determine if this is the largest unsigned value.
+  ///
+  /// This checks to see if the value of this APInt is the maximum unsigned
+  /// value for the APInt&apos;s bit width.</doc>

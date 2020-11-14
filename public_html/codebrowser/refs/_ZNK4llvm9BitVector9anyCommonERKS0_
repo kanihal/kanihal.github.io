@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='507' ll='514' type='bool llvm::BitVector::anyCommon(const llvm::BitVector &amp; RHS) const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='473' u='c' c='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='506'>/// Test if any common bits are set.</doc>

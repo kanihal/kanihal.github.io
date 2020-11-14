@@ -1,0 +1,15 @@
+<def f='include/c++/7/bits/unique_ptr.h' l='117' ll='153'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='161'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='163'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='166'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='396'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='398'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='410'/>
+<fun r='_ZNSt15__uniq_ptr_implC1Ev'/>
+<fun r='_ZNSt15__uniq_ptr_implC1ENS_4_PtrIT_T0_vE4typeE'/>
+<fun r='_ZNSt15__uniq_ptr_implC1ENS_4_PtrIT_T0_vE4typeEOT_'/>
+<fun r='_ZNSt15__uniq_ptr_impl6_M_ptrEv'/>
+<fun r='_ZNKSt15__uniq_ptr_impl6_M_ptrEv'/>
+<fun r='_ZNSt15__uniq_ptr_impl10_M_deleterEv'/>
+<fun r='_ZNKSt15__uniq_ptr_impl10_M_deleterEv'/>
+<mbr r='std::__uniq_ptr_impl::_M_t' t='tuple&lt;std::__uniq_ptr_impl::pointer, _Dp&gt;'/>

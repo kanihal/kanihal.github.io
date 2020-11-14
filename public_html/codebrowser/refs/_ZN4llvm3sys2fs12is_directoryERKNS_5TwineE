@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='544' ll='547' type='bool llvm::sys::fs::is_directory(const llvm::Twine &amp; Path)'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='542'>/// Simpler version of is_directory for clients that don&apos;t need to
+///        differentiate between an error and false.</doc>
+<use f='codebrowser/generator/main.cpp' l='369' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='403' u='c' c='main'/>

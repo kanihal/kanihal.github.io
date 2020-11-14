@@ -1,0 +1,29 @@
+<use f='include/c++/7/bits/stl_pair.h' l='437' c='_ZNSt4pairC1ERSt5tupleIJDpT_EERS0_IJDpT1_EESt12_Index_tupleIJXspT0_EEES9_IJXspT2_EEE'/>
+<use f='include/c++/7/bits/stl_pair.h' l='437' c='_ZNSt4pairC1ERSt5tupleIJDpT_EERS0_IJDpT1_EESt12_Index_tupleIJXspT0_EEES9_IJXspT2_EEE'/>
+<def f='include/c++/7/utility' l='283'/>
+<use f='include/c++/7/utility' l='289'/>
+<use f='include/c++/7/utility' l='289'/>
+<use f='include/c++/7/utility' l='291'/>
+<use f='include/c++/7/utility' l='304'/>
+<use f='include/c++/7/utility' l='310'/>
+<use f='include/c++/7/utility' l='330'/>
+<use f='include/c++/7/tuple' l='1529'/>
+<use f='include/c++/7/tuple' l='1546'/>
+<use f='include/c++/7/tuple' l='1561'/>
+<use f='include/c++/7/tuple' l='1650' c='_ZNSt4pairC1ERSt5tupleIJDpT_EERS0_IJDpT1_EESt12_Index_tupleIJXspT0_EEES9_IJXspT2_EEE'/>
+<use f='include/c++/7/tuple' l='1650' c='_ZNSt4pairC1ERSt5tupleIJDpT_EERS0_IJDpT1_EESt12_Index_tupleIJXspT0_EEES9_IJXspT2_EEE'/>
+<use f='include/c++/7/functional' l='394' c='_ZNVKSt3_MuIT_Lb1ELb0EE6__callERT_RSt5tupleIJDpT0_EERKSt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='465' c='_ZNSt5_BindIFT_DpT0_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='475' c='_ZNKSt5_BindIFT_DpT0_EE8__call_cEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='486' c='_ZNVSt5_BindIFT_DpT0_EE8__call_vEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='497' c='_ZNVKSt5_BindIFT_DpT0_EE10__call_c_vEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='621' c='_ZNSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='630' c='_ZNSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='639' c='_ZNKSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='648' c='_ZNKSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='657' c='_ZNVSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='666' c='_ZNVSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='676' c='_ZNVKSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<use f='include/c++/7/functional' l='686' c='_ZNVKSt12_Bind_resultIT_FT0_DpT1_EE6__callEOSt5tupleIJDpT0_EESt12_Index_tupleIJXspT1_EEE'/>
+<doc f='include/c++/7/utility' l='281'>// Stores a tuple of indices.  Used by tuple and pair, and by bind() to
+  // extract the elements in a tuple.</doc>

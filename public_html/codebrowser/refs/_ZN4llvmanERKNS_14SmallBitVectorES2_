@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='669' ll='674' type='llvm::SmallBitVector llvm::operator&amp;(const llvm::SmallBitVector &amp; LHS, const llvm::SmallBitVector &amp; RHS)'/>

@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='77' ll='83' macro='1' type='StringSwitch&lt;T, R&gt; &amp; llvm::StringSwitch::EndsWith(llvm::StringLiteral S, T Value)'/>

@@ -1,0 +1,30 @@
+<def f='include/c++/7/bits/hashtable_policy.h' l='278' ll='286'/>
+<def f='include/c++/7/bits/hashtable_policy.h' l='293' ll='299'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='305'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='824'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1176'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1267'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1357'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1432' c='_ZNSt8__detail13_Equal_helperIT_T0_T1_T2_T3_Lb1EE9_S_equalsERKS4_RKS3_RKS1_S5_PNS_10_Hash_nodeIS2_Lb1EEE'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1443' c='_ZNSt8__detail13_Equal_helperIT_T0_T1_T2_T3_Lb0EE9_S_equalsERKS4_RKS3_RKS1_S5_PNS_10_Hash_nodeIS2_Lb0EEE'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1462' c='_ZNSt8__detail20_Local_iterator_baseIT_T0_T1_T2_T3_T4_Lb1EEC1ERKNS_15_Hash_code_baseIS1_S2_S3_S4_S5_S6_Lb1EEEPNS_10_Hash_nodeIS2_Lb1EEEmm'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1481'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1544' c='_ZNSt8__detail20_Local_iterator_baseIT_T0_T1_T2_T3_T4_Lb0EEC1ERKNS_15_Hash_code_baseIS1_S2_S3_S4_S5_S6_Lb0EEEPNS_10_Hash_nodeIS2_Lb0EEEmm'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1589'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1652' c='_ZNSt8__detail15_Local_iteratorC1ERKNS_20_Local_iterator_baseIT_T0_T1_T2_T3_T4_XT6_EE16__hash_code_baseEPNS_10_Hash_nodeIS3_XT6_EEEmm'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1704' c='_ZNSt8__detail21_Local_const_iteratorC1ERKNS_20_Local_iterator_baseIT_T0_T1_T2_T3_T4_XT6_EE16__hash_code_baseEPNS_10_Hash_nodeIS3_XT6_EEEmm'/>
+<use f='include/c++/7/bits/hashtable.h' l='186'/>
+<use f='include/c++/7/bits/hashtable.h' l='191'/>
+<doc f='include/c++/7/bits/hashtable_policy.h' l='273'>/**
+   *  Specialization for nodes with caches, struct _Hash_node.
+   *
+   *  Base class is __detail::_Hash_node_value_base.
+   */</doc>
+<doc f='include/c++/7/bits/hashtable_policy.h' l='288'>/**
+   *  Specialization for nodes without caches, struct _Hash_node.
+   *
+   *  Base class is __detail::_Hash_node_value_base.
+   */</doc>
+<mbr r='std::__detail::_Hash_node::_M_hash_code' t='std::size_t'/>
+<fun r='_ZNKSt8__detail10_Hash_nodeIT_Lb1EE7_M_nextEv'/>
+<fun r='_ZNKSt8__detail10_Hash_nodeIT_Lb0EE7_M_nextEv'/>

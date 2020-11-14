@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/ADT/iterator_range.h' l='54' ll='56' type='iterator_range&lt;T&gt; llvm::make_range(T x, T y)'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='117' u='c' c='_ZNK4llvm9StringRef5bytesEv'/>
+<doc f='include/llvm-7/llvm/ADT/iterator_range.h' l='50'>/// Convenience function for iterating over sub-ranges.
+///
+/// This provides a bit of syntactic sugar to make using sub-ranges
+/// in for loops a bit easier. Analogous to std::make_pair().</doc>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='131' u='c' c='_ZNK4llvm9BitVector8set_bitsEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='186' u='c' c='_ZNK4llvm14SmallBitVector8set_bitsEv'/>

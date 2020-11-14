@@ -1,0 +1,5 @@
+<inh f='include/c++/7/type_traits' l='69' c='std::integral_constant'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='67'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='68'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='69' ll='71'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='71'/>

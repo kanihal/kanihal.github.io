@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/commenthandler.cpp' l='39' ll='153' type='clang::NamedDecl * parseDeclarationReference(llvm::StringRef Text, clang::Sema &amp; Sema, bool isFunction)'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='224' u='c' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>

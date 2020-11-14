@@ -1,0 +1,6 @@
+<def f='include/c++/7/type_traits' l='1987' ll='1989'/>
+<use f='include/c++/7/type_traits' l='2009'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='94'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='435'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='623'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='178'/>

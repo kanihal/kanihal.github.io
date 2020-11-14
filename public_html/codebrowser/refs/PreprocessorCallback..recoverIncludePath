@@ -1,0 +1,5 @@
+<dec f='codebrowser/generator/preprocessorcallback.h' l='40' type='bool'/>
+<use f='codebrowser/generator/preprocessorcallback.h' l='44' u='w' c='_ZN20PreprocessorCallbackC1ER9AnnotatorRN5clang12PreprocessorEb'/>
+<offset>208</offset>
+<doc f='codebrowser/generator/preprocessorcallback.h' l='40'>// If we should try to find the include paths harder</doc>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='261' u='r' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

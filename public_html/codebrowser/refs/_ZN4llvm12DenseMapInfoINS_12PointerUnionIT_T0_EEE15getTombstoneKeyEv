@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='471' ll='473' type='static llvm::DenseMapInfo&lt;PointerUnion&lt;type-parameter-0-0, type-parameter-0-1&gt; &gt;::Pair llvm::DenseMapInfo&lt;PointerUnion&lt;type-parameter-0-0, type-parameter-0-1&gt; &gt;::getTombstoneKey()'/>

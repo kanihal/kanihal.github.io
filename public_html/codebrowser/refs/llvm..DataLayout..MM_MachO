@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='123' type='2'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='272' u='r' c='_ZNK4llvm10DataLayout28hasLinkerPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='275' u='r' c='_ZNK4llvm10DataLayout28getLinkerPrivateGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='287' c='_ZNK4llvm10DataLayout15getGlobalPrefixEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='303' c='_ZNK4llvm10DataLayout22getPrivateGlobalPrefixEv'/>

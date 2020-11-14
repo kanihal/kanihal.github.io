@@ -1,0 +1,12 @@
+<dec f='codebrowser/generator/annotator.h' l='139' type='std::string Annotator::pathTo(clang::FileID From, clang::FileID To, std::string * proj = nullptr)'/>
+<use f='codebrowser/generator/annotator.cpp' l='281' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<def f='codebrowser/generator/annotator.cpp' l='500' ll='531' type='std::string Annotator::pathTo(clang::FileID From, clang::FileID To, std::string * dataProj = nullptr)'/>
+<use f='codebrowser/generator/annotator.cpp' l='754' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<doc f='codebrowser/generator/annotator.h' l='134'>/**
+     * Returns a string with the URL to go from one file to an other.
+     * In case the file is in an external project that needs a data-proj tag, the proj
+     * string is set to the project name.
+     **/</doc>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='159' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='237' u='c' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='341' u='c' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>

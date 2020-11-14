@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='341' type='void llvm::cl::Option::removeArgument()'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='337'>/// Unregisters this option from the CommandLine system.
+  ///
+  /// This option must have been the last option registered.
+  /// For testing purposes only.</doc>

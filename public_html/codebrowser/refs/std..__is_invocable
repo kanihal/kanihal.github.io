@@ -1,0 +1,4 @@
+<def f='include/c++/7/type_traits' l='2767' ll='2769'/>
+<use f='include/c++/7/type_traits' l='2819'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1090' c='_ZNSt12__shared_ptrC1EPT_T0_'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1100' c='_ZNSt12__shared_ptrC1EPT_T0_T1_'/>

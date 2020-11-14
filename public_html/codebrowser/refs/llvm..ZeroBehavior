@@ -1,0 +1,14 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='44' ll='51'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='55' c='_ZN4llvm6detail20TrailingZerosCounter5countET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='79' c='_ZN4llvm6detail20TrailingZerosCounterIT_Lm4EE5countES2_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='95' c='_ZN4llvm6detail20TrailingZerosCounterIT_Lm8EE5countES2_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='120' c='_ZN4llvm18countTrailingZerosET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='129' c='_ZN4llvm6detail19LeadingZerosCounter5countET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='148' c='_ZN4llvm6detail19LeadingZerosCounterIT_Lm4EE5countES2_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='164' c='_ZN4llvm6detail19LeadingZerosCounterIT_Lm8EE5countES2_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='189' c='_ZN4llvm17countLeadingZerosET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='203' c='_ZN4llvm12findFirstSetET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='244' c='_ZN4llvm11findLastSetET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='462' c='_ZN4llvm16countLeadingOnesET_NS_12ZeroBehaviorE'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='478' c='_ZN4llvm17countTrailingOnesET_NS_12ZeroBehaviorE'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='43'>/// The behavior an operation has on an input of 0.</doc>

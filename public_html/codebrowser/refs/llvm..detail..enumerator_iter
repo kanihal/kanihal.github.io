@@ -1,0 +1,19 @@
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1141'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1163' ll='1202'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1165'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1181' c='_ZN4llvm6detail15enumerator_iterppEv'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1188' c='_ZNK4llvm6detail15enumerator_itereqERKNS0_15enumerator_iterIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1195' c='_ZN4llvm6detail15enumerator_iteraSERKNS0_15enumerator_iterIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1195' c='_ZN4llvm6detail15enumerator_iteraSERKNS0_15enumerator_iterIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1208' c='_ZN4llvm6detail10enumerator5beginEv'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1209' c='_ZN4llvm6detail10enumerator5beginEv'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1212' c='_ZN4llvm6detail10enumerator3endEv'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1213' c='_ZN4llvm6detail10enumerator3endEv'/>
+<fun r='_ZN4llvm6detail15enumerator_iterC1EDTclsr3stdE5beginclsr3stdE7declvalIRT_EEEE'/>
+<fun r='_ZN4llvm6detail15enumerator_iterC1EmDTclsr3stdE5beginclsr3stdE7declvalIRT_EEEE'/>
+<fun r='_ZN4llvm6detail15enumerator_iterdeEv'/>
+<fun r='_ZNK4llvm6detail15enumerator_iterdeEv'/>
+<fun r='_ZN4llvm6detail15enumerator_iterppEv'/>
+<fun r='_ZNK4llvm6detail15enumerator_itereqERKNS0_15enumerator_iterIT_EE'/>
+<fun r='_ZN4llvm6detail15enumerator_iteraSERKNS0_15enumerator_iterIT_EE'/>
+<mbr r='llvm::detail::enumerator_iter::Result' t='llvm::detail::enumerator_iter::result_type'/>

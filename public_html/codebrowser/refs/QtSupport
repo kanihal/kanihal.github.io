@@ -1,0 +1,15 @@
+<def f='codebrowser/generator/qtsupport.h' l='38' ll='48'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='271' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='293' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>
+<size>16</size>
+<doc f='codebrowser/generator/qtsupport.h' l='33'>/**
+ * Handle the SIGNAL and SLOT macro within calls to QObject::connect or the like
+ *
+ * Recognize calls to QObject::connect,  QObject::disconnect, QTimer::singleShot
+ */</doc>
+<mbr r='QtSupport::annotator' o='0' t='Annotator &amp;'/>
+<mbr r='QtSupport::currentContext' o='64' t='clang::NamedDecl *'/>
+<fun r='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<fun r='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<fun r='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<fun r='_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_'/>

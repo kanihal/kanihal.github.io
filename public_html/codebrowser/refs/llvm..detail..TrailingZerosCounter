@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='54' ll='75'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='78' ll='91'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='94' ll='107'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='124' c='_ZN4llvm18countTrailingZerosET_NS_12ZeroBehaviorE'/>
+<fun r='_ZN4llvm6detail20TrailingZerosCounter5countET_NS_12ZeroBehaviorE'/>
+<fun r='_ZN4llvm6detail20TrailingZerosCounterIT_Lm4EE5countES2_NS_12ZeroBehaviorE'/>
+<fun r='_ZN4llvm6detail20TrailingZerosCounterIT_Lm8EE5countES2_NS_12ZeroBehaviorE'/>

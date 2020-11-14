@@ -1,0 +1,5 @@
+<dec f='codebrowser/generator/annotator.h' l='76' type='Annotator::Visibility Annotator::getVisibility(const clang::NamedDecl * )'/>
+<def f='codebrowser/generator/annotator.cpp' l='123' ll='179' type='Annotator::Visibility Annotator::getVisibility(const clang::NamedDecl * decl)'/>
+<use f='codebrowser/generator/annotator.cpp' l='580' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='822' u='c' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1004' u='c' c='_ZN9Annotator13getVisibleRefB5cxx11EPN5clang9NamedDeclE'/>

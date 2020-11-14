@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>qtsupport.h source code [codebrowser/generator/qtsupport.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="QtSupport "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/generator/qtsupport.h'; var root_path = '../..'; var data_path = '../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>generator</a>/<a href='qtsupport.h.html'>qtsupport.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/****************************************************************************</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (C) 2012-2016 Woboq GmbH</i></td></tr>
+<tr><th id="3">3</th><td><i> * Olivier Goffart &lt;contact at woboq.com&gt;</i></td></tr>
+<tr><th id="4">4</th><td><i> * <a href="https://woboq.com/codebrowser.html">https://woboq.com/codebrowser.html</a></i></td></tr>
+<tr><th id="5">5</th><td><i> *</i></td></tr>
+<tr><th id="6">6</th><td><i> * This file is part of the Woboq Code Browser.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * Commercial License Usage:</i></td></tr>
+<tr><th id="9">9</th><td><i> * Licensees holding valid commercial licenses provided by Woboq may use</i></td></tr>
+<tr><th id="10">10</th><td><i> * this file in accordance with the terms contained in a written agreement</i></td></tr>
+<tr><th id="11">11</th><td><i> * between the licensee and Woboq.</i></td></tr>
+<tr><th id="12">12</th><td><i> * For further information see <a href="https://woboq.com/codebrowser.html">https://woboq.com/codebrowser.html</a></i></td></tr>
+<tr><th id="13">13</th><td><i> *</i></td></tr>
+<tr><th id="14">14</th><td><i> * Alternatively, this work may be used under a Creative Commons</i></td></tr>
+<tr><th id="15">15</th><td><i> * Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0) License.</i></td></tr>
+<tr><th id="16">16</th><td><i> * <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US</a></i></td></tr>
+<tr><th id="17">17</th><td><i> * This license does not allow you to use the code browser to assist the</i></td></tr>
+<tr><th id="18">18</th><td><i> * development of your commercial software. If you intent to do so, consider</i></td></tr>
+<tr><th id="19">19</th><td><i> * purchasing a commercial licence.</i></td></tr>
+<tr><th id="20">20</th><td><i> ****************************************************************************/</i></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#pragma once</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><b>namespace</b> <span class="namespace">clang</span> {</td></tr>
+<tr><th id="25">25</th><td><b>class</b> <dfn class='type' title='clang::CallExpr' data-ref="clang::CallExpr" data-ref-filename="clang..CallExpr" id="clang::CallExpr">CallExpr</dfn>;</td></tr>
+<tr><th id="26">26</th><td><b>class</b> <dfn class='type' title='clang::NamedDecl' data-ref="clang::NamedDecl" data-ref-filename="clang..NamedDecl" id="clang::NamedDecl">NamedDecl</dfn>;</td></tr>
+<tr><th id="27">27</th><td><b>class</b> <dfn class='type' title='clang::Expr' data-ref="clang::Expr" data-ref-filename="clang..Expr" id="clang::Expr">Expr</dfn>;</td></tr>
+<tr><th id="28">28</th><td><b>class</b> <dfn class='type' title='clang::CXXConstructExpr' data-ref="clang::CXXConstructExpr" data-ref-filename="clang..CXXConstructExpr" id="clang::CXXConstructExpr">CXXConstructExpr</dfn>;</td></tr>
+<tr><th id="29">29</th><td>}</td></tr>
+<tr><th id="30">30</th><td><b>class</b> <a class="type" href="annotator.h.html#Annotator" title='Annotator' data-ref="Annotator" data-ref-filename="Annotator" id="Annotator">Annotator</a>;</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="34">34</th><td><i class="doc"> * Handle the SIGNAL and SLOT macro within calls to QObject::connect or the like</i></td></tr>
+<tr><th id="35">35</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="36">36</th><td><i class="doc"> * Recognize calls to QObject::connect,  QObject::disconnect, QTimer::singleShot</i></td></tr>
+<tr><th id="37">37</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="38">38</th><td><b>struct</b> <dfn class="type def" id="QtSupport" title='QtSupport' data-ref="QtSupport" data-ref-filename="QtSupport">QtSupport</dfn> {</td></tr>
+<tr><th id="39">39</th><td>    <a class="type" href="annotator.h.html#Annotator" title='Annotator' data-ref="Annotator" data-ref-filename="Annotator">Annotator</a> &amp;<dfn class="decl field" id="QtSupport::annotator" title='QtSupport::annotator' data-ref="QtSupport::annotator" data-ref-filename="QtSupport..annotator">annotator</dfn>;</td></tr>
+<tr><th id="40">40</th><td>    <span class="namespace">clang::</span><span class='type' title='clang::NamedDecl' data-ref="clang::NamedDecl" data-ref-filename="clang..NamedDecl">NamedDecl</span> *<dfn class="decl field" id="QtSupport::currentContext" title='QtSupport::currentContext' data-ref="QtSupport::currentContext" data-ref-filename="QtSupport..currentContext">currentContext</dfn>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td>    <em>void</em> <dfn class="decl fn" id="_ZN9QtSupport13visitCallExprEPN5clang8CallExprE" title='QtSupport::visitCallExpr' data-ref="_ZN9QtSupport13visitCallExprEPN5clang8CallExprE" data-ref-filename="_ZN9QtSupport13visitCallExprEPN5clang8CallExprE">visitCallExpr</dfn>(<span class="namespace">clang::</span><span class='type' title='clang::CallExpr' data-ref="clang::CallExpr" data-ref-filename="clang..CallExpr">CallExpr</span> *<dfn class="local col9 decl" id="79e" title='e' data-type='clang::CallExpr *' data-ref="79e" data-ref-filename="79e">e</dfn>);</td></tr>
+<tr><th id="43">43</th><td>    <em>void</em> <dfn class="decl fn" id="_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE" title='QtSupport::visitCXXConstructExpr' data-ref="_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE" data-ref-filename="_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE">visitCXXConstructExpr</dfn>(<span class="namespace">clang::</span><span class='type' title='clang::CXXConstructExpr' data-ref="clang::CXXConstructExpr" data-ref-filename="clang..CXXConstructExpr">CXXConstructExpr</span>* <dfn class="local col0 decl" id="80e" title='e' data-type='clang::CXXConstructExpr *' data-ref="80e" data-ref-filename="80e">e</dfn>);</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><b>private</b>:</td></tr>
+<tr><th id="46">46</th><td>    <em>void</em> <dfn class="decl fn" id="_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_" title='QtSupport::handleSignalOrSlot' data-ref="_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_" data-ref-filename="_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_">handleSignalOrSlot</dfn>(<span class="namespace">clang::</span><span class='type' title='clang::Expr' data-ref="clang::Expr" data-ref-filename="clang..Expr">Expr</span> *<dfn class="local col1 decl" id="81obj" title='obj' data-type='clang::Expr *' data-ref="81obj" data-ref-filename="81obj">obj</dfn>, <span class="namespace">clang::</span><span class='type' title='clang::Expr' data-ref="clang::Expr" data-ref-filename="clang..Expr">Expr</span> *<dfn class="local col2 decl" id="82method" title='method' data-type='clang::Expr *' data-ref="82method" data-ref-filename="82method">method</dfn>);</td></tr>
+<tr><th id="47">47</th><td>    <em>void</em> <dfn class="decl fn" id="_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_" title='QtSupport::handleInvokeMethod' data-ref="_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_" data-ref-filename="_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_">handleInvokeMethod</dfn>(<span class="namespace">clang::</span><span class='type' title='clang::Expr' data-ref="clang::Expr" data-ref-filename="clang..Expr">Expr</span> *<dfn class="local col3 decl" id="83obj" title='obj' data-type='clang::Expr *' data-ref="83obj" data-ref-filename="83obj">obj</dfn>, <span class="namespace">clang::</span><span class='type' title='clang::Expr' data-ref="clang::Expr" data-ref-filename="clang..Expr">Expr</span> *<dfn class="local col4 decl" id="84method" title='method' data-type='clang::Expr *' data-ref="84method" data-ref-filename="84method">method</dfn>);</td></tr>
+<tr><th id="48">48</th><td>};</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='main.cpp.html'>codebrowser/generator/main.cpp</a><br/>Generated on <em>2020-Nov-14</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

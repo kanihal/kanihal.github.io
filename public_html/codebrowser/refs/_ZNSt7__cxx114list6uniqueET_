@@ -1,0 +1,2 @@
+<dec f='include/c++/7/bits/stl_list.h' l='1631' type='void std::__cxx11::list::unique(_BinaryPredicate )'/>
+<def f='include/c++/7/bits/list.tcc' l='528' ll='547' type='void std::__cxx11::list::unique(_BinaryPredicate __binary_pred)'/>

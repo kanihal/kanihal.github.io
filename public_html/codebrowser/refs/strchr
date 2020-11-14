@@ -1,0 +1,3 @@
+<dec f='include/string.h' l='225' type='char * strchr(const char * __s, int __c)'/>
+<use f='codebrowser/generator/filesystem.cpp' l='41' u='c' c='_Z20make_forward_slashesPc'/>
+<use f='codebrowser/generator/filesystem.cpp' l='44' u='c' c='_Z20make_forward_slashesPc'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/projectmanager.h' l='49' ll='50' type='void ProjectInfo::ProjectInfo(std::string name, std::string source_path, std::string rev)'/>
+<use f='codebrowser/generator/main.cpp' l='341' u='c' c='main'/>

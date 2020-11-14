@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='230' type='bool llvm::Type::isVectorTy() const'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='252' u='c' c='_ZNK4llvm4Type17isSingleValueTypeEv'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='305' u='c' c='_ZNK4llvm4Type13getScalarTypeEv'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='229'>/// True if this is an instance of VectorType.</doc>

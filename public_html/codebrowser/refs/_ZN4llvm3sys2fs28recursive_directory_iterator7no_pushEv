@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1315' type='void llvm::sys::fs::recursive_directory_iterator::no_push()'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1314'>/// Does not go down into the current directory_entry.</doc>
+<use f='codebrowser/generator/main.cpp' l='414' u='c' c='main'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='104' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

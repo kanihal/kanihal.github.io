@@ -1,0 +1,8 @@
+<use f='include/c++/7/bits/unique_ptr.h' l='318' u='c' c='_ZNKSt10unique_ptrdeEv'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='326' u='c' c='_ZNKSt10unique_ptrptEv'/>
+<def f='include/c++/7/bits/unique_ptr.h' l='330' ll='332' type='std::unique_ptr::pointer std::unique_ptr::get() const'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='346' u='c' c='_ZNKSt10unique_ptrcvbEv'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='354' u='c' c='_ZNSt10unique_ptr7releaseEv'/>
+<doc f='include/c++/7/bits/unique_ptr.h' l='329'>/// Return the stored pointer.</doc>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='133' u='c' c='_ZNK4llvm9SourceMgr15getMemoryBufferEj'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='606' u='c' c='_ZN4llvm4yaml17document_iteratordeEv'/>

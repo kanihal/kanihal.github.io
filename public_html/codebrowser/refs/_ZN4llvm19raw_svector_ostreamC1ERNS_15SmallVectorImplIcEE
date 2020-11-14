@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='520' ll='522' type='void llvm::raw_svector_ostream::raw_svector_ostream(SmallVectorImpl&lt;char&gt; &amp; O)'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='552' u='c' c='_ZN4llvm14buffer_ostreamC1ERNS_11raw_ostreamE'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='516'>/// Construct a new raw_svector_ostream.
+  ///
+  /// \param O The vector to write to; this should generally have at least 128
+  /// bytes free to avoid any extraneous memory overhead.</doc>

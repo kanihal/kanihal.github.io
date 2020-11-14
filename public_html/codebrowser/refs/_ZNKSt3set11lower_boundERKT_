@@ -1,0 +1,2 @@
+<def f='include/c++/7/bits/stl_set.h' l='803' ll='805' type='std::set::const_iterator std::set::lower_bound(const std::set::key_type &amp; __x) const'/>
+<def f='include/c++/7/bits/stl_set.h' l='815' ll='818' type='decltype(std::set::const_iterator(this-&gt;_M_t._M_lower_bound_tr(__x))) std::set::lower_bound(const _Kt &amp; __x) const'/>

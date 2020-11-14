@@ -1,0 +1,8 @@
+<dec f='codebrowser/generator/projectmanager.h' l='45' type='enum Type'/>
+<use f='codebrowser/generator/projectmanager.h' l='48' u='w' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_NS_4TypeE'/>
+<offset>1024</offset>
+<use f='codebrowser/generator/annotator.cpp' l='306' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='507' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='522' u='r' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='550' u='r' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='80' u='r' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>

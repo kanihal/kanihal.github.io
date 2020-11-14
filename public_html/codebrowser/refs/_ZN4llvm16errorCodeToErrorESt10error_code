@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Support/Error.h' l='1056' type='llvm::Error llvm::errorCodeToError(std::error_code )'/>
+<dec f='include/llvm-7/llvm/Support/Error.h' l='1082' type='llvm::Error llvm::errorCodeToError(std::error_code EC)'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='1081'>/// Helper for converting an std::error_code to a Error.</doc>

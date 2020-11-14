@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='258' ll='260' type='bool llvm::Type::isAggregateType() const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='255'>/// Return true if the type is an aggregate type. This means it is valid as
+  /// the first operand of an insertvalue or extractvalue instruction. This
+  /// includes struct and array types, but does not include vector types.</doc>

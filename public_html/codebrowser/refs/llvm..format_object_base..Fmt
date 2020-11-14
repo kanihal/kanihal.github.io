@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/Format.h' l='40' type='const char *'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='49' u='w' c='_ZN4llvm18format_object_baseC1EPKc'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='99' c='_ZNK4llvm13format_object13snprint_tupleEPcjNS_14index_sequenceIJXspT_EEEE'/>
+<offset>64</offset>

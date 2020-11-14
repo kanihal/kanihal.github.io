@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='358' type='void llvm::cl::Option::getExtraOptionNames(SmallVectorImpl&lt;llvm::StringRef&gt; &amp; )'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1307' c='_ZN4llvm2cl3opt19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1487' c='_ZN4llvm2cl4list19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1630' c='_ZN4llvm2cl4bits19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>

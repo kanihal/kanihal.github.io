@@ -1,0 +1,95 @@
+<def f='include/c++/7/ratio' l='263' ll='277'/>
+<use f='include/c++/7/ratio' l='276'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='295'/>
+<use f='include/c++/7/ratio' l='322'/>
+<use f='include/c++/7/ratio' l='376'/>
+<use f='include/c++/7/ratio' l='377'/>
+<use f='include/c++/7/ratio' l='424'/>
+<use f='include/c++/7/ratio' l='425'/>
+<use f='include/c++/7/ratio' l='430'/>
+<use f='include/c++/7/ratio' l='431'/>
+<use f='include/c++/7/ratio' l='433'/>
+<use f='include/c++/7/ratio' l='458'/>
+<use f='include/c++/7/ratio' l='487'/>
+<use f='include/c++/7/ratio' l='513'/>
+<use f='include/c++/7/ratio' l='530'/>
+<use f='include/c++/7/ratio' l='531'/>
+<use f='include/c++/7/ratio' l='532'/>
+<use f='include/c++/7/ratio' l='533'/>
+<use f='include/c++/7/ratio' l='534'/>
+<use f='include/c++/7/ratio' l='535'/>
+<use f='include/c++/7/ratio' l='536'/>
+<use f='include/c++/7/ratio' l='537'/>
+<use f='include/c++/7/ratio' l='538'/>
+<use f='include/c++/7/ratio' l='539'/>
+<use f='include/c++/7/ratio' l='540'/>
+<use f='include/c++/7/ratio' l='541'/>
+<use f='include/c++/7/ratio' l='542'/>
+<use f='include/c++/7/ratio' l='543'/>
+<use f='include/c++/7/ratio' l='544'/>
+<use f='include/c++/7/ratio' l='545'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/ratio' l='280'/>
+<use f='include/c++/7/ratio' l='283'/>
+<use f='include/c++/7/chrono' l='63'/>
+<use f='include/c++/7/chrono' l='83'/>
+<use f='include/c++/7/chrono' l='297'/>
+<use f='include/c++/7/chrono' l='609'/>
+<use f='include/c++/7/chrono' l='612'/>
+<use f='include/c++/7/chrono' l='915' c='_ZNSt8literals15chrono_literalsli1hEe'/>
+<use f='include/c++/7/chrono' l='917' c='_ZNSt8literals15chrono_literalsli1hEe'/>
+<use f='include/c++/7/chrono' l='924' c='_ZNSt8literals15chrono_literalsli3minEe'/>
+<use f='include/c++/7/chrono' l='926' c='_ZNSt8literals15chrono_literalsli3minEe'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='96'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='97'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='98'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='127' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='129' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<use f='include/llvm-7/llvm/Support/Chrono.h' l='131' c='_ZN4llvm15format_providerINSt6chrono8durationIT_T0_EEvE11consumeUnitERNS_9StringRefERKS5_'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>
+<smbr r='std::ratio::num' t='const intmax_t'/>
+<smbr r='std::ratio::den' t='const intmax_t'/>

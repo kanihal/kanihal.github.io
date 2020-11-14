@@ -1,0 +1,6 @@
+<def f='include/c++/7/bits/unique_ptr.h' l='345' ll='346' type='bool std::unique_ptr::operator bool() const'/>
+<doc f='include/c++/7/bits/unique_ptr.h' l='344'>/// Return @c true if the stored pointer is not null.</doc>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='611' u='c' c='_ZNK4llvm4yaml17document_iterator7isAtEndEv'/>
+<use f='codebrowser/generator/main.cpp' l='368' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='380' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='385' u='c' c='main'/>

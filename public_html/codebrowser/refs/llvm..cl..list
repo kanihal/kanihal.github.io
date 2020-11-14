@@ -1,0 +1,22 @@
+<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='234' c='llvm::cl::Option'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1479' ll='1543'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1551' c='_ZNK4llvm2cl9multi_val5applyERNS0_4listIT_T0_T1_EE'/>
+<mbr r='llvm::cl::list::Positions' t='std::vector&lt;unsigned int&gt;'/>
+<mbr r='llvm::cl::list::Parser' t='ParserClass'/>
+<fun r='_ZNK4llvm2cl4list27getValueExpectedFlagDefaultEv'/>
+<fun r='_ZN4llvm2cl4list19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<fun r='_ZN4llvm2cl4list16handleOccurrenceEjNS_9StringRefES2_'/>
+<fun r='_ZNK4llvm2cl4list14getOptionWidthEv'/>
+<fun r='_ZNK4llvm2cl4list15printOptionInfoEm'/>
+<fun r='_ZNK4llvm2cl4list16printOptionValueEmb'/>
+<fun r='_ZN4llvm2cl4list10setDefaultEv'/>
+<fun r='_ZN4llvm2cl4list4doneEv'/>
+<fun r='_ZN4llvm2cl4listC1ERKNS0_4listIT_T0_T1_EE'/>
+<fun r='_ZN4llvm2cl4listaSERKNS0_4listIT_T0_T1_EE'/>
+<fun r='_ZN4llvm2cl4list9getParserEv'/>
+<fun r='_ZNK4llvm2cl4list11getPositionEj'/>
+<fun r='_ZN4llvm2cl4list20setNumAdditionalValsEj'/>
+<fun r='_ZN4llvm2cl4listC1EDpRKT_'/>
+<use f='codebrowser/generator/main.cpp' l='56'/>
+<use f='codebrowser/generator/main.cpp' l='67'/>
+<use f='codebrowser/generator/main.cpp' l='74'/>

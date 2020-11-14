@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='48' ll='50' type='static llvm::simplify_type&lt;const type-parameter-0-0&gt;::RetType llvm::simplify_type&lt;const type-parameter-0-0&gt;::getSimplifiedValue(const From &amp; Val)'/>

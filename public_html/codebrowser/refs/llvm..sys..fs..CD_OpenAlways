@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='704' type='3'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='701'>/// CD_OpenAlways - When opening a file:
+  ///   * If it already exists, open the file with the offset set to 0.
+  ///   * If it does not already exist, create a new file.</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/generator/projectmanager.h' l='58' type='std::vector&lt;ProjectInfo&gt;'/>
+<offset>0</offset>
+<use f='codebrowser/generator/annotator.cpp' l='263' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='263' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='266' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='54' u='m' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='63' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='92' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

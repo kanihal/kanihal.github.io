@@ -1,0 +1,4 @@
+<def f='include/c++/7/bits/unordered_map.h' l='975' ll='977' type='std::unordered_map::mapped_type &amp; std::unordered_map::operator[](std::unordered_map::key_type &amp;&amp; __k)'/>
+<use f='codebrowser/generator/annotator.cpp' l='502' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/generator/annotator.cpp' l='641' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='921' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>

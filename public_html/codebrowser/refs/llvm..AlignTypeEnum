@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='51' ll='57'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='78' c='_ZN4llvm15LayoutAlignElem3getENS_13AlignTypeEnumEjjj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='138' c='_ZNK4llvm10DataLayout23findAlignmentLowerBoundENS_13AlignTypeEnumEj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='144' c='_ZN4llvm10DataLayout23findAlignmentLowerBoundENS_13AlignTypeEnumEj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='166' c='_ZN4llvm10DataLayout12setAlignmentENS_13AlignTypeEnumEjjj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='168' c='_ZNK4llvm10DataLayout16getAlignmentInfoENS_13AlignTypeEnumEjbPNS_4TypeE'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='50'>/// Enum used to categorize the alignment types stored by LayoutAlignElem</doc>

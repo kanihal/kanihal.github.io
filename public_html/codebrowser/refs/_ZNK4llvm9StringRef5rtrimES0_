@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='841' ll='843' type='llvm::StringRef llvm::StringRef::rtrim(llvm::StringRef Chars = &quot; \t\n\v\f\r&quot;) const'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='856' u='c' c='_ZNK4llvm9StringRef4trimES0_'/>

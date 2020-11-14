@@ -1,0 +1,6 @@
+<def f='include/c++/7/bits/unordered_set.h' l='1379' ll='1381' type='std::unordered_multiset::size_type std::unordered_multiset::count(const std::unordered_multiset::key_type &amp; __x) const'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='1374'>/**
+       *  @brief  Finds the number of elements.
+       *  @param  __x  Element to located.
+       *  @return  Number of elements with specified key.
+       */</doc>

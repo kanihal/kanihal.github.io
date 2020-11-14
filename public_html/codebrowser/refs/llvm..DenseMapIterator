@@ -1,0 +1,21 @@
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='66'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='68'/>
+<inh f='include/llvm-7/llvm/ADT/EpochTracker.h' l='86' c='llvm::DebugEpochBase::HandleBase'/>
+<def f='include/llvm-7/llvm/ADT/DenseMap.h' l='1108' ll='1215'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1109'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1110'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1112'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1148' c='_ZN4llvm16DenseMapIteratorC1ERKNS_16DenseMapIteratorIT_T0_T1_T2_XT_EEE'/>
+<mbr r='llvm::DenseMapIterator::Ptr' t='llvm::DenseMapIterator::pointer'/>
+<mbr r='llvm::DenseMapIterator::End' t='llvm::DenseMapIterator::pointer'/>
+<fun r='_ZN4llvm16DenseMapIteratorC1Ev'/>
+<fun r='_ZN4llvm16DenseMapIteratorC1EPNSt11conditionalIXT3_EKT2_S2_E4typeES6_RKNS_14DebugEpochBaseEb'/>
+<fun r='_ZN4llvm16DenseMapIteratorC1ERKNS_16DenseMapIteratorIT_T0_T1_T2_XT_EEE'/>
+<fun r='_ZNK4llvm16DenseMapIteratordeEv'/>
+<fun r='_ZNK4llvm16DenseMapIteratorptEv'/>
+<fun r='_ZNK4llvm16DenseMapIteratoreqERKNS_16DenseMapIteratorIT_T0_T1_T2_Lb1EEE'/>
+<fun r='_ZNK4llvm16DenseMapIteratorneERKNS_16DenseMapIteratorIT_T0_T1_T2_Lb1EEE'/>
+<fun r='_ZN4llvm16DenseMapIteratorppEv'/>
+<fun r='_ZN4llvm16DenseMapIteratorppEi'/>
+<fun r='_ZN4llvm16DenseMapIterator23AdvancePastEmptyBucketsEv'/>
+<fun r='_ZN4llvm16DenseMapIterator23RetreatPastEmptyBucketsEv'/>

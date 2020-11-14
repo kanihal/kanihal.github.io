@@ -1,0 +1,7 @@
+<dec f='codebrowser/generator/annotator.h' l='104' type='std::unique_ptr&lt;clang::MangleContext&gt;'/>
+<use f='codebrowser/generator/annotator.h' l='127' u='m' c='_ZN9Annotator16setMangleContextEPN5clang13MangleContextE'/>
+<use f='codebrowser/generator/annotator.cpp' l='931' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='936' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='938' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='940' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<offset>3904</offset>

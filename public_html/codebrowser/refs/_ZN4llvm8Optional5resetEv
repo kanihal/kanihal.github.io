@@ -1,0 +1,2 @@
+<use f='include/llvm-7/llvm/ADT/Optional.h' l='154' u='c' c='_ZN4llvm8Optional7emplaceEDpOT_'/>
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='169' type='void llvm::Optional::reset()'/>

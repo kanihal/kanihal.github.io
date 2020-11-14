@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='2128' ll='2130' type='double llvm::APIntOps::RoundAPIntToDouble(const llvm::APInt &amp; APIVal)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2141' u='c' c='_ZN4llvm8APIntOps17RoundAPIntToFloatERKNS_5APIntE'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2125'>/// Converts the given APInt to a double value.
+///
+/// Treats the APInt as an unsigned value for conversion purposes.</doc>

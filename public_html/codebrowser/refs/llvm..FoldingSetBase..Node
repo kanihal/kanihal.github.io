@@ -1,0 +1,20 @@
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='136' ll='147'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='183' c='_ZNK4llvm14FoldingSetBase14GetNodeProfileEPNS0_4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='187' c='_ZNK4llvm14FoldingSetBase10NodeEqualsEPNS0_4NodeERKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='192' c='_ZNK4llvm14FoldingSetBase15ComputeNodeHashEPNS0_4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='199' c='_ZN4llvm14FoldingSetBase10RemoveNodeEPNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='204' c='_ZN4llvm14FoldingSetBase15GetOrInsertNodeEPNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='204' c='_ZN4llvm14FoldingSetBase15GetOrInsertNodeEPNS0_4NodeE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='209' c='_ZN4llvm14FoldingSetBase19FindNodeOrInsertPosERKNS_16FoldingSetNodeIDERPv'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='214' c='_ZN4llvm14FoldingSetBase10InsertNodeEPNS0_4NodeEPv'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='359'/>
+<ovr f='include/llvm-7/llvm/ADT/FoldingSet.h' l='710' c='llvm::FoldingSetNodeWrapper'/>
+<ovr f='include/llvm-7/llvm/ADT/FoldingSet.h' l='733' c='llvm::FastFoldingSetNode'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='133'>//===--------------------------------------------------------------------===//
+  /// Node - This class is used to maintain the singly linked bucket list in
+  /// a folding set.</doc>
+<mbr r='llvm::FoldingSetBase::Node::NextInFoldingSetBucket' o='0' t='void *'/>
+<fun r='_ZN4llvm14FoldingSetBase4NodeC1Ev'/>
+<fun r='_ZNK4llvm14FoldingSetBase4Node15getNextInBucketEv'/>
+<fun r='_ZN4llvm14FoldingSetBase4Node15SetNextInBucketEPv'/>

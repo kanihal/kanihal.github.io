@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='129' type='1'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='245' u='r' c='_ZNK4llvm2cl6Option27getValueExpectedFlagDefaultEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='873' u='r' c='_ZNK4llvm2cl6parserIbE27getValueExpectedFlagDefaultEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='899' u='r' c='_ZNK4llvm2cl6parserINS0_13boolOrDefaultEE27getValueExpectedFlagDefaultEv'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='128'>// zero reserved for the unspecified value</doc>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='129'>// The value can appear... or not</doc>

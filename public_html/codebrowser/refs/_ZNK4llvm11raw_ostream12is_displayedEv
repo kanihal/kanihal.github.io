@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='276' type='bool llvm::raw_ostream::is_displayed() const'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='279' u='c' c='_ZNK4llvm11raw_ostream10has_colorsEv'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='273'>/// This function determines if this stream is connected to a &quot;tty&quot; or
+  /// &quot;console&quot; window. That is, the output would be displayed to the user
+  /// rather than being put on a pipe or stored in a file.</doc>

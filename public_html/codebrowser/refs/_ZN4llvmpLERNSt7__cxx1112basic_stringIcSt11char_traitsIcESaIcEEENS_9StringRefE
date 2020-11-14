@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='921' ll='923' type='std::string &amp; llvm::operator+=(std::string &amp; buffer, llvm::StringRef string)'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='306' u='c' c='_ZN4llvm6detail9join_implB5cxx11ET_S1_NS_9StringRefESt18input_iterator_tag'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='325' u='c' c='_ZN4llvm6detail9join_implB5cxx11ET_S1_NS_9StringRefESt20forward_iterator_tag'/>
+<use f='include/llvm-7/llvm/Option/Option.h' l='135' u='c' c='_ZNK4llvm3opt6Option15getPrefixedNameB5cxx11Ev'/>
+<use f='codebrowser/generator/stringbuilder.h' l='67' u='c' c='_ZN21string_builder_helperIN4llvm9StringRefEE9append_toERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES1_'/>
+<use f='codebrowser/generator/annotator.cpp' l='975' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>

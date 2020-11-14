@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/Twine.h' l='257' ll='259' type='void llvm::Twine::Twine()'/>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='253'>/// @name Constructors
+    /// @{
+
+    /// Construct from an empty string.</doc>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='257'>/*implicit*/</doc>

@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Threading.h' l='99' ll='125' type='void llvm::call_once(llvm::once_flag &amp; flag, Function &amp;&amp; F, Args &amp;&amp;... ArgList)'/>

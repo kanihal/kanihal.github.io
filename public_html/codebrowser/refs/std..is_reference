@@ -1,0 +1,16 @@
+<def f='include/c++/7/type_traits' l='580' ll='583'/>
+<use f='include/c++/7/type_traits' l='601'/>
+<use f='include/c++/7/type_traits' l='638'/>
+<use f='include/c++/7/type_traits' l='805'/>
+<use f='include/c++/7/type_traits' l='853'/>
+<use f='include/c++/7/type_traits' l='1071'/>
+<use f='include/c++/7/bits/stl_iterator.h' l='1030'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='208' c='_ZNSt10unique_ptrC1ENSt15__uniq_ptr_implIT_T0_E7pointerENSt11conditionalIXsr12is_referenceIS2_EE5valueES2_RKS2_E4typeE'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='222' c='_ZNSt10unique_ptrC1ENSt15__uniq_ptr_implIT_T0_E7pointerEONSt16remove_referenceIS2_E4typeE'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='244'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='479' c='_ZNSt10unique_ptrIA_T_T0_EC1ET_NSt11conditionalIXsr12is_referenceIS2_EE5valueES2_RKS2_E4typeE'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='497' c='_ZNSt10unique_ptrIA_T_T0_EC1ET_ONSt16remove_referenceIS2_E4typeE'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='511'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='661' c='_ZNSt14__shared_countC1EOSt10unique_ptrIT_T0_E'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='60'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='431'/>

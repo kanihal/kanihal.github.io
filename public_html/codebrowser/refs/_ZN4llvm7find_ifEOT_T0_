@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='949' ll='951' type='decltype(adl_begin(Range)) llvm::find_if(R &amp;&amp; Range, UnaryPredicate P)'/>

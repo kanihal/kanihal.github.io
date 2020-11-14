@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='775' ll='786' type='typename std::enable_if&lt;std::is_unsigned&lt;T&gt;::value, T&gt;::type llvm::SaturatingAdd(T X, T Y, bool * ResultOverflowed = nullptr)'/>

@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='95' type='8'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='96' u='r'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='103' u='r'/>

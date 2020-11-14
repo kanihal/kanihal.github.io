@@ -1,0 +1,124 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='35' ll='667'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='68'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='72' c='_ZN4llvm14SmallBitVector9referenceC1ERS0_j'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='90' c='_ZNK4llvm14SmallBitVector9referencecvbEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='158' c='_ZN4llvm14SmallBitVectorC1ERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='165' c='_ZN4llvm14SmallBitVectorC1EOS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='174'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='364' c='_ZN4llvm14SmallBitVector3setEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='372' c='_ZN4llvm14SmallBitVector3setEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='385' c='_ZN4llvm14SmallBitVector3setEjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='399' c='_ZN4llvm14SmallBitVector5resetEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='407' c='_ZN4llvm14SmallBitVector5resetEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='416' c='_ZN4llvm14SmallBitVector5resetEjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='430' c='_ZN4llvm14SmallBitVector4flipEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='438' c='_ZN4llvm14SmallBitVector4flipEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='447' c='_ZNK4llvm14SmallBitVectorcoEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='448' c='_ZNK4llvm14SmallBitVectorcoEv'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='469' c='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='482' c='_ZNK4llvm14SmallBitVectoreqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='491' c='_ZNK4llvm14SmallBitVectorneERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='496' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='496' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='503' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='511' c='_ZN4llvm14SmallBitVector5resetERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='511' c='_ZN4llvm14SmallBitVector5resetERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='525' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='543' c='_ZN4llvm14SmallBitVectoroRERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='543' c='_ZN4llvm14SmallBitVectoroRERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='550' c='_ZN4llvm14SmallBitVectoroRERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='557' c='_ZN4llvm14SmallBitVectoreOERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='557' c='_ZN4llvm14SmallBitVectoreOERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='564' c='_ZN4llvm14SmallBitVectoreOERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='571' c='_ZN4llvm14SmallBitVectorlSEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='579' c='_ZN4llvm14SmallBitVectorrSEj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='588' c='_ZN4llvm14SmallBitVectoraSERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='588' c='_ZN4llvm14SmallBitVectoraSERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='605' c='_ZN4llvm14SmallBitVectoraSEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='605' c='_ZN4llvm14SmallBitVectoraSEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='613' c='_ZN4llvm14SmallBitVector4swapERS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='669' c='_ZN4llvmanERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='670' c='_ZN4llvmanERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='670' c='_ZN4llvmanERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='671' c='_ZN4llvmanERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='676' c='_ZN4llvmorERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='677' c='_ZN4llvmorERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='677' c='_ZN4llvmorERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='678' c='_ZN4llvmorERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='683' c='_ZN4llvmeoERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='684' c='_ZN4llvmeoERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='684' c='_ZN4llvmeoERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='685' c='_ZN4llvmeoERKNS_14SmallBitVectorES2_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='696' c='_ZSt4swapRN4llvm14SmallBitVectorES1_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='696' c='_ZSt4swapRN4llvm14SmallBitVectorES1_'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='30'>/// This is a &apos;bitvector&apos; (really, a variable-sized bit array), optimized for
+/// the case when the array is small. It contains one pointer-sized field, which
+/// is directly used as a plain collection of bits when possible, or as a
+/// pointer to a larger heap-allocated array when necessary. This allows normal
+/// &quot;small&quot; cases to be fast without losing generality for large inputs.</doc>
+<mbr r='llvm::SmallBitVector::X' o='0' t='uintptr_t'/>
+<fun r='_ZNK4llvm14SmallBitVector7isSmallEv'/>
+<fun r='_ZNK4llvm14SmallBitVector10getPointerEv'/>
+<fun r='_ZN4llvm14SmallBitVector13switchToSmallEmm'/>
+<fun r='_ZN4llvm14SmallBitVector13switchToLargeEPNS_9BitVectorE'/>
+<fun r='_ZNK4llvm14SmallBitVector15getSmallRawBitsEv'/>
+<fun r='_ZN4llvm14SmallBitVector15setSmallRawBitsEm'/>
+<fun r='_ZNK4llvm14SmallBitVector12getSmallSizeEv'/>
+<fun r='_ZN4llvm14SmallBitVector12setSmallSizeEm'/>
+<fun r='_ZNK4llvm14SmallBitVector12getSmallBitsEv'/>
+<fun r='_ZN4llvm14SmallBitVector12setSmallBitsEm'/>
+<fun r='_ZN4llvm14SmallBitVectorC1Ev'/>
+<fun r='_ZN4llvm14SmallBitVectorC1Ejb'/>
+<fun r='_ZN4llvm14SmallBitVectorC1ERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectorC1EOS0_'/>
+<fun r='_ZN4llvm14SmallBitVectorD1Ev'/>
+<fun r='_ZNK4llvm14SmallBitVector14set_bits_beginEv'/>
+<fun r='_ZNK4llvm14SmallBitVector12set_bits_endEv'/>
+<fun r='_ZNK4llvm14SmallBitVector8set_bitsEv'/>
+<fun r='_ZNK4llvm14SmallBitVector5emptyEv'/>
+<fun r='_ZNK4llvm14SmallBitVector4sizeEv'/>
+<fun r='_ZNK4llvm14SmallBitVector5countEv'/>
+<fun r='_ZNK4llvm14SmallBitVector3anyEv'/>
+<fun r='_ZNK4llvm14SmallBitVector3allEv'/>
+<fun r='_ZNK4llvm14SmallBitVector4noneEv'/>
+<fun r='_ZNK4llvm14SmallBitVector10find_firstEv'/>
+<fun r='_ZNK4llvm14SmallBitVector9find_lastEv'/>
+<fun r='_ZNK4llvm14SmallBitVector16find_first_unsetEv'/>
+<fun r='_ZNK4llvm14SmallBitVector15find_last_unsetEv'/>
+<fun r='_ZNK4llvm14SmallBitVector9find_nextEj'/>
+<fun r='_ZNK4llvm14SmallBitVector15find_next_unsetEj'/>
+<fun r='_ZNK4llvm14SmallBitVector9find_prevEj'/>
+<fun r='_ZN4llvm14SmallBitVector5clearEv'/>
+<fun r='_ZN4llvm14SmallBitVector6resizeEjb'/>
+<fun r='_ZN4llvm14SmallBitVector7reserveEj'/>
+<fun r='_ZN4llvm14SmallBitVector3setEv'/>
+<fun r='_ZN4llvm14SmallBitVector3setEj'/>
+<fun r='_ZN4llvm14SmallBitVector3setEjj'/>
+<fun r='_ZN4llvm14SmallBitVector5resetEv'/>
+<fun r='_ZN4llvm14SmallBitVector5resetEj'/>
+<fun r='_ZN4llvm14SmallBitVector5resetEjj'/>
+<fun r='_ZN4llvm14SmallBitVector4flipEv'/>
+<fun r='_ZN4llvm14SmallBitVector4flipEj'/>
+<fun r='_ZNK4llvm14SmallBitVectorcoEv'/>
+<fun r='_ZN4llvm14SmallBitVectorixEj'/>
+<fun r='_ZNK4llvm14SmallBitVectorixEj'/>
+<fun r='_ZNK4llvm14SmallBitVector4testEj'/>
+<fun r='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<fun r='_ZNK4llvm14SmallBitVectoreqERKS0_'/>
+<fun r='_ZNK4llvm14SmallBitVectorneERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectoraNERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVector5resetERKS0_'/>
+<fun r='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectoroRERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectoreOERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectorlSEj'/>
+<fun r='_ZN4llvm14SmallBitVectorrSEj'/>
+<fun r='_ZN4llvm14SmallBitVectoraSERKS0_'/>
+<fun r='_ZN4llvm14SmallBitVectoraSEOS0_'/>
+<fun r='_ZN4llvm14SmallBitVector4swapERS0_'/>
+<fun r='_ZN4llvm14SmallBitVector13setBitsInMaskEPKjj'/>
+<fun r='_ZN4llvm14SmallBitVector15clearBitsInMaskEPKjj'/>
+<fun r='_ZN4llvm14SmallBitVector16setBitsNotInMaskEPKjj'/>
+<fun r='_ZN4llvm14SmallBitVector18clearBitsNotInMaskEPKjj'/>
+<fun r='_ZN4llvm14SmallBitVector9applyMaskEPKjj'/>

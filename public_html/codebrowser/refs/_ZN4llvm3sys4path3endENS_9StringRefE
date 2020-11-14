@@ -1,0 +1,7 @@
+<dec f='include/llvm-7/llvm/Support/Path.h' l='63' type='llvm::sys::path::const_iterator llvm::sys::path::end(llvm::StringRef path)'/>
+<dec f='include/llvm-7/llvm/Support/Path.h' l='107' type='llvm::sys::path::const_iterator llvm::sys::path::end(llvm::StringRef path)'/>
+<doc f='include/llvm-7/llvm/Support/Path.h' l='104'>/// Get end iterator over \a path.
+/// @param path Input path.
+/// @returns Iterator initialized to the end of \a path.</doc>
+<use f='codebrowser/generator/filesystem.cpp' l='173' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/filesystem.cpp' l='175' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>

@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='81' ll='84' type='bool BrowserASTVisitor::VisitNamespaceDecl(clang::NamespaceDecl * d)'/>

@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='392' ll='400' type='T llvm::PointerUnion4::get() const'/>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='389'>/// Returns the value of the specified pointer type.
+  ///
+  /// If the specified pointer type is incorrect, assert.</doc>

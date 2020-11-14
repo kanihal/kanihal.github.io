@@ -1,0 +1,12 @@
+<use f='codebrowser/generator/annotator.h' l='85' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='84' c='_ZN12_GLOBAL__N_111getDeclSizeEPKN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='102' c='_ZN12_GLOBAL__N_114getFieldOffsetEPKN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='558' c='_ZL17getDefinitionDeclPN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='558' c='_ZL17getDefinitionDeclPN5clang4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='634' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='782' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='920' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<size>32</size>
+<use f='codebrowser/generator/browserastvisitor.h' l='312' c='_ZN17BrowserASTVisitor12TraverseDeclEPN5clang4DeclE'/>
+<use f='codebrowser/generator/main.cpp' l='196' c='_ZN18BrowserASTConsumer22shouldSkipFunctionBodyEPN5clang4DeclE'/>
+<size>32</size>

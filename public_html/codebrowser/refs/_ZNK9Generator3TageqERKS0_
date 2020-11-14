@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/generator.h' l='52' ll='55' type='bool Generator::Tag::operator==(const Generator::Tag &amp; other) const'/>
+<use f='codebrowser/generator/generator.h' l='72' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>

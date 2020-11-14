@@ -1,0 +1,5 @@
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='170' u='c' c='_ZN4llvm20BumpPtrAllocatorImplD1Ev'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='175' u='c' c='_ZN4llvm20BumpPtrAllocatorImplaSEONS_20BumpPtrAllocatorImplIT_XT0_EXT1_EEE'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='196' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl5ResetEv'/>
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='367' ll='373' type='void llvm::BumpPtrAllocatorImpl::DeallocateCustomSizedSlabs()'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='366'>/// Deallocate all memory for custom sized slabs.</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/generator/preprocessorcallback.h' l='52' type='void PreprocessorCallback::MacroExpands(const clang::Token &amp; MacroNameTok, PreprocessorCallback::MyMacroDefinition MD, clang::SourceRange Range, const clang::MacroArgs * Args)'/>
+<def f='codebrowser/generator/preprocessorcallback.cpp' l='33' ll='180' type='void PreprocessorCallback::MacroExpands(const clang::Token &amp; MacroNameTok, PreprocessorCallback::MyMacroDefinition MD, clang::SourceRange Range, const clang::MacroArgs * )'/>

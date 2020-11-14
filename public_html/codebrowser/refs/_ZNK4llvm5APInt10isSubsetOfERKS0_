@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1322' ll='1327' type='bool llvm::APInt::isSubsetOf(const llvm::APInt &amp; RHS) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1321'>/// This operation checks that all bits set in this APInt are also set in RHS.</doc>

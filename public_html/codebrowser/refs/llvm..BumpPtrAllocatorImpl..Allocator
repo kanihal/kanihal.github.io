@@ -1,0 +1,9 @@
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='153' u='w' c='_ZN4llvm20BumpPtrAllocatorImplC1EOT_'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='161' u='w' c='_ZN4llvm20BumpPtrAllocatorImplC1EONS_20BumpPtrAllocatorImplIT_XT0_EXT1_EEE'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='183' u='w' c='_ZN4llvm20BumpPtrAllocatorImplaSEONS_20BumpPtrAllocatorImplIT_XT0_EXT1_EEE'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='245' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl8AllocateEmm'/>
+<dec f='include/llvm-7/llvm/Support/Allocator.h' l='331' type='AllocatorT'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='346' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl12StartNewSlabEv'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='362' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl15DeallocateSlabsEPPvS2_'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='371' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl26DeallocateCustomSizedSlabsEv'/>
+<doc f='include/llvm-7/llvm/Support/Allocator.h' l='330'>/// The allocator instance we use to get slabs of memory.</doc>

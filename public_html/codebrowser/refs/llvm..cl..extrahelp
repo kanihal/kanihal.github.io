@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1758' ll='1762'/>
+<size>16</size>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1754'>// extrahelp - provide additional help at the end of the normal help
+// output. All occurrences of cl::extrahelp will be accumulated and
+// printed to stderr at the end of the regular help, just before
+// exit is called.</doc>
+<mbr r='llvm::cl::extrahelp::morehelp' o='0' t='llvm::StringRef'/>
+<fun r='_ZN4llvm2cl9extrahelpC1ENS_9StringRefE'/>
+<use f='codebrowser/generator/main.cpp' l='90'/>
+<size>16</size>

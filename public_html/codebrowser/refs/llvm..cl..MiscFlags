@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='162' ll='166'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='317' c='_ZN4llvm2cl6Option11setMiscFlagENS0_9MiscFlagsE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1167'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1168' c='_ZN4llvm2cl10applicatorINS0_9MiscFlagsEE3optES2_RNS0_6OptionE'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='162'>// Miscellaneous flags to adjust argument</doc>

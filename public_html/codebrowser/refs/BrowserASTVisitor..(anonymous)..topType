@@ -1,0 +1,11 @@
+<dec f='codebrowser/generator/browserastvisitor.h' l='50' type='Annotator::DeclType'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='253' u='w' c='_ZN17BrowserASTVisitor30TraverseConstructorInitializerEPN5clang18CXXCtorInitializerE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='323' u='w' c='_ZN17BrowserASTVisitor12TraverseDeclEPN5clang4DeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='347' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='353' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='355' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='359' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='362' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='365' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='476' u='r' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<offset>704</offset>

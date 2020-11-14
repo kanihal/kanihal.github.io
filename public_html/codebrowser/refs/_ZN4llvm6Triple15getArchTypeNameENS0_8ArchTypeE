@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/ADT/Triple.h' l='792' type='static llvm::StringRef llvm::Triple::getArchTypeName(llvm::Triple::ArchType Kind)'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='787'>/// @}
+  /// @name Static helpers for IDs.
+  /// @{
+
+  /// getArchTypeName - Get the canonical name for the \p Kind architecture.</doc>

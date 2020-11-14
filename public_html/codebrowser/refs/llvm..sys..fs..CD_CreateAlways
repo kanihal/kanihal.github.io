@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='689' type='0'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='920' c='_ZN4llvm3sys2fs16openFileForWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='686'>/// CD_CreateAlways - When opening a file:
+  ///   * If it already exists, truncate it.
+  ///   * If it does not already exist, create a new file.</doc>

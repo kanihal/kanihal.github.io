@@ -1,0 +1,10 @@
+<use f='codebrowser/generator/commenthandler.cpp' l='177' u='c' c='_ZN14CommentHandler14CommentVisitor25visitInlineCommandCommentEPKN5clang8comments20InlineCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='179' u='c' c='_ZN14CommentHandler14CommentVisitor25visitInlineCommandCommentEPKN5clang8comments20InlineCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='182' u='c' c='_ZN14CommentHandler14CommentVisitor24visitHTMLStartTagCommentEPKN5clang8comments19HTMLStartTagCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='189' u='c' c='_ZN14CommentHandler14CommentVisitor22visitHTMLEndTagCommentEPKN5clang8comments17HTMLEndTagCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='196' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='198' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='212' u='c' c='_ZN14CommentHandler14CommentVisitor29visitVerbatimBlockLineCommentEPKN5clang8comments24VerbatimBlockLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='232' u='c' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<def f='codebrowser/generator/commenthandler.cpp' l='238' ll='250' type='void CommentHandler::CommentVisitor::tag(llvm::StringRef className, clang::SourceRange range, llvm::StringRef ref = llvm::StringRef())'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='277' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>

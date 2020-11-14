@@ -1,0 +1,37 @@
+<def f='include/c++/7/bits/stl_algobase.h' l='193' ll='203' macro='1' type='const _Tp &amp; std::min(const _Tp &amp; __a, const _Tp &amp; __b)'/>
+<use f='include/c++/7/bits/stl_algobase.h' l='919' u='c' c='_ZNSt25__lexicographical_compareILb1EE4__lcEPKT_S3_PKT0_S6_'/>
+<dec f='include/c++/7/bits/algorithmfwd.h' l='383' type='const _Tp &amp; std::min(const _Tp &amp; , const _Tp &amp; )'/>
+<use f='include/c++/7/bits/streambuf.tcc' l='55' u='c' c='_ZNSt15basic_streambuf6xsgetnEPT_l'/>
+<use f='include/c++/7/bits/streambuf.tcc' l='89' u='c' c='_ZNSt15basic_streambuf6xsputnEPKT_l'/>
+<use f='include/c++/7/bits/istream.tcc' l='699' u='c' c='_ZNSt13basic_istream8readsomeEPT_l'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='246' u='c' c='_ZN4llvm23SmallVectorTemplateBase4growEm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='186' u='c' c='_ZNK4llvm9StringRef7compareES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='299' u='c' c='_ZNK4llvm9StringRef4findEcm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='361' u='c' c='_ZNK4llvm9StringRef5rfindEcm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='599' u='c' c='_ZNK4llvm9StringRef6substrEmm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='600' u='c' c='_ZNK4llvm9StringRef6substrEmm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='711' u='c' c='_ZNK4llvm9StringRef5sliceEmm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='712' u='c' c='_ZNK4llvm9StringRef5sliceEmm'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='821' u='c' c='_ZNK4llvm9StringRef5ltrimEc'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='828' u='c' c='_ZNK4llvm9StringRef5ltrimES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='835' u='c' c='_ZNK4llvm9StringRef5rtrimEc'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='842' u='c' c='_ZNK4llvm9StringRef5rtrimES0_'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='562' u='c' c='_ZNSt8__detail21_Power2_rehash_policy11_M_next_bktEm'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='338' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl15computeSlabSizeEj'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='455' u='c' c='_ZnwmRN4llvm20BumpPtrAllocatorImplIT_XT0_EXT1_EEE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1627' u='c' c='_ZNK4llvm5APInt18countTrailingZerosEv'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='73' u='c' c='_ZN4llvm6detail15HelperFunctions21parseNumericPrecisionENS_9StringRefE'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='510' u='c' c='_ZNK4llvm9BitVector9anyCommonERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='521' u='c' c='_ZNK4llvm9BitVectoreqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='547' u='c' c='_ZN4llvm9BitVectoraNERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='564' u='c' c='_ZN4llvm9BitVector5resetERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='575' u='c' c='_ZNK4llvm9BitVector4testERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='885' u='c' c='_ZN4llvm9BitVector9applyMaskEPKjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='475' u='c' c='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='517' u='c' c='_ZN4llvm14SmallBitVector5resetERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='532' u='c' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<use f='include/c++/7/bits/fstream.tcc' l='396' u='c' c='_ZNSt13basic_filebuf9underflowEv'/>
+<use f='include/c++/7/bits/fstream.tcc' l='742' u='c' c='_ZNSt13basic_filebuf6xsputnEPKT_l'/>
+<use f='codebrowser/generator/generator.cpp' l='255' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='118' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='130' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

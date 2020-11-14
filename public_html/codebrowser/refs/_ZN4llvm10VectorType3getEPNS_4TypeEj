@@ -1,0 +1,7 @@
+<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='401' type='static llvm::VectorType * llvm::VectorType::get(llvm::Type * ElementType, unsigned int NumElements)'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='410' u='c' c='_ZN4llvm10VectorType10getIntegerEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='418' u='c' c='_ZN4llvm10VectorType28getExtendedElementVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='428' u='c' c='_ZN4llvm10VectorType29getTruncatedElementVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='437' u='c' c='_ZN4llvm10VectorType25getHalfElementsVectorTypeEPS0_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='444' u='c' c='_ZN4llvm10VectorType27getDoubleElementsVectorTypeEPS0_'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='400'>/// This static method is the primary way to construct an VectorType.</doc>

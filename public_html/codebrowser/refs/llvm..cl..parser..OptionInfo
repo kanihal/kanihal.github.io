@@ -1,0 +1,6 @@
+<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='648' c='llvm::cl::generic_parser_base::GenericOptionInfo'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='744' ll='750'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='751'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='792' c='_ZN4llvm2cl6parser16addLiteralOptionENS_9StringRefERKT_S2_'/>
+<fun r='_ZN4llvm2cl6parser10OptionInfoC1ENS_9StringRefET_S3_'/>
+<mbr r='llvm::cl::parser::OptionInfo::V' t='OptionValue&lt;DataType&gt;'/>

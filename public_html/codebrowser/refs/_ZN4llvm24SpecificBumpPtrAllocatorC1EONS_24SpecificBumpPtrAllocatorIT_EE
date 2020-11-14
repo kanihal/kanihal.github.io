@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='396' ll='397' type='void llvm::SpecificBumpPtrAllocator::SpecificBumpPtrAllocator&lt;T&gt;(SpecificBumpPtrAllocator&lt;T&gt; &amp;&amp; Old)'/>

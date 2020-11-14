@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='444' ll='447' type='llvm::BitVector &amp; llvm::BitVector::reset(unsigned int Idx)'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='411' u='c' c='_ZN4llvm14SmallBitVector5resetEj'/>

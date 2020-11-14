@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='331' ll='335' type='typename std::enable_if&lt;(N &lt; 64), bool&gt;::type llvm::isUInt(uint64_t X)'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='337' ll='340' type='typename std::enable_if&lt;N &gt;= 64, bool&gt;::type llvm::isUInt(uint64_t X)'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='343' ll='345' type='bool llvm::isUInt(uint64_t x)'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='346' ll='348' type='bool llvm::isUInt(uint64_t x)'/>
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='349' ll='351' type='bool llvm::isUInt(uint64_t x)'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='342'>// Template specializations to get better code for common cases.</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/annotator.h' l='88' type='Annotator::DeclType'/>
+<use f='codebrowser/generator/annotator.cpp' l='352' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='399' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<offset>0</offset>

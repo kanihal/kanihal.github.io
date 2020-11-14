@@ -1,0 +1,8 @@
+<def f='include/c++/7/type_traits' l='1251' ll='1253'/>
+<use f='include/c++/7/type_traits' l='2583' c='_ZSt4swapRT_S0_'/>
+<use f='include/c++/7/bits/move.h' l='104'/>
+<use f='include/c++/7/bits/move.h' l='188' c='_ZSt4swapRT_S0_'/>
+<use f='include/c++/7/bits/allocator.h' l='217'/>
+<use f='include/c++/7/tuple' l='224' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJS0_S2_EE'/>
+<use f='include/c++/7/tuple' l='225' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJS0_S2_EE'/>
+<use f='include/c++/7/tuple' l='372' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOS_IXT_EJS0_EE'/>

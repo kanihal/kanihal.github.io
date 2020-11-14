@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1170' type='bool llvm::APInt::ne(const llvm::APInt &amp; RHS) const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1164'>/// Inequality comparison
+  ///
+  /// Compares this APInt with RHS for the validity of the inequality
+  /// relationship.
+  ///
+  /// \returns true if *this != Val</doc>

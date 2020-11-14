@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='971' ll='973' type='void llvm::consumeError(llvm::Error Err)'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='983' u='c' c='_ZN4llvm11errorToBoolENS_5ErrorE'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='964'>/// Consume a Error without doing anything. This method should be used
+/// only where an error can be considered a reasonable and expected return
+/// value.
+///
+/// Uses of this method are potentially indicative of design problems: If it&apos;s
+/// legitimate to do nothing while processing an &quot;error&quot;, the error-producer
+/// might be more clearly refactored to return an Optional&lt;T&gt;.</doc>

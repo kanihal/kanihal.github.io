@@ -1,0 +1,2 @@
+<use f='include/llvm-7/llvm/Support/Error.h' l='70' u='a' c='_ZN4llvm13ErrorInfoBase7classIDEv'/>
+<dec f='include/llvm-7/llvm/Support/Error.h' l='89' type='char'/>

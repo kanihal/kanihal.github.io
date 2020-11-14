@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/InitializePasses.h' l='361' type='void llvm::initializeSimpleInlinerPass(llvm::PassRegistry &amp; )'/>

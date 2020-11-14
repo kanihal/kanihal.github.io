@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='1046' type='0'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='53'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1046'>///&lt; May only access map via const_data as read only.</doc>

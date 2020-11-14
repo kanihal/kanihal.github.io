@@ -1,0 +1,3 @@
+<dec f='codebrowser/generator/annotator.h' l='90' type='std::string'/>
+<use f='codebrowser/generator/annotator.cpp' l='397' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<offset>128</offset>

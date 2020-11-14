@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1108' type='void llvm::sys::fs::directory_entry::directory_entry()'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1193' u='c' c='_ZNK4llvm3sys2fs18directory_iteratoreqERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1195' u='c' c='_ZNK4llvm3sys2fs18directory_iteratoreqERKS2_'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1215' u='c' c='_ZN4llvm3sys2fs18directory_iterator35update_error_code_for_current_entryERSt10error_code'/>

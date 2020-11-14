@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='82' ll='84' type='void llvm::ArrayRef::ArrayRef&lt;T&gt;(const SmallVectorTemplateCommon&lt;T, U&gt; &amp; Vec)'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='300' u='c' c='_ZNK4llvm12SMDiagnostic9getFixItsEv'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='238' u='c' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='258' u='c' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='294' u='c' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='343' u='c' c='_ZNK4llvm10DataLayout27getNonIntegralAddressSpacesEv'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='82'>/*implicit*/</doc>

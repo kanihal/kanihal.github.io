@@ -1,0 +1,21 @@
+<def f='codebrowser/generator/projectmanager.h' l='53' ll='76'/>
+<size>144</size>
+<fun r='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
+<fun r='_ZN14ProjectManager10addProjectE11ProjectInfo'/>
+<mbr r='ProjectManager::projects' o='0' t='std::vector&lt;ProjectInfo&gt;'/>
+<mbr r='ProjectManager::outputPrefix' o='192' t='std::string'/>
+<mbr r='ProjectManager::dataPath' o='448' t='std::string'/>
+<fun r='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<fun r='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>
+<fun r='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<fun r='_ZN14ProjectManager14systemProjectsEv'/>
+<mbr r='ProjectManager::includeRecoveryCache' o='704' t='std::unordered_multimap&lt;std::string, std::string&gt;'/>
+<fun r='_ZN14ProjectManager14systemProjectsEv'/>
+<use f='codebrowser/generator/annotator.h' l='120' c='_ZN9AnnotatorC1ER14ProjectManager'/>
+<use f='codebrowser/generator/annotator.h' l='123'/>
+<size>144</size>
+<use f='codebrowser/generator/main.cpp' l='153' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='228'/>
+<use f='codebrowser/generator/main.cpp' l='233'/>
+<use f='codebrowser/generator/main.cpp' l='333' c='main'/>
+<size>144</size>

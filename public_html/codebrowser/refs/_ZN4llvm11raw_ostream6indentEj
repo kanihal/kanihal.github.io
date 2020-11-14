@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='245' type='llvm::raw_ostream &amp; llvm::raw_ostream::indent(unsigned int NumSpaces)'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='244'>/// indent - Insert &apos;NumSpaces&apos; spaces.</doc>

@@ -1,0 +1,6 @@
+<def f='include/c++/7/bits/unique_ptr.h' l='806' ll='807'/>
+<def f='include/c++/7/bits/unique_ptr.h' l='809' ll='811'/>
+<def f='include/c++/7/bits/unique_ptr.h' l='813' ll='815'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='819' c='_ZSt11make_uniqueDpOT0_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='825' c='_ZSt11make_uniquem'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='831' c='_ZSt11make_uniqueDpOT0_'/>

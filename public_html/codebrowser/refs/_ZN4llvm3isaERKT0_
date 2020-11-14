@@ -1,0 +1,34 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='142' ll='145' type='bool llvm::isa(const Y &amp; Val)'/>
+<use f='codebrowser/generator/annotator.cpp' l='125' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='126' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='127' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='128' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='129' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='130' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='139' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='142' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='146' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='167' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='584' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='584' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='710' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='712' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='804' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='805' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='926' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='929' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='935' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='937' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<doc f='include/llvm-7/llvm/Support/Casting.h' l='137'>// isa&lt;X&gt; - Return true if the parameter to the template is an instance of the
+// template type argument.  Used like this:
+//
+//  if (isa&lt;Type&gt;(myVal)) { ... }
+//</doc>
+<use f='codebrowser/generator/commenthandler.cpp' l='102' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='103' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='128' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='129' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='162' u='c' c='_ZN17BrowserASTVisitor16VisitDeclRefExprEPN5clang11DeclRefExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='280' u='c' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='402' u='c' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='443' u='c' c='_ZN17BrowserASTVisitor8classifyEv'/>

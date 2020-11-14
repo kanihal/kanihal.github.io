@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='342' ll='344' type='ArrayRef&lt;unsigned int&gt; llvm::DataLayout::getNonIntegralAddressSpaces() const'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='347' u='c' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_11PointerTypeE'/>
+<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='340'>/// Return the address spaces containing non-integral pointers.  Pointers in
+  /// this address space don&apos;t have a well-defined bitwise representation.</doc>

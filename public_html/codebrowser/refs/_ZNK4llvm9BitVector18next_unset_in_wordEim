@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='836' ll='839' type='int llvm::BitVector::next_unset_in_word(int WordIndex, llvm::BitVector::BitWord Word) const'/>

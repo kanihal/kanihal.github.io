@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='295' ll='307' type='llvm::TinyPtrVector::iterator llvm::TinyPtrVector::erase(llvm::TinyPtrVector::iterator S, llvm::TinyPtrVector::iterator E)'/>

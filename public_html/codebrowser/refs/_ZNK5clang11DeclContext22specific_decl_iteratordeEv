@@ -1,0 +1,7 @@
+<use f='codebrowser/generator/commenthandler.cpp' l='275' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='49' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='51' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='52' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='53' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='53' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='54' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>

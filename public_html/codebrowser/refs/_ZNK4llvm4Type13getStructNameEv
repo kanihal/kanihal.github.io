@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='354' type='llvm::StringRef llvm::Type::getStructName() const'/>
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='325' ll='327' type='llvm::StringRef llvm::Type::getStructName() const'/>

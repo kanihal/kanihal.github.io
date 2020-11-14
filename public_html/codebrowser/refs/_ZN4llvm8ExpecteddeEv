@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='566' ll='569' type='llvm::Expected::reference llvm::Expected::operator*()'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='565'>/// Returns a reference to the stored T value.</doc>

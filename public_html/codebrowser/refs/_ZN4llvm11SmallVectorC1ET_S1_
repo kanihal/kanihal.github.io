@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='865' ll='867' type='void llvm::SmallVector::SmallVector&lt;T, N&gt;(ItTy S, ItTy E)'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='315' u='c' c='_ZN4llvm16FoldingSetNodeIDC1ENS_19FoldingSetNodeIDRefE'/>

@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='74' ll='77'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='90' c='_ZNK4llvm25SmallVectorTemplateCommon10getFirstElEv'/>
+<doc f='include/llvm-7/llvm/ADT/SmallVector.h' l='73'>/// Figure out the offset of the first element.</doc>
+<mbr r='llvm::SmallVectorAlignmentAndSize::Base' t='AlignedCharArrayUnion&lt;llvm::SmallVectorBase&gt;'/>
+<mbr r='llvm::SmallVectorAlignmentAndSize::FirstEl' t='AlignedCharArrayUnion&lt;T&gt;'/>

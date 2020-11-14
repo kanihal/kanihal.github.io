@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/Optional.h' l='153' ll='157' type='void llvm::Optional::emplace(ArgTypes &amp;&amp;... Args)'/>
+<doc f='include/llvm-7/llvm/ADT/Optional.h' l='152'>/// Create a new object by constructing it in place with the given arguments.</doc>

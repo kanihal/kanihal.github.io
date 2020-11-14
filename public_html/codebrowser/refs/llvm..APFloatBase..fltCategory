@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/APFloat.h' l='195' ll='200'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='354' c='_ZNK4llvm6detail9IEEEFloat11getCategoryEv'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='559'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='623' c='_ZNK4llvm6detail13DoubleAPFloat11getCategoryEv'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1154' c='_ZNK4llvm7APFloat11getCategoryEv'/>
+<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='194'>/// Category of internally-represented number.</doc>

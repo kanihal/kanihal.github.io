@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='843' type='void llvm::cl::basic_parser_impl::printOptionName(const llvm::cl::Option &amp; O, size_t GlobalWidth) const'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='842'>// A helper for basic_parser::printOptionDiff.</doc>

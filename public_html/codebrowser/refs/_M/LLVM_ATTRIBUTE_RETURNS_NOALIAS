@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/Compiler.h' l='223'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='213' u='c'/>

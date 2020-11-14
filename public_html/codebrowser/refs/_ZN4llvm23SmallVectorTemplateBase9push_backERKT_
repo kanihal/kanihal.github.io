@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='218' ll='223' type='void llvm::SmallVectorTemplateBase::push_back(const T &amp; Elt)'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='296' u='c' c='_ZN4llvm12SMDiagnostic8addFixItERKNS_7SMFixItE'/>

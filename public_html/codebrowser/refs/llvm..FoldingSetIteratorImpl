@@ -1,0 +1,15 @@
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='620' ll='635'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='629' c='_ZNK4llvm22FoldingSetIteratorImpleqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='632' c='_ZNK4llvm22FoldingSetIteratorImplneERKS0_'/>
+<ovr f='include/llvm-7/llvm/ADT/FoldingSet.h' l='637' c='llvm::FoldingSetIterator'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='637'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='639' c='_ZN4llvm18FoldingSetIteratorC1EPPv'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='617'>//===----------------------------------------------------------------------===//
+/// FoldingSetIteratorImpl - This is the common iterator support shared by all
+/// folding sets, which knows how to walk the folding set hash table.</doc>
+<mbr r='llvm::FoldingSetIteratorImpl::NodePtr' o='0' t='llvm::FoldingSetNode *'/>
+<fun r='_ZN4llvm22FoldingSetIteratorImplC1EPPv'/>
+<fun r='_ZN4llvm22FoldingSetIteratorImpl7advanceEv'/>
+<fun r='_ZNK4llvm22FoldingSetIteratorImpleqERKS0_'/>
+<fun r='_ZNK4llvm22FoldingSetIteratorImplneERKS0_'/>

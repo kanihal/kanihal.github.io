@@ -1,0 +1,2 @@
+<def f='include/c++/7/bits/stl_set.h' l='872' ll='874' type='std::pair&lt;const_iterator, const_iterator&gt; std::set::equal_range(const std::set::key_type &amp; __x) const'/>
+<def f='include/c++/7/bits/stl_set.h' l='884' ll='887' type='decltype(pair&lt;std::set::iterator, std::set::iterator&gt;(this-&gt;_M_t._M_equal_range_tr(__x))) std::set::equal_range(const _Kt &amp; __x) const'/>

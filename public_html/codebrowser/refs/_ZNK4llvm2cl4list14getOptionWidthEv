@@ -1,0 +1,3 @@
+<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='344' c='_ZNK4llvm2cl6Option14getOptionWidthEv'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1504' ll='1506' type='size_t llvm::cl::list::getOptionWidth() const'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1503'>// Forward printing stuff to the parser...</doc>

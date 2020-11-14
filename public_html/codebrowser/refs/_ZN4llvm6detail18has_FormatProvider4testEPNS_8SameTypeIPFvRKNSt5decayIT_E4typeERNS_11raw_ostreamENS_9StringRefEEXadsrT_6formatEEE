@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='66' type='static char llvm::detail::has_FormatProvider::test(SameType&lt;llvm::detail::has_FormatProvider::Signature_format, &amp; U::format&gt; * )'/>

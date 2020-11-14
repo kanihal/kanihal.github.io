@@ -1,0 +1,6 @@
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='100' u='c' c='_ZNK4llvm11raw_ostream4tellEv'/>
+<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='303' type='uint64_t llvm::raw_ostream::current_pos() const'/>
+<ovr f='include/llvm-7/llvm/Support/raw_ostream.h' l='383' c='_ZNK4llvm14raw_fd_ostream11current_posEv'/>
+<ovr f='include/llvm-7/llvm/Support/raw_ostream.h' l='485' c='_ZNK4llvm18raw_string_ostream11current_posEv'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='301'>/// Return the current position within the stream, not counting the bytes
+  /// currently in the buffer.</doc>

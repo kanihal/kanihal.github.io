@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='236' type='bool llvm::Type::canLosslesslyBitCastTo(llvm::Type * Ty) const'/>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='232'>/// Return true if this type could be converted with a lossless BitCast to
+  /// type &apos;Ty&apos;. For example, i8* to i32*. BitCasts are valid for types of the
+  /// same size only where no re-interpretation of the bits is done.
+  /// Determine if this type could be losslessly bitcast to Ty</doc>

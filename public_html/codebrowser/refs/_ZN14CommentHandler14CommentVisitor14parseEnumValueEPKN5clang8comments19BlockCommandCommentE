@@ -1,0 +1,3 @@
+<use f='codebrowser/generator/commenthandler.cpp' l='200' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
+<def f='codebrowser/generator/commenthandler.cpp' l='253' ll='284' type='void CommentHandler::CommentVisitor::parseEnumValue(const clang::comments::BlockCommandComment * C)'/>
+<doc f='codebrowser/generator/commenthandler.cpp' l='252'>// Parse the \value command  (for enum values)</doc>

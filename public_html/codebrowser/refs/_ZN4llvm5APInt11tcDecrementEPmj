@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1934' ll='1936' type='static llvm::APInt::WordType llvm::APInt::tcDecrement(llvm::APInt::WordType * dst, unsigned int parts)'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1933'>/// Decrement a bignum in-place.  Return the borrow flag.</doc>

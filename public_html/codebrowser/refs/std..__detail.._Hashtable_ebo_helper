@@ -1,0 +1,35 @@
+<def f='include/c++/7/bits/hashtable_policy.h' l='1083' ll='1101'/>
+<def f='include/c++/7/bits/hashtable_policy.h' l='1104' ll='1124'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1167'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1168'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1171'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1172'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1245'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1246'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1247'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1250'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1251'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1252'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1335'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1336'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1337'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1344'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1345'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1346'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1453'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1456'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1756'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1800'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='1997'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='2000'/>
+<doc f='include/c++/7/bits/hashtable_policy.h' l='1082'>/// Specialization using EBO.</doc>
+<doc f='include/c++/7/bits/hashtable_policy.h' l='1103'>/// Specialization not using EBO.</doc>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb1EEC1Ev'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb1EEC1EOT_'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb1EE7_S_cgetERKNS0_IXT_ES1_Lb1EEE'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb1EE6_S_getERNS0_IXT_ES1_Lb1EEE'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb0EEC1Ev'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb0EEC1EOT_'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb0EE7_S_cgetERKNS0_IXT_ES1_Lb0EEE'/>
+<fun r='_ZNSt8__detail21_Hashtable_ebo_helperIXT_ET0_Lb0EE6_S_getERNS0_IXT_ES1_Lb0EEE'/>
+<mbr r='std::__detail::_Hashtable_ebo_helper::_M_tp' t='_Tp'/>

@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/StringRef.h' l='476' ll='482' type='size_t llvm::StringRef::count(char C) const'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='124' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='135' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='138' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

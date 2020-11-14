@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='263' type='llvm::StringRef'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='269' u='w' c='_ZN4llvm15MemoryBufferRefC1ERNS_12MemoryBufferE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='271' u='w' c='_ZN4llvm15MemoryBufferRefC1ENS_9StringRefES1_'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='273' u='r' c='_ZNK4llvm15MemoryBufferRef9getBufferEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='277' u='m' c='_ZNK4llvm15MemoryBufferRef14getBufferStartEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='278' u='m' c='_ZNK4llvm15MemoryBufferRef12getBufferEndEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='279' u='m' c='_ZNK4llvm15MemoryBufferRef13getBufferSizeEv'/>
+<offset>0</offset>

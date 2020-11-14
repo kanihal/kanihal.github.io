@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1187' type='const llvm::sys::fs::directory_entry * llvm::sys::fs::directory_iterator::operator-&gt;() const'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1259' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>

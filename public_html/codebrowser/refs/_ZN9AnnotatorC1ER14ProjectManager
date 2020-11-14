@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/annotator.h' l='120' type='void Annotator::Annotator(ProjectManager &amp; pm)'/>
+<use f='codebrowser/generator/main.cpp' l='154' u='c' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>

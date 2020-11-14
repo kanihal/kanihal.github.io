@@ -1,0 +1,45 @@
+<def f='include/c++/7/bits/cpp_type_traits.h' l='74'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='78'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='98'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='113'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='130'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='282'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='314'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='347'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='370'/>
+<use f='include/c++/7/bits/cpp_type_traits.h' l='401'/>
+<use f='include/c++/7/bits/basic_string.h' l='233' c='_ZNSt7__cxx1112basic_string16_M_construct_auxET_S1_St12__false_type'/>
+<use f='include/c++/7/bits/basic_string.h' l='2081' c='_ZNSt7__cxx1112basic_string7replaceEN9__gnu_cxx17__normal_iteratorINS1_14__alloc_traitsINS3_IT1_E6rebindIT_E5otherEE13const_pointerENS_12basic_stringI7556332'/>
+<use f='include/c++/7/bits/basic_string.h' l='2232' c='_ZNSt7__cxx1112basic_string19_M_replace_dispatchEN9__gnu_cxx17__normal_iteratorINS1_14__alloc_traitsINS3_IT1_E6rebindIT_E5otherEE13const_pointerENS_129692698'/>
+<use f='include/c++/7/bits/basic_string.tcc' l='382' c='_ZNSt7__cxx1112basic_string19_M_replace_dispatchEN9__gnu_cxx17__normal_iteratorINS1_14__alloc_traitsINS3_IT1_E6rebindIT_E5otherEE13const_pointerENS_129692698'/>
+<use f='include/c++/7/bits/stl_vector.h' l='414' c='_ZNSt6vectorC1ET_S0_RKT0_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='521' c='_ZNSt6vector6assignET_S0_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1133' c='_ZNSt6vector6insertEN9__gnu_cxx17__normal_iteratorINS0_14__alloc_traitsINSt12_Vector_baseIT_T0_E14_Tp_alloc_typeEE13const_pointerESt6vectorIS4_S5_EEET_SE_'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1295' c='_ZNSt6vector22_M_initialize_dispatchET_S0_St12__false_type'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1373' c='_ZNSt6vector18_M_assign_dispatchET_S0_St12__false_type'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1409' c='_ZNSt6vector18_M_insert_dispatchEN9__gnu_cxx17__normal_iteratorINSt12_Vector_baseIT_T0_E7pointerESt6vectorIS3_S4_EEET_SB_St12__false_type'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='667' c='_ZNSt6vectorIbT_EC1ET_S2_RKS0_'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='763' c='_ZNSt6vectorIbT_E6assignET_S2_'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='976' c='_ZNSt6vectorIbT_E6insertESt19_Bit_const_iteratorT_S3_'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='1130' c='_ZNSt6vectorIbT_E22_M_initialize_dispatchET_S2_St12__false_type'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='1163' c='_ZNSt6vectorIbT_E18_M_assign_dispatchET_S2_St12__false_type'/>
+<use f='include/c++/7/bits/stl_bvector.h' l='1228' c='_ZNSt6vectorIbT_E18_M_insert_dispatchESt13_Bit_iteratorT_S3_St12__false_type'/>
+<size>1</size>
+<use f='include/c++/7/bits/stl_list.h' l='655' c='_ZNSt7__cxx114listC1ERKNS_4listIT_T0_EE'/>
+<use f='include/c++/7/bits/stl_list.h' l='679' c='_ZNSt7__cxx114listC1ESt16initializer_listIT_ERKT0_'/>
+<use f='include/c++/7/bits/stl_list.h' l='683' c='_ZNSt7__cxx114listC1ERKNS_4listIT_T0_EERKS3_'/>
+<use f='include/c++/7/bits/stl_list.h' l='712' c='_ZNSt7__cxx114listC1ET_S1_RKT0_'/>
+<use f='include/c++/7/bits/stl_list.h' l='815' c='_ZNSt7__cxx114list6assignET_S1_'/>
+<use f='include/c++/7/bits/stl_list.h' l='837' c='_ZNSt7__cxx114list6assignESt16initializer_listIT_E'/>
+<use f='include/c++/7/bits/stl_list.h' l='1726' c='_ZNSt7__cxx114list22_M_initialize_dispatchET_S1_St12__false_type'/>
+<use f='include/c++/7/bits/stl_list.h' l='1774' c='_ZNSt7__cxx114list18_M_assign_dispatchET_S1_St12__false_type'/>
+<use f='include/c++/7/bits/stl_list.h' l='1866' c='_ZNSt7__cxx114list14_M_move_assignEONS_4listIT_T0_EESt17integral_constantIbLb0EE'/>
+<use f='include/c++/7/bits/list.tcc' l='285' c='_ZNSt7__cxx114listaSERKNS_4listIT_T0_EE'/>
+<use f='include/c++/7/bits/list.tcc' l='309' c='_ZNSt7__cxx114list18_M_assign_dispatchET_S1_St12__false_type'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1026' c='_ZNSt5dequeC1ET_S0_RKT0_'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1127' c='_ZNSt5deque6assignET_S0_'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1740' c='_ZNSt5deque6insertENSt11_Deque_baseIT_T0_E14const_iteratorET_S5_'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1862' c='_ZNSt5deque22_M_initialize_dispatchET_S0_St12__false_type'/>
+<use f='include/c++/7/bits/stl_deque.h' l='1927' c='_ZNSt5deque18_M_assign_dispatchET_S0_St12__false_type'/>
+<use f='include/c++/7/bits/stl_deque.h' l='2009' c='_ZNSt5deque18_M_insert_dispatchENSt11_Deque_baseIT_T0_E8iteratorET_S5_St12__false_type'/>
+<size>1</size>

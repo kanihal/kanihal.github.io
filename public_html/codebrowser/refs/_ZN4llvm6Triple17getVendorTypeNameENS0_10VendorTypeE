@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/ADT/Triple.h' l='803' type='static llvm::StringRef llvm::Triple::getVendorTypeName(llvm::Triple::VendorType Kind)'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='802'>/// getVendorTypeName - Get the canonical name for the \p Kind vendor.</doc>

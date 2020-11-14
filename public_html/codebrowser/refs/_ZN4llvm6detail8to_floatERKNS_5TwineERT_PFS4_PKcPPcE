@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='199' ll='208' type='bool llvm::detail::to_float(const llvm::Twine &amp; T, N &amp; Num, N (*)(const char *, char **) StrTo)'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='212' u='c' c='_ZN4llvm8to_floatERKNS_5TwineERf'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='216' u='c' c='_ZN4llvm8to_floatERKNS_5TwineERd'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='220' u='c' c='_ZN4llvm8to_floatERKNS_5TwineERe'/>

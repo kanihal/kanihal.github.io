@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/Triple.h' l='482' ll='484' type='bool llvm::Triple::isOSOpenBSD() const'/>
+<use f='include/llvm-7/llvm/ADT/Triple.h' l='685' u='c' c='_ZNK4llvm6Triple21hasDefaultEmulatedTLSEv'/>

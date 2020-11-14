@@ -1,0 +1,7 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1684' type='std::string llvm::APInt::toString(unsigned int Radix, bool Signed) const'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='71' u='c' c='_ZNK4llvm6APSInt8toStringB5cxx11Ej'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1679'>/// Return the APInt as a std::string.
+  ///
+  /// Note that this is an inefficient method.  It is better to pass in a
+  /// SmallVector/SmallString to the methods above to avoid thrashing the heap
+  /// for the string.</doc>

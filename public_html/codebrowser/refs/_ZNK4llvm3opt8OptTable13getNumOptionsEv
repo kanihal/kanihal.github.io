@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Option/OptTable.h' l='90' type='unsigned int llvm::opt::OptTable::getNumOptions() const'/>
+<doc f='include/llvm-7/llvm/Option/OptTable.h' l='89'>/// Return the total number of option classes.</doc>

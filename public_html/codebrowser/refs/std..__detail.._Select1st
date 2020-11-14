@@ -1,0 +1,9 @@
+<def f='include/c++/7/bits/hashtable_policy.h' l='98' ll='105'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='663'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='673'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='678'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='683'/>
+<use f='include/c++/7/bits/unordered_map.h' l='48'/>
+<use f='include/c++/7/bits/unordered_map.h' l='65'/>
+<size>1</size>
+<fun r='_ZNKSt8__detail10_Select1stclEOT_'/>

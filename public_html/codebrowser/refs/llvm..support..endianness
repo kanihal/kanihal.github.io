@@ -1,0 +1,29 @@
+<def f='include/llvm-7/llvm/Support/Endian.h' l='30'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='47' c='_ZN4llvm7support6endian17system_endiannessEv'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='52' c='_ZN4llvm7support6endian9byte_swapET_NS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='59'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='66' c='_ZN4llvm7support6endian4readEPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='77'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='86' c='_ZN4llvm7support6endian8readNextERPKT1_NS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='92'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='100' c='_ZN4llvm7support6endian5writeEPvT_NS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='108'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='119'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='153'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='208'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='340' c='_ZN4llvm7support6endian4readEPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='344'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='348' c='_ZN4llvm7support6endian6read16EPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='351' c='_ZN4llvm7support6endian6read32EPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='354' c='_ZN4llvm7support6endian6read64EPKvNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='358'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='361'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='364'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='375' c='_ZN4llvm7support6endian5writeEPvT_NS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='379'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='383' c='_ZN4llvm7support6endian7write16EPvtNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='386' c='_ZN4llvm7support6endian7write32EPvjNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='389' c='_ZN4llvm7support6endian7write64EPvmNS0_10endiannessE'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='393'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='396'/>
+<use f='include/llvm-7/llvm/Support/Endian.h' l='399'/>

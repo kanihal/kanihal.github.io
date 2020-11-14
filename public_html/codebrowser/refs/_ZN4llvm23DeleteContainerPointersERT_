@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='896' ll='900' type='void llvm::DeleteContainerPointers(Container &amp; C)'/>

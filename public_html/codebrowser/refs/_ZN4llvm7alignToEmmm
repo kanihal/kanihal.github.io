@@ -1,0 +1,26 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='685' ll='689' type='uint64_t llvm::alignTo(uint64_t Value, uint64_t Align, uint64_t Skew = 0)'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='700' u='c' c='_ZN4llvm10divideCeilEmm'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='728' u='c' c='_ZN4llvm17OffsetToAlignmentEmm'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='665'>/// Returns the next integer (mod 2**64) that is greater than or equal to
+/// \p Value and is a multiple of \p Align. \p Align must be non-zero.
+///
+/// If non-zero \p Skew is specified, the return value will be a minimal
+/// integer that is greater than or equal to \p Value and equal to
+/// \p Align * N + \p Skew for some integer N. If \p Skew is larger than
+/// \p Align, its value is adjusted to &apos;\p Skew mod \p Align&apos;.
+///
+/// Examples:
+/// \code
+///   alignTo(5, 8) = 8
+///   alignTo(17, 8) = 24
+///   alignTo(~0LL, 8) = 0
+///   alignTo(321, 255) = 510
+///
+///   alignTo(5, 8, 7) = 7
+///   alignTo(17, 8, 1) = 17
+///   alignTo(~0LL, 8, 3) = 3
+///   alignTo(321, 255, 42) = 552
+/// \endcode</doc>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='427' u='c' c='_ZN4llvm9BitVector3setEjj'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='466' u='c' c='_ZN4llvm9BitVector5resetEjj'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='430' u='c' c='_ZNK4llvm10DataLayout16getTypeAllocSizeEPNS_4TypeE'/>

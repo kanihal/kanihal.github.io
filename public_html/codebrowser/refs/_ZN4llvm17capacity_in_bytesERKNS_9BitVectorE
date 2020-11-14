@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='915' ll='917' type='size_t llvm::capacity_in_bytes(const llvm::BitVector &amp; X)'/>

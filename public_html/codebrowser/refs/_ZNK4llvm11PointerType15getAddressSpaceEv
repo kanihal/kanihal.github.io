@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='495' type='unsigned int llvm::PointerType::getAddressSpace() const'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='504' u='c' c='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>
+<use f='include/llvm-7/llvm/IR/DataLayout.h' l='348' u='c' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_11PointerTypeE'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='494'>/// Return the address space of the Pointer type.</doc>

@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/ErrorOr.h' l='248' ll='251' type='const llvm::ErrorOr::storage_type * llvm::ErrorOr::getStorage() const'/>

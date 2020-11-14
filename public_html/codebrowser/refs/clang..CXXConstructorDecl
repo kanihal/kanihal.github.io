@@ -1,0 +1,7 @@
+<use f='codebrowser/generator/annotator.cpp' l='937' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='938' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<size>176</size>
+<use f='codebrowser/generator/browserastvisitor.h' l='261' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<size>176</size>
+<use f='codebrowser/generator/qtsupport.cpp' l='394' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
+<size>176</size>

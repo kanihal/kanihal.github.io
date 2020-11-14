@@ -1,0 +1,4 @@
+<def f='include/c++/7/bits/unordered_set.h' l='134' type='void std::unordered_set::unordered_set&lt;_Value, _Hash, _Pred, _Alloc&gt;()'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='131'>// construct/destroy/copy
+
+      /// Default constructor.</doc>

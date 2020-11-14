@@ -1,0 +1,11 @@
+<dec f='codebrowser/generator/qtsupport.h' l='47' type='void QtSupport::handleInvokeMethod(clang::Expr * obj, clang::Expr * method)'/>
+<def f='codebrowser/generator/qtsupport.cpp' l='273' ll='299' type='void QtSupport::handleInvokeMethod(clang::Expr * obj, clang::Expr * method)'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='387' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
+<doc f='codebrowser/generator/qtsupport.cpp' l='265'>/**
+ * Very similar to handleSignalOrSlot, but does not handle the fact that the string might be in a macro
+ * and does the string contains the method name and not the full signature
+ * \a obj is an expression to a type of an QObject (or pointer to) that is the sender or the receiver
+ * \a method is an expression of type char*
+ *
+ * TODO: handle overloads
+ */</doc>

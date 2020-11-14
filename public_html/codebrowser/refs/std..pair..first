@@ -1,0 +1,83 @@
+<dec f='include/c++/7/bits/stl_pair.h' l='214' type='_T1'/>
+<use f='include/c++/7/bits/stl_pair.h' l='230' u='w' c='_ZNSt4pairC1Ev'/>
+<use f='include/c++/7/bits/stl_pair.h' l='243' u='w' c='_ZNSt4pairC1Ev'/>
+<use f='include/c++/7/bits/stl_pair.h' l='261' u='w' c='_ZNSt4pairC1ERKT_RKT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='270' u='w' c='_ZNSt4pairC1ERKT_RKT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='292' u='w' c='_ZNSt4pairC1ERKSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='301' u='w' c='_ZNSt4pairC1ERKSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='312' u='w' c='_ZNSt4pairC1EOT_RKT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='319' u='w' c='_ZNSt4pairC1EOT_RKT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='326' u='w' c='_ZNSt4pairC1ERKT_OT_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='333' u='w' c='_ZNSt4pairC1ERKT_OT_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='342' u='w' c='_ZNSt4pairC1EOT_OT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='351' u='w' c='_ZNSt4pairC1EOT_OT0_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='361' u='w' c='_ZNSt4pairC1EOSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='371' u='w' c='_ZNSt4pairC1EOSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='383' u='w' c='_ZNSt4pairaSENSt11conditionalIXsr6__and_ISt18is_copy_assignableIT_ES1_IT0_EEE5valueERKSt4pairIS2_S4_ERKSt20__nonesuch_no_bracesE4typeE'/>
+<use f='include/c++/7/bits/stl_pair.h' l='396' u='w' c='_ZNSt4pairaSENSt11conditionalIXsr6__and_ISt18is_move_assignableIT_ES1_IT0_EEE5valueEOSt4pairIS2_S4_EOSt20__nonesuch_no_bracesE4typeE'/>
+<use f='include/c++/7/bits/stl_pair.h' l='407' u='w' c='_ZNSt4pairaSERKSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='418' u='w' c='_ZNSt4pairaSEOSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='429' c='_ZNSt4pair4swapERSt4pairIT_T0_E'/>
+<use f='include/c++/7/tuple' l='1651' u='w' c='_ZNSt4pairC1ERSt5tupleIJDpT_EERS0_IJDpT1_EESt12_Index_tupleIJXspT0_EEES9_IJXspT2_EEE'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='892' u='r' c='_ZNSt8__detail12_Insert_base15_M_insert_rangeET_S1_RKT0_'/>
+<use f='include/c++/7/bits/hashtable.h' l='1716' u='r' c='_ZNSt10_Hashtable21_M_insert_unique_nodeENSt8__detail15_Hashtable_baseIT_T0_T2_T3_T4_T5_T6_T8_E9size_typeENSA_11__hash_codeEPNS0_10_Hash_nodeIS3_XsrNS16492732'/>
+<use f='include/c++/7/bits/hashtable.h' l='1755' u='r' c='_ZNSt10_Hashtable20_M_insert_multi_nodeEPNSt8__detail10_Hash_nodeIT0_XsrNT8_13__hash_cachedE5valueEEENS0_15_Hashtable_baseIT_S2_T2_T3_T4_T5_T6_S3_E11__hash_codeES5_'/>
+<doc f='include/c++/7/bits/stl_pair.h' l='214'>/// @c first is a copy of the first object</doc>
+<use f='include/c++/7/bits/stl_tree.h' l='2096' c='_ZNSt8_Rb_tree16_M_insert_uniqueEOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2101' u='r' c='_ZNSt8_Rb_tree16_M_insert_uniqueEOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2120' c='_ZNSt8_Rb_tree15_M_insert_equalEOT_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2204' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_EOT_RT0_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2207' u='r' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_EOT_RT0_'/>
+<use f='include/c++/7/bits/stl_tree.h' l='2286' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_EOT_RT0_'/>
+<use f='codebrowser/generator/annotator.h' l='60' u='r' c='_ZNKSt4hashISt4pairIjjEEclERKS1_'/>
+<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='178' u='r' c='_ZNK4llvm9SourceMgr14FindLineNumberENS_5SMLocEj'/>
+<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='159' u='r' c='_ZN4llvm16AnalysisResolver12findImplPassEPKv'/>
+<use f='codebrowser/generator/annotator.cpp' l='189' u='r' c='_ZN9Annotator13shouldProcessEN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='256' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='271' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='312' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='316' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='318' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='321' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='405' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='409' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='413' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='414' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='425' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='449' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='491' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='615' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='652' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='799' u='a' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='825' u='a' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='826' u='a' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
+<use f='codebrowser/generator/annotator.cpp' l='922' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='934' u='a' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='958' u='w' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='958' u='a' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='960' u='w' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='961' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='961' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='961' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='962' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='964' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='964' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='965' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='965' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='970' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='972' u='r' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='973' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='975' u='w' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='998' u='a' c='_ZN9Annotator13getContextStrB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1006' u='a' c='_ZN9Annotator13getVisibleRefB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='378' u='r' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='380' u='r' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/generator.cpp' l='118' u='r' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/generator.cpp' l='166' u='r' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/generator.cpp' l='185' u='m' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/generator.cpp' l='191' u='m' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='115' u='r' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='148' u='r' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='m' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='m' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='177' u='r' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

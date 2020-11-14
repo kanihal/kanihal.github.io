@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='416' ll='418' type='void llvm::SmallVectorImpl::append(std::initializer_list&lt;T&gt; IL)'/>

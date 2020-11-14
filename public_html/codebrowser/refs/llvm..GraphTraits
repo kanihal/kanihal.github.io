@@ -1,0 +1,14 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='474' ll='481'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='474'/>
+<def f='include/llvm-7/llvm/IR/Type.h' l='483' ll='490'/>
+<use f='include/llvm-7/llvm/IR/Type.h' l='483'/>
+<size>1</size>
+<doc f='include/llvm-7/llvm/IR/Type.h' l='470'>//===----------------------------------------------------------------------===//
+// Provide specializations of GraphTraits to be able to treat a type as a
+// graph of sub types.</doc>
+<fun r='_ZN4llvm11GraphTraitsIPNS_4TypeEE12getEntryNodeES2_'/>
+<fun r='_ZN4llvm11GraphTraitsIPNS_4TypeEE11child_beginES2_'/>
+<fun r='_ZN4llvm11GraphTraitsIPNS_4TypeEE9child_endES2_'/>
+<fun r='_ZN4llvm11GraphTraitsIPKNS_4TypeEE12getEntryNodeES3_'/>
+<fun r='_ZN4llvm11GraphTraitsIPKNS_4TypeEE11child_beginES3_'/>
+<fun r='_ZN4llvm11GraphTraitsIPKNS_4TypeEE9child_endES3_'/>

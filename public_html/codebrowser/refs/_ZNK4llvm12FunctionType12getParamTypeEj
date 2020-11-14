@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='135' type='llvm::Type * llvm::FunctionType::getParamType(unsigned int i) const'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='154' u='c' c='_ZNK4llvm4Type20getFunctionParamTypeEj'/>
+<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='134'>/// Parameter type accessors.</doc>

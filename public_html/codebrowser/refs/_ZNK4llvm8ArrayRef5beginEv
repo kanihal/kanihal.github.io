@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='137' type='llvm::ArrayRef::iterator llvm::ArrayRef::begin() const'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='141' u='c' c='_ZNK4llvm8ArrayRef4rendEv'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='166' u='c' c='_ZN4llvm8ArrayRef4copyERT_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='174' u='c' c='_ZNK4llvm8ArrayRef6equalsENS_8ArrayRefIT_EE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='228' u='c' c='_ZNK4llvm8ArrayRef10take_whileET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='234' u='c' c='_ZNK4llvm8ArrayRef10take_untilET_'/>
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='57' u='c' c='_ZN4llvm11toStringRefENS_8ArrayRefIhEE'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='133'>/// @}
+    /// @name Simple Operations
+    /// @{</doc>

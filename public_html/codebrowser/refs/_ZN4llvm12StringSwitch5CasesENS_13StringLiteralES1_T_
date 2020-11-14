@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='93' ll='96' macro='1' type='StringSwitch&lt;T, R&gt; &amp; llvm::StringSwitch::Cases(llvm::StringLiteral S0, llvm::StringLiteral S1, T Value)'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='271' u='c' c='_ZN4llvm15format_providerIbvE6formatERKbRNS_11raw_ostreamENS_9StringRefE'/>

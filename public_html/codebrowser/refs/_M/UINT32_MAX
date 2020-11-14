@@ -1,0 +1,5 @@
+<dec f='include/stdint.h' l='139'/>
+<use f='include/llvm-c-7/llvm-c/DataTypes.h' l='38' u='a'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='241' u='c'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='246' u='c'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1768' u='c'/>

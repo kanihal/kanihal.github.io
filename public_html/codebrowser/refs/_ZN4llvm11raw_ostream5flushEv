@@ -1,0 +1,7 @@
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='112' u='c' c='_ZN4llvm11raw_ostream13SetBufferSizeEm'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='130' u='c' c='_ZN4llvm11raw_ostream13SetUnbufferedEv'/>
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='142' ll='145' type='void llvm::raw_ostream::flush()'/>
+<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='494' u='c' c='_ZN4llvm18raw_string_ostream3strB5cxx11Ev'/>
+<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='138'>//===--------------------------------------------------------------------===//
+  // Data Output Interface
+  //===--------------------------------------------------------------------===//</doc>

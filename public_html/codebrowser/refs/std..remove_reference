@@ -1,0 +1,53 @@
+<use f='include/c++/7/type_traits' l='1015'/>
+<use f='include/c++/7/type_traits' l='1017'/>
+<use f='include/c++/7/type_traits' l='1040'/>
+<use f='include/c++/7/type_traits' l='1042'/>
+<def f='include/c++/7/type_traits' l='1628' ll='1629'/>
+<def f='include/c++/7/type_traits' l='1631' ll='1633'/>
+<def f='include/c++/7/type_traits' l='1635' ll='1637'/>
+<use f='include/c++/7/type_traits' l='1670'/>
+<use f='include/c++/7/type_traits' l='1999'/>
+<use f='include/c++/7/type_traits' l='2118'/>
+<use f='include/c++/7/type_traits' l='2362'/>
+<use f='include/c++/7/type_traits' l='2378'/>
+<use f='include/c++/7/type_traits' l='2447'/>
+<use f='include/c++/7/type_traits' l='2450'/>
+<use f='include/c++/7/type_traits' l='2574'/>
+<use f='include/c++/7/bits/move.h' l='73' c='_ZSt7forwardRNSt16remove_referenceIT_E4typeE'/>
+<use f='include/c++/7/bits/move.h' l='84' c='_ZSt7forwardONSt16remove_referenceIT_E4typeE'/>
+<use f='include/c++/7/bits/move.h' l='97' c='_ZSt4moveOT_'/>
+<use f='include/c++/7/bits/move.h' l='99' c='_ZSt4moveOT_'/>
+<use f='include/c++/7/bits/nested_exception.h' l='98' c='_ZSt24__throw_with_nested_implOT_St17integral_constantIbLb1EE'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='65'/>
+<use f='include/c++/7/bits/stl_iterator.h' l='1031'/>
+<use f='include/c++/7/bits/stl_algo.h' l='3810' c='_ZSt7shuffleT_S_OT0_'/>
+<use f='include/c++/7/ostream' l='629'/>
+<use f='include/c++/7/istream' l='924'/>
+<use f='include/c++/7/bits/invoke.h' l='54' c='_ZSt8__invfwdRNSt16remove_referenceIT_E4typeE'/>
+<use f='include/c++/7/tuple' l='499' c='_ZNSt3_TC15_NonNestedTupleEv'/>
+<use f='include/c++/7/tuple' l='510' c='_ZNSt3_TC13_NotSameTupleEv'/>
+<use f='include/c++/7/tuple' l='1487'/>
+<use f='include/c++/7/tuple' l='1536'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='127'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='129'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='220' c='_ZNSt10unique_ptrC1ENSt15__uniq_ptr_implIT_T0_E7pointerEONSt16remove_referenceIS2_E4typeE'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='495' c='_ZNSt10unique_ptrIA_T_T0_EC1ET_ONSt16remove_referenceIS2_E4typeE'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='662' c='_ZNSt14__shared_countC1EOSt10unique_ptrIT_T0_E'/>
+<use f='include/llvm-7/llvm/ADT/iterator.h' l='287'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='55'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='126' c='_ZN4llvm12function_refIFT_DpT0_EEC1EOT_PNSt9enable_ifIXntsr3std7is_sameINSt16remove_referenceIS6_E4typeENS0_IS4_EEEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='128' c='_ZN4llvm12function_refIFT_DpT0_EEC1EOT_PNSt9enable_ifIXntsr3std7is_sameINSt16remove_referenceIS6_E4typeENS0_IS4_EEEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='207'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='244'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='98'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='62'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='68'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='69'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='70'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='71'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='433'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='442'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='443'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='444'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='445'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='758'/>

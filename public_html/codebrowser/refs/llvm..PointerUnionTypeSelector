@@ -1,0 +1,14 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='41' ll='43'/>
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='45' ll='48'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='52'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='54'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='124' c='_ZNK4llvm12PointerUnion2isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='126' c='_ZNK4llvm12PointerUnion2isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='275' c='_ZNK4llvm13PointerUnion32isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='277' c='_ZNK4llvm13PointerUnion32isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='287' c='_ZNK4llvm13PointerUnion33getEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='289' c='_ZNK4llvm13PointerUnion33getEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='382' c='_ZNK4llvm13PointerUnion42isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='384' c='_ZNK4llvm13PointerUnion42isEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='395' c='_ZNK4llvm13PointerUnion43getEv'/>
+<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='397' c='_ZNK4llvm13PointerUnion43getEv'/>

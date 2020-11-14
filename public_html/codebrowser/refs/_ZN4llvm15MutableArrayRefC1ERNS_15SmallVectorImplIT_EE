@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='313' ll='314' type='void llvm::MutableArrayRef::MutableArrayRef&lt;T&gt;(SmallVectorImpl&lt;T&gt; &amp; Vec)'/>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='312'>/// Construct an MutableArrayRef from a SmallVector.</doc>
+<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='313'>/*implicit*/</doc>

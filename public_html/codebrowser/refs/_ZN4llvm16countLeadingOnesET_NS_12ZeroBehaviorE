@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='462' ll='467' type='std::size_t llvm::countLeadingOnes(T Value, llvm::ZeroBehavior ZB = ZB_Width)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1607' u='c' c='_ZNK4llvm5APInt16countLeadingOnesEv'/>
+<use f='include/llvm-7/llvm/ADT/BitVector.h' l='323' u='c' c='_ZNK4llvm9BitVector18find_last_unset_inEjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='268' u='c' c='_ZNK4llvm14SmallBitVector15find_last_unsetEv'/>

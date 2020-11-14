@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='226' type='unsigned int llvm::APInt::countTrailingZerosSlowCase() const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='445' u='c' c='_ZNK4llvm5APInt16isMinSignedValueEv'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1628' u='c' c='_ZNK4llvm5APInt18countTrailingZerosEv'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='225'>/// out-of-line slow case for countTrailingZeros.</doc>

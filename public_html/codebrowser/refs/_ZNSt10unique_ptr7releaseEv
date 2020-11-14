@@ -1,0 +1,7 @@
+<def f='include/c++/7/bits/unique_ptr.h' l='351' ll='357' type='std::unique_ptr::pointer std::unique_ptr::release()'/>
+<doc f='include/c++/7/bits/unique_ptr.h' l='348'>// Modifiers.
+
+      /// Release ownership of any stored pointer.</doc>
+<use f='include/llvm-7/llvm/Support/Error.h' l='195' u='c' c='_ZN4llvm5ErrorC1ESt10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS2_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='800' u='c' c='_ZN4llvm18ErrorHandlerTraitsIRFNS_5ErrorESt10unique_ptrIT_St14default_deleteIS3_EEEE5applyEOT_S2_INS_13ErrorInfoBaseES4_ISC_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='816' u='c' c='_ZN4llvm18ErrorHandlerTraitsIRFvSt10unique_ptrIT_St14default_deleteIS2_EEEE5applyEOT_S1_INS_13ErrorInfoBaseES3_ISB_EE'/>

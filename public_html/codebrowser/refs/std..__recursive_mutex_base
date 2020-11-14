@@ -1,0 +1,14 @@
+<def f='include/c++/7/mutex' l='66' ll='90'/>
+<use f='include/c++/7/mutex' l='71' c='_ZNSt22__recursive_mutex_baseC1ERKS_'/>
+<use f='include/c++/7/mutex' l='72' c='_ZNSt22__recursive_mutex_baseaSERKS_'/>
+<use f='include/c++/7/mutex' l='72' c='_ZNSt22__recursive_mutex_baseaSERKS_'/>
+<ovr f='include/c++/7/mutex' l='93' c='std::recursive_mutex'/>
+<use f='include/c++/7/mutex' l='93'/>
+<ovr f='include/c++/7/mutex' l='236' c='std::recursive_timed_mutex'/>
+<use f='include/c++/7/mutex' l='237'/>
+<size>40</size>
+<doc f='include/c++/7/mutex' l='65'>// Common base class for std::recursive_mutex and std::recursive_timed_mutex</doc>
+<fun r='_ZNSt22__recursive_mutex_baseC1ERKS_'/>
+<fun r='_ZNSt22__recursive_mutex_baseaSERKS_'/>
+<mbr r='std::__recursive_mutex_base::_M_mutex' o='0' t='std::__recursive_mutex_base::__native_type'/>
+<fun r='_ZNSt22__recursive_mutex_baseC1Ev'/>

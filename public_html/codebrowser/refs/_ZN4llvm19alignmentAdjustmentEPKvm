@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='634' ll='636' type='size_t llvm::alignmentAdjustment(const void * Ptr, size_t Alignment)'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='632'>/// Returns the necessary adjustment for aligning \c Ptr to \c Alignment
+/// bytes, rounding up.</doc>

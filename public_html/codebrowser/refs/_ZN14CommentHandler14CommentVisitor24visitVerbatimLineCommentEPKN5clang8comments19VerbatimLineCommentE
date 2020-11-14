@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/commenthandler.cpp' l='215' ll='233' type='void CommentHandler::CommentVisitor::visitVerbatimLineComment(const clang::comments::VerbatimLineComment * C)'/>

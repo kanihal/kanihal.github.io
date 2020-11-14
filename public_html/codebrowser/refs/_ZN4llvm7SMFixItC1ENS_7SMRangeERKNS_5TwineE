@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='241' ll='244' type='void llvm::SMFixIt::SMFixIt(llvm::SMRange R, const llvm::Twine &amp; Replacement)'/>
+<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='240'>// FIXME: Twine.str() is not very efficient.</doc>

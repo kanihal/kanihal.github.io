@@ -1,0 +1,7 @@
+<def f='codebrowser/generator/annotator.h' l='129' type='const clang::LangOptions &amp; Annotator::getLangOpts() const'/>
+<use f='codebrowser/generator/annotator.cpp' l='725' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='866' u='c' c='_ZN9Annotator19annotateSourceRangeEN5clang11SourceRangeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_'/>
+<use f='codebrowser/generator/annotator.cpp' l='984' u='c' c='_ZN9Annotator10getTypeRefB5cxx11EN5clang8QualTypeE'/>
+<use f='codebrowser/generator/annotator.cpp' l='1034' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='115' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='255' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

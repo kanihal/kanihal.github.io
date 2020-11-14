@@ -1,0 +1,2 @@
+<def f='include/c++/7/bits/unordered_set.h' l='525' ll='527' type='std::unordered_set::iterator std::unordered_set::erase(std::unordered_set::iterator __position)'/>
+<doc f='include/c++/7/bits/unordered_set.h' l='524'>// LWG 2059.</doc>

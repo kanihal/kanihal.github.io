@@ -1,0 +1,10 @@
+<dec f='codebrowser/generator/projectmanager.h' l='64' type='ProjectInfo * ProjectManager::projectForFile(llvm::StringRef filename)'/>
+<doc f='codebrowser/generator/projectmanager.h' l='63'>// the file name need to be canonicalized</doc>
+<doc f='codebrowser/generator/projectmanager.h' l='64'>// don&apos;t keep a cache</doc>
+<use f='codebrowser/generator/annotator.cpp' l='210' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='546' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<use f='codebrowser/generator/main.cpp' l='461' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='495' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='537' u='c' c='main'/>
+<def f='codebrowser/generator/projectmanager.cpp' l='58' ll='74' type='ProjectInfo * ProjectManager::projectForFile(llvm::StringRef filename)'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='96' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

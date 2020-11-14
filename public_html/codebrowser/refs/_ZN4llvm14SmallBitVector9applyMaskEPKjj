@@ -1,0 +1,5 @@
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='621' u='c' c='_ZN4llvm14SmallBitVector13setBitsInMaskEPKjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='630' u='c' c='_ZN4llvm14SmallBitVector15clearBitsInMaskEPKjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='639' u='c' c='_ZN4llvm14SmallBitVector16setBitsNotInMaskEPKjj'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='648' u='c' c='_ZN4llvm14SmallBitVector18clearBitsNotInMaskEPKjj'/>
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='655' ll='666' type='void llvm::SmallBitVector::applyMask(const uint32_t * Mask, unsigned int MaskWords)'/>

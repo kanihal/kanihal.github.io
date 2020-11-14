@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='138' type='llvm::SmallVectorTemplateCommon::reverse_iterator llvm::SmallVectorTemplateCommon::rbegin()'/>
+<doc f='include/llvm-7/llvm/ADT/SmallVector.h' l='137'>// reverse iterator creation methods.</doc>

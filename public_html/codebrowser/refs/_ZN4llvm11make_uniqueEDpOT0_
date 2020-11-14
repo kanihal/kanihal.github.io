@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1068' ll='1071' type='typename std::enable_if&lt;!std::is_array&lt;T&gt;::value, std::unique_ptr&lt;T&gt; &gt;::type llvm::make_unique(Args &amp;&amp;... args)'/>
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1090' ll='1091' type='typename std::enable_if&lt;std::extent&lt;T&gt;::value != 0&gt;::type llvm::make_unique(Args &amp;&amp;... )'/>

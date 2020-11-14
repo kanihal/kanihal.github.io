@@ -1,0 +1,9 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1481' type='ParserClass'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1484' u='c' c='_ZNK4llvm2cl4list27getValueExpectedFlagDefaultEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1488' u='c' c='_ZN4llvm2cl4list19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1495' u='c' c='_ZN4llvm2cl4list16handleOccurrenceEjNS_9StringRefES2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1505' u='c' c='_ZNK4llvm2cl4list14getOptionWidthEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1509' u='c' c='_ZNK4llvm2cl4list15printOptionInfoEm'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1520' u='c' c='_ZN4llvm2cl4list4doneEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1528' u='a' c='_ZN4llvm2cl4list9getParserEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1539' u='w' c='_ZN4llvm2cl4listC1EDpRKT_'/>

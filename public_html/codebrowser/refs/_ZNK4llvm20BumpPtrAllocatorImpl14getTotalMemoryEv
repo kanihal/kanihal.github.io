@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Allocator.h' l='286' ll='293' type='size_t llvm::BumpPtrAllocatorImpl::getTotalMemory() const'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='303' u='c' c='_ZNK4llvm20BumpPtrAllocatorImpl10PrintStatsEv'/>

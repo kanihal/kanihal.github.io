@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1660' type='void llvm::APInt::print(llvm::raw_ostream &amp; OS, bool isSigned) const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2033' u='c' c='_ZN4llvmlsERNS_11raw_ostreamERKNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='330' u='c' c='_ZN4llvmlsERNS_11raw_ostreamERKNS_6APSIntE'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1657'>/// @}
+  /// \name Conversion Functions
+  /// @{</doc>

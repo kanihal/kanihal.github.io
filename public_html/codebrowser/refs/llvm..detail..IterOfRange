@@ -1,0 +1,9 @@
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='410' c='_ZN4llvm17make_filter_rangeEOT_T0_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='413' c='_ZN4llvm17make_filter_rangeEOT_T0_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1144' c='_ZN4llvm6detail11result_pairC1EmDTclsr3stdE5beginclsr3stdE7declvalIRT_EEEE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1159'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1166'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1167'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1168'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1172' c='_ZN4llvm6detail15enumerator_iterC1EDTclsr3stdE5beginclsr3stdE7declvalIRT_EEEE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1175' c='_ZN4llvm6detail15enumerator_iterC1EmDTclsr3stdE5beginclsr3stdE7declvalIRT_EEEE'/>

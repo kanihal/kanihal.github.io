@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/DataLayout.h' l='352' ll='355' type='bool llvm::DataLayout::isNonIntegralPointerType(llvm::Type * Ty) const'/>

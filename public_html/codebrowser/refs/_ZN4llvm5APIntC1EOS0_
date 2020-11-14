@@ -1,0 +1,27 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='329' ll='332' type='void llvm::APInt::APInt(llvm::APInt &amp;&amp; that)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1969' u='c' c='_ZN4llvmcoENS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1974' u='c' c='_ZN4llvmanENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1979' u='c' c='_ZN4llvmanERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1984' u='c' c='_ZN4llvmanENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1989' u='c' c='_ZN4llvmanEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1994' u='c' c='_ZN4llvmorENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1999' u='c' c='_ZN4llvmorERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2004' u='c' c='_ZN4llvmorENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2009' u='c' c='_ZN4llvmorEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2014' u='c' c='_ZN4llvmeoENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2019' u='c' c='_ZN4llvmeoERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2024' u='c' c='_ZN4llvmeoENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2029' u='c' c='_ZN4llvmeoEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2039' u='c' c='_ZN4llvmngENS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2044' u='c' c='_ZN4llvmplENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2049' u='c' c='_ZN4llvmplERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2054' u='c' c='_ZN4llvmplENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2059' u='c' c='_ZN4llvmplEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2064' u='c' c='_ZN4llvmmiENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2070' u='c' c='_ZN4llvmmiERKNS_5APIntEOS0_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2075' u='c' c='_ZN4llvmmiENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2081' u='c' c='_ZN4llvmmiEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2086' u='c' c='_ZN4llvmmlENS_5APIntEm'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2091' u='c' c='_ZN4llvmmlEmNS_5APIntE'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='35' u='c' c='_ZN4llvm6APSIntC1ENS_5APIntEb'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='328'>/// Move Constructor.</doc>

@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/PassRegistry.h' l='59' type='static llvm::PassRegistry * llvm::PassRegistry::getPassRegistry()'/>
+<use f='include/llvm-7/llvm/PassSupport.h' l='98' u='c' c='_ZN4llvm12RegisterPassC1ENS_9StringRefES1_bb'/>
+<doc f='include/llvm-7/llvm/PassRegistry.h' l='56'>/// getPassRegistry - Access the global registry object, which is
+  /// automatically initialized at application launch and destroyed by
+  /// llvm_shutdown.</doc>

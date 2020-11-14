@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='419' type='ErrorOr&lt;MD5::MD5Result&gt; llvm::sys::fs::md5_contents(const llvm::Twine &amp; Path)'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='418'>/// Version of compute_md5 that doesn&apos;t require an open file descriptor.</doc>

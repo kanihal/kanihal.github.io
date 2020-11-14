@@ -1,0 +1,4 @@
+<def f='codebrowser/indexgenerator/indexer.cpp' l='35' type='std::map&lt;std::string, std::string, std::greater&lt;std::string&gt; &gt;'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='175' u='m' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='m' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='211' u='m' c='main'/>

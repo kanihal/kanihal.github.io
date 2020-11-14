@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='244' ll='246' type='enum ValueExpected llvm::cl::Option::getValueExpectedFlagDefault() const'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='277' u='c' c='_ZNK4llvm2cl6Option20getValueExpectedFlagEv'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1303' c='_ZNK4llvm2cl3opt27getValueExpectedFlagDefaultEv'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1483' c='_ZNK4llvm2cl4list27getValueExpectedFlagDefaultEv'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1626' c='_ZNK4llvm2cl4bits27getValueExpectedFlagDefaultEv'/>
+<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1713' c='_ZNK4llvm2cl5alias27getValueExpectedFlagDefaultEv'/>

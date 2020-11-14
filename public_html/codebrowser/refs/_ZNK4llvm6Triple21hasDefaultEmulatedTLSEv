@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/Triple.h' l='684' ll='686' type='bool llvm::Triple::hasDefaultEmulatedTLS() const'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='683'>/// Tests whether the target uses emulated TLS as default.</doc>

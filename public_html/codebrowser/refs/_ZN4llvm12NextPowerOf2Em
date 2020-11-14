@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='640' ll='648' type='uint64_t llvm::NextPowerOf2(uint64_t A)'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='662' u='c' c='_ZN4llvm12PowerOf2CeilEm'/>
+<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='638'>/// Returns the next power of two (in 64-bits) that is strictly greater than A.
+/// Returns zero on overflow.</doc>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='455' u='c' c='_ZnwmRN4llvm20BumpPtrAllocatorImplIT_XT0_EXT1_EEE'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='358' u='c' c='_ZN4llvm12DenseMapBase31getMinBucketToReserveForEntriesEj'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='732' u='c' c='_ZN4llvm8DenseMap4growEj'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='962' u='c' c='_ZN4llvm13SmallDenseMap4growEj'/>

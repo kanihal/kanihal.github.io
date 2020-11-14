@@ -1,0 +1,9 @@
+<use f='codebrowser/generator/browserastvisitor.h' l='112' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='139' u='c' c='_ZN17BrowserASTVisitor12VisitVarDeclEPN5clang7VarDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='144' u='c' c='_ZN17BrowserASTVisitor14VisitFieldDeclEPN5clang9FieldDeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='285' u='c' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='322' u='c' c='_ZN17BrowserASTVisitor12TraverseDeclEPN5clang4DeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='452' u='c' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='466' u='c' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='179' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='233' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

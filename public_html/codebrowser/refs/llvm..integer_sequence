@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='746' ll='750'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='754'/>
+<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='743'>// A subset of N3658. More stuff can be added as-needed.
+
+/// Represents a compile-time sequence of integers.</doc>
+<fun r='_ZN4llvm16integer_sequence4sizeEv'/>

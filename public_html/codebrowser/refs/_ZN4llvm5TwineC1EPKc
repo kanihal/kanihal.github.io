@@ -1,0 +1,30 @@
+<def f='include/llvm-7/llvm/ADT/Twine.h' l='268' ll='276' type='void llvm::Twine::Twine(const char * Str)'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='119' u='c' c='_ZN4llvm12MemoryBuffer16getMemBufferCopyENS_9StringRefERKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='193' u='c' c='_ZN4llvm20WritableMemoryBuffer21getNewUninitMemBufferEmRKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='199' u='c' c='_ZN4llvm20WritableMemoryBuffer15getNewMemBufferEmRKNS_5TwineE'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='784' u='c' c='_ZN4llvm2cl6parser5parseERNS0_6OptionENS_9StringRefES4_RT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1205' u='c' c='_ZN4llvm2cl11opt_storage11setLocationERNS0_6OptionERT_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1390' u='c' c='_ZN4llvm2cl12list_storage11setLocationERNS0_6OptionERT0_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1578' u='c' c='_ZN4llvm2cl12bits_storage11setLocationERNS0_6OptionERj'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1719' u='c' c='_ZN4llvm2cl5alias4doneEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1721' u='c' c='_ZN4llvm2cl5alias4doneEv'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1733' u='c' c='_ZN4llvm2cl5alias11setAliasForERNS0_6OptionE'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='178' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='179' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='180' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='183' u='c' c='_ZN4llvm3sys4path6appendERNS_15SmallVectorImplIcEENS1_5StyleERKNS_5TwineES8_S8_S8_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='378' u='c' c='_ZN4llvm3sys4path20user_cache_directoryERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_'/>
+<use f='include/llvm-7/llvm/Support/Path.h' l='378' u='c' c='_ZN4llvm3sys4path20user_cache_directoryERNS_15SmallVectorImplIcEERKNS_5TwineES7_S7_'/>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='263'>/// Construct from a C string.
+    ///
+    /// We take care here to optimize &quot;&quot; into the empty twine -- this will be
+    /// optimized out for string constants. This allows Twine arguments have
+    /// default &quot;&quot; values, without introducing unnecessary string constants.</doc>
+<doc f='include/llvm-7/llvm/ADT/Twine.h' l='268'>/*implicit*/</doc>
+<use f='codebrowser/generator/filesystem.cpp' l='182' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
+<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
+<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

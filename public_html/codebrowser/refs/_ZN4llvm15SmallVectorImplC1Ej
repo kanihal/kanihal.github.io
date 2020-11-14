@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='333' ll='334' type='void llvm::SmallVectorImpl::SmallVectorImpl&lt;T&gt;(unsigned int N)'/>
+<doc f='include/llvm-7/llvm/ADT/SmallVector.h' l='332'>// Default ctor - Initialize to empty.</doc>

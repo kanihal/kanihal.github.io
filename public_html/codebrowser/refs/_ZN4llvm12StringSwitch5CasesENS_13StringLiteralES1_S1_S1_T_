@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='104' ll='108' macro='1' type='StringSwitch&lt;T, R&gt; &amp; llvm::StringSwitch::Cases(llvm::StringLiteral S0, llvm::StringLiteral S1, llvm::StringLiteral S2, llvm::StringLiteral S3, T Value)'/>
+<use f='codebrowser/generator/main.cpp' l='472' u='c' c='main'/>

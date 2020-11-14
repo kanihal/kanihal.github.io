@@ -1,0 +1,112 @@
+<def f='include/c++/7/tuple' l='184' ll='339'/>
+<use f='include/c++/7/tuple' l='186'/>
+<use f='include/c++/7/tuple' l='191'/>
+<use f='include/c++/7/tuple' l='230' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='231' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='232' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='235' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJT_DpT0_EE'/>
+<use f='include/c++/7/tuple' l='237' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJT_DpT0_EE'/>
+<use f='include/c++/7/tuple' l='239' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJT_DpT0_EE'/>
+<use f='include/c++/7/tuple' l='276' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJDpT0_EE'/>
+<use f='include/c++/7/tuple' l='278' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJDpT0_EE'/>
+<use f='include/c++/7/tuple' l='280' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJDpT0_EE'/>
+<use f='include/c++/7/tuple' l='284' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='286' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='289' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='311' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='313' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='314' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSERKS_IXT_EJDpT_EE'/>
+<use f='include/c++/7/tuple' l='320' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSEOS_IXT_EJT_DpT0_EE'/>
+<use f='include/c++/7/tuple' l='323' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSEOS_IXT_EJT_DpT0_EE'/>
+<use f='include/c++/7/tuple' l='325' c='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSEOS_IXT_EJT_DpT0_EE'/>
+<def f='include/c++/7/tuple' l='342' ll='463'/>
+<use f='include/c++/7/tuple' l='376' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ERKS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='377' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ERKS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='380' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='381' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='412' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJT0_EE'/>
+<use f='include/c++/7/tuple' l='414' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJT0_EE'/>
+<use f='include/c++/7/tuple' l='418' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_EE'/>
+<use f='include/c++/7/tuple' l='420' c='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_EE'/>
+<use f='include/c++/7/tuple' l='440' c='_ZNSt11_Tuple_implIXT_EJT0_EEaSERKS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='442' c='_ZNSt11_Tuple_implIXT_EJT0_EEaSERKS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='448' c='_ZNSt11_Tuple_implIXT_EJT0_EEaSEOS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='451' c='_ZNSt11_Tuple_implIXT_EJT0_EEaSEOS_IXT_EJT_EE'/>
+<use f='include/c++/7/tuple' l='556'/>
+<use f='include/c++/7/tuple' l='558'/>
+<use f='include/c++/7/tuple' l='679' c='_ZNSt5tupleC1ERKSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='691' c='_ZNSt5tupleC1ERKSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='703' c='_ZNSt5tupleC1EOSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='714' c='_ZNSt5tupleC1EOSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='786' c='_ZNSt5tupleC1ESt15allocator_arg_tRKT_RKSt5tupleIJDpT1_EE'/>
+<use f='include/c++/7/tuple' l='801' c='_ZNSt5tupleC1ESt15allocator_arg_tRKT_RKSt5tupleIJDpT1_EE'/>
+<use f='include/c++/7/tuple' l='816' c='_ZNSt5tupleC1ESt15allocator_arg_tRKT_OSt5tupleIJDpT1_EE'/>
+<use f='include/c++/7/tuple' l='831' c='_ZNSt5tupleC1ESt15allocator_arg_tRKT_OSt5tupleIJDpT1_EE'/>
+<use f='include/c++/7/tuple' l='907'/>
+<use f='include/c++/7/tuple' l='909'/>
+<use f='include/c++/7/tuple' l='996' c='_ZNSt5tupleIJT_T0_EEC1ERKS_IJT_T0_EE'/>
+<use f='include/c++/7/tuple' l='1005' c='_ZNSt5tupleIJT_T0_EEC1ERKS_IJT_T0_EE'/>
+<use f='include/c++/7/tuple' l='1014' c='_ZNSt5tupleIJT_T0_EEC1EOS_IJT_T0_EE'/>
+<use f='include/c++/7/tuple' l='1023' c='_ZNSt5tupleIJT_T0_EEC1EOS_IJT_T0_EE'/>
+<use f='include/c++/7/tuple' l='1131' c='_ZNSt5tupleIJT_T0_EEC1ESt15allocator_arg_tRKT_RKS_IJT0_T1_EE'/>
+<use f='include/c++/7/tuple' l='1143' c='_ZNSt5tupleIJT_T0_EEC1ESt15allocator_arg_tRKT_RKS_IJT0_T1_EE'/>
+<use f='include/c++/7/tuple' l='1153' c='_ZNSt5tupleIJT_T0_EEC1ESt15allocator_arg_tRKT_OS_IJT0_T1_EE'/>
+<use f='include/c++/7/tuple' l='1164' c='_ZNSt5tupleIJT_T0_EEC1ESt15allocator_arg_tRKT_OS_IJT0_T1_EE'/>
+<use f='include/c++/7/tuple' l='1303' c='_ZSt12__get_helperRSt11_Tuple_implIXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1304' c='_ZSt12__get_helperRSt11_Tuple_implIXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1308' c='_ZSt12__get_helperRKSt11_Tuple_implIXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1309' c='_ZSt12__get_helperRKSt11_Tuple_implIXT_EJT0_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1338' c='_ZSt13__get_helper2RSt11_Tuple_implIXT0_EJT_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1339' c='_ZSt13__get_helper2RSt11_Tuple_implIXT0_EJT_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1343' c='_ZSt13__get_helper2RKSt11_Tuple_implIXT0_EJT_DpT1_EE'/>
+<use f='include/c++/7/tuple' l='1344' c='_ZSt13__get_helper2RKSt11_Tuple_implIXT0_EJT_DpT1_EE'/>
+<doc f='include/c++/7/tuple' l='179'>/**
+   * Recursive tuple implementation. Here we store the @c Head element
+   * and derive from a @c Tuple_impl containing the remaining elements
+   * (which contains the @c Tail).
+   */</doc>
+<doc f='include/c++/7/tuple' l='341'>// Basis case of inheritance recursion.</doc>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EE7_M_headERS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EE7_M_headERKS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EE7_M_tailERS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EE7_M_tailERKS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1Ev'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS0_DpRKS1_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOT_DpOT0_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ERKS_IXT_EJDpT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1EOS_IXT_EJT_DpT0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS0_DpRKS1_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OT0_DpOT1_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJDpT0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_DpT1_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSERKS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSEOS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSERKS_IXT_EJDpT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EEaSEOS_IXT_EJT_DpT0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_DpT1_EE7_M_swapERS_IXT_EJS0_S2_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EE7_M_headERS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EE7_M_headERKS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1Ev'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ERKS0_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOT_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ERKS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ERKS_IXT_EJT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1EOS_IXT_EJT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_RKS0_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_OT0_'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_RKS_IXT_EJT0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEC1ESt15allocator_arg_tRKT_OS_IXT_EJT0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEaSERKS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEaSEOS_IXT_EJS0_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEaSERKS_IXT_EJT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EEaSEOS_IXT_EJT_EE'/>
+<fun r='_ZNSt11_Tuple_implIXT_EJT0_EE7_M_swapERS_IXT_EJS0_EE'/>

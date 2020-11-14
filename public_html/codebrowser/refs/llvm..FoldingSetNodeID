@@ -1,0 +1,72 @@
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='183' c='_ZNK4llvm14FoldingSetBase14GetNodeProfileEPNS0_4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='187' c='_ZNK4llvm14FoldingSetBase10NodeEqualsEPNS0_4NodeERKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='188' c='_ZNK4llvm14FoldingSetBase10NodeEqualsEPNS0_4NodeERKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='192' c='_ZNK4llvm14FoldingSetBase15ComputeNodeHashEPNS0_4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='209' c='_ZN4llvm14FoldingSetBase19FindNodeOrInsertPosERKNS_16FoldingSetNodeIDERPv'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='222' c='_ZN4llvm22DefaultFoldingSetTrait7ProfileERKT_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='225' c='_ZN4llvm22DefaultFoldingSetTrait7ProfileERT_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='233' c='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='234' c='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='241' c='_ZN4llvm22DefaultFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='257' c='_ZN4llvm32DefaultContextualFoldingSetTrait7ProfileERT_RNS_16FoldingSetNodeIDET0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='261' c='_ZN4llvm32DefaultContextualFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_T0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='262' c='_ZN4llvm32DefaultContextualFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_T0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='263' c='_ZN4llvm32DefaultContextualFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDET0_'/>
+<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='306' ll='356'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='327' c='_ZN4llvm16FoldingSetNodeID9AddNodeIDERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='341' c='_ZNK4llvm16FoldingSetNodeIDeqERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='344' c='_ZNK4llvm16FoldingSetNodeIDneERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='349' c='_ZNK4llvm16FoldingSetNodeIDltERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='367' c='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='369' c='_ZN4llvm22DefaultFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='375' c='_ZN4llvm22DefaultFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='382' c='_ZN4llvm32DefaultContextualFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_T0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='384' c='_ZN4llvm32DefaultContextualFoldingSetTrait6EqualsERT_RKNS_16FoldingSetNodeIDEjRS3_T0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='392' c='_ZN4llvm32DefaultContextualFoldingSetTrait11ComputeHashERT_RNS_16FoldingSetNodeIDET0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='445' c='_ZN4llvm14FoldingSetImpl19FindNodeOrInsertPosERKNS_16FoldingSetNodeIDERPv'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='480' c='_ZNK4llvm10FoldingSet14GetNodeProfileEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='487' c='_ZNK4llvm10FoldingSet10NodeEqualsEPNS_14FoldingSetImplIT_E4NodeERKNS_16FoldingSetNodeIDEjRS6_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='488' c='_ZNK4llvm10FoldingSet10NodeEqualsEPNS_14FoldingSetImplIT_E4NodeERKNS_16FoldingSetNodeIDEjRS6_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='495' c='_ZNK4llvm10FoldingSet15ComputeNodeHashEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='529' c='_ZNK4llvm20ContextualFoldingSet14GetNodeProfileEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='534' c='_ZNK4llvm20ContextualFoldingSet10NodeEqualsEPNS_14FoldingSetImplIT_E4NodeERKNS_16FoldingSetNodeIDEjRS6_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='535' c='_ZNK4llvm20ContextualFoldingSet10NodeEqualsEPNS_14FoldingSetImplIT_E4NodeERKNS_16FoldingSetNodeIDEjRS6_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='541' c='_ZNK4llvm20ContextualFoldingSet15ComputeNodeHashEPNS_14FoldingSetImplIT_E4NodeERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='582' c='_ZN4llvm16FoldingSetVector19FindNodeOrInsertPosERKNS_16FoldingSetNodeIDERPv'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='718' c='_ZN4llvm21FoldingSetNodeWrapper7ProfileERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='734'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='737' c='_ZN4llvm18FastFoldingSetNodeC1ERKNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='740' c='_ZNK4llvm18FastFoldingSetNode7ProfileERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='747' c='_ZN4llvm15FoldingSetTraitIPT_E7ProfileES2_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='754' c='_ZN4llvm15FoldingSetTraitISt4pairIT_T0_EE7ProfileERKS4_RNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='352' c='_ZNK4llvm5APInt7ProfileERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='319' c='_ZNK4llvm6APSInt7ProfileERNS_16FoldingSetNodeIDE'/>
+<use f='include/llvm-7/llvm/ADT/APFloat.h' l='939' c='_ZNK4llvm7APFloat7ProfileERNS_16FoldingSetNodeIDE'/>
+<size>144</size>
+<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='302'>//===--------------------------------------------------------------------===//
+/// FoldingSetNodeID - This class is used to gather all the unique data bits of
+/// a node.  When all the bits are gathered this class is used to produce a
+/// hash value for the node.</doc>
+<mbr r='llvm::FoldingSetNodeID::Bits' o='0' t='SmallVector&lt;unsigned int, 32&gt;'/>
+<fun r='_ZN4llvm16FoldingSetNodeIDC1Ev'/>
+<fun r='_ZN4llvm16FoldingSetNodeIDC1ENS_19FoldingSetNodeIDRefE'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddPointerEPKv'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEi'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEj'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEl'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEm'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEx'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddIntegerEy'/>
+<fun r='_ZN4llvm16FoldingSetNodeID10AddBooleanEb'/>
+<fun r='_ZN4llvm16FoldingSetNodeID9AddStringENS_9StringRefE'/>
+<fun r='_ZN4llvm16FoldingSetNodeID9AddNodeIDERKS0_'/>
+<fun r='_ZN4llvm16FoldingSetNodeID3AddERKT_'/>
+<fun r='_ZN4llvm16FoldingSetNodeID5clearEv'/>
+<fun r='_ZNK4llvm16FoldingSetNodeID11ComputeHashEv'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDeqERKS0_'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDeqENS_19FoldingSetNodeIDRefE'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDneERKS0_'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDneENS_19FoldingSetNodeIDRefE'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDltERKS0_'/>
+<fun r='_ZNK4llvm16FoldingSetNodeIDltENS_19FoldingSetNodeIDRefE'/>
+<fun r='_ZNK4llvm16FoldingSetNodeID6InternERNS_20BumpPtrAllocatorImplINS_15MallocAllocatorELm4096ELm4096EEE'/>

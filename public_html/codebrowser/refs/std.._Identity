@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/stl_function.h' l='869' ll='879'/>
+<fun r='_ZNKSt9_IdentityclERT_'/>
+<fun r='_ZNKSt9_IdentityclERKT_'/>
+<use f='include/c++/7/bits/stl_set.h' l='121'/>
+<use f='include/c++/7/bits/stl_multiset.h' l='121'/>

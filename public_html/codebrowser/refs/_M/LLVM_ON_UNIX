@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='57'/>
+<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='56'>/* Define if this is Unixish platform */</doc>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='160' u='a'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='182' u='a'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='205' u='a'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='232' u='a'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='248' u='a'/>
+<use f='include/llvm-7/llvm/Support/Threading.h' l='28' u='a'/>

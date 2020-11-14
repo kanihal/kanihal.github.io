@@ -1,0 +1,10 @@
+<use f='include/llvm-7/llvm/Support/Error.h' l='179' c='_ZN4llvm5Error7successEv'/>
+<inh f='include/llvm-7/llvm/Support/Error.h' l='157' c='llvm::Error'/>
+<def f='include/llvm-7/llvm/Support/Error.h' l='320'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='322' c='_ZN4llvm5Error7successEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='322' c='_ZN4llvm5Error7successEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='463' c='_ZN4llvm8ExpectedC1ENS_12ErrorSuccessE'/>
+<size>8</size>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='317'>/// Subclass of Error for the sole purpose of identifying the success path in
+/// the type system. This allows to catch invalid conversion to Expected&lt;T&gt; at
+/// compile time.</doc>

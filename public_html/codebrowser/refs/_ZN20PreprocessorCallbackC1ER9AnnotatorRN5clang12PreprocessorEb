@@ -1,0 +1,2 @@
+<def f='codebrowser/generator/preprocessorcallback.h' l='43' ll='44' type='void PreprocessorCallback::PreprocessorCallback(Annotator &amp; fm, clang::Preprocessor &amp; PP, bool recoverIncludePath)'/>
+<use f='codebrowser/generator/main.cpp' l='166' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>

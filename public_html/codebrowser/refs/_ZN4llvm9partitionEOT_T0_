@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1010' ll='1012' type='decltype(adl_begin(Range)) llvm::partition(R &amp;&amp; Range, UnaryPredicate P)'/>

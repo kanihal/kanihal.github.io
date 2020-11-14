@@ -1,0 +1,6 @@
+<def f='include/c++/7/type_traits' l='2038' ll='2045'/>
+<use f='include/c++/7/type_traits' l='2088'/>
+<use f='include/c++/7/type_traits' l='2465'/>
+<use f='include/c++/7/ext/aligned_buffer.h' l='85'/>
+<use f='include/c++/7/ext/aligned_buffer.h' l='88'/>
+<use f='include/c++/7/bits/stl_vector.h' l='1472'/>

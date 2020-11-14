@@ -1,0 +1,203 @@
+<def f='include/c++/7/type_traits' l='2151' ll='2152'/>
+<def f='include/c++/7/type_traits' l='2155' ll='2157'/>
+<use f='include/c++/7/type_traits' l='2160'/>
+<use f='include/c++/7/type_traits' l='2476'/>
+<use f='include/c++/7/type_traits' l='2497'/>
+<use f='include/c++/7/type_traits' l='2579' c='_ZSt4swapRT_S0_'/>
+<use f='include/c++/7/type_traits' l='2588' c='_ZSt4swapRAT0__T_S1_'/>
+<use f='include/c++/7/bits/move.h' l='184' c='_ZSt4swapRT_S0_'/>
+<use f='include/c++/7/bits/move.h' l='209' c='_ZSt4swapRAT0__T_S1_'/>
+<use f='include/c++/7/bits/nested_exception.h' l='126'/>
+<use f='include/c++/7/bits/stl_pair.h' l='224'/>
+<use f='include/c++/7/bits/stl_pair.h' l='235'/>
+<use f='include/c++/7/bits/stl_pair.h' l='255'/>
+<use f='include/c++/7/bits/stl_pair.h' l='264'/>
+<use f='include/c++/7/bits/stl_pair.h' l='286'/>
+<use f='include/c++/7/bits/stl_pair.h' l='295'/>
+<use f='include/c++/7/bits/stl_pair.h' l='308'/>
+<use f='include/c++/7/bits/stl_pair.h' l='315'/>
+<use f='include/c++/7/bits/stl_pair.h' l='322'/>
+<use f='include/c++/7/bits/stl_pair.h' l='329'/>
+<use f='include/c++/7/bits/stl_pair.h' l='336'/>
+<use f='include/c++/7/bits/stl_pair.h' l='345'/>
+<use f='include/c++/7/bits/stl_pair.h' l='355'/>
+<use f='include/c++/7/bits/stl_pair.h' l='365'/>
+<use f='include/c++/7/bits/stl_pair.h' l='402' c='_ZNSt4pairaSERKSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='413' c='_ZNSt4pairaSEOSt4pairIT_T0_E'/>
+<use f='include/c++/7/bits/stl_pair.h' l='490' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_pair.h' l='501' c='_ZSt4swapRSt4pairIT_T0_ES3_'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='82'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='93'/>
+<use f='include/llvm-7/llvm/Support/type_traits.h' l='103'/>
+<use f='include/c++/7/bits/stl_iterator_base_types.h' l='233'/>
+<use f='include/c++/7/ext/alloc_traits.h' l='81' c='__gnu_cxx::__alloc_traits::construct'/>
+<use f='include/c++/7/ext/alloc_traits.h' l='90' c='__gnu_cxx::__alloc_traits::destroy'/>
+<use f='include/c++/7/system_error' l='155'/>
+<use f='include/c++/7/system_error' l='172' c='_ZNSt10error_codeaSET_'/>
+<use f='include/c++/7/system_error' l='233'/>
+<use f='include/c++/7/system_error' l='246' c='_ZNSt15error_conditionaSET_'/>
+<use f='include/c++/7/ostream' l='676' c='_ZStlsOT_RKT0_'/>
+<use f='include/c++/7/istream' l='974' c='_ZStrsOT_OT0_'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='331' c='_ZN4llvm6isUIntEm'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='337' c='_ZN4llvm6isUIntEm'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='766' c='_ZN4llvm18AbsoluteDifferenceET_S0_'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='775' c='_ZN4llvm13SaturatingAddET_S0_Pb'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='792' c='_ZN4llvm18SaturatingMultiplyET_S0_Pb'/>
+<use f='include/llvm-7/llvm/Support/MathExtras.h' l='838' c='_ZN4llvm21SaturatingMultiplyAddET_S0_S0_Pb'/>
+<use f='include/c++/7/array' l='288' c='_ZSt4swapRSt5arrayIT_XT0_EES2_'/>
+<use f='include/c++/7/array' l='300' c='_ZSt4swapRSt5arrayIT_XT0_EES2_'/>
+<use f='include/c++/7/tuple' l='214'/>
+<use f='include/c++/7/tuple' l='253'/>
+<use f='include/c++/7/tuple' l='578'/>
+<use f='include/c++/7/tuple' l='585'/>
+<use f='include/c++/7/tuple' l='601'/>
+<use f='include/c++/7/tuple' l='612'/>
+<use f='include/c++/7/tuple' l='639'/>
+<use f='include/c++/7/tuple' l='650'/>
+<use f='include/c++/7/tuple' l='671'/>
+<use f='include/c++/7/tuple' l='683'/>
+<use f='include/c++/7/tuple' l='695'/>
+<use f='include/c++/7/tuple' l='706'/>
+<use f='include/c++/7/tuple' l='723'/>
+<use f='include/c++/7/tuple' l='734'/>
+<use f='include/c++/7/tuple' l='745'/>
+<use f='include/c++/7/tuple' l='756'/>
+<use f='include/c++/7/tuple' l='776'/>
+<use f='include/c++/7/tuple' l='791'/>
+<use f='include/c++/7/tuple' l='806'/>
+<use f='include/c++/7/tuple' l='821'/>
+<use f='include/c++/7/tuple' l='851' c='_ZNSt5tupleaSERKSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='861' c='_ZNSt5tupleaSEOSt5tupleIJDpT_EE'/>
+<use f='include/c++/7/tuple' l='914'/>
+<use f='include/c++/7/tuple' l='924'/>
+<use f='include/c++/7/tuple' l='942'/>
+<use f='include/c++/7/tuple' l='951'/>
+<use f='include/c++/7/tuple' l='964'/>
+<use f='include/c++/7/tuple' l='975'/>
+<use f='include/c++/7/tuple' l='990'/>
+<use f='include/c++/7/tuple' l='999'/>
+<use f='include/c++/7/tuple' l='1008'/>
+<use f='include/c++/7/tuple' l='1017'/>
+<use f='include/c++/7/tuple' l='1026'/>
+<use f='include/c++/7/tuple' l='1035'/>
+<use f='include/c++/7/tuple' l='1044'/>
+<use f='include/c++/7/tuple' l='1054'/>
+<use f='include/c++/7/tuple' l='1070'/>
+<use f='include/c++/7/tuple' l='1082'/>
+<use f='include/c++/7/tuple' l='1094'/>
+<use f='include/c++/7/tuple' l='1104'/>
+<use f='include/c++/7/tuple' l='1123'/>
+<use f='include/c++/7/tuple' l='1135'/>
+<use f='include/c++/7/tuple' l='1147'/>
+<use f='include/c++/7/tuple' l='1157'/>
+<use f='include/c++/7/tuple' l='1168'/>
+<use f='include/c++/7/tuple' l='1178'/>
+<use f='include/c++/7/tuple' l='1188'/>
+<use f='include/c++/7/tuple' l='1198'/>
+<use f='include/c++/7/tuple' l='1573'/>
+<use f='include/c++/7/tuple' l='1597' c='_ZSt4swapRSt5tupleIJDpT_EES3_'/>
+<use f='include/c++/7/tuple' l='1608' c='_ZSt4swapRSt5tupleIJDpT_EES3_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='67'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='102'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='107' c='_ZNKSt14default_deleteIA_T_EclEPT_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='133'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='291' c='_ZNSt10unique_ptraSEOSt10unique_ptrIT_T0_E'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='460'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='476'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='492'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='552' c='_ZNSt10unique_ptrIA_T_T0_EaSEOS_IT_T0_E'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='661' c='_ZSt4swapRSt10unique_ptrIT_T0_ES3_'/>
+<use f='include/c++/7/bits/unique_ptr.h' l='671' c='_ZSt4swapRSt10unique_ptrIT_T0_ES3_'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1044'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1049'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1058'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1169'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1369' c='_ZNSt12__shared_ptr31_M_enable_shared_from_this_withEPT_'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1377' c='_ZNSt12__shared_ptr31_M_enable_shared_from_this_withEPT_'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1594'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='96'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='101'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='523'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='528'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='295' c='_ZN4llvm23SmallVectorTemplateBaseIT_Lb1EE18uninitialized_copyEPT_S4_PT0_PNSt9enable_ifIXsr3std7is_sameINSt12remove_constIS3_E4typeES5_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='391'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='432'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='589'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='862'/>
+<use f='include/c++/7/bits/std_function.h' l='403'/>
+<use f='include/c++/7/functional' l='328'/>
+<use f='include/c++/7/functional' l='518'/>
+<use f='include/c++/7/functional' l='612'/>
+<use f='include/c++/7/functional' l='616'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='125' c='_ZN4llvm12function_refIFT_DpT0_EEC1EOT_PNSt9enable_ifIXntsr3std7is_sameINSt16remove_referenceIS6_E4typeENS0_IS4_EEEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='251' c='_ZN4llvm7reverseEOT_PNSt9enable_ifIXsr10has_rbeginIS0_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='268' c='_ZN4llvm7reverseEOT_PNSt9enable_ifIXntsr10has_rbeginIS0_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1045' c='_ZN4llvm4sizeEOT_PNSt9enable_ifIXsr3std7is_sameINSt15iterator_traitsIDTcldtfL0p_5beginEEE17iterator_categoryESt26random_access_iterator_tagEE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1068' c='_ZN4llvm11make_uniqueEDpOT0_'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1082' c='_ZN4llvm11make_uniqueEm'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1090' c='_ZN4llvm11make_uniqueEDpOT0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='248' c='_ZN4llvm9StringRefaSB5cxx11EOT_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='496' c='_ZNK4llvm9StringRef12getAsIntegerEjRT_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='507' c='_ZNK4llvm9StringRef12getAsIntegerEjRT_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='530' c='_ZN4llvm9StringRef14consumeIntegerEjRT_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='541' c='_ZN4llvm9StringRef14consumeIntegerEjRT_'/>
+<use f='include/c++/7/bits/hashtable_policy.h' l='986'/>
+<doc f='include/c++/7/type_traits' l='2154'>// Partial specialization for true.</doc>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='66'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='238' c='_ZN4llvm4castERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='275' c='_ZN4llvm12cast_or_nullERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='286' c='_ZN4llvm12cast_or_nullERT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='321' c='_ZN4llvm8dyn_castERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='342' c='_ZN4llvm16dyn_cast_or_nullERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='350' c='_ZN4llvm16dyn_cast_or_nullERT0_'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='86' c='_ZN4llvm13AllocatorBase10DeallocateEPT_m'/>
+<use f='include/llvm-7/llvm/ADT/Hashing.h' l='105' c='_ZN4llvm10hash_valueET_'/>
+<use f='include/llvm-7/llvm/ADT/Hashing.h' l='365' c='_ZN4llvm7hashing6detail17get_hashable_dataERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Hashing.h' l='373' c='_ZN4llvm7hashing6detail17get_hashable_dataERKT_'/>
+<use f='include/llvm-7/llvm/ADT/Hashing.h' l='447' c='_ZN4llvm7hashing6detail23hash_combine_range_implEPT_S3_'/>
+<use f='include/llvm-7/llvm/ADT/Hashing.h' l='632' c='_ZN4llvm10hash_valueET_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='110' c='_ZN4llvm8ArrayRefC1ERKNS_8ArrayRefIPT_EEPNSt9enable_ifIXsr3std14is_convertibleIPKS3_PKT_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='120' c='_ZN4llvm8ArrayRefC1ERKNS_25SmallVectorTemplateCommonIPT_T0_EEPNSt9enable_ifIXsr3std14is_convertibleIPKS3_PKT_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='129' c='_ZN4llvm8ArrayRefC1ERKSt6vectorIPT_T0_EPNSt9enable_ifIXsr3std14is_convertibleIPKS3_PKT_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='250' c='_ZN4llvm8ArrayRefaSEOT_'/>
+<use f='include/llvm-7/llvm/ADT/ArrayRef.h' l='258' c='_ZN4llvm8ArrayRefaSESt16initializer_listIT_E'/>
+<use f='include/llvm-7/llvm/ADT/DenseMap.h' l='1146'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='80' c='_ZN4llvm6detail18has_StreamOperator4testENSt9enable_ifIXsr3std7is_sameIDTlsclL_ZSt7declvalIRNS_11raw_ostreamEENSt20add_rvalue_referenceIT_E4typeEvEEcl7746695'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='129' c='_ZN4llvm6detail20build_format_adapterEOT_'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='135' c='_ZN4llvm6detail20build_format_adapterEOT_'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='142' c='_ZN4llvm6detail20build_format_adapterEOT_'/>
+<use f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='155' c='_ZN4llvm6detail20build_format_adapterEOT_'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='128'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='177'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='202'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='235'/>
+<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='301'/>
+<use f='include/c++/7/chrono' l='192' c='_ZNSt6chrono13duration_castERKNS_8durationIT0_T1_EE'/>
+<use f='include/c++/7/chrono' l='324'/>
+<use f='include/c++/7/chrono' l='331'/>
+<use f='include/c++/7/chrono' l='407' c='_ZNSt6chrono8durationrMERKT_'/>
+<use f='include/c++/7/chrono' l='417' c='_ZNSt6chrono8durationrMERKNS_8durationIT_T0_EE'/>
+<use f='include/c++/7/chrono' l='499' c='_ZNSt6chronodvERKNS_8durationIT_T0_EERKT1_'/>
+<use f='include/c++/7/chrono' l='522' c='_ZNSt6chronormERKNS_8durationIT_T0_EERKT1_'/>
+<use f='include/c++/7/chrono' l='672' c='_ZNSt6chrono15time_point_castERKNS_10time_pointIT0_T1_EE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='76' c='_ZN4llvm7ErrorOrC1ET_NSt9enable_ifIXoosr3std18is_error_code_enumIS1_EE5valuesr3std23is_error_condition_enumIS1_EE5valueEPvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='89' c='_ZN4llvm7ErrorOrC1EOT_PNSt9enable_ifIXsr3std14is_convertibleIS1_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='102' c='_ZN4llvm7ErrorOrC1ERKNS_7ErrorOrIT_EEPNSt9enable_ifIXsr3std14is_convertibleIS2_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='110' c='_ZN4llvm7ErrorOrC1ERKNS_7ErrorOrIT_EEPNSt9enable_ifIXntsr3std14is_convertibleIS2_RKT_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='122' c='_ZN4llvm7ErrorOrC1EONS_7ErrorOrIT_EEPNSt9enable_ifIXsr3std14is_convertibleIS2_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='132' c='_ZN4llvm7ErrorOrC1EONS_7ErrorOrIT_EEPNSt9enable_ifIXntsr3std14is_convertibleIS2_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='270' c='_ZN4llvmeqERKNS_7ErrorOrIT_EET0_'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='469' c='_ZN4llvm8ExpectedC1EOT_PNSt9enable_ifIXsr3std14is_convertibleIS1_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='487' c='_ZN4llvm8ExpectedC1EONS_8ExpectedIT_EEPNSt9enable_ifIXsr3std14is_convertibleIS2_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='497' c='_ZN4llvm8ExpectedC1EONS_8ExpectedIT_EEPNSt9enable_ifIXntsr3std14is_convertibleIS2_T_EE5valueEvE4typeE'/>
+<use f='include/c++/7/bits/stl_stack.h' l='122'/>
+<use f='include/c++/7/bits/stl_stack.h' l='147'/>
+<use f='include/c++/7/bits/stl_stack.h' l='343' c='_ZSt4swapRSt5stackIT_T0_ES3_'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='336' c='_ZN4llvm15TrailingObjects21additionalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
+<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='348' c='_ZN4llvm15TrailingObjects16totalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='233' c='_ZN4llvm10StructType6createENS_9StringRefEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='252' c='_ZN4llvm10StructType3getEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='290' c='_ZN4llvm10StructType7setBodyEPNS_4TypeEDpPT_'/>
+<use f='include/llvm-7/llvm/ADT/TinyPtrVector.h' l='153'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1327'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1335'/>

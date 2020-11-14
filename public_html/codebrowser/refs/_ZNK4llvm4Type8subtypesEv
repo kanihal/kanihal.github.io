@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='317' ll='319' type='ArrayRef&lt;llvm::Type *&gt; llvm::Type::subtypes() const'/>

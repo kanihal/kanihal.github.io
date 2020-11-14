@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/annotator.cpp' l='126' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
+<size>160</size>
+<use f='codebrowser/generator/commenthandler.cpp' l='254' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<size>160</size>

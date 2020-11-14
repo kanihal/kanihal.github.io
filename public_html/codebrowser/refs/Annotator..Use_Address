@@ -1,0 +1,11 @@
+<dec f='codebrowser/generator/annotator.h' l='67' type='5'/>
+<use f='codebrowser/generator/annotator.cpp' l='357' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='682' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='324' u='r' c='_ZN17BrowserASTVisitor12TraverseDeclEPN5clang4DeclE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='353' u='r' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='420' u='r' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='454' u='r' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/browserastvisitor.h' l='468' u='r' c='_ZN17BrowserASTVisitor8classifyEv'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='355' u='r' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='262' u='r' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='298' u='r' c='_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_'/>

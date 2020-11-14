@@ -1,0 +1,4 @@
+<use f='codebrowser/generator/commenthandler.cpp' l='48' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='50' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='355' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='356' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/Support/Compiler.h' l='240'/>
+<use f='codebrowser/generator/compat.h' l='34' u='a'/>
+<use f='codebrowser/generator/annotator.cpp' l='1136' u='c'/>
+<use f='codebrowser/generator/annotator.cpp' l='1143' u='c'/>
+<use f='codebrowser/generator/annotator.cpp' l='1154' u='c'/>
+<use f='codebrowser/generator/main.cpp' l='130' u='c'/>

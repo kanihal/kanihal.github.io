@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='430' ll='436' type='llvm::SmallBitVector &amp; llvm::SmallBitVector::flip()'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='448' u='c' c='_ZNK4llvm14SmallBitVectorcoEv'/>

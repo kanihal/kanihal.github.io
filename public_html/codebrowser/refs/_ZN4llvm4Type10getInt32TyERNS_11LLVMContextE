@@ -1,0 +1,1 @@
+<dec f='include/llvm-7/llvm/IR/Type.h' l='410' type='static llvm::IntegerType * llvm::Type::getInt32Ty(llvm::LLVMContext &amp; C)'/>

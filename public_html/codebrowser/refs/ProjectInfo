@@ -1,0 +1,33 @@
+<def f='codebrowser/generator/projectmanager.h' l='29' ll='51'/>
+<use f='codebrowser/generator/projectmanager.h' l='56' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>
+<use f='codebrowser/generator/projectmanager.h' l='58'/>
+<use f='codebrowser/generator/projectmanager.h' l='64' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.h' l='68' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>
+<use f='codebrowser/generator/projectmanager.h' l='73' c='_ZN14ProjectManager14systemProjectsEv'/>
+<use f='codebrowser/build/generator/projectmanager_systemprojects.cpp' l='26' c='_ZN14ProjectManager14systemProjectsEv'/>
+<use f='codebrowser/build/generator/projectmanager_systemprojects.cpp' l='28' c='_ZN14ProjectManager14systemProjectsEv'/>
+<size>136</size>
+<mbr r='ProjectInfo::name' o='0' t='std::string'/>
+<mbr r='ProjectInfo::source_path' o='256' t='std::string'/>
+<mbr r='ProjectInfo::revision' o='512' t='std::string'/>
+<mbr r='ProjectInfo::external_root_url' o='768' t='std::string'/>
+<fun r='_ZNK11ProjectInfo11fileRepoUrlERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<mbr r='ProjectInfo::type' o='1024' t='enum Type'/>
+<fun r='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_NS_4TypeE'/>
+<fun r='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_'/>
+<use f='codebrowser/generator/annotator.h' l='79'/>
+<use f='codebrowser/generator/annotator.cpp' l='210' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='264' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='289' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='546' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<size>136</size>
+<use f='codebrowser/generator/main.cpp' l='341' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='358' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='427' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='537' c='main'/>
+<size>136</size>
+<use f='codebrowser/generator/projectmanager.cpp' l='43' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='58' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='61' c='_ZN14ProjectManager14projectForFileEN4llvm9StringRefE'/>
+<use f='codebrowser/generator/projectmanager.cpp' l='76' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>
+<size>136</size>

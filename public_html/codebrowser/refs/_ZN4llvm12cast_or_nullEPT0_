@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='296' ll='301' type='typename cast_retty&lt;X, Y *&gt;::ret_type llvm::cast_or_null(Y * Val)'/>

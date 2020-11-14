@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='568' type='static llvm::APInt llvm::APInt::getNullValue(unsigned int numBits)'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='565'>/// Get the &apos;0&apos; value.
+  ///
+  /// \returns the &apos;0&apos; value for an APInt of the specified bit-width.</doc>

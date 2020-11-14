@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='158' type='2'/>
+<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='158'>// Can this option directly prefix its value?</doc>

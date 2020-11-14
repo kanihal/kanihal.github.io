@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='435' ll='437'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='445'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='452'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='453'/>
+<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='433'>// We have to alias this since inlining the actual type at the usage site
+// in the parameter list of iterator_facade_base&lt;&gt; below ICEs MSVC 2017.</doc>

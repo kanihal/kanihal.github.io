@@ -1,0 +1,9 @@
+<dec f='codebrowser/generator/generator.h' l='83' type='static llvm::StringRef Generator::escapeAttr(llvm::StringRef , llvm::SmallVectorImpl&lt;char&gt; &amp; buffer)'/>
+<use f='codebrowser/generator/annotator.cpp' l='647' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='674' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='740' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='874' u='c' c='_ZN9Annotator16reportDiagnosticEN5clang11SourceRangeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<use f='codebrowser/generator/annotator.cpp' l='968' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<def f='codebrowser/generator/generator.cpp' l='40' ll='56' type='static llvm::StringRef Generator::escapeAttr(llvm::StringRef s, llvm::SmallVectorImpl&lt;char&gt; &amp; buffer)'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='161' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
+<use f='codebrowser/generator/preprocessorcallback.cpp' l='177' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

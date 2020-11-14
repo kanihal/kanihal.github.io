@@ -1,0 +1,6 @@
+<dec f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='43' type='const char *'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='60' u='r' c='_ZNK4llvm12MemoryBuffer14getBufferStartEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='62' u='r' c='_ZNK4llvm12MemoryBuffer13getBufferSizeEv'/>
+<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='65' u='r' c='_ZNK4llvm12MemoryBuffer9getBufferEv'/>
+<offset>64</offset>
+<doc f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='43'>// Start of the buffer.</doc>

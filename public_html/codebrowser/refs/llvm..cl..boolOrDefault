@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='556'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='558'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='560'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='564' c='_ZN4llvm2cl11OptionValueINS0_13boolOrDefaultEEC1ERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='566' c='_ZN4llvm2cl11OptionValueINS0_13boolOrDefaultEEaSERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='566' c='_ZN4llvm2cl11OptionValueINS0_13boolOrDefaultEEaSERKS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='891'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='896' c='_ZN4llvm2cl6parserINS0_13boolOrDefaultEE5parseERNS0_6OptionENS_9StringRefES6_RS2_'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='905' c='_ZNK4llvm2cl6parserINS0_13boolOrDefaultEE15printOptionDiffERKNS0_6OptionES2_NS0_11OptionValueIS2_EEm'/>
+<use f='include/llvm-7/llvm/Support/CommandLine.h' l='912'/>

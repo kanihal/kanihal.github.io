@@ -1,0 +1,8 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='896' type='llvm::APInt &amp; llvm::APInt::operator-=(const llvm::APInt &amp; RHS)'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='2063' u='c' c='_ZN4llvmmiENS_5APIntERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='213' u='c' c='_ZN4llvm6APSIntmIERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='891'>/// Subtraction assignment operator.
+  ///
+  /// Subtracts RHS from *this and assigns the result to *this.
+  ///
+  /// \returns *this</doc>

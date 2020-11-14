@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/browserastvisitor.h' l='194' ll='199' type='bool BrowserASTVisitor::VisitTagTypeLoc(clang::TagTypeLoc TL)'/>

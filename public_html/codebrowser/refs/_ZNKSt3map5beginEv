@@ -1,0 +1,6 @@
+<def f='include/c++/7/bits/stl_map.h' l='356' ll='358' type='std::map::const_iterator std::map::begin() const'/>
+<doc f='include/c++/7/bits/stl_map.h' l='351'>/**
+       *  Returns a read-only (constant) iterator that points to the first pair
+       *  in the %map.  Iteration is done in ascending order according to the
+       *  keys.
+       */</doc>

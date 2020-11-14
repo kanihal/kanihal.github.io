@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='195' ll='197' type='llvm::raw_ostream &amp; llvm::raw_ostream::operator&lt;&lt;(const SmallVectorImpl&lt;char&gt; &amp; Str)'/>

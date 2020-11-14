@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/ADT/StringRef.h' l='346' type='size_t llvm::StringRef::find(llvm::StringRef Str, size_t From = 0) const'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='448' u='c' c='_ZNK4llvm9StringRef8containsES0_'/>
+<use f='include/llvm-7/llvm/ADT/StringRef.h' l='743' u='c' c='_ZNK4llvm9StringRef5splitES0_'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='290' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>

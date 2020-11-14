@@ -1,0 +1,29 @@
+<inh f='include/llvm-7/llvm/ADT/StringMap.h' l='39' c='llvm::StringMapEntryBase'/>
+<def f='include/llvm-7/llvm/ADT/StringMap.h' l='126' ll='213'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='194' c='_ZN4llvm14StringMapEntry28GetStringMapEntryFromKeyDataEPKc'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='224'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='309'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='495'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='497'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='505' c='_ZNK4llvm22StringMapConstIteratordeEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='506' c='_ZNK4llvm22StringMapConstIteratordeEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='512'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='514'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='522' c='_ZNK4llvm17StringMapIteratordeEv'/>
+<use f='include/llvm-7/llvm/ADT/StringMap.h' l='523' c='_ZNK4llvm17StringMapIteratordeEv'/>
+<mbr r='llvm::StringMapEntry::second' t='ValueTy'/>
+<fun r='_ZN4llvm14StringMapEntryC1Em'/>
+<fun r='_ZN4llvm14StringMapEntryC1EmDpOT_'/>
+<fun r='_ZN4llvm14StringMapEntryC1ERNS_14StringMapEntryIT_EE'/>
+<fun r='_ZNK4llvm14StringMapEntry6getKeyEv'/>
+<fun r='_ZNK4llvm14StringMapEntry8getValueEv'/>
+<fun r='_ZN4llvm14StringMapEntry8getValueEv'/>
+<fun r='_ZN4llvm14StringMapEntry8setValueERKT_'/>
+<fun r='_ZNK4llvm14StringMapEntry10getKeyDataEv'/>
+<fun r='_ZNK4llvm14StringMapEntry5firstEv'/>
+<fun r='_ZN4llvm14StringMapEntry6CreateENS_9StringRefERT_DpOT0_'/>
+<fun r='_ZN4llvm14StringMapEntry6CreateENS_9StringRefEDpOT_'/>
+<fun r='_ZN4llvm14StringMapEntry6CreateENS_9StringRefE'/>
+<fun r='_ZN4llvm14StringMapEntry28GetStringMapEntryFromKeyDataEPKc'/>
+<fun r='_ZN4llvm14StringMapEntry7DestroyERT_'/>
+<fun r='_ZN4llvm14StringMapEntry7DestroyEv'/>

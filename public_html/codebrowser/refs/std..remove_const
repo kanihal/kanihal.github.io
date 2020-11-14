@@ -1,0 +1,9 @@
+<def f='include/c++/7/type_traits' l='1553' ll='1554'/>
+<def f='include/c++/7/type_traits' l='1556' ll='1558'/>
+<use f='include/c++/7/type_traits' l='1574'/>
+<use f='include/c++/7/type_traits' l='1601'/>
+<use f='include/c++/7/tuple' l='509' c='_ZNSt3_TC13_NotSameTupleEv'/>
+<use f='include/c++/7/bits/shared_ptr_base.h' l='1845' c='_ZSt13__make_sharedDpOT1_'/>
+<use f='include/c++/7/bits/shared_ptr.h' l='705' c='_ZSt11make_sharedDpOT0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='295' c='_ZN4llvm23SmallVectorTemplateBaseIT_Lb1EE18uninitialized_copyEPT_S4_PT0_PNSt9enable_ifIXsr3std7is_sameINSt12remove_constIS3_E4typeES5_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1025' c='_ZN4llvm9to_vectorEOT0_'/>

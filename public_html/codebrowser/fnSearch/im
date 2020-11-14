@@ -1,0 +1,6 @@
+_ZNSt9basic_ios5imbueERKSt6locale|std::basic_ios::imbue
+_ZNSt15basic_streambuf5imbueERKSt6locale|std::basic_streambuf::imbue
+_ZN4llvm13ImmutablePassC1ERc|llvm::ImmutablePass::ImmutablePass
+_ZN4llvm13ImmutablePass18getAsImmutablePassEv|llvm::ImmutablePass::getAsImmutablePass
+_ZN4llvm13ImmutablePass11runOnModuleERNS_6ModuleE|llvm::ImmutablePass::runOnModule
+_ZNSt13basic_filebuf5imbueERKSt6locale|std::basic_filebuf::imbue

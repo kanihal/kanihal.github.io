@@ -1,0 +1,2 @@
+<dec f='include/c++/7/fstream' l='400' type='std::streamsize std::basic_filebuf::xsgetn(std::basic_filebuf::char_type * __s, std::streamsize __n)'/>
+<def f='include/c++/7/bits/fstream.tcc' l='632' ll='718' type='std::streamsize std::basic_filebuf::xsgetn(_CharT * __s, std::streamsize __n)'/>

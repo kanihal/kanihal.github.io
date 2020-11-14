@@ -1,0 +1,8 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1302' type='bool llvm::APInt::sge(const llvm::APInt &amp; RHS) const'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='149' u='c' c='_ZNK4llvm6APSIntgeERKS0_'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1296'>/// Signed greater or equal comparison
+  ///
+  /// Regards both *this and RHS as signed quantities and compares them for
+  /// validity of the greater-or-equal relationship.
+  ///
+  /// \returns true if *this &gt;= RHS when both are considered signed.</doc>

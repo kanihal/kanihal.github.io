@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/stl_iterator.h' l='861' ll='865' type='bool __gnu_cxx::operator==(const __normal_iterator&lt;_IteratorL, _Container&gt; &amp; __lhs, const __normal_iterator&lt;_IteratorR, _Container&gt; &amp; __rhs)'/>
+<def f='include/c++/7/bits/stl_iterator.h' l='868' ll='872' type='bool __gnu_cxx::operator==(const __normal_iterator&lt;_Iterator, _Container&gt; &amp; __lhs, const __normal_iterator&lt;_Iterator, _Container&gt; &amp; __rhs)'/>
+<def f='include/c++/7/ext/new_allocator.h' l='154' ll='156' type='bool __gnu_cxx::operator==(const new_allocator&lt;_Tp&gt; &amp; , const new_allocator&lt;_Tp&gt; &amp; )'/>
+<use f='codebrowser/generator/annotator.cpp' l='266' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='512' u='c' c='main'/>

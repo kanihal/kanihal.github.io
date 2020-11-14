@@ -1,0 +1,2 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='1157' type='void llvm::ExitOnError::operator()(llvm::Error Err) const'/>
+<doc f='include/llvm-7/llvm/Support/Error.h' l='1156'>/// Check Err. If it&apos;s in a failure state log the error(s) and exit.</doc>

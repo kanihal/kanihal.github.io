@@ -1,0 +1,5 @@
+<def f='include/c++/7/bits/basic_ios.h' l='124' ll='126' type='bool std::basic_ios::operator!() const'/>
+<use f='codebrowser/generator/annotator.cpp' l='242' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='245' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='574' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='89' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

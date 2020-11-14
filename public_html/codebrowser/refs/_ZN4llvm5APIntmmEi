@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='705' ll='709' type='const llvm::APInt llvm::APInt::operator--(int )'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='700'>/// Postfix decrement operator.
+  ///
+  /// Decrements *this by 1.
+  ///
+  /// \returns a new APInt value representing the original value of *this.</doc>

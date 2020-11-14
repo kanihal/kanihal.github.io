@@ -1,0 +1,9 @@
+<dec f='include/math.h' l='618'/>
+<use f='include/c++/7/cmath' l='528' u='w'/>
+<doc f='include/math.h' l='611'>/* In C++ mode, __MATH_TG cannot be used, because it relies on
+     __builtin_types_compatible_p, which is a C-only builtin.
+     The check for __cplusplus allows the use of the builtin instead of
+     __MATH_TG. This is provided for libstdc++, only to let its configure
+     test work. No further use of this definition of signbit is expected
+     in C++ mode, since libstdc++ provides its own version of signbit
+     in cmath (which undefines signbit). */</doc>

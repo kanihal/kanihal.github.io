@@ -1,0 +1,9 @@
+<use f='include/llvm-7/llvm/Support/Error.h' l='450' u='w' c='_ZN4llvm8ExpectedC1ENS_5ErrorE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='471' u='w' c='_ZN4llvm8ExpectedC1EOT_PNSt9enable_ifIXsr3std14is_convertibleIS1_T_EE5valueEvE4typeE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='511' u='r' c='_ZN4llvm8ExpectedD1Ev'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='522' u='r' c='_ZN4llvm8ExpectedcvbEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='539' u='r' c='_ZNK4llvm8Expected8errorIsAEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='550' u='a' c='_ZN4llvm8Expected9takeErrorEv'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='589' u='w' c='_ZN4llvm8Expected13moveConstructEONS_8ExpectedIT_EE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='595' u='r' c='_ZN4llvm8Expected13moveConstructEONS_8ExpectedIT_EE'/>
+<dec f='include/llvm-7/llvm/Support/Error.h' l='673' type='bool'/>

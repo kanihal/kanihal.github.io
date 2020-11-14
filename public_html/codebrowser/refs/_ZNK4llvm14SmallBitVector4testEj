@@ -1,0 +1,7 @@
+<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='464' ll='466' type='bool llvm::SmallBitVector::test(unsigned int Idx) const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='476' u='c' c='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='476' u='c' c='_ZNK4llvm14SmallBitVector9anyCommonERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='518' u='c' c='_ZN4llvm14SmallBitVector5resetERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='533' u='c' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='533' u='c' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='537' u='c' c='_ZNK4llvm14SmallBitVector4testERKS0_'/>

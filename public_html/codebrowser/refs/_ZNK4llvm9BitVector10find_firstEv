@@ -1,0 +1,4 @@
+<def f='include/llvm-7/llvm/ADT/BitVector.h' l='332' type='int llvm::BitVector::find_first() const'/>
+<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='237' u='c' c='_ZNK4llvm14SmallBitVector10find_firstEv'/>
+<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='330'>/// find_first - Returns the index of the first set bit, -1 if none
+  /// of the bits are set.</doc>

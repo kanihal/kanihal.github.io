@@ -1,0 +1,2 @@
+<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='244' c='_ZNK4llvm2cl6Option27getValueExpectedFlagDefaultEv'/>
+<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1303' ll='1305' type='enum ValueExpected llvm::cl::opt::getValueExpectedFlagDefault() const'/>

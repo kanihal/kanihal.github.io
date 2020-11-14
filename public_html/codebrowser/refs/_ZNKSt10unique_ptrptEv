@@ -1,0 +1,16 @@
+<def f='include/c++/7/bits/unique_ptr.h' l='322' ll='327' type='std::unique_ptr::pointer std::unique_ptr::operator-&gt;() const'/>
+<doc f='include/c++/7/bits/unique_ptr.h' l='321'>/// Return the stored pointer.</doc>
+<use f='include/llvm-7/llvm/Support/Error.h' l='366' u='c' c='_ZNK4llvm9ErrorList3logERNS_11raw_ostreamE'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='881' u='c' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
+<use f='codebrowser/generator/annotator.cpp' l='931' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='936' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='938' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='940' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='597' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>
+<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='600' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>
+<use f='codebrowser/generator/main.cpp' l='394' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='475' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='507' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='514' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='568' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='568' u='c' c='main'/>

@@ -1,0 +1,6 @@
+<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='135' ll='138' type='T llvm::PointerUnion::get() const'/>
+<use f='codebrowser/generator/annotator.cpp' l='891' u='c' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='893' u='c' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='132'>/// Returns the value of the specified pointer type.
+  ///
+  /// If the specified pointer type is incorrect, assert.</doc>

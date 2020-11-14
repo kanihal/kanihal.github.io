@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/IR/Type.h' l='465' ll='467' type='static bool llvm::isa_impl&lt;llvm::PointerType, llvm::Type, void&gt;::doit(const llvm::Type &amp; Ty)'/>

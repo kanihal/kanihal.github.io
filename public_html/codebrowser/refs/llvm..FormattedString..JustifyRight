@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/Format.h' l='131' type='2'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='153' u='r' c='_ZN4llvm13right_justifyENS_9StringRefEj'/>

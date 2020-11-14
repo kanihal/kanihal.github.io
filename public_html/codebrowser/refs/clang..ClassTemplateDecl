@@ -1,0 +1,8 @@
+<use f='codebrowser/generator/annotator.cpp' l='883' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='887' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='890' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<use f='codebrowser/generator/annotator.cpp' l='891' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
+<size>80</size>
+<use f='codebrowser/generator/commenthandler.cpp' l='103' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='129' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
+<size>80</size>

@@ -1,0 +1,4 @@
+<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='157' u='c' c='_ZN4llvm5toHexB5cxx11ENS_8ArrayRefIhEE'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='230' u='c' c='_ZN4llvm14FormattedBytesC1ENS_8ArrayRefIhEEjNS_8OptionalImEEjhbb'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='242' u='c' c='_ZN4llvm12format_bytesENS_8ArrayRefIhEENS_8OptionalImEEjhjb'/>
+<use f='include/llvm-7/llvm/Support/Format.h' l='251' u='c' c='_ZN4llvm23format_bytes_with_asciiENS_8ArrayRefIhEENS_8OptionalImEEjhjb'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/projectmanager.h' l='41' type='0'/>
+<use f='codebrowser/generator/projectmanager.h' l='45'/>
+<use f='codebrowser/generator/projectmanager.h' l='47' c='_ZN11ProjectInfoC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_NS_4TypeE'/>
+<use f='codebrowser/generator/annotator.cpp' l='306' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>

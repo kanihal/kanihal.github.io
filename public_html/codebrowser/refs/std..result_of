@@ -1,0 +1,5 @@
+<def f='include/c++/7/type_traits' l='2456' ll='2459'/>
+<use f='include/c++/7/type_traits' l='2492'/>
+<use f='include/c++/7/bits/refwrap.h' l='353' c='_ZNKSt17reference_wrapperclEDpOT_'/>
+<use f='include/c++/7/bits/std_function.h' l='394'/>
+<use f='include/c++/7/functional' l='511'/>

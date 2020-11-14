@@ -1,0 +1,4 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='948' u='c' c='_ZNK4llvm5APInt4ashrEj'/>
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='953' ll='965' type='void llvm::APInt::ashrInPlace(unsigned int ShiftAmt)'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='131' u='c' c='_ZN4llvm6APSIntrSEj'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='952'>/// Arithmetic right-shift this APInt by ShiftAmt in place.</doc>

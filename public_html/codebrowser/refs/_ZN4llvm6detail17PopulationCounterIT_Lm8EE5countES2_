@@ -1,0 +1,1 @@
+<def f='include/llvm-7/llvm/Support/MathExtras.h' l='502' ll='512' type='static unsigned int llvm::detail::PopulationCounter&lt;type-parameter-0-0, 8&gt;::count(T Value)'/>

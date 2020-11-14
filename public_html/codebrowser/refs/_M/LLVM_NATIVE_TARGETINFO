@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='51'/>
+<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='50'>/* LLVM name for the native TargetInfo init function, if available */</doc>

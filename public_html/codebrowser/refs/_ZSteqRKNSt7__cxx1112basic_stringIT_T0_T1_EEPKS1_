@@ -1,0 +1,13 @@
+<def f='include/c++/7/bits/basic_string.h' l='6042' ll='6045' type='bool std::operator==(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/generator/annotator.cpp' l='318' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='456' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/main.cpp' l='247' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='250' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='253' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='253' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
+<use f='codebrowser/generator/main.cpp' l='455' u='c' c='main'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='233' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='194' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='196' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='200' u='c' c='main'/>
+<use f='codebrowser/indexgenerator/indexer.cpp' l='214' u='c' c='main'/>

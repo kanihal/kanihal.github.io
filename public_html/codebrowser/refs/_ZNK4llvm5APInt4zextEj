@@ -1,0 +1,9 @@
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='663' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='665' u='c' c='_ZN4llvm5APInt11isSameValueERKS0_S2_'/>
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1352' type='llvm::APInt llvm::APInt::zext(unsigned int width) const'/>
+<use f='include/llvm-7/llvm/ADT/APSInt.h' l='87' u='c' c='_ZNK4llvm6APSInt6extendEj'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1347'>/// Zero extend to a new width.
+  ///
+  /// This operation zero extends the APInt to a new width. The high order bits
+  /// are filled with 0 bits.  It is an error to specify a width that is less
+  /// than or equal to the current width.</doc>

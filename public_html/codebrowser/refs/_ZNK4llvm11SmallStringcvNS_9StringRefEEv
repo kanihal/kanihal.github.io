@@ -1,0 +1,9 @@
+<def f='include/llvm-7/llvm/ADT/SmallString.h' l='277' type='llvm::StringRef llvm::SmallString::operator StringRef() const'/>
+<use f='codebrowser/generator/annotator.cpp' l='210' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='212' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='546' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
+<doc f='include/llvm-7/llvm/ADT/SmallString.h' l='276'>/// Implicit conversion to StringRef.</doc>
+<use f='codebrowser/generator/main.cpp' l='427' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='461' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='462' u='c' c='main'/>
+<use f='codebrowser/generator/main.cpp' l='471' u='c' c='main'/>

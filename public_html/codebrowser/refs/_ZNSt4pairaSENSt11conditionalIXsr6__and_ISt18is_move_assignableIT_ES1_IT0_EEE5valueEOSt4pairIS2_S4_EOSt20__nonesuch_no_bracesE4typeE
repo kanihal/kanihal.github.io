@@ -1,0 +1,4 @@
+<def f='include/c++/7/bits/stl_pair.h' l='388' ll='399' type='pair&lt;_T1, _T2&gt; &amp; std::pair::operator=(typename conditional&lt;__and_&lt;is_move_assignable&lt;_T1&gt;, is_move_assignable&lt;_T2&gt; &gt;::value, pair&lt;_T1, _T2&gt; &amp;&amp;, __nonesuch_no_braces &amp;&amp;&gt;::type __p)'/>
+<use f='codebrowser/generator/annotator.cpp' l='204' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='215' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
+<use f='codebrowser/generator/annotator.cpp' l='219' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>

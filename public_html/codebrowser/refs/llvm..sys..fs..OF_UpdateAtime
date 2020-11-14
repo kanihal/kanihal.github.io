@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='733' type='16'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='732'>/// Force files Atime to be updated on access. Only makes a difference on windows.</doc>

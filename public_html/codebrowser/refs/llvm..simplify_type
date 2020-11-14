@@ -1,0 +1,29 @@
+<def f='include/llvm-7/llvm/Support/Casting.h' l='34' ll='39'/>
+<def f='include/llvm-7/llvm/Support/Casting.h' l='41' ll='51'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='42'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='49' c='_ZN4llvm13simplify_typeIKT_E18getSimplifiedValueERS2_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='124' c='_ZN4llvm13isa_impl_wrap4doitERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='125' c='_ZN4llvm13isa_impl_wrap4doitERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='144' c='_ZN4llvm3isaERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='201'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='211' c='_ZN4llvm16cast_convert_val4doitERT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='212' c='_ZN4llvm16cast_convert_val4doitERT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='227'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='243' c='_ZN4llvm4castERKT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='250' c='_ZN4llvm4castERT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='257' c='_ZN4llvm4castEPT0_'/>
+<use f='include/llvm-7/llvm/Support/Casting.h' l='266' c='_ZN4llvm4castEOSt10unique_ptrIT0_St14default_deleteIS1_EE'/>
+<def f='include/llvm-7/llvm/ADT/IntrusiveRefCntPtr.h' l='252' ll='258'/>
+<def f='include/llvm-7/llvm/ADT/IntrusiveRefCntPtr.h' l='260' ll='266'/>
+<doc f='include/llvm-7/llvm/Support/Casting.h' l='26'>//===----------------------------------------------------------------------===//
+//                          isa&lt;x&gt; Support Templates
+//===----------------------------------------------------------------------===//
+
+// Define a template that can be specialized by smart pointers to reflect the
+// fact that they are automatically dereferenced, and are not involved with the
+// template selection process...  the default implementation is a noop.
+//</doc>
+<fun r='_ZN4llvm13simplify_type18getSimplifiedValueERT_'/>
+<fun r='_ZN4llvm13simplify_typeIKT_E18getSimplifiedValueERS2_'/>
+<fun r='_ZN4llvm13simplify_typeINS_18IntrusiveRefCntPtrIT_EEE18getSimplifiedValueERS3_'/>
+<fun r='_ZN4llvm13simplify_typeIKNS_18IntrusiveRefCntPtrIT_EEE18getSimplifiedValueERS4_'/>

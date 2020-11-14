@@ -1,0 +1,10 @@
+<def f='include/c++/7/bits/stl_vector.h' l='688' ll='695' type='void std::vector::resize(std::vector::size_type __new_size)'/>
+<doc f='include/c++/7/bits/stl_vector.h' l='679'>/**
+       *  @brief  Resizes the %vector to the specified number of elements.
+       *  @param  __new_size  Number of elements the %vector should contain.
+       *
+       *  This function will %resize the %vector to the specified
+       *  number of elements.  If the number is smaller than the
+       *  %vector&apos;s current size the %vector is truncated, otherwise
+       *  default constructed elements are appended.
+       */</doc>

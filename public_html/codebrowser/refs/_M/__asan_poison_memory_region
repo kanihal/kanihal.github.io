@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/Support/Compiler.h' l='390'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='207' u='c'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='248' u='c'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='278' u='c'/>
+<use f='include/llvm-7/llvm/Support/Allocator.h' l='349' u='c'/>

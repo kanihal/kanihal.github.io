@@ -1,0 +1,2 @@
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='292' u='c' c='_ZNK4llvm19FoldingSetNodeIDRefneES0_'/>
+<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='345' u='c' c='_ZNK4llvm16FoldingSetNodeIDneENS_19FoldingSetNodeIDRefE'/>

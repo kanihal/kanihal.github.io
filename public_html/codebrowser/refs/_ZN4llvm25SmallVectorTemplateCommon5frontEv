@@ -1,0 +1,3 @@
+<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='164' ll='167' type='llvm::SmallVectorTemplateCommon::reference llvm::SmallVectorTemplateCommon::front()'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='239' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
+<use f='codebrowser/generator/qtsupport.cpp' l='296' u='c' c='_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_'/>

@@ -1,0 +1,2 @@
+<dec f='include/llvm-7/llvm/Pass.h' l='214' type='AnalysisType &amp; llvm::Pass::getAnalysisID(llvm::AnalysisID PI) const'/>
+<def f='include/llvm-7/llvm/PassAnalysisSupport.h' l='227' ll='243' type='AnalysisType &amp; llvm::Pass::getAnalysisID(llvm::AnalysisID PI) const'/>

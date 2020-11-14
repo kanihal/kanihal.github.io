@@ -1,0 +1,39 @@
+<def f='include/c++/7/bits/stl_stack.h' l='99' ll='277'/>
+<use f='include/c++/7/bits/stl_stack.h' l='113' c='_ZSteqRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='113' c='_ZSteqRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='117' c='_ZStltRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='117' c='_ZStltRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='293' c='_ZSteqRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='293' c='_ZSteqRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='311' c='_ZStltRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='311' c='_ZStltRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='317' c='_ZStneRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='317' c='_ZStneRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='323' c='_ZStgtRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='323' c='_ZStgtRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='329' c='_ZStleRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='329' c='_ZStleRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='335' c='_ZStgeRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='335' c='_ZStgeRKSt5stackIT_T0_ES4_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='347' c='_ZSt4swapRSt5stackIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='347' c='_ZSt4swapRSt5stackIT_T0_ES3_'/>
+<use f='include/c++/7/bits/stl_stack.h' l='352'/>
+<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1228'/>
+<mbr r='std::stack::c' t='_Sequence'/>
+<fun r='_ZNSt5stackC1Ev'/>
+<fun r='_ZNSt5stackC1ERKT0_'/>
+<fun r='_ZNSt5stackC1EOT0_'/>
+<fun r='_ZNSt5stackC1ERKT_'/>
+<fun r='_ZNSt5stackC1ERKT0_RKT_'/>
+<fun r='_ZNSt5stackC1EOT0_RKT_'/>
+<fun r='_ZNSt5stackC1ERKSt5stackIT_T0_ERKT_'/>
+<fun r='_ZNSt5stackC1EOSt5stackIT_T0_ERKT_'/>
+<fun r='_ZNKSt5stack5emptyEv'/>
+<fun r='_ZNKSt5stack4sizeEv'/>
+<fun r='_ZNSt5stack3topEv'/>
+<fun r='_ZNKSt5stack3topEv'/>
+<fun r='_ZNSt5stack4pushERKNT0_10value_typeE'/>
+<fun r='_ZNSt5stack4pushEONT0_10value_typeE'/>
+<fun r='_ZNSt5stack7emplaceEDpOT_'/>
+<fun r='_ZNSt5stack3popEv'/>
+<fun r='_ZNSt5stack4swapERSt5stackIT_T0_E'/>

@@ -1,0 +1,4 @@
+<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='407' type='void llvm::raw_fd_ostream::raw_fd_ostream(llvm::StringRef Filename, std::error_code &amp; EC, sys::fs::OpenFlags Flags)'/>
+<use f='codebrowser/generator/annotator.cpp' l='334' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/annotator.cpp' l='485' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
+<use f='codebrowser/generator/generator.cpp' l='130' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

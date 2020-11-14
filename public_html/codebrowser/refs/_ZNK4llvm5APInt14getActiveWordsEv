@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/ADT/APInt.h' l='1532' ll='1535' type='unsigned int llvm::APInt::getActiveWords() const'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1528'>/// Compute the number of active words in the value of this APInt.
+  ///
+  /// This is used in conjunction with getActiveData to extract the raw value of
+  /// the APInt.</doc>

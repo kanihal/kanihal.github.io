@@ -1,0 +1,1 @@
+<def f='codebrowser/generator/commenthandler.cpp' l='188' ll='190' type='void CommentHandler::CommentVisitor::visitHTMLEndTagComment(const clang::comments::HTMLEndTagComment * C)'/>

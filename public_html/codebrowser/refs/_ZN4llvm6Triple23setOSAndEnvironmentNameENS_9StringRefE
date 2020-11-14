@@ -1,0 +1,3 @@
+<dec f='include/llvm-7/llvm/ADT/Triple.h' l='732' type='void llvm::Triple::setOSAndEnvironmentName(llvm::StringRef Str)'/>
+<doc f='include/llvm-7/llvm/ADT/Triple.h' l='730'>/// setOSAndEnvironmentName - Set the operating system and optional
+  /// environment components with a single string.</doc>

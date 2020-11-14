@@ -1,0 +1,5 @@
+<def f='include/llvm-7/llvm/Support/FileSystem.h' l='459' ll='461' type='bool llvm::sys::fs::can_write(const llvm::Twine &amp; Path)'/>
+<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='455'>/// Can we write this file?
+///
+/// @param Path Input path.
+/// @returns True if we can write to it, false otherwise.</doc>

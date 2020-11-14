@@ -1,0 +1,10 @@
+<def f='include/llvm-7/llvm/Support/Error.h' l='340' ll='349'/>
+<ovr f='include/llvm-7/llvm/Support/Error.h' l='353' c='llvm::ErrorList'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='353'/>
+<ovr f='include/llvm-7/llvm/Support/Error.h' l='1055' c='llvm::ECError'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1055'/>
+<ovr f='include/llvm-7/llvm/Support/Error.h' l='1109' c='llvm::StringError'/>
+<use f='include/llvm-7/llvm/Support/Error.h' l='1109'/>
+<fun r='_ZN4llvm9ErrorInfo7classIDEv'/>
+<fun r='_ZNK4llvm9ErrorInfo14dynamicClassIDEv'/>
+<fun r='_ZNK4llvm9ErrorInfo3isAEPKv'/>

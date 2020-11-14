@@ -1,0 +1,4 @@
+<dec f='codebrowser/generator/annotator.h' l='179' type='std::string Annotator::getContextStr(clang::NamedDecl * usedContext)'/>
+<use f='codebrowser/generator/annotator.cpp' l='613' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<use f='codebrowser/generator/annotator.cpp' l='658' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
+<def f='codebrowser/generator/annotator.cpp' l='987' ll='1000' type='std::string Annotator::getContextStr(clang::NamedDecl * usedContext)'/>

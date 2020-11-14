@@ -1,0 +1,5 @@
+<dec f='include/llvm-7/llvm/ADT/APInt.h' l='232' type='unsigned int llvm::APInt::countPopulationSlowCase() const'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='466' u='c' c='_ZNK4llvm5APInt10isPowerOf2Ev'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='519' u='c' c='_ZNK4llvm5APInt13isShiftedMaskEv'/>
+<use f='include/llvm-7/llvm/ADT/APInt.h' l='1654' u='c' c='_ZNK4llvm5APInt15countPopulationEv'/>
+<doc f='include/llvm-7/llvm/ADT/APInt.h' l='231'>/// out-of-line slow case for countPopulation</doc>

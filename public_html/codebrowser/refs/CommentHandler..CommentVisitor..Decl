@@ -1,0 +1,5 @@
+<dec f='codebrowser/generator/commenthandler.cpp' l='164' type='clang::NamedDecl *'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='227' u='w' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='228' u='r' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
+<use f='codebrowser/generator/commenthandler.cpp' l='254' u='r' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
+<offset>256</offset>
