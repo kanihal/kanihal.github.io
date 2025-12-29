@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='200' type='bool llvm::Type::isIntegerTy(unsigned int Bitwidth) const'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='208' u='c' c='_ZNK4llvm4Type18isIntOrIntVectorTyEj'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='199'>/// Return true if this is an IntegerType of the given width.</doc>

@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='447' type='unsigned int llvm::DataLayout::getABIIntegerTypeAlignment(unsigned int BitWidth) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='445'>/// Returns the minimum ABI-required alignment for an integer type of
-  /// the specified bitwidth.</doc>

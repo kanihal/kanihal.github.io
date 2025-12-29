@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1486' ll='1489' type='void llvm::APInt::negate()'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2038' u='c' c='_ZN4llvmngENS_5APIntE'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2068' u='c' c='_ZN4llvmmiERKNS_5APIntEOS0_'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2079' u='c' c='_ZN4llvmmiEmNS_5APIntE'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1485'>/// Negate this APInt in place.</doc>

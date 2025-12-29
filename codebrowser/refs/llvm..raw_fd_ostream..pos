@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='372' type='uint64_t'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='383' u='r' c='_ZNK4llvm14raw_fd_ostream11current_posEv'/>
-<offset>512</offset>

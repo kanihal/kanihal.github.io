@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='170' type='void Annotator::annotateSourceRange(clang::SourceRange range, std::string tag, std::string attributes)'/>
-<def f='codebrowser/generator/annotator.cpp' l='842' ll='869' type='void Annotator::annotateSourceRange(clang::SourceRange range, std::string tag, std::string attributes)'/>
-<use f='codebrowser/generator/annotator.cpp' l='874' u='c' c='_ZN9Annotator16reportDiagnosticEN5clang11SourceRangeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
-<doc f='codebrowser/generator/annotator.h' l='167'>/**
-     * Wrap the source range in an HTML tag
-     */</doc>
-<use f='codebrowser/generator/browserastvisitor.h' l='287' u='c' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>

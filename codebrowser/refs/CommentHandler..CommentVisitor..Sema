@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/commenthandler.cpp' l='158' u='w' c='_ZN14CommentHandler14CommentVisitorC1ER9AnnotatorR9GeneratorRKN5clang8comments13CommandTraitsERNS5_4SemaE'/>
-<dec f='codebrowser/generator/commenthandler.cpp' l='162' type='clang::Sema &amp;'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='224' u='a' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
-<offset>192</offset>

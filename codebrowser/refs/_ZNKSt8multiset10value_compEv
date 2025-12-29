@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/stl_multiset.h' l='316' ll='318' type='std::multiset::value_compare std::multiset::value_comp() const'/>
-<doc f='include/c++/7/bits/stl_multiset.h' l='315'>///  Returns the comparison object.</doc>

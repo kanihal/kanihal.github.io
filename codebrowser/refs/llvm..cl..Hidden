@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='136' type='1'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1739' u='r' c='_ZN4llvm2cl5aliasC1EDpRKT_'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='136'>// -help doesn&apos;t, but -help-hidden does</doc>

@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APSInt.h' l='319' type='void llvm::APSInt::Profile(llvm::FoldingSetNodeID &amp; ID) const'/>
-<doc f='include/llvm-7/llvm/ADT/APSInt.h' l='317'>/// Profile - Used to insert APSInt objects, or objects that contain APSInt
-  ///  objects, into FoldingSets.</doc>

@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='242' type='llvm::raw_ostream &amp; llvm::raw_ostream::operator&lt;&lt;(const llvm::FormattedBytes &amp; )'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='241'>// Formatted output, see the format_bytes() function in Support/Format.h.</doc>

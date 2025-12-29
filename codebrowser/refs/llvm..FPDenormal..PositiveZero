@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='63' type='2'/>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='62'>// the sign of 0</doc>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='63'>// denormals are flushed to positive zero</doc>

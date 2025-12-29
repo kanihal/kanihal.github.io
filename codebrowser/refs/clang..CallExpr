@@ -1,8 +1,0 @@
-<use f='codebrowser/generator/qtsupport.h' l='42' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='277' c='_ZN17BrowserASTVisitor13VisitCallExprEPN5clang8CallExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='435' c='_ZN17BrowserASTVisitor8classifyEv'/>
-<size>32</size>
-<use f='codebrowser/generator/qtsupport.cpp' l='93' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='93' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='301' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>
-<size>32</size>

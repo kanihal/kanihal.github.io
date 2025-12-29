@@ -1,4 +1,0 @@
-<dec f='include/stdint.h' l='140'/>
-<use f='include/llvm-c-7/llvm-c/DataTypes.h' l='82' u='a'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='373' u='c'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='481' u='c'/>

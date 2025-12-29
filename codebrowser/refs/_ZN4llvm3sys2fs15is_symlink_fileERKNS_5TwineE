@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='590' ll='595' type='bool llvm::sys::fs::is_symlink_file(const llvm::Twine &amp; Path)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='588'>/// Simpler version of is_symlink_file for clients that don&apos;t need to
-///        differentiate between an error and false.</doc>

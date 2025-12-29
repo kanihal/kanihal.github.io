@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1623' type='std::vector&lt;unsigned int&gt;'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1642' u='c' c='_ZN4llvm2cl4bits16handleOccurrenceEjNS_9StringRefES2_'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1675' u='r' c='_ZNK4llvm2cl4bits11getPositionEj'/>

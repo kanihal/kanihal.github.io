@@ -1,3 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='148' c='_ZN17BrowserASTVisitor15VisitMemberExprEPN5clang10MemberExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='402' c='_ZN17BrowserASTVisitor8classifyEv'/>
-<size>56</size>

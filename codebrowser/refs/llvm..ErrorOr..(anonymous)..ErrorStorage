@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/Support/ErrorOr.h' l='255' u='m' c='_ZN4llvm7ErrorOr15getErrorStorageEv'/>
-<dec f='include/llvm-7/llvm/Support/ErrorOr.h' l='264' type='AlignedCharArrayUnion&lt;std::error_code&gt;'/>

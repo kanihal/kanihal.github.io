@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='849' type='void llvm::SmallVector::SmallVector&lt;T, N&gt;()'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='957' u='c' c='_ZN4llvm8toStringB5cxx11ENS_5ErrorE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='41' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>

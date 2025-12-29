@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='796' type='llvm::Error llvm::sys::fs::TempFile::keep()'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='795'>// Keep this with the temporary name.</doc>

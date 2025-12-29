@@ -1,3 +1,0 @@
-<dec f='include/time.h' l='159' type='char *[2]'/>
-<doc f='include/time.h' l='158'>/* Defined in localtime.c.  */</doc>
-<doc f='include/time.h' l='159'>/* Current timezone names.  */</doc>

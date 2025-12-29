@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/ManagedStatic.h' l='23' ll='25'/>
-<use f='include/llvm-7/llvm/Support/ManagedStatic.h' l='59'/>
-<doc f='include/llvm-7/llvm/Support/ManagedStatic.h' l='22'>/// object_creator - Helper method for ManagedStatic.</doc>
-<fun r='_ZN4llvm14object_creator4callEv'/>

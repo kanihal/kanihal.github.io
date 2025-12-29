@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/VersionTuple.h' l='110' ll='113' type='bool llvm::operator&lt;(const llvm::VersionTuple &amp; X, const llvm::VersionTuple &amp; Y)'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='120' u='c' c='_ZN4llvmgtERKNS_12VersionTupleES2_'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='129' u='c' c='_ZN4llvmleERKNS_12VersionTupleES2_'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='138' u='c' c='_ZN4llvmgeERKNS_12VersionTupleES2_'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='106'>/// Determine whether one version number precedes another.
-  ///
-  /// If not provided, minor and subminor version numbers are considered to be
-  /// zero.</doc>

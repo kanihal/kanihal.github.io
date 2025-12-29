@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='695' ll='698' type='void std::swap(llvm::SmallBitVector &amp; LHS, llvm::SmallBitVector &amp; RHS)'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='694'>/// Implement std::swap in terms of BitVector swap.</doc>

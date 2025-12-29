@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='990' c='_ZN9Annotator13getContextStrB5cxx11EPN5clang9NamedDeclE'/>
-<size>32</size>
-<use f='codebrowser/generator/commenthandler.cpp' l='121' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
-<size>32</size>

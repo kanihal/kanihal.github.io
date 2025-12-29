@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='653' type='bool llvm::detail::DoubleAPFloat::isSmallest() const'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1160' u='c' c='_ZNK4llvm7APFloat10isSmallestEv'/>

@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='453' type='bool llvm::sys::fs::can_execute(const llvm::Twine &amp; Path)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='449'>/// Can we execute this file?
-///
-/// @param Path Input path.
-/// @returns True if we can execute it, false otherwise.</doc>

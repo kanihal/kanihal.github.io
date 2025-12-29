@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallString.h' l='229' ll='231' type='size_t llvm::SmallString::count(llvm::StringRef Str) const'/>
-<doc f='include/llvm-7/llvm/ADT/SmallString.h' l='227'>/// Return the number of non-overlapped occurrences of \p Str in the
-  /// string.</doc>

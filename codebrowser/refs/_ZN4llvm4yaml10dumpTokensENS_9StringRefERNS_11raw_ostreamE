@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='69' type='bool llvm::yaml::dumpTokens(llvm::StringRef Input, llvm::raw_ostream &amp; )'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='67'>/// Dump all the tokens in this stream to OS.
-/// \returns true if there was an error, false otherwise.</doc>

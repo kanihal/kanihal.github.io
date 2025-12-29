@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='153' ll='157' macro='1' type='llvm::SmallVectorTemplateCommon::reference llvm::SmallVectorTemplateCommon::operator[](llvm::SmallVectorTemplateCommon::size_type idx)'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='50' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

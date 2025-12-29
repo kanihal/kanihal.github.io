@@ -1,4 +1,0 @@
-<def f='include/c++/7/bits/stl_pair.h' l='325' ll='326' type='void std::pair::pair&lt;_T1, _T2&gt;(const _T1 &amp; __x, _U2 &amp;&amp; __y)'/>
-<def f='include/c++/7/bits/stl_pair.h' l='332' ll='333' type='void std::pair::pair&lt;_T1, _T2&gt;(const _T1 &amp; __x, _U2 &amp;&amp; __y)'/>
-<use f='codebrowser/generator/annotator.cpp' l='797' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='838' u='c' c='_ZN9Annotator13registerMacroERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang14SourceLocationENS_8DeclTypeE'/>

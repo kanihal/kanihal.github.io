@@ -1,3 +1,0 @@
-_ZNK4llvm14raw_fd_ostream11current_posEv|llvm::raw_fd_ostream::current_pos
-_ZNK4llvm18raw_string_ostream11current_posEv|llvm::raw_string_ostream::current_pos
-_Z12cutNameSpaceRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|cutNameSpace

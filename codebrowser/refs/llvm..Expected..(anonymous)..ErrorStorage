@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Error.h' l='631' u='m' c='_ZN4llvm8Expected15getErrorStorageEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='636' u='m' c='_ZNK4llvm8Expected15getErrorStorageEv'/>
-<dec f='include/llvm-7/llvm/Support/Error.h' l='671' type='AlignedCharArrayUnion&lt;llvm::Expected::error_type&gt;'/>

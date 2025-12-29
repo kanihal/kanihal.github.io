@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='217' type='bool llvm::APInt::EqualSlowCase(const llvm::APInt &amp; RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1127' u='c' c='_ZNK4llvm5APInteqERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='216'>/// out-of-line slow case for operator==</doc>

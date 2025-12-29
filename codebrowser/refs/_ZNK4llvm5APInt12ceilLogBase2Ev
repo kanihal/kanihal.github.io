@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1744' ll='1748' type='unsigned int llvm::APInt::ceilLogBase2() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1743'>/// \returns the ceil log base 2 of this APInt.</doc>

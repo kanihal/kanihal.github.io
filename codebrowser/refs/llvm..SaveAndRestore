@@ -1,9 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SaveAndRestore.h' l='22' ll='33'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='230' c='_ZN17BrowserASTVisitor30TraverseNestedNameSpecifierLocEN5clang22NestedNameSpecifierLocE'/>
-<doc f='include/llvm-7/llvm/Support/SaveAndRestore.h' l='21'>/// A utility class that uses RAII to save and restore the value of a variable.</doc>
-<fun r='_ZN4llvm14SaveAndRestoreC1ERT_'/>
-<fun r='_ZN4llvm14SaveAndRestoreC1ERT_RKS1_'/>
-<fun r='_ZN4llvm14SaveAndRestoreD1Ev'/>
-<fun r='_ZN4llvm14SaveAndRestore3getEv'/>
-<mbr r='llvm::SaveAndRestore::X' t='T &amp;'/>
-<mbr r='llvm::SaveAndRestore::OldValue' t='T'/>

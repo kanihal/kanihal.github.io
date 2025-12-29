@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Option/OptSpecifier.h' l='28' type='bool llvm::opt::OptSpecifier::isValid() const'/>

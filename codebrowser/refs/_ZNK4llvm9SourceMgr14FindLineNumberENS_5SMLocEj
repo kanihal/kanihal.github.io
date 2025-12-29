@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='177' ll='179' type='unsigned int llvm::SourceMgr::FindLineNumber(llvm::SMLoc Loc, unsigned int BufferID = 0) const'/>
-<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='175'>/// Find the line number for the specified location in the specified file.
-  /// This is not a fast method.</doc>

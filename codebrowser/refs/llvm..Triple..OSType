@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='151' ll='186'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='233'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='294' c='_ZNK4llvm6Triple5getOSEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='702' c='_ZN4llvm6Triple5setOSENS0_6OSTypeE'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='806' c='_ZN4llvm6Triple13getOSTypeNameENS0_6OSTypeE'/>

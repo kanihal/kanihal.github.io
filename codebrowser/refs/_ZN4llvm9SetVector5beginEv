@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SetVector.h' l='83' ll='85' type='llvm::SetVector::iterator llvm::SetVector::begin()'/>
-<doc f='include/llvm-7/llvm/ADT/SetVector.h' l='82'>/// Get an iterator to the beginning of the SetVector.</doc>

@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/filesystem.h' l='44' type='void replace_invalid_filename_chars(std::string &amp; str)'/>
-<use f='codebrowser/generator/annotator.cpp' l='322' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<def f='codebrowser/generator/filesystem.cpp' l='53' ll='56' type='void replace_invalid_filename_chars(std::string &amp; str)'/>
-<doc f='codebrowser/generator/filesystem.cpp' l='52'>// ATTENTION: Keep in sync with ECMAScript function of the same name in .js files and `escapeAttrForFilename` generator.cpp</doc>

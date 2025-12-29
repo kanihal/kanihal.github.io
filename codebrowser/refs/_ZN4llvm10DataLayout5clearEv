@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='182' type='void llvm::DataLayout::clear()'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='198' u='c' c='_ZN4llvm10DataLayoutaSERKS0_'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='181'>// Free all internal data structures.</doc>

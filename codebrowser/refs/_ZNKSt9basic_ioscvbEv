@@ -1,5 +1,0 @@
-<def f='include/c++/7/bits/basic_ios.h' l='117' ll='118' type='bool std::basic_ios::operator bool() const'/>
-<use f='codebrowser/build/generator/projectmanager_systemprojects.cpp' l='34' u='c' c='_ZN14ProjectManager14systemProjectsEv'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='46' u='c' c='_Z19extractMetaFromHTMLNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='70' u='c' c='_Z26linkInterestingDefinitionsRSt14basic_ofstreamIcSt11char_traitsIcEENSt7__cxx1112basic_stringIcS1_SaIcEEERS7_'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='236' u='c' c='main'/>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/AlignOf.h' l='36' ll='38'/>
-<use f='include/llvm-7/llvm/Support/AlignOf.h' l='138'/>
-<mbr r='llvm::AlignedCharArray::buffer' t='char [Size]'/>
-<use f='include/llvm-7/llvm/Support/Endian.h' l='246'/>
-<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='373'/>

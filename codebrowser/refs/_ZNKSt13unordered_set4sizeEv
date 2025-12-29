@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='301' ll='303' type='std::unordered_set::size_type std::unordered_set::size() const'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='300'>///  Returns the size of the %unordered_set.</doc>

@@ -1,4 +1,0 @@
-<def f='include/c++/7/bits/std_function.h' l='123' ll='129'/>
-<use f='include/c++/7/bits/std_function.h' l='213' c='_ZNSt14_Function_base13_Base_manager10_M_managerERSt9_Any_dataRKS1_St18_Manager_operation'/>
-<use f='include/c++/7/bits/std_function.h' l='282'/>
-<use f='include/c++/7/bits/std_function.h' l='350' c='_ZNSt17_Function_handlerIFvDpT1_EMT_T0_E10_M_managerERSt9_Any_dataRKS7_St18_Manager_operation'/>

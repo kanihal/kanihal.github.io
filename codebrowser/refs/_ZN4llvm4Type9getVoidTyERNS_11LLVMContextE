@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='395' type='static llvm::Type * llvm::Type::getVoidTy(llvm::LLVMContext &amp; C)'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='392'>//===--------------------------------------------------------------------===//
-  // These are the builtin types that are always available.
-  //</doc>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='237' ll='239' type='bool llvm::Error::isA() const'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='390' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='392' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='402' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='236'>/// Check whether one error is a subclass of another.</doc>

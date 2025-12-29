@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='129' ll='132' type='typename std::enable_if&lt;uses_format_member&lt;T&gt;::value, T&gt;::type llvm::detail::build_format_adapter(T &amp;&amp; Item)'/>
-<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='135' ll='139' type='typename std::enable_if&lt;uses_format_provider&lt;T&gt;::value, provider_format_adapter&lt;T&gt; &gt;::type llvm::detail::build_format_adapter(T &amp;&amp; Item)'/>
-<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='142' ll='152' type='typename std::enable_if&lt;uses_stream_operator&lt;T&gt;::value, stream_operator_format_adapter&lt;T&gt; &gt;::type llvm::detail::build_format_adapter(T &amp;&amp; Item)'/>
-<def f='include/llvm-7/llvm/Support/FormatVariadicDetails.h' l='155' ll='159' type='typename std::enable_if&lt;uses_missing_provider&lt;T&gt;::value, missing_format_adapter&lt;T&gt; &gt;::type llvm::detail::build_format_adapter(T &amp;&amp; Item)'/>

@@ -1,8 +1,0 @@
-<use f='include/llvm-7/llvm/IR/Type.h' l='185' u='c' c='_ZNK4llvm4Type16isFPOrFPVectorTyEv'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='203' u='c' c='_ZNK4llvm4Type18isIntOrIntVectorTyEv'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='208' u='c' c='_ZNK4llvm4Type18isIntOrIntVectorTyEj'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='227' u='c' c='_ZNK4llvm4Type18isPtrOrPtrVectorTyEv'/>
-<def f='include/llvm-7/llvm/IR/Type.h' l='304' ll='308' type='llvm::Type * llvm::Type::getScalarType() const'/>
-<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='504' u='c' c='_ZNK4llvm4Type22getPointerAddressSpaceEv'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='302'>/// If this is a vector type, return the element type, otherwise return
-  /// &apos;this&apos;.</doc>

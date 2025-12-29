@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='27'/>
-<use f='include/llvm-7/llvm/Support/Compiler.h' l='482' u='c'/>
-<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='26'>/* Define if threads enabled */</doc>
-<use f='include/llvm-7/llvm/Support/RWMutex.h' l='79' u='a'/>
-<use f='include/llvm-7/llvm/Support/RWMutex.h' l='79' u='c'/>

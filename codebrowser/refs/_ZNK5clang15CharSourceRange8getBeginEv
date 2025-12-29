@@ -1,3 +1,0 @@
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='302' u='c' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='251' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='251' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

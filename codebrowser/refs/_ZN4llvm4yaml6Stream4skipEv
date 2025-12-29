@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='96' type='void llvm::yaml::Stream::skip()'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='100' u='c' c='_ZN4llvm4yaml6Stream8validateEv'/>

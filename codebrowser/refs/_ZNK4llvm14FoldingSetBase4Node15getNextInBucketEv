@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/FoldingSet.h' l='145' type='void * llvm::FoldingSetBase::Node::getNextInBucket() const'/>
-<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='671' u='c' c='_ZN4llvm28FoldingSetBucketIteratorImpl7advanceEv'/>
-<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='144'>// Accessors</doc>

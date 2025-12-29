@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='175' type='0'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1022' u='r' c='_ZNK4llvm7APFloatplERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1030' u='r' c='_ZNK4llvm7APFloatmiERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1038' u='r' c='_ZNK4llvm7APFloatmlERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1046' u='r' c='_ZNK4llvm7APFloatdvERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1133' u='r' c='_ZNK4llvm7APFloat14isExactlyValueEd'/>

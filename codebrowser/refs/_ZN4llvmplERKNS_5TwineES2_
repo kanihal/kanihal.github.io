@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='515' ll='517' type='llvm::Twine llvm::operator+(const llvm::Twine &amp; LHS, const llvm::Twine &amp; RHS)'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='784' u='c' c='_ZN4llvm2cl6parser5parseERNS0_6OptionENS_9StringRefES4_RT_'/>
-<use f='codebrowser/generator/annotator.cpp' l='644' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
-<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

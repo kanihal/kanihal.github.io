@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/hashtable_policy.h' l='362' ll='364' type='std::__detail::_Node_iterator::pointer std::__detail::_Node_iterator::operator-&gt;() const'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='116' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

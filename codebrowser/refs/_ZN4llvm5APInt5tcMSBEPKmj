@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1854' type='static unsigned int llvm::APInt::tcMSB(const llvm::APInt::WordType * parts, unsigned int n)'/>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/PassRegistry.h' l='94' macro='1' type='llvm::PassRegistry * llvm::unwrap(LLVMPassRegistryRef P)'/>
-<def f='include/llvm-7/llvm/PassRegistry.h' l='94' macro='1' type='T * llvm::unwrap(LLVMPassRegistryRef P)'/>
-<use f='include/llvm-7/llvm/PassRegistry.h' l='94' macro='1' u='c' c='_ZN4llvm6unwrapEP22LLVMOpaquePassRegistry'/>

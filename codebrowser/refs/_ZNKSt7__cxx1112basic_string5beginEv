@@ -1,7 +1,0 @@
-<def f='include/c++/7/bits/basic_string.h' l='823' ll='825' type='std::__cxx11::basic_string::const_iterator std::__cxx11::basic_string::begin() const'/>
-<doc f='include/c++/7/bits/basic_string.h' l='819'>/**
-       *  Returns a read-only (constant) iterator that points to the first
-       *  character in the %string.
-       */</doc>
-<use f='codebrowser/generator/generator.cpp' l='138' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='176' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

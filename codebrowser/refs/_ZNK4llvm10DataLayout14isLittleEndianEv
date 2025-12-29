@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='221' type='bool llvm::DataLayout::isLittleEndian() const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='220'>/// Layout endianness...</doc>

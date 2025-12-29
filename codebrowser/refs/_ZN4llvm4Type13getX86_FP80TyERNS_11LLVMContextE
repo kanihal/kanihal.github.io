@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='401' type='static llvm::Type * llvm::Type::getX86_FP80Ty(llvm::LLVMContext &amp; C)'/>

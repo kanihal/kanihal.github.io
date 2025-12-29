@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='294' ll='304' type='SmallPtrSetIterator&lt;PtrTy&gt; &amp; llvm::SmallPtrSetIterator::operator++()'/>
-<doc f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='294'>// Preincrement</doc>

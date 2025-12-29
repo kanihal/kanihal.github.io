@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/SourceMgr.h' l='269' type='SmallVector&lt;llvm::SMFixIt, 4&gt;'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='296' u='m' c='_ZN4llvm12SMDiagnostic8addFixItERKNS_7SMFixItE'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='300' u='r' c='_ZNK4llvm12SMDiagnostic9getFixItsEv'/>
-<offset>1216</offset>

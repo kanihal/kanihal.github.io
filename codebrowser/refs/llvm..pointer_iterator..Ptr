@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/iterator.h' l='316' type='T'/>
-<use f='include/llvm-7/llvm/ADT/iterator.h' l='324' u='w' c='_ZN4llvm16pointer_iteratordeEv'/>
-<use f='include/llvm-7/llvm/ADT/iterator.h' l='325' u='w' c='_ZNK4llvm16pointer_iteratordeEv'/>

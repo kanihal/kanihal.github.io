@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='306' ll='308' type='std::unordered_set::size_type std::unordered_set::max_size() const'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='305'>///  Returns the maximum size of the %unordered_set.</doc>

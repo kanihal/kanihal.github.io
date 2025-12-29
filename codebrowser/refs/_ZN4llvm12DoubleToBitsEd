@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='591' ll='596' type='uint64_t llvm::DoubleToBits(double Double)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='588'>/// This function takes a double and returns the bit equivalent 64-bit integer.
-/// Note that copying doubles around changes the bits of NaNs on some hosts,
-/// notably x86, so this routine cannot be used if these bits are needed.</doc>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1725' u='c' c='_ZN4llvm5APInt12doubleToBitsEd'/>

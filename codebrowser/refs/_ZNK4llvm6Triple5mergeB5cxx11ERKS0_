@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='785' type='std::string llvm::Triple::merge(const llvm::Triple &amp; Other) const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='784'>/// Merge target triples.</doc>

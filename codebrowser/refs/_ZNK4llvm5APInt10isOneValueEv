@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='410' ll='414' type='bool llvm::APInt::isOneValue() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='407'>/// Determine if this is a value of 1.
-  ///
-  /// This checks to see if the value of this APInt is one.</doc>

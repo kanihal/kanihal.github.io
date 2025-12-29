@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='263' ll='264' type='unordered_set&lt;_Value, _Hash, _Pred, _Alloc&gt; &amp; std::unordered_set::operator=(const unordered_set&lt;_Value, _Hash, _Pred, _Alloc&gt; &amp; )'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='262'>/// Copy assignment operator.</doc>

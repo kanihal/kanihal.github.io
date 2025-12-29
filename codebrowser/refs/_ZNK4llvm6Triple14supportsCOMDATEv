@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='679' ll='681' type='bool llvm::Triple::supportsCOMDAT() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='678'>/// Tests whether the target supports comdat</doc>

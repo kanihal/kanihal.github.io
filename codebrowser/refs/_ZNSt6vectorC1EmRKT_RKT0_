@@ -1,9 +1,0 @@
-<def f='include/c++/7/bits/stl_vector.h' l='295' ll='298' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(std::vector::size_type __n, const std::vector::value_type &amp; __value, const std::vector::allocator_type &amp; __a = std::vector::allocator_type())'/>
-<doc f='include/c++/7/bits/stl_vector.h' l='287'>/**
-       *  @brief  Creates a %vector with copies of an exemplar element.
-       *  @param  __n  The number of elements to initially create.
-       *  @param  __value  An element to copy.
-       *  @param  __a  An allocator.
-       *
-       *  This constructor fills the %vector with @a __n copies of @a __value.
-       */</doc>

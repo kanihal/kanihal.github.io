@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='345' type='void llvm::APInt::APInt()'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='340'>/// Default constructor that creates an uninteresting APInt
-  /// representing a 1-bit zero value.
-  ///
-  /// This is useful for object deserialization (pair this with the static
-  ///  method Read).</doc>

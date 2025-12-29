@@ -1,2 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/Error.h' l='67' c='_ZNK4llvm13ErrorInfoBase18convertToErrorCodeEv'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='1060' type='std::error_code llvm::ECError::convertToErrorCode() const'/>

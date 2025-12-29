@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='88' type='void llvm::SourceMgr::SrcBuffer::SrcBuffer()'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='154' u='c' c='_ZN4llvm9SourceMgr18AddNewSourceBufferESt10unique_ptrINS_12MemoryBufferESt14default_deleteIS2_EENS_5SMLocE'/>

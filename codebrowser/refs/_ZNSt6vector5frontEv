@@ -1,9 +1,0 @@
-<def f='include/c++/7/bits/stl_vector.h' l='872' ll='877' type='std::vector::reference std::vector::front()'/>
-<doc f='include/c++/7/bits/stl_vector.h' l='868'>/**
-       *  Returns a read/write reference to the data at the first
-       *  element of the %vector.
-       */</doc>
-<use f='codebrowser/generator/main.cpp' l='478' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='479' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='521' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='529' u='c' c='main'/>

@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='113' type='1'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1539' u='r' c='_ZN4llvm2cl4listC1EDpRKT_'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1680' u='r' c='_ZN4llvm2cl4bitsC1EDpRKT_'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='113'>// Zero or more occurrences allowed</doc>
-<use f='codebrowser/generator/main.cpp' l='59' u='r'/>
-<use f='codebrowser/generator/main.cpp' l='71' u='r'/>
-<use f='codebrowser/generator/main.cpp' l='78' u='r'/>

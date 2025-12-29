@@ -1,6 +1,0 @@
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1164' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1173' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS1_15directory_entryERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1182' u='c' c='_ZN4llvm3sys2fs18directory_iterator9incrementERSt10error_code'/>
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1208' ll='1221' type='void llvm::sys::fs::directory_iterator::update_error_code_for_current_entry(std::error_code &amp; ec)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1206'>// Checks if current entry is valid and populates error code. For example,
-  // current entry may not exist due to broken symbol links.</doc>

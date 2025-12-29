@@ -1,3 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='834' c='_ZNK4llvm2cl17basic_parser_impl12getValueNameEv'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1066' type='llvm::StringRef llvm::cl::parser&lt;char&gt;::getValueName() const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1065'>// getValueName - Overload in subclass to provide a better default value.</doc>

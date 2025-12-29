@@ -1,8 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='313'/>
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='511' ll='529'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='511'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='514'/>
-<fun r='_ZN4llvm17StringMapIteratorC1Ev'/>
-<fun r='_ZN4llvm17StringMapIteratorC1EPPNS_18StringMapEntryBaseEb'/>
-<fun r='_ZNK4llvm17StringMapIteratordeEv'/>
-<fun r='_ZNK4llvm17StringMapIteratorcvNS_22StringMapConstIteratorIT_EEEv'/>

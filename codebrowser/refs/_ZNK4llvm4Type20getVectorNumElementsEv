@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='370' type='unsigned int llvm::Type::getVectorNumElements() const'/>
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='462' ll='464' type='unsigned int llvm::Type::getVectorNumElements() const'/>

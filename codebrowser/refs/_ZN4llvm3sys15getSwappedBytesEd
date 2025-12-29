@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SwapByteOrder.h' l='109' ll='117' type='double llvm::sys::getSwappedBytes(double C)'/>

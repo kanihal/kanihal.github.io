@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1716' ll='1718' type='float llvm::APInt::bitsToFloat() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1711'>/// Converts APInt bits to a double
-  ///
-  /// The conversion does not do a translation from integer to float, it just
-  /// re-interprets the bits as a float. Note that it is valid to do this on
-  /// any bit width. Exactly 32 bits will be translated.</doc>

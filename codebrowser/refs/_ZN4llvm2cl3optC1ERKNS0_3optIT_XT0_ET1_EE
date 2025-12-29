@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1348' type='void llvm::cl::opt::opt&lt;DataType, ExternalStorage, ParserClass&gt;(const opt&lt;DataType, ExternalStorage, ParserClass&gt; &amp; )'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1347'>// Command line options should not be copyable</doc>

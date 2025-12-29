@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/VersionTuple.h' l='68' type='unsigned int llvm::VersionTuple::getMajor() const'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='67'>/// Retrieve the major version number.</doc>

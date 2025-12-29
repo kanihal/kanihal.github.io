@@ -1,2 +1,0 @@
-<def f='include/c++/7/type_traits' l='718' ll='720'/>
-<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='259' macro='1' c='_ZN4llvm15TrailingObjects31verifyTrailingObjectsAssertionsEv'/>

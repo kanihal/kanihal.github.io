@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Twine.h' l='152' type='const uint64_t *'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='387' u='w' c='_ZN4llvm5Twine9utohexstrERKm'/>
-<offset>0</offset>

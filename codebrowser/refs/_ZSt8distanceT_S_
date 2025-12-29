@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/stl_iterator_base_funcs.h' l='136' ll='143' type='typename iterator_traits&lt;_InputIterator&gt;::difference_type std::distance(_InputIterator __first, _InputIterator __last)'/>
-<use f='include/llvm-7/llvm/ADT/Hashing.h' l='452' u='c' c='_ZN4llvm7hashing6detail23hash_combine_range_implEPT_S3_'/>

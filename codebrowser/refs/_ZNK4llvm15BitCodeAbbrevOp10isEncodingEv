@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='112' type='bool llvm::BitCodeAbbrevOp::isEncoding() const'/>

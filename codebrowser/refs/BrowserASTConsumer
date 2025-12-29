@@ -1,8 +1,0 @@
-<def f='codebrowser/generator/main.cpp' l='147' ll='201'/>
-<use f='codebrowser/generator/main.cpp' l='222' c='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>
-<size>792</size>
-<fun r='_ZN18BrowserASTConsumerD1Ev'/>
-<fun r='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
-<fun r='_ZN18BrowserASTConsumer18HandleTopLevelDeclEN5clang12DeclGroupRefE'/>
-<fun r='_ZN18BrowserASTConsumer21HandleTranslationUnitERN5clang10ASTContextE'/>
-<fun r='_ZN18BrowserASTConsumer22shouldSkipFunctionBodyEPN5clang4DeclE'/>

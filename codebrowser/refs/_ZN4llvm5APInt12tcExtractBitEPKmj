@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1835' type='static int llvm::APInt::tcExtractBit(const llvm::APInt::WordType * , unsigned int bit)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1834'>/// Extract the given bit of a bignum; returns 0 or 1.  Zero-based.</doc>

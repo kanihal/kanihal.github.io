@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/SourceMgr.h' l='76' type='llvm::SourceMgr::SrcBuffer::VariableSizeOffsets'/>
-<offset>64</offset>
-<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='70'>/// Vector of offsets into Buffer at which there are line-endings
-    /// (lazily populated). Once populated, the &apos;\n&apos; that marks the end of
-    /// line number N from [1..] is at Buffer[OffsetCache[N-1]]. Since
-    /// these offsets are in sorted (ascending) order, they can be
-    /// binary-searched for the first one after any given offset (eg. an
-    /// offset corresponding to a particular SMLoc).</doc>

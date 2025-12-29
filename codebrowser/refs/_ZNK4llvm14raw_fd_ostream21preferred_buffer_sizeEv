@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='386' type='size_t llvm::raw_fd_ostream::preferred_buffer_size() const'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='385'>/// Determine an efficient buffer size.</doc>

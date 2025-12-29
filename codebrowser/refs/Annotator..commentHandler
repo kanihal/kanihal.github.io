@@ -1,9 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='102' type='CommentHandler'/>
-<use f='codebrowser/generator/annotator.cpp' l='312' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='413' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='680' u='m' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='797' u='m' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='838' u='m' c='_ZN9Annotator13registerMacroERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang14SourceLocationENS_8DeclTypeE'/>
-<use f='codebrowser/generator/annotator.cpp' l='1117' u='m' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
-<use f='codebrowser/generator/annotator.cpp' l='1126' u='m' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
-<offset>3136</offset>

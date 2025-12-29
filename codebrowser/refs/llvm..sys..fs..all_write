@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='102' type='146'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='759' u='r' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERiRNS_15SmallVectorImplIcEEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='765' u='r' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERNS_15SmallVectorImplIcEEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='782' u='r' c='_ZN4llvm3sys2fs8TempFile6createERKNS_5TwineEj'/>

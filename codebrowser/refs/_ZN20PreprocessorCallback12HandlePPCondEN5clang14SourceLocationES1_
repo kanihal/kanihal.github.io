@@ -1,8 +1,0 @@
-<use f='codebrowser/generator/preprocessorcallback.h' l='81' u='c' c='_ZN20PreprocessorCallback2IfEN5clang14SourceLocationENS0_11SourceRangeENS0_11PPCallbacks18ConditionValueKindE'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='83' u='c' c='_ZN20PreprocessorCallback6IfndefEN5clang14SourceLocationERKNS0_5TokenERKNS0_15MacroDefinitionE'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='85' u='c' c='_ZN20PreprocessorCallback5IfdefEN5clang14SourceLocationERKNS0_5TokenERKNS0_15MacroDefinitionE'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='88' u='c' c='_ZN20PreprocessorCallback4ElifEN5clang14SourceLocationENS0_11SourceRangeENS0_11PPCallbacks18ConditionValueKindES1_'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='91' u='c' c='_ZN20PreprocessorCallback4ElseEN5clang14SourceLocationES1_'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='93' u='c' c='_ZN20PreprocessorCallback5EndifEN5clang14SourceLocationES1_'/>
-<dec f='codebrowser/generator/preprocessorcallback.h' l='100' type='void PreprocessorCallback::HandlePPCond(clang::SourceLocation Loc, clang::SourceLocation IfLoc)'/>
-<def f='codebrowser/generator/preprocessorcallback.cpp' l='363' ll='383' type='void PreprocessorCallback::HandlePPCond(clang::SourceLocation Loc, clang::SourceLocation IfLoc)'/>

@@ -1,2 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='353' c='_ZN4llvm2cl6Option10setDefaultEv'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1659' type='void llvm::cl::bits::setDefault()'/>

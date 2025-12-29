@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='695' ll='697' type='std::unordered_set::size_type std::unordered_set::max_bucket_count() const'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='694'>/// Returns the maximum number of buckets of the %unordered_set.</doc>

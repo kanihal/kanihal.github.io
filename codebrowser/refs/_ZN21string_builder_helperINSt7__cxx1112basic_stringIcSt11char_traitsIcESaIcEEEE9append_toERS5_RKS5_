@@ -1,1 +1,0 @@
-<def f='codebrowser/generator/stringbuilder.h' l='26' type='static void string_builder_helper&lt;std::__cxx11::basic_string&lt;char&gt; &gt;::append_to(std::string &amp; s, const std::string &amp; a)'/>

@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/hashtable.h' l='753' ll='755' type='std::_Hashtable::iterator std::_Hashtable::erase(std::_Hashtable::iterator __it)'/>
-<doc f='include/c++/7/bits/hashtable.h' l='752'>// LWG 2059.</doc>

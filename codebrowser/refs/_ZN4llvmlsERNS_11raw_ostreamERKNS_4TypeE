@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='458' ll='461' type='llvm::raw_ostream &amp; llvm::operator&lt;&lt;(llvm::raw_ostream &amp; OS, const llvm::Type &amp; T)'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='457'>// Printing of types.</doc>

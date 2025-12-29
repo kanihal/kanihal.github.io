@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/commenthandler.h' l='42' type='clang::SourceLocation'/>
-<use f='codebrowser/generator/annotator.cpp' l='416' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<offset>256</offset>

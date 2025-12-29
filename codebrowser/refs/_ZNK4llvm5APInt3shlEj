@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='936' u='c' c='_ZNK4llvm5APIntlsEj'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='992' ll='996' type='llvm::APInt llvm::APInt::shl(unsigned int shiftAmt) const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='989'>/// Left-shift function.
-  ///
-  /// Left-shift this APInt by shiftAmt.</doc>

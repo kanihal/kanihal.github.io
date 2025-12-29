@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='429' ll='431' type='bool llvm::isPowerOf2_32(uint32_t Value)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='427'>/// Return true if the argument is a power of two &gt; 0.
-/// Ex. isPowerOf2_32(0x00100000U) == true (32 bit edition.)</doc>

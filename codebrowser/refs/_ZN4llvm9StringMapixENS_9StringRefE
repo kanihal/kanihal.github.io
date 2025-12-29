@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='356' type='ValueTy &amp; llvm::StringMap::operator[](llvm::StringRef Key)'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='354'>/// Lookup the ValueTy for the \p Key, or create a default constructed value
-  /// if the key is not in the map.</doc>

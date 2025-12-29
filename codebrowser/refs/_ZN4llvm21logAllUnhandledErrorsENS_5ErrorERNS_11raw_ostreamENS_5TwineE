@@ -1,9 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='952' type='void llvm::logAllUnhandledErrors(llvm::Error E, llvm::raw_ostream &amp; OS, llvm::Twine ErrorBanner)'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='1177' u='c' c='_ZNK4llvm11ExitOnError10checkErrorENS_5ErrorE'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='945'>/// Log all errors (if any) in E to OS. If there are any errors, ErrorBanner
-/// will be printed before the first one is logged. A newline will be printed
-/// after each error.
-///
-/// This is useful in the base level of your program to allow clean termination
-/// (allowing clean deallocation of resources, etc.), while reporting error
-/// information to the user.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='542' ll='544' type='bool llvm::Triple::isWindowsCygwinEnvironment() const'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='552' u='c' c='_ZNK4llvm6Triple11isOSCygMingEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='685' u='c' c='_ZNK4llvm6Triple21hasDefaultEmulatedTLSEv'/>

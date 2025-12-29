@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='910' type='void std::unordered_multiset::unordered_multiset&lt;_Value, _Hash, _Pred, _Alloc&gt;(unordered_multiset&lt;_Value, _Hash, _Pred, _Alloc&gt; &amp;&amp; )'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='909'>/// Move constructor.</doc>

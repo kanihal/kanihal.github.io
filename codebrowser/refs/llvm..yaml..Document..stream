@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='548' type='llvm::yaml::Stream &amp;'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='600' u='a' c='_ZN4llvm4yaml17document_iteratorppEv'/>
-<offset>0</offset>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='547'>/// Stream to read tokens from.</doc>

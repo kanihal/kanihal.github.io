@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringSwitch.h' l='154' ll='160' macro='1' type='StringSwitch&lt;T, R&gt; &amp; llvm::StringSwitch::CaseLower(llvm::StringLiteral S, T Value)'/>
-<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='180' u='c' c='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_T_'/>
-<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='186' u='c' c='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_T_'/>
-<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='192' u='c' c='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_S1_T_'/>
-<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='198' u='c' c='_ZN4llvm12StringSwitch10CasesLowerENS_13StringLiteralES1_S1_S1_S1_T_'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='269' u='c' c='_ZN4llvm15format_providerIbvE6formatERKbRNS_11raw_ostreamENS_9StringRefE'/>

@@ -1,2 +1,0 @@
-<def f='codebrowser/generator/browserastvisitor.h' l='53' type='void BrowserASTVisitor::BrowserASTVisitor(Annotator &amp; R)'/>
-<use f='codebrowser/generator/main.cpp' l='189' u='c' c='_ZN18BrowserASTConsumer21HandleTranslationUnitERN5clang10ASTContextE'/>

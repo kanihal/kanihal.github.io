@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1694' type='double llvm::APInt::roundToDouble(bool isSigned) const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1697' u='c' c='_ZNK4llvm5APInt13roundToDoubleEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1700' u='c' c='_ZNK4llvm5APInt19signedRoundToDoubleEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1693'>/// Converts this APInt to a double value.</doc>

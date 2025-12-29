@@ -1,6 +1,0 @@
-<use f='codebrowser/generator/commenthandler.cpp' l='182' u='c' c='_ZN14CommentHandler14CommentVisitor24visitHTMLStartTagCommentEPKN5clang8comments19HTMLStartTagCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='189' u='c' c='_ZN14CommentHandler14CommentVisitor22visitHTMLEndTagCommentEPKN5clang8comments17HTMLEndTagCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='196' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='212' u='c' c='_ZN14CommentHandler14CommentVisitor29visitVerbatimBlockLineCommentEPKN5clang8comments24VerbatimBlockLineCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='260' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='280' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>

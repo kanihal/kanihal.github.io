@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/generator.h' l='96' type='llvm::StringRef'/>
-<use f='codebrowser/generator/generator.h' l='100' u='r' c='_ZlsRN4llvm11raw_ostreamEN9Generator10EscapeAttrE'/>
-<offset>0</offset>

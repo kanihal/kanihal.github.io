@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='136' type='llvm::PassManagerType llvm::Pass::getPotentialPassManagerType() const'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='135'>///  Return what kind of Pass Manager can manage this pass.</doc>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='1144' ll='1146' type='void llvm::ExitOnError::ExitOnError(std::string Banner = &quot;&quot;, int DefaultErrorExitCode = 1)'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='1143'>/// Create an error on exit helper.</doc>

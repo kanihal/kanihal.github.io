@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/PassInfo.h' l='114' ll='116' type='const std::vector&lt;const PassInfo *&gt; &amp; llvm::PassInfo::getInterfacesImplemented() const'/>
-<doc f='include/llvm-7/llvm/PassInfo.h' l='112'>/// getInterfacesImplemented - Return a list of all of the analysis group
-  /// interfaces implemented by this pass.</doc>

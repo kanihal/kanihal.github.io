@@ -1,6 +1,0 @@
-<def f='include/c++/7/bits/hashtable.h' l='263' ll='264'/>
-<use f='include/c++/7/bits/hashtable.h' l='268'/>
-<doc f='include/c++/7/bits/hashtable.h' l='259'>// Compile-time diagnostics.
-
-      // _Hash_code_base has everything protected, so use this derived type to
-      // access it.</doc>

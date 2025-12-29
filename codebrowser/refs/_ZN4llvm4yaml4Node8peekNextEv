@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='164' type='llvm::yaml::Token &amp; llvm::yaml::Node::peekNext()'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='163'>// These functions forward to Document and Scanner.</doc>

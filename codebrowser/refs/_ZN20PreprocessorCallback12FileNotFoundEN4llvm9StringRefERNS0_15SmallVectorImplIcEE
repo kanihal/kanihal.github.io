@@ -1,2 +1,0 @@
-<dec f='codebrowser/generator/preprocessorcallback.h' l='63' type='bool PreprocessorCallback::FileNotFound(llvm::StringRef FileName, llvm::SmallVectorImpl&lt;char&gt; &amp; RecoveryPath)'/>
-<def f='codebrowser/generator/preprocessorcallback.cpp' l='259' ll='278' type='bool PreprocessorCallback::FileNotFound(llvm::StringRef FileName, llvm::SmallVectorImpl&lt;char&gt; &amp; RecoveryPath)'/>

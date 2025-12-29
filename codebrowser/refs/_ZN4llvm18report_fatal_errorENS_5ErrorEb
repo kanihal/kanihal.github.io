@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='681' type='void llvm::report_fatal_error(llvm::Error Err, bool gen_crash_diag = true)'/>

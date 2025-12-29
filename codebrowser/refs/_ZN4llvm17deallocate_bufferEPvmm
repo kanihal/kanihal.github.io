@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Compiler.h' l='536' ll='547' type='void llvm::deallocate_buffer(void * Ptr, size_t Size, size_t Alignment)'/>
-<doc f='include/llvm-7/llvm/Support/Compiler.h' l='529'>/// Deallocate a buffer of memory with the given size and alignment.
-///
-/// If supported, this will used the sized delete operator. Also if supported,
-/// this will pass the alignment to the delete operator.
-///
-/// The pointer must have been allocated with the corresponding new operator,
-/// most likely using the above helper.</doc>

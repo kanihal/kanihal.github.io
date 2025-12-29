@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='128' ll='130' type='bool llvm::isAcquireOrStronger(llvm::AtomicOrdering ao)'/>

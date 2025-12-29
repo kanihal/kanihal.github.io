@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='134' ll='138'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='280' c='_ZNK4llvm2cl6Option19getOptionHiddenFlagEv'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='281' c='_ZNK4llvm2cl6Option19getOptionHiddenFlagEv'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='315' c='_ZN4llvm2cl6Option13setHiddenFlagENS0_12OptionHiddenE'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='324' c='_ZN4llvm2cl6OptionC1ENS0_18NumOccurrencesFlagENS0_12OptionHiddenE'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1159'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1160' c='_ZN4llvm2cl10applicatorINS0_12OptionHiddenEE3optES2_RNS0_6OptionE'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='134'>// Control whether -help shows this option</doc>

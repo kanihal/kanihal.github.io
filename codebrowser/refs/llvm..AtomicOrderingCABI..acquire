@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='32' type='2'/>
-<use f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='142' u='r' c='_ZN4llvm6toCABIENS_14AtomicOrderingE'/>
-<use f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='142' u='r' c='_ZN4llvm6toCABIENS_14AtomicOrderingE'/>

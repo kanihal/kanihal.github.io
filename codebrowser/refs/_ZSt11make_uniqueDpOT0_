@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unique_ptr.h' l='819' ll='821' type='typename _MakeUniq&lt;_Tp&gt;::__single_object std::make_unique(_Args &amp;&amp;... __args)'/>
-<def f='include/c++/7/bits/unique_ptr.h' l='831' ll='832' type='typename _MakeUniq&lt;_Tp&gt;::__invalid_type std::make_unique(_Args &amp;&amp;... )'/>

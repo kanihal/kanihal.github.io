@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='782' type='bool llvm::Triple::isCompatibleWith(const llvm::Triple &amp; Other) const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='781'>/// Test whether target triples are compatible.</doc>

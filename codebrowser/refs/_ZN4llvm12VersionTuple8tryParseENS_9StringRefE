@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/VersionTuple.h' l='147' type='bool llvm::VersionTuple::tryParse(llvm::StringRef string)'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='144'>/// Try to parse the given string as a version number.
-  /// \returns \c true if the string does not match the regular expression
-  ///   [0-9]+(\.[0-9]+){0,3}</doc>

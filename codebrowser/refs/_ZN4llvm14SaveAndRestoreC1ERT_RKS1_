@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SaveAndRestore.h' l='24' ll='26' type='void llvm::SaveAndRestore::SaveAndRestore&lt;T&gt;(T &amp; X, const T &amp; NewValue)'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='230' u='c' c='_ZN17BrowserASTVisitor30TraverseNestedNameSpecifierLocEN5clang22NestedNameSpecifierLocE'/>

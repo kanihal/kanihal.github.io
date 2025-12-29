@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='410' ll='412' type='MutableArrayRef&lt;T&gt; llvm::MutableArrayRef::take_until(PredicateT Pred) const'/>

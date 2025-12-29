@@ -1,3 +1,0 @@
-<dec f='include/c++/7/bits/algorithmfwd.h' l='632' type='typename iterator_traits&lt;_IIter&gt;::difference_type std::count(_IIter , _IIter , const _Tp &amp; )'/>
-<def f='include/c++/7/bits/stl_algo.h' l='4075' ll='4086' type='typename iterator_traits&lt;_InputIterator&gt;::difference_type std::count(_InputIterator __first, _InputIterator __last, const _Tp &amp; __value)'/>
-<use f='codebrowser/generator/generator.cpp' l='138' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

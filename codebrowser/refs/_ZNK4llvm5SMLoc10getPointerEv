@@ -1,9 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SMLoc.h' l='35' type='const char * llvm::SMLoc::getPointer() const'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='250' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='250' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='251' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='251' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='252' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='252' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='253' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='253' u='c' c='_ZNK4llvm7SMFixItltERKS0_'/>

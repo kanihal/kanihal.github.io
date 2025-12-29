@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/SmallVector.h' l='50' type='void llvm::SmallVectorBase::grow_pod(void * FirstEl, size_t MinCapacity, size_t TSize)'/>
-<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='99' u='c' c='_ZN4llvm25SmallVectorTemplateCommon8grow_podEmm'/>
-<doc f='include/llvm-7/llvm/ADT/SmallVector.h' l='48'>/// This is an implementation of the grow() method which only works
-  /// on POD-like data types and is out of line to reduce code duplication.</doc>

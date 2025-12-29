@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='1067' type='llvm::APFloatBase::opStatus llvm::APFloat::convert(const llvm::fltSemantics &amp; ToSemantics, llvm::APFloatBase::roundingMode RM, bool * losesInfo)'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1133' u='c' c='_ZNK4llvm7APFloat14isExactlyValueEd'/>

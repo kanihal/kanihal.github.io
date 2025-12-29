@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='81' ll='83' type='static char * llvm::CachedHashString::getTombstoneKeyPtr()'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='86' u='c' c='_ZNK4llvm16CachedHashString18isEmptyOrTombstoneEv'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='161' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE15getTombstoneKeyEv'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='174' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE7isEqualERKS1_S4_'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='175' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE7isEqualERKS1_S4_'/>

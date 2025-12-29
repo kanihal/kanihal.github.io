@@ -1,6 +1,0 @@
-<dec f='codebrowser/generator/projectmanager.h' l='56' type='bool ProjectManager::addProject(ProjectInfo info)'/>
-<use f='codebrowser/generator/main.cpp' l='343' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='361' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='428' u='c' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='39' u='c' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
-<def f='codebrowser/generator/projectmanager.cpp' l='43' ll='56' type='bool ProjectManager::addProject(ProjectInfo info)'/>

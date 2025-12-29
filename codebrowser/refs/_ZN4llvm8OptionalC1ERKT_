@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Optional.h' l='140' type='void llvm::Optional::Optional&lt;T&gt;(const T &amp; y)'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='185' u='c' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail21use_pointer_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='74' u='c' c='_ZNK4llvm12VersionTuple8getMinorEv'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='81' u='c' c='_ZNK4llvm12VersionTuple11getSubminorEv'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='88' u='c' c='_ZNK4llvm12VersionTuple8getBuildEv'/>

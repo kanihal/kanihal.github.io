@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='344' type='size_t llvm::cl::Option::getOptionWidth() const'/>
-<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1312' c='_ZNK4llvm2cl3opt14getOptionWidthEv'/>
-<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1504' c='_ZNK4llvm2cl4list14getOptionWidthEv'/>
-<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='1647' c='_ZNK4llvm2cl4bits14getOptionWidthEv'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='343'>// Return the width of the option tag for printing...</doc>

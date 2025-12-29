@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Threading.h' l='150' type='uint32_t llvm::get_max_thread_name_length()'/>
-<doc f='include/llvm-7/llvm/Support/Threading.h' l='148'>/// Get the maximum length of a thread name on this platform.
-  /// A value of 0 means there is no limit.</doc>

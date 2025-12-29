@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='299' ll='301' type='bool llvm::isInt(int64_t x)'/>
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='303' ll='305' type='bool llvm::isInt(int64_t x)'/>
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='306' ll='308' type='bool llvm::isInt(int64_t x)'/>
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='309' ll='311' type='bool llvm::isInt(int64_t x)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='298'>/// Checks if an integer fits into the given bit width.</doc>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='302'>// Template specializations to get better code for common cases.</doc>

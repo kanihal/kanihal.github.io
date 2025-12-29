@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/CachedHashString.h' l='85' ll='87' type='bool llvm::CachedHashString::isEmptyOrTombstone() const'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='114' u='c' c='_ZN4llvm16CachedHashStringC1ERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='133' u='c' c='_ZN4llvm16CachedHashStringD1Ev'/>

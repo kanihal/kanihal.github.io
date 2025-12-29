@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='1026' type='void llvm::sys::fs::closeFile(llvm::sys::fs::file_t &amp; F)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1021'>/// @brief Close the file object.  This should be used instead of ::close for
-/// portability.
-///
-/// @param F On input, this is the file to close.  On output, the file is
-/// set to kInvalidFile.</doc>

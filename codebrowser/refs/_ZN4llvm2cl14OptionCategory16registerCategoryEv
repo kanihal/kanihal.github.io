@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='176' type='void llvm::cl::OptionCategory::registerCategory()'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='182' u='c' c='_ZN4llvm2cl14OptionCategoryC1ENS_9StringRefES2_'/>

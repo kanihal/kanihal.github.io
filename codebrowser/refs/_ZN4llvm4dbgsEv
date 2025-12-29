@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Debug.h' l='110' type='llvm::raw_ostream &amp; llvm::dbgs()'/>
-<doc f='include/llvm-7/llvm/Support/Debug.h' l='107'>/// dbgs() - This returns a reference to a raw_ostream for debugging
-/// messages.  If debugging is disabled it returns errs().  Use it
-/// like: dbgs() &lt;&lt; &quot;foo&quot; &lt;&lt; &quot;bar&quot;;</doc>

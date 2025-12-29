@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/RWMutex.h' l='146' ll='156'/>
-<use f='include/llvm-7/llvm/Support/RWMutex.h' l='158'/>
-<mbr r='llvm::sys::SmartScopedReader::mutex' t='SmartRWMutex&lt;mt_only&gt; &amp;'/>
-<fun r='_ZN4llvm3sys17SmartScopedReaderC1ERNS0_12SmartRWMutexIXT_EEE'/>
-<fun r='_ZN4llvm3sys17SmartScopedReaderD1Ev'/>

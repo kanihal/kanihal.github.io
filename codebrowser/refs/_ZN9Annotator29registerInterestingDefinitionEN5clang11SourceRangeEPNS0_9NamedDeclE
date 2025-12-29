@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='165' type='void Annotator::registerInterestingDefinition(clang::SourceRange range, clang::NamedDecl * decl)'/>
-<def f='codebrowser/generator/annotator.cpp' l='231' ll='236' type='void Annotator::registerInterestingDefinition(clang::SourceRange sourceRange, clang::NamedDecl * decl)'/>
-<use f='codebrowser/generator/annotator.cpp' l='587' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<doc f='codebrowser/generator/annotator.h' l='164'>// Class names, structs, objective C identifiers, main function</doc>

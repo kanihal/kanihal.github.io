@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='481' ll='483' type='uint64_t llvm::APInt::getLimitedValue(uint64_t Limit = (18446744073709551615UL)) const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='479'>/// If this value is smaller than the specified limit, return it, otherwise
-  /// return the limit value.  This causes the value to saturate to the limit.</doc>

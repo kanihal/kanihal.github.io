@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1445' ll='1450' type='void llvm::APInt::clearAllBits()'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1444'>/// Set every bit to 0.</doc>

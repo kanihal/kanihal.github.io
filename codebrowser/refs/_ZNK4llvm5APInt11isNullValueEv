@@ -1,8 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='390' u='c' c='_ZNK4llvm5APInt18isStrictlyPositiveEv'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='405' type='bool llvm::APInt::isNullValue() const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='436' u='c' c='_ZNK4llvm5APInt10isMinValueEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1767' u='c' c='_ZNK4llvm5APInt15nearestLogBase2Ev'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='401'>/// Determine if all bits are clear
-  ///
-  /// This checks to see if the value has all bits of the APInt are clear or
-  /// not.</doc>

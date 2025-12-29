@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='363' type='uint64_t llvm::Type::getArrayNumElements() const'/>
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='388' ll='390' type='uint64_t llvm::Type::getArrayNumElements() const'/>

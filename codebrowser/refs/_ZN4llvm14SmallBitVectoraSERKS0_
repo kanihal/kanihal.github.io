@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='588' ll='603' type='const llvm::SmallBitVector &amp; llvm::SmallBitVector::operator=(const llvm::SmallBitVector &amp; RHS)'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='587'>// Assignment operator.</doc>

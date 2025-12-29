@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='67' type='10'/>
-<use f='codebrowser/generator/annotator.cpp' l='386' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='831' u='a' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>
-<use f='codebrowser/generator/annotator.cpp' l='831' u='a' c='_ZN9Annotator16registerOverrideEPN5clang9NamedDeclES2_NS0_14SourceLocationE'/>

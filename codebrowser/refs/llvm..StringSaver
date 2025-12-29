@@ -1,6 +1,0 @@
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1844' c='_ZN4llvm2cl22TokenizeGNUCommandLineENS_9StringRefERNS_11StringSaverERNS_15SmallVectorImplIPKcEEb'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1859' c='_ZN4llvm2cl26TokenizeWindowsCommandLineENS_9StringRefERNS_11StringSaverERNS_15SmallVectorImplIPKcEEb'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1865'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1878' c='_ZN4llvm2cl18tokenizeConfigFileENS_9StringRefERNS_11StringSaverERNS_15SmallVectorImplIPKcEEb'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1893' c='_ZN4llvm2cl14readConfigFileENS_9StringRefERNS_11StringSaverERNS_15SmallVectorImplIPKcEE'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1912' c='_ZN4llvm2cl19ExpandResponseFilesERNS_11StringSaverEPFvNS_9StringRefES2_RNS_15SmallVectorImplIPKcEEbES8_bb'/>

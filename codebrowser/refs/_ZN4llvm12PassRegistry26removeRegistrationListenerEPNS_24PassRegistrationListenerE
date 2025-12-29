@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/PassRegistry.h' l='90' type='void llvm::PassRegistry::removeRegistrationListener(llvm::PassRegistrationListener * L)'/>
-<doc f='include/llvm-7/llvm/PassRegistry.h' l='88'>/// removeRegistrationListener - Unregister a PassRegistrationListener so that
-  /// it no longer receives passRegistered() callbacks.</doc>

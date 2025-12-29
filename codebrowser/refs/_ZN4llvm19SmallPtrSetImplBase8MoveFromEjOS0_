@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='211' type='void llvm::SmallPtrSetImplBase::MoveFrom(unsigned int SmallSize, llvm::SmallPtrSetImplBase &amp;&amp; RHS)'/>

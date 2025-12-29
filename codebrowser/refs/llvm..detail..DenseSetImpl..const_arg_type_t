@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='91' c='_ZNK4llvm6detail12DenseSetImpl5countENS_26const_pointer_or_const_refIT_vE4typeE'/>
-<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='165' c='_ZN4llvm6detail12DenseSetImpl4findENS_26const_pointer_or_const_refIT_vE4typeE'/>
-<use f='include/llvm-7/llvm/ADT/DenseSet.h' l='166' c='_ZNK4llvm6detail12DenseSetImpl4findENS_26const_pointer_or_const_refIT_vE4typeE'/>

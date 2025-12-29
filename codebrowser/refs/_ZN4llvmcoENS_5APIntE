@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1967' ll='1970' type='llvm::APInt llvm::operator~(llvm::APInt v)'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='265' u='c' c='_ZNK4llvm6APSIntcoEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1964'>/// Unary bitwise complement operator.
-///
-/// \returns an APInt that is the bitwise complement of \p v.</doc>

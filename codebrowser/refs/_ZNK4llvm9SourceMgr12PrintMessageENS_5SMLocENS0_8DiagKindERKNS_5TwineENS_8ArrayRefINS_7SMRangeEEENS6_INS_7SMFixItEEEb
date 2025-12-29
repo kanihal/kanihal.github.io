@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/SourceMgr.h' l='197' type='void llvm::SourceMgr::PrintMessage(llvm::SMLoc Loc, llvm::SourceMgr::DiagKind Kind, const llvm::Twine &amp; Msg, ArrayRef&lt;llvm::SMRange&gt; Ranges = None, ArrayRef&lt;llvm::SMFixIt&gt; FixIts = None, bool ShowColors = true) const'/>
-<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='196'>/// Emits a diagnostic to llvm::errs().</doc>

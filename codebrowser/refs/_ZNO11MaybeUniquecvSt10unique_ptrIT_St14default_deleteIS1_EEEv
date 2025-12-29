@@ -1,3 +1,0 @@
-<def f='codebrowser/generator/compat.h' l='30' type='std::unique_ptr&lt;X&gt; MaybeUnique::operator unique_ptr&lt;type-parameter-1-0, default_delete&lt;type-parameter-1-0&gt; &gt;()'/>
-<use f='codebrowser/generator/main.cpp' l='166' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
-<use f='codebrowser/generator/main.cpp' l='222' u='c' c='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>

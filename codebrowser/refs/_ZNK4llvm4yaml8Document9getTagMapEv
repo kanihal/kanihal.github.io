@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='541' type='const std::map&lt;StringRef, StringRef&gt; &amp; llvm::yaml::Document::getTagMap() const'/>

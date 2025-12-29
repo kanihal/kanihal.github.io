@@ -1,7 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='125' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<size>72</size>
-<use f='codebrowser/generator/commenthandler.cpp' l='271' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<size>72</size>
-<use f='codebrowser/generator/browserastvisitor.h' l='131' c='_ZN17BrowserASTVisitor21VisitEnumConstantDeclEPN5clang16EnumConstantDeclE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='162' c='_ZN17BrowserASTVisitor16VisitDeclRefExprEPN5clang11DeclRefExprE'/>
-<size>72</size>

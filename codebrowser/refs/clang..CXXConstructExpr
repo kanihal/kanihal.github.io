@@ -1,6 +1,0 @@
-<use f='codebrowser/generator/qtsupport.h' l='43' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='260' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='459' c='_ZN17BrowserASTVisitor8classifyEv'/>
-<size>48</size>
-<use f='codebrowser/generator/qtsupport.cpp' l='392' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<size>48</size>

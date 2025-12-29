@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1832' type='static bool llvm::APInt::tcIsZero(const llvm::APInt::WordType * , unsigned int )'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1831'>/// Returns true if a bignum is zero, false otherwise.</doc>

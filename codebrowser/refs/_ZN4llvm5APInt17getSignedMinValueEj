@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='544' ll='548' type='static llvm::APInt llvm::APInt::getSignedMinValue(unsigned int numBits)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='555' u='c' c='_ZN4llvm5APInt11getSignMaskEj'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='279' u='c' c='_ZN4llvm6APSInt11getMinValueEjb'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='543'>/// Gets minimum signed value of APInt for a specific bit width.</doc>

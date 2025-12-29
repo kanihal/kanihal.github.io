@@ -1,8 +1,0 @@
-<dec f='include/stdlib.h' l='563' type='void free(void * __ptr)'/>
-<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='1095' u='c' c='_ZN4llvm11FreeDeleterclEPv'/>
-<doc f='include/stdlib.h' l='562'>/* Free a block allocated by `malloc&apos;, `realloc&apos; or `calloc&apos;.  */</doc>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='106' u='c' c='_ZN4llvm15MallocAllocator10DeallocateEPKvm'/>
-<use f='include/llvm-7/llvm/ADT/BitVector.h' l='164' u='c' c='_ZN4llvm9BitVectorD1Ev'/>
-<use f='include/llvm-7/llvm/ADT/BitVector.h' l='721' u='c' c='_ZN4llvm9BitVectoraSERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/BitVector.h' l='730' u='c' c='_ZN4llvm9BitVectoraSEOS0_'/>
-<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='84' u='c' c='_ZN4llvm19SmallPtrSetImplBaseD1Ev'/>

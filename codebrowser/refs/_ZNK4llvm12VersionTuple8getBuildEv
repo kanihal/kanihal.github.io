@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/VersionTuple.h' l='85' ll='89' type='Optional&lt;unsigned int&gt; llvm::VersionTuple::getBuild() const'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='84'>/// Retrieve the build version number, if provided.</doc>

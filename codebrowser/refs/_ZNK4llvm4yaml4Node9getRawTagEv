@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='154' type='llvm::StringRef llvm::yaml::Node::getRawTag() const'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='152'>/// Get the tag as it was written in the document. This does not
-  ///   perform tag resolution.</doc>

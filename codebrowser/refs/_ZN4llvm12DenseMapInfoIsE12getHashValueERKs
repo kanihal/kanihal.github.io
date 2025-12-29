@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/DenseMapInfo.h' l='125' type='static unsigned int llvm::DenseMapInfo&lt;short&gt;::getHashValue(const short &amp; Val)'/>

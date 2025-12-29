@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Allocator.h' l='194' ll='210' type='void llvm::BumpPtrAllocatorImpl::Reset()'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='432' u='c' c='_ZN4llvm24SpecificBumpPtrAllocator10DestroyAllEv'/>
-<doc f='include/llvm-7/llvm/Support/Allocator.h' l='192'>/// Deallocate all but the current slab and reset the current pointer
-  /// to the beginning of it, freeing all memory allocated so far.</doc>

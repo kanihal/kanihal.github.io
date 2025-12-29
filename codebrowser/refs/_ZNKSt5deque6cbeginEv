@@ -1,9 +1,0 @@
-<def f='include/c++/7/bits/stl_deque.h' l='1236' ll='1238' type='std::deque::const_iterator std::deque::cbegin() const'/>
-<use f='include/c++/7/bits/stl_deque.h' l='1680' u='c' c='_ZNSt5deque6insertENSt11_Deque_baseIT_T0_E14const_iteratorESt16initializer_listIS1_E'/>
-<use f='include/c++/7/bits/stl_deque.h' l='1701' u='c' c='_ZNSt5deque6insertENSt11_Deque_baseIT_T0_E14const_iteratorEmRKS1_'/>
-<use f='include/c++/7/bits/stl_deque.h' l='1738' u='c' c='_ZNSt5deque6insertENSt11_Deque_baseIT_T0_E14const_iteratorET_S5_'/>
-<doc f='include/c++/7/bits/stl_deque.h' l='1232'>/**
-       *  Returns a read-only (constant) iterator that points to the first
-       *  element in the %deque.  Iteration is done in ordinary element order.
-       */</doc>
-<use f='codebrowser/generator/generator.cpp' l='268' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

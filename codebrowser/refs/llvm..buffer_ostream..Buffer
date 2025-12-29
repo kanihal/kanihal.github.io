@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='549' type='SmallVector&lt;char, 0&gt;'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='552' u='a' c='_ZN4llvm14buffer_ostreamC1ERNS_11raw_ostreamE'/>
-<offset>448</offset>

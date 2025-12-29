@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/projectmanager.h' l='61' type='std::string'/>
-<offset>448</offset>
-<use f='codebrowser/generator/annotator.cpp' l='300' u='r' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/main.cpp' l='567' u='r' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='33' u='w' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='35' u='m' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='36' u='w' c='_ZN14ProjectManagerC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_'/>

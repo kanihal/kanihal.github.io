@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallSet.h' l='165' ll='172' type='llvm::SmallSet::size_type llvm::SmallSet::count(const T &amp; V) const'/>
-<doc f='include/llvm-7/llvm/ADT/SmallSet.h' l='164'>/// count - Return 1 if the element is in the set, 0 otherwise.</doc>

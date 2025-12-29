@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='87' type='void llvm::yaml::Stream::Stream(llvm::StringRef Input, llvm::SourceMgr &amp; , bool ShowColors = true, std::error_code * EC = nullptr)'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='86'>/// This keeps a reference to the string referenced by \p Input.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='423' ll='429' type='static llvm::VectorType * llvm::VectorType::getTruncatedElementVectorType(llvm::VectorType * VTy)'/>
-<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='421'>/// This static method is like getInteger except that the element types are
-  /// half as wide as the elements in the input type.</doc>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1045' ll='1052' type='decltype(std::distance(Range.begin(), Range.end())) llvm::size(R &amp;&amp; Range, typename std::enable_if&lt;std::is_same&lt;typename std::iterator_traits&lt;decltype(Range.begin())&gt;::iterator_category, std::random_access_iterator_tag&gt;::value, void&gt;::type *  = nullptr)'/>

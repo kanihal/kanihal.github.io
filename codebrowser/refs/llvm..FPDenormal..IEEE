@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='60' type='0'/>
-<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='282'/>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='60'>// IEEE 754 denormal numbers</doc>

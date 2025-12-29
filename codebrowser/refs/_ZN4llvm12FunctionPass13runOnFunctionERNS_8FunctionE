@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='295' type='bool llvm::FunctionPass::runOnFunction(llvm::Function &amp; F)'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='293'>/// runOnFunction - Virtual method overriden by subclasses to do the
-  /// per-function processing of the pass.</doc>

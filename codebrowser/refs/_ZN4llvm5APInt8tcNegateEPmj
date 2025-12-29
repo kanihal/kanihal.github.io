@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1857' type='static void llvm::APInt::tcNegate(llvm::APInt::WordType * , unsigned int )'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1856'>/// Negate a bignum in-place.</doc>

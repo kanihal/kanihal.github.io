@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='2123' type='llvm::APInt llvm::APIntOps::GreatestCommonDivisor(llvm::APInt A, llvm::APInt B)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2117'>/// Compute GCD of two unsigned APInt values.
-///
-/// This function returns the greatest common divisor of the two APInt values
-/// using Stein&apos;s algorithm.
-///
-/// \returns the greatest common divisor of A and B.</doc>

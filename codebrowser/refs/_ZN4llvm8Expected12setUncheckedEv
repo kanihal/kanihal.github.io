@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='640' ll='644' type='void llvm::Expected::setUnchecked()'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='639'>// Used by ExpectedAsOutParameter to reset the checked flag.</doc>

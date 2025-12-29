@@ -1,2 +1,0 @@
-<dec f='codebrowser/generator/filesystem.h' l='43' type='void make_forward_slashes(std::string &amp; str)'/>
-<def f='codebrowser/generator/filesystem.cpp' l='47' ll='50' type='void make_forward_slashes(std::string &amp; str)'/>

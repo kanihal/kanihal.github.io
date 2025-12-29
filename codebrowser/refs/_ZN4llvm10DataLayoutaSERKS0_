@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='193' u='c' c='_ZN4llvm10DataLayoutC1ERKS0_'/>
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='197' ll='210' type='llvm::DataLayout &amp; llvm::DataLayout::operator=(const llvm::DataLayout &amp; DL)'/>

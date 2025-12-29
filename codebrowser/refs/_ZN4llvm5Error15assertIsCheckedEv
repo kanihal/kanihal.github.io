@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Error.h' l='208' u='c' c='_ZN4llvm5ErroraSEOS0_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='224' u='c' c='_ZN4llvm5ErrorD1Ev'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='260' ll='265' type='void llvm::Error::assertIsChecked()'/>

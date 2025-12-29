@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='229' type='unsigned int llvm::APInt::countTrailingOnesSlowCase() const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='398' u='c' c='_ZNK4llvm5APInt14isAllOnesValueEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='429' u='c' c='_ZNK4llvm5APInt16isMaxSignedValueEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='499' u='c' c='_ZNK4llvm5APInt6isMaskEj'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='510' u='c' c='_ZNK4llvm5APInt6isMaskEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1642' u='c' c='_ZNK4llvm5APInt17countTrailingOnesEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='228'>/// out-of-line slow case for countTrailingOnes</doc>

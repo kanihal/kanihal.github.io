@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='395' ll='399' type='bool llvm::APInt::isAllOnesValue() const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='420' u='c' c='_ZNK4llvm5APInt10isMaxValueEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='392'>/// Determine if all bits are set
-  ///
-  /// This checks to see if the value has all bits of the APInt are set or not.</doc>

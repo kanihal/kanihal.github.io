@@ -1,2 +1,0 @@
-<def f='codebrowser/indexgenerator/indexer.cpp' l='42' ll='52' type='std::string extractMetaFromHTML(std::string metaName, std::string fullPath)'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='154' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

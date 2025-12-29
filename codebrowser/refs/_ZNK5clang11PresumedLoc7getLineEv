@@ -1,6 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='391' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='392' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='392' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='393' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='421' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>

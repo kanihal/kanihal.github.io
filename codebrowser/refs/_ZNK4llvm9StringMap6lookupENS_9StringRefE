@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='347' ll='352' type='ValueTy llvm::StringMap::lookup(llvm::StringRef Key) const'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='345'>/// lookup - Return the entry for the specified key, or a default
-  /// constructed value if no such entry exists.</doc>

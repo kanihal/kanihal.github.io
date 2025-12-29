@@ -1,5 +1,0 @@
-<dec f='codebrowser/generator/projectmanager.h' l='75' type='std::unordered_multimap&lt;std::string, std::string&gt;'/>
-<offset>704</offset>
-<use f='codebrowser/generator/projectmanager.cpp' l='91' u='m' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='107' u='m' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='114' u='m' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

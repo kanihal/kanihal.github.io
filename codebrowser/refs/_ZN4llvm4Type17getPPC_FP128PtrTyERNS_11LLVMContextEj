@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='437' type='static llvm::PointerType * llvm::Type::getPPC_FP128PtrTy(llvm::LLVMContext &amp; C, unsigned int AS = 0)'/>

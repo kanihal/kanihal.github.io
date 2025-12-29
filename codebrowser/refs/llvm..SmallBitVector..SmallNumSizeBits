@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='52' type='6'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='57' u='r'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='49'>// A few more bits are used to store the size of the bit set in small mode.
-    // Theoretically this is a ceil-log2. These bits are encoded in the most
-    // significant bits of the raw bits.</doc>

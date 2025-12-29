@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='129' ll='133' type='llvm::sys::fs::perms llvm::sys::fs::operator~(llvm::sys::fs::perms x)'/>
-<use f='codebrowser/generator/filesystem.cpp' l='92' u='c' c='_Z18create_directoriesRKN4llvm5TwineE'/>
-<use f='codebrowser/generator/filesystem.cpp' l='93' u='c' c='_Z18create_directoriesRKN4llvm5TwineE'/>

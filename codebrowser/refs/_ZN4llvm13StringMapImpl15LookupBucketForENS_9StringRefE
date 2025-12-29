@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/StringMap.h' l='82' type='unsigned int llvm::StringMapImpl::LookupBucketFor(llvm::StringRef Key)'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='367' u='c' c='_ZN4llvm9StringMap6insertEPNS_14StringMapEntryIT_EE'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='396' u='c' c='_ZN4llvm9StringMap11try_emplaceENS_9StringRefEDpOT_'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='77'>/// LookupBucketFor - Look up the bucket that the specified string should end
-  /// up in.  If it already exists as a key in the map, the Item pointer for the
-  /// specified bucket will be non-null.  Otherwise, it will be null.  In either
-  /// case, the FullHashValue field of the bucket will be set to the hash value
-  /// of the string.</doc>

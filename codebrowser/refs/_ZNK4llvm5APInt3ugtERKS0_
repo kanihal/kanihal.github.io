@@ -1,9 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1248' type='bool llvm::APInt::ugt(const llvm::APInt &amp; RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2114' u='c' c='_ZN4llvm8APIntOps4umaxERKNS_5APIntES3_'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='141' u='c' c='_ZNK4llvm6APSIntgtERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1242'>/// Unsigned greather than comparison
-  ///
-  /// Regards both *this and RHS as unsigned quantities and compares them for
-  /// the validity of the greater-than relationship.
-  ///
-  /// \returns true if *this &gt; RHS when both are considered unsigned.</doc>

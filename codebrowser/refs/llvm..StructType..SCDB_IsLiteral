@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='208' type='4'/>
-<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='265' u='r' c='_ZNK4llvm10StructType9isLiteralEv'/>

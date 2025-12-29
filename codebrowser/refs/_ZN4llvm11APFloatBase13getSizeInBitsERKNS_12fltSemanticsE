@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='221' type='static unsigned int llvm::APFloatBase::getSizeInBits(const llvm::fltSemantics &amp; Sem)'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='219'>/// Returns the size of the floating point number (in bits) in the given
-  /// semantics.</doc>

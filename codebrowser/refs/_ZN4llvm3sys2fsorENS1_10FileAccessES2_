@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='856' ll='858' type='llvm::sys::fs::FileAccess llvm::sys::fs::operator|(llvm::sys::fs::FileAccess A, llvm::sys::fs::FileAccess B)'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='861' u='c' c='_ZN4llvm3sys2fsoRERNS1_10FileAccessES2_'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='964' u='c' c='_ZN4llvm3sys2fs20openFileForReadWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='984' u='c' c='_ZN4llvm3sys2fs26openNativeFileForReadWriteERKNS_5TwineENS1_19CreationDispositionENS1_9OpenFlagsEj'/>

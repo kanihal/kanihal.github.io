@@ -1,5 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='115' type='clang::SourceManager *'/>
-<use f='codebrowser/generator/annotator.h' l='126' u='w' c='_ZN9Annotator12setSourceMgrERN5clang13SourceManagerERKNS0_11LangOptionsE'/>
-<use f='codebrowser/generator/annotator.h' l='128' u='r' c='_ZN9Annotator12getSourceMgrEv'/>
-<use f='codebrowser/generator/annotator.cpp' l='233' u='r' c='_ZN9Annotator29registerInterestingDefinitionEN5clang11SourceRangeEPNS0_9NamedDeclE'/>
-<offset>5888</offset>

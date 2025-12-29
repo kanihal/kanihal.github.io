@@ -1,8 +1,0 @@
-_ZSt3hexRSt8ios_base|std::hex
-_ZSt8hexfloatRSt8ios_base|std::hexfloat
-_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE|llvm::detail::HelperFunctions::consumeHexStyle
-_ZN4llvm6detail15HelperFunctions19consumeNumHexDigitsERNS_9StringRefENS_13HexPrintStyleEm|llvm::detail::HelperFunctions::consumeNumHexDigits
-_ZN4llvm6detail15HelperFunctions21parseNumericPrecisionENS_9StringRefE|llvm::detail::HelperFunctions::parseNumericPrecision
-_ZN4llvm13hexDigitValueEc|llvm::hexDigitValue
-_ZN4llvm14hexFromNibblesEcc|llvm::hexFromNibbles
-_ZN4llvm8hexdigitEjb|llvm::hexdigit

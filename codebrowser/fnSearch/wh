@@ -1,2 +1,0 @@
-_ZN4llvm5APInt8whichBitEj|llvm::APInt::whichBit
-_ZN4llvm5APInt9whichWordEj|llvm::APInt::whichWord

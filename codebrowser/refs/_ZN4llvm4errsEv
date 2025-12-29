@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='466' type='llvm::raw_ostream &amp; llvm::errs()'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='1177' u='c' c='_ZNK4llvm11ExitOnError10checkErrorENS_5ErrorE'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='366' u='c' c='_ZN4llvm2cl6Option5errorERKNS_5TwineENS_9StringRefERNS_11raw_ostreamE'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='464'>/// This returns a reference to a raw_ostream for standard error. Use it like:
-/// errs() &lt;&lt; &quot;foo&quot; &lt;&lt; &quot;bar&quot;;</doc>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='274' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

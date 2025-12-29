@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='242' u='c' c='_ZN4llvm7SMFixItC1ENS_7SMRangeERKNS_5TwineE'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='247' u='c' c='_ZNK4llvm7SMFixIt8getRangeEv'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='160' u='c' c='_ZNK4llvm4yaml4Node14getSourceRangeEv'/>

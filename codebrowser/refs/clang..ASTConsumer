@@ -1,5 +1,0 @@
-<ovr f='codebrowser/generator/main.cpp' l='147' c='BrowserASTConsumer'/>
-<use f='codebrowser/generator/main.cpp' l='147'/>
-<use f='codebrowser/generator/main.cpp' l='154' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>
-<use f='codebrowser/generator/main.cpp' l='210' c='_ZN13BrowserAction17CreateASTConsumerERN5clang16CompilerInstanceEN4llvm9StringRefE'/>
-<size>16</size>

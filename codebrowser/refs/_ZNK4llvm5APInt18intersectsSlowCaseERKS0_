@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='235' type='bool llvm::APInt::intersectsSlowCase(const llvm::APInt &amp; RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1318' u='c' c='_ZNK4llvm5APInt10intersectsERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='234'>/// out-of-line slow case for intersects.</doc>

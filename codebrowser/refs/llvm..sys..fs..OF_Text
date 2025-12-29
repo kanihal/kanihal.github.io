@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='718' type='1'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='716'>/// The file should be opened in text mode on platforms that make this
-  /// distinction.</doc>

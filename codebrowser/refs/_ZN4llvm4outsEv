@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='462' type='llvm::raw_ostream &amp; llvm::outs()'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='460'>/// This returns a reference to a raw_ostream for standard output. Use it like:
-/// outs() &lt;&lt; &quot;foo&quot; &lt;&lt; &quot;bar&quot;;</doc>

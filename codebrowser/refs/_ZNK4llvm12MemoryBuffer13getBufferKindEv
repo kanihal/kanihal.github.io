@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='147' type='llvm::MemoryBuffer::BufferKind llvm::MemoryBuffer::getBufferKind() const'/>
-<doc f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='145'>/// Return information on the memory mechanism used to support the
-  /// MemoryBuffer.</doc>

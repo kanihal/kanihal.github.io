@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='216' type='3'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='599' u='r' c='_ZNK4llvm6Triple18isOSBinFormatMachOEv'/>

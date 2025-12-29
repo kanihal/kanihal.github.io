@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='452' ll='455' type='llvm::SmallBitVector::reference llvm::SmallBitVector::operator[](unsigned int Idx)'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='451'>// Indexing.</doc>

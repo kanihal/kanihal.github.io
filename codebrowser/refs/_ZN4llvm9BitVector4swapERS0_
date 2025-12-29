@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='740' ll='743' type='void llvm::BitVector::swap(llvm::BitVector &amp; RHS)'/>
-<use f='include/llvm-7/llvm/ADT/BitVector.h' l='925' u='c' c='_ZSt4swapRN4llvm9BitVectorES1_'/>

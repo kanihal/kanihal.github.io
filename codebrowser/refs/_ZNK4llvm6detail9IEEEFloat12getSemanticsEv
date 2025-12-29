@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APFloat.h' l='355' type='const llvm::fltSemantics &amp; llvm::detail::IEEEFloat::getSemantics() const'/>

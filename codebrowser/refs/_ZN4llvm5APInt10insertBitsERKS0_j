@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1492' type='void llvm::APInt::insertBits(const llvm::APInt &amp; SubBits, unsigned int bitPosition)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1491'>/// Insert the bits from a smaller APInt starting at bitPosition.</doc>

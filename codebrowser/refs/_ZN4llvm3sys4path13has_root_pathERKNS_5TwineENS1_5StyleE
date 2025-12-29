@@ -1,9 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='402' type='bool llvm::sys::path::has_root_path(const llvm::Twine &amp; path, llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='396'>/// Has root path?
-///
-/// root_path != &quot;&quot;
-///
-/// @param path Input path.
-/// @result True if the path has a root path, false otherwise.</doc>
-<use f='codebrowser/generator/filesystem.cpp' l='160' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
-<use f='codebrowser/generator/filesystem.cpp' l='167' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>

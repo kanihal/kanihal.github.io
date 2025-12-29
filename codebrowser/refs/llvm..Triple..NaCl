@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='172' type='19'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='568' u='r' c='_ZNK4llvm6Triple8isOSNaClEv'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='172'>// Native Client</doc>

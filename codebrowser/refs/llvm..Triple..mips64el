@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='61' type='13'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='670' u='r' c='_ZNK4llvm6Triple8isMIPS64Ev'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='61'>// MIPS64EL: mips64el</doc>

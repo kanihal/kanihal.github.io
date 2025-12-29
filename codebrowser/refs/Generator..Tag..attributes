@@ -1,6 +1,0 @@
-<dec f='codebrowser/generator/generator.h' l='42' type='std::string'/>
-<use f='codebrowser/generator/generator.h' l='53' u='r' c='_ZNK9Generator3TageqERKS0_'/>
-<use f='codebrowser/generator/generator.h' l='54' u='r' c='_ZNK9Generator3TageqERKS0_'/>
-<offset>256</offset>
-<use f='codebrowser/generator/generator.cpp' l='95' u='m' c='_ZNK9Generator3Tag4openERN4llvm11raw_ostreamE'/>
-<use f='codebrowser/generator/generator.cpp' l='96' u='r' c='_ZNK9Generator3Tag4openERN4llvm11raw_ostreamE'/>

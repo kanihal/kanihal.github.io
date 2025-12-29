@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/Support/type_traits.h' l='109' ll='114'/>
-<use f='include/llvm-7/llvm/Support/type_traits.h' l='129'/>
-<doc f='include/llvm-7/llvm/Support/type_traits.h' l='108'>/// Internal utility to detect trivial copy construction.</doc>
-<mbr r='llvm::detail::copy_construction_triviality_helper::t' t='T'/>
-<fun r='_ZN4llvm6detail35copy_construction_triviality_helperC1Ev'/>
-<fun r='_ZN4llvm6detail35copy_construction_triviality_helperC1ERKNS0_35copy_construction_triviality_helperIT_EE'/>
-<fun r='_ZN4llvm6detail35copy_construction_triviality_helperD1Ev'/>

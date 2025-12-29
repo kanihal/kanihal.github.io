@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='196' type='void llvm::APInt::initSlowCase(uint64_t val, bool isSigned)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='284' u='c' c='_ZN4llvm5APIntC1Ejmb'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='195'>/// out-of-line slow case for inline constructor</doc>

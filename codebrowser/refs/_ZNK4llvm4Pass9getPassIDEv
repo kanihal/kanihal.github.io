@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Pass.h' l='100' ll='102' type='llvm::AnalysisID llvm::Pass::getPassID() const'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='99'>/// getPassID - Return the PassID number that corresponds to this pass.</doc>

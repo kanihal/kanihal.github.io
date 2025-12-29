@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='712' type='void llvm::Triple::setTriple(const llvm::Twine &amp; Str)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='711'>/// setTriple - Set all components to the new triple \p Str.</doc>

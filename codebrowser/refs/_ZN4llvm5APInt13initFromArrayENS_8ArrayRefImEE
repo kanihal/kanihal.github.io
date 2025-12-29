@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='199' type='void llvm::APInt::initFromArray(ArrayRef&lt;uint64_t&gt; array)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='198'>/// shared code between two array constructors</doc>

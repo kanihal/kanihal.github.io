@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1259' type='DataType'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1264' u='w' c='_ZN4llvm2cl11opt_storageIT_Lb0ELb0EEC1Ev'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1267' u='w' c='_ZN4llvm2cl11opt_storageIT_Lb0ELb0EE8setValueERKT_b'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1271' u='a' c='_ZN4llvm2cl11opt_storageIT_Lb0ELb0EE8getValueEv'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1272' u='r' c='_ZNK4llvm2cl11opt_storageIT_Lb0ELb0EE8getValueEv'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='1279' u='r' c='_ZNK4llvm2cl11opt_storageIT_Lb0ELb0EEptEv'/>

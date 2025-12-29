@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='325' ll='327' type='void llvm::Twine::Twine(int Val)'/>
-<use f='codebrowser/generator/annotator.cpp' l='644' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='648' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<doc f='include/llvm-7/llvm/ADT/Twine.h' l='324'>/// Construct a twine to print \p Val as a signed decimal integer.</doc>

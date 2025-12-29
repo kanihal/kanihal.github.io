@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='771' ll='773' type='void llvm::BitVector::setBitsNotInMask(const uint32_t * Mask, unsigned int MaskWords = ~0U)'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='641' u='c' c='_ZN4llvm14SmallBitVector16setBitsNotInMaskEPKjj'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='769'>/// setBitsNotInMask - Add a bit to this vector for every &apos;0&apos; bit in Mask.
-  /// Don&apos;t resize.  This computes &quot;*this |= ~Mask&quot;.</doc>

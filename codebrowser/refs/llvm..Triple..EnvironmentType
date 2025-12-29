@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='187' ll='210'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='236'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='303' c='_ZNK4llvm6Triple14getEnvironmentEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='507' c='_ZNK4llvm6Triple16isGNUEnvironmentEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='706' c='_ZN4llvm6Triple14setEnvironmentENS0_15EnvironmentTypeE'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='810' c='_ZN4llvm6Triple22getEnvironmentTypeNameENS0_15EnvironmentTypeE'/>

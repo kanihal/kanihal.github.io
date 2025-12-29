@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='275' ll='276' type='void llvm::SMDiagnostic::SMDiagnostic(llvm::StringRef filename, SourceMgr::DiagKind Knd, llvm::StringRef Msg)'/>
-<doc f='include/llvm-7/llvm/Support/SourceMgr.h' l='274'>// Diagnostic with no location (e.g. file not found, command line arg error).</doc>

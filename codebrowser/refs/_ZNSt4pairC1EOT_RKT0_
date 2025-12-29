@@ -1,9 +1,0 @@
-<def f='include/c++/7/bits/stl_pair.h' l='311' ll='312' type='void std::pair::pair&lt;_T1, _T2&gt;(_U1 &amp;&amp; __x, const _T2 &amp; __y)'/>
-<def f='include/c++/7/bits/stl_pair.h' l='318' ll='319' type='void std::pair::pair&lt;_T1, _T2&gt;(_U1 &amp;&amp; __x, const _T2 &amp; __y)'/>
-<use f='codebrowser/generator/annotator.cpp' l='204' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
-<use f='codebrowser/generator/annotator.cpp' l='219' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
-<use f='codebrowser/generator/annotator.cpp' l='680' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='797' u='c' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='838' u='c' c='_ZN9Annotator13registerMacroERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang14SourceLocationENS_8DeclTypeE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='364' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='107' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

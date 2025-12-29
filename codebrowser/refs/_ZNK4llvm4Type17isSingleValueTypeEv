@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='250' ll='253' type='bool llvm::Type::isSingleValueType() const'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='248'>/// Return true if the type is a valid type for a register in codegen. This
-  /// includes all first-class types except struct and array types.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='182' type='bool llvm::Type::isX86_MMXTy() const'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='251' u='c' c='_ZNK4llvm4Type17isSingleValueTypeEv'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='181'>/// Return true if this is X86 MMX.</doc>

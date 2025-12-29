@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='402' type='static llvm::Type * llvm::Type::getFP128Ty(llvm::LLVMContext &amp; C)'/>

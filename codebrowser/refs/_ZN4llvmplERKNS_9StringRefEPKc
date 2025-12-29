@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='529' ll='531' type='llvm::Twine llvm::operator+(const llvm::StringRef &amp; LHS, const char * RHS)'/>
-<doc f='include/llvm-7/llvm/ADT/Twine.h' l='526'>/// Additional overload to guarantee simplified codegen; this is equivalent to
-  /// concat().</doc>

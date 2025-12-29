@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/MD5.h' l='91' type='void llvm::MD5::final(llvm::MD5::MD5Result &amp; Result)'/>
-<use f='include/llvm-7/llvm/Support/MD5.h' l='115' u='c' c='_ZN4llvm7MD5HashENS_9StringRefE'/>
-<doc f='include/llvm-7/llvm/Support/MD5.h' l='90'>/// Finishes off the hash and puts the result in result.</doc>

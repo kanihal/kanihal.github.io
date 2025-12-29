@@ -1,5 +1,0 @@
-<dec f='codebrowser/build/generator/embedded_includes.h' l='33' type='size_t'/>
-<use f='codebrowser/build/generator/embedded_includes.h' l='36' u='w' c='_ZN12EmbeddedFileC1EPKcRAT__S0_'/>
-<use f='codebrowser/build/generator/embedded_includes.h' l='37' u='w' c='_ZN12EmbeddedFileC1Ev'/>
-<use f='codebrowser/generator/main.cpp' l='303' u='r' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
-<offset>128</offset>

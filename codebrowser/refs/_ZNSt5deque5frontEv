@@ -1,5 +1,0 @@
-<def f='include/c++/7/bits/stl_deque.h' l='1450' ll='1455' type='std::deque::reference std::deque::front()'/>
-<doc f='include/c++/7/bits/stl_deque.h' l='1446'>/**
-       *  Returns a read/write reference to the data at the first
-       *  element of the %deque.
-       */</doc>

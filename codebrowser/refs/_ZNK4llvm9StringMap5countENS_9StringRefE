@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='359' ll='361' type='llvm::StringMap::size_type llvm::StringMap::count(llvm::StringRef Key) const'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='358'>/// count - Return 1 if the element is in the map, 0 otherwise.</doc>

@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='225' type='std::string llvm::sys::path::convert_to_slash(llvm::StringRef path, llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='219'>/// Replaces backslashes with slashes if Windows.
-///
-/// @param path processed path
-/// @result The result of replacing backslashes with forward slashes if Windows.
-/// On Unix, this function is a no-op because backslashes are valid path
-/// chracters.</doc>

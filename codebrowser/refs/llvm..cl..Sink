@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='165' type='4'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='295' u='r' c='_ZNK4llvm2cl6Option6isSinkEv'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='165'>// Should this cl::list eat all unknown options?</doc>

@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='144'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='298' c='_ZN4llvm5TwineC1ERKNS_19formatv_object_baseE'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='239' c='_ZN4llvm11raw_ostreamlsERKNS_19formatv_object_baseE'/>

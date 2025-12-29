@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='342' type='void llvm::raw_pwrite_stream::pwrite_impl(const char * Ptr, size_t Size, uint64_t Offset)'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='356' u='c' c='_ZN4llvm17raw_pwrite_stream6pwriteEPKcmm'/>

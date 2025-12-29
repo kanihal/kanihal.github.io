@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='261' type='void llvm::ImmutablePass::~ImmutablePass()'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='260'>// Force out-of-line virtual method.</doc>

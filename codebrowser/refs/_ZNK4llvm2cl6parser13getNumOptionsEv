@@ -1,3 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='665' c='_ZNK4llvm2cl19generic_parser_base13getNumOptionsEv'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='759' type='unsigned int llvm::cl::parser::getNumOptions() const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='758'>// Implement virtual functions needed by generic_parser_base</doc>

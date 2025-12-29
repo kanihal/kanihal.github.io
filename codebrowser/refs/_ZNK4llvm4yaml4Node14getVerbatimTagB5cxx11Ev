@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='158' type='std::string llvm::yaml::Node::getVerbatimTag() const'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='156'>/// Get the verbatium tag for a given Node. This performs tag resoluton
-  ///   and substitution.</doc>

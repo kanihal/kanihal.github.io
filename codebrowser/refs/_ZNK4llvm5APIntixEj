@@ -1,7 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='363' u='c' c='_ZNK4llvm5APInt10isNegativeEv'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='375' u='c' c='_ZNK4llvm5APInt12isSignBitSetEv'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1110' ll='1113' type='bool llvm::APInt::operator[](unsigned int bitPosition) const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1776' u='c' c='_ZNK4llvm5APInt15nearestLogBase2Ev'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1107'>/// Array-indexing support.
-  ///
-  /// \returns the bit value at bitPosition</doc>

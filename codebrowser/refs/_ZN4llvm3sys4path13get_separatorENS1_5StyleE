@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='345' type='llvm::StringRef llvm::sys::path::get_separator(llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='342'>/// Return the preferred separator for this platform.
-///
-/// @result StringRef of the preferred separator, null-terminated.</doc>

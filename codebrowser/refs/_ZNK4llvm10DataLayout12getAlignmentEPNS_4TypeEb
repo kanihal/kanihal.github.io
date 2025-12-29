@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='175' type='unsigned int llvm::DataLayout::getAlignment(llvm::Type * Ty, bool abi_or_pref) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='174'>/// Internal helper method that returns requested alignment for type.</doc>

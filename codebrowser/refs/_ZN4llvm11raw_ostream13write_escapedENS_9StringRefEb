@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='224' type='llvm::raw_ostream &amp; llvm::raw_ostream::write_escaped(llvm::StringRef Str, bool UseHexEscapes = false)'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='222'>/// Output \p Str, turning &apos;\\&apos;, &apos;\t&apos;, &apos;\n&apos;, &apos;&quot;&apos;, and anything that doesn&apos;t
-  /// satisfy llvm::isPrint into an escape sequence.</doc>

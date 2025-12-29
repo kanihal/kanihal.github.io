@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APSInt.h' l='174' ll='176' type='bool llvm::APSInt::operator&gt;(int64_t RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='326' u='c' c='_ZN4llvmltElRKNS_6APSIntE'/>

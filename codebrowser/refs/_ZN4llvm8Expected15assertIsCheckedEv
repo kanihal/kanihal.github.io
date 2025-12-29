@@ -1,9 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Error.h' l='510' u='c' c='_ZN4llvm8ExpectedD1Ev'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='527' u='c' c='_ZN4llvm8Expected3getEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='533' u='c' c='_ZNK4llvm8Expected3getEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='555' u='c' c='_ZN4llvm8ExpectedptEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='561' u='c' c='_ZNK4llvm8ExpectedptEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='567' u='c' c='_ZN4llvm8ExpecteddeEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='573' u='c' c='_ZNK4llvm8ExpecteddeEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='602' u='c' c='_ZN4llvm8Expected10moveAssignEONS_8ExpectedIT_EE'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='662' ll='667' type='void llvm::Expected::assertIsChecked()'/>

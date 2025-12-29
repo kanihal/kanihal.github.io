@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APFloat.h' l='208' ll='212'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='207'>/// Enumeration of \c ilogb error results.</doc>

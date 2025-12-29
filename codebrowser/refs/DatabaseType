@@ -1,6 +1,0 @@
-<def f='codebrowser/generator/main.cpp' l='112' ll='116'/>
-<use f='codebrowser/generator/main.cpp' l='151'/>
-<use f='codebrowser/generator/main.cpp' l='153' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>
-<use f='codebrowser/generator/main.cpp' l='205'/>
-<use f='codebrowser/generator/main.cpp' l='226' c='_ZN13BrowserActionC1E12DatabaseType'/>
-<use f='codebrowser/generator/main.cpp' l='236' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='156' ll='178' type='static StringMapEntry&lt;ValueTy&gt; * llvm::StringMapEntry::Create(llvm::StringRef Key, AllocatorTy &amp; Allocator, InitTy &amp;&amp;... InitVals)'/>

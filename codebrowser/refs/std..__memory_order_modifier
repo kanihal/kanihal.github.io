@@ -1,3 +1,0 @@
-<def f='include/c++/7/bits/atomic_base.h' l='65' ll='71'/>
-<use f='include/c++/7/bits/atomic_base.h' l='74' c='_ZStorSt12memory_orderSt23__memory_order_modifier'/>
-<use f='include/c++/7/bits/atomic_base.h' l='80' c='_ZStanSt12memory_orderSt23__memory_order_modifier'/>

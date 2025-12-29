@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='144' type='llvm::SmallVectorTemplateCommon::size_type llvm::SmallVectorTemplateCommon::max_size() const'/>

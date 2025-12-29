@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='496' u='c' c='_ZN17BrowserASTVisitor13shouldProcessEPN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/main.cpp' l='199' u='c' c='_ZN18BrowserASTConsumer22shouldSkipFunctionBodyEPN5clang4DeclE'/>

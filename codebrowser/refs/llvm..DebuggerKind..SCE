@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='96' type='3'/>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='96'>// Tune debug info for SCE targets (e.g. PS4).</doc>

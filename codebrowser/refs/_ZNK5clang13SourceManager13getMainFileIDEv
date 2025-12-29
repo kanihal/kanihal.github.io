@@ -1,7 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='151' u='c' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='252' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='279' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='172' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='195' u='c' c='_ZN20PreprocessorCallback12MacroDefinedERKN5clang5TokenEPKNS0_14MacroDirectiveE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='250' u='c' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='354' u='c' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>

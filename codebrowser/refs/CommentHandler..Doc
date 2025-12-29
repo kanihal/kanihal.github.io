@@ -1,8 +1,0 @@
-<def f='codebrowser/generator/commenthandler.h' l='40' ll='43'/>
-<use f='codebrowser/generator/commenthandler.h' l='45'/>
-<size>40</size>
-<mbr r='CommentHandler::Doc::content' o='0' t='std::string'/>
-<mbr r='CommentHandler::Doc::loc' o='256' t='clang::SourceLocation'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='166'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='283' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<size>40</size>

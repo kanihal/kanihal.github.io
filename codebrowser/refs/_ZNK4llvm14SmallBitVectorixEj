@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='90' u='c' c='_ZNK4llvm14SmallBitVector9referencecvbEv'/>
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='457' ll='462' type='bool llvm::SmallBitVector::operator[](unsigned int Idx) const'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='465' u='c' c='_ZNK4llvm14SmallBitVector4testEj'/>

@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='211' ll='218'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='239'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='315' c='_ZNK4llvm6Triple15getObjectFormatEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='709' c='_ZN4llvm6Triple15setObjectFormatENS0_16ObjectFormatTypeE'/>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Pass.h' l='66' ll='74'/>
-<use f='include/llvm-7/llvm/Pass.h' l='84'/>
-<use f='include/llvm-7/llvm/Pass.h' l='87' c='_ZN4llvm4PassC1ENS_8PassKindERc'/>
-<use f='include/llvm-7/llvm/Pass.h' l='92' c='_ZNK4llvm4Pass11getPassKindEv'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='65'>// Different types of passes.</doc>

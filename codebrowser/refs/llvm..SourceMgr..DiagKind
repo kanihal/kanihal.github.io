@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='44' ll='49'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='190' c='_ZNK4llvm9SourceMgr12PrintMessageERNS_11raw_ostreamENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS8_INS_7SMFixItEEEb'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='197' c='_ZNK4llvm9SourceMgr12PrintMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEEb'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='214' c='_ZNK4llvm9SourceMgr10GetMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEE'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='266'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='275' c='_ZN4llvm12SMDiagnosticC1ENS_9StringRefENS_9SourceMgr8DiagKindES1_'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='280' c='_ZN4llvm12SMDiagnosticC1ERKNS_9SourceMgrENS_5SMLocENS_9StringRefEiiNS1_8DiagKindES5_S5_NS_8ArrayRefISt4pairIjjEEENS7_INS_7SMFixItEEE'/>
-<use f='include/llvm-7/llvm/Support/SourceMgr.h' l='290' c='_ZNK4llvm12SMDiagnostic7getKindEv'/>

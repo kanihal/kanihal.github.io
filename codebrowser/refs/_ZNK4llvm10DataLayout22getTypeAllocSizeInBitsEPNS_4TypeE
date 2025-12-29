@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='438' ll='440' type='uint64_t llvm::DataLayout::getTypeAllocSizeInBits(llvm::Type * Ty) const'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='570' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='433'>/// Returns the offset in bits between successive objects of the
-  /// specified type, including alignment padding; always a multiple of 8.
-  ///
-  /// This is the amount that alloca reserves for this type. For example,
-  /// returns 96 or 128 for x86_fp80, depending on alignment.</doc>

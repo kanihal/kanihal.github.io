@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='45' type='size_t llvm::StringMapEntryBase::getKeyLength() const'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='138' u='c' c='_ZNK4llvm14StringMapEntry6getKeyEv'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='151' u='c' c='_ZNK4llvm14StringMapEntry5firstEv'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='203' u='c' c='_ZN4llvm14StringMapEntry7DestroyERT_'/>

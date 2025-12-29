@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Optional.h' l='223' ll='227' type='bool llvm::operator&lt;(const Optional&lt;T&gt; &amp; X, const Optional&lt;U&gt; &amp; Y)'/>

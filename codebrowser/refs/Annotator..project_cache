@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='79' type='std::map&lt;clang::FileID, ProjectInfo *&gt;'/>
-<use f='codebrowser/generator/annotator.cpp' l='213' u='m' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
-<use f='codebrowser/generator/annotator.cpp' l='505' u='m' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<use f='codebrowser/generator/annotator.cpp' l='506' u='m' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<use f='codebrowser/generator/annotator.cpp' l='518' u='m' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<use f='codebrowser/generator/annotator.cpp' l='519' u='m' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<offset>384</offset>

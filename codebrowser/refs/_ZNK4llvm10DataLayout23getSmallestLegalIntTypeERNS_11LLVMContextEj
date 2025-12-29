@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='469' type='llvm::Type * llvm::DataLayout::getSmallestLegalIntType(llvm::LLVMContext &amp; C, unsigned int Width = 0) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='467'>/// Returns the smallest integer type with size at least as big as
-  /// Width bits.</doc>

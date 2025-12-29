@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='239' type='llvm::raw_ostream &amp; llvm::raw_ostream::operator&lt;&lt;(const llvm::formatv_object_base &amp; )'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='238'>// Formatted output, see the formatv() function in Support/FormatVariadic.h.</doc>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='361' ll='363' type='size_t llvm::detail::join_items_size(const A1 &amp; A, Args &amp;&amp;... Items)'/>

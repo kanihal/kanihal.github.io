@@ -1,2 +1,0 @@
-<def f='codebrowser/generator/annotator.h' l='125' ll='126' type='void Annotator::setSourceMgr(clang::SourceManager &amp; sm, const clang::LangOptions &amp; lo)'/>
-<use f='codebrowser/generator/main.cpp' l='164' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>

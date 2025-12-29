@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='352' type='void llvm::APInt::Profile(llvm::FoldingSetNodeID &amp; id) const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='350'>/// Used to insert APInt objects, or objects that contain APInt objects, into
-  ///  FoldingSets.</doc>

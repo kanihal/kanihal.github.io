@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/type_traits.h' l='119' type='void llvm::detail::move_construction_triviality_helper::move_construction_triviality_helper&lt;T&gt;(move_construction_triviality_helper&lt;T&gt; &amp;&amp; )'/>

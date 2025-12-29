@@ -1,3 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='156' u='c' c='_ZN17BrowserASTVisitor15VisitMemberExprEPN5clang10MemberExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='164' u='c' c='_ZN17BrowserASTVisitor16VisitDeclRefExprEPN5clang11DeclRefExprE'/>
-<def f='codebrowser/generator/browserastvisitor.h' l='393' ll='478' type='Annotator::DeclType BrowserASTVisitor::classify()'/>

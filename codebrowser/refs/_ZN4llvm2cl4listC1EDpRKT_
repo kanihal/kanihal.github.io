@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1538' ll='1542' type='void llvm::cl::list::list&lt;DataType, StorageClass, ParserClass&gt;(const Mods &amp;... Ms)'/>
-<use f='codebrowser/generator/main.cpp' l='56' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='67' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='74' u='c'/>

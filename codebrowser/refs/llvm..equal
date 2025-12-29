@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='1114' ll='1118'/>
-<size>1</size>
-<doc f='include/llvm-7/llvm/ADT/STLExtras.h' l='1113'>/// A functor like C++14&apos;s std::equal&lt;void&gt; in its absence.</doc>
-<fun r='_ZNK4llvm5equalclEOT_OT0_'/>

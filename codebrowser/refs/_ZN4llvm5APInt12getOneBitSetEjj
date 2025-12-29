@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='587' ll='591' type='static llvm::APInt llvm::APInt::getOneBitSet(unsigned int numBits, unsigned int BitNo)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='586'>/// Return an APInt with exactly one bit set in the result.</doc>

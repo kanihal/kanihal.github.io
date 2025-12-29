@@ -1,3 +1,0 @@
-<def f='include/c++/7/bits/stl_stack.h' l='229' ll='231' type='void std::stack::push(std::stack::value_type &amp;&amp; __x)'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1247' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1261' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>

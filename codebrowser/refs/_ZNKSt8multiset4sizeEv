@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/stl_multiset.h' l='404' ll='406' type='std::multiset::size_type std::multiset::size() const'/>
-<doc f='include/c++/7/bits/stl_multiset.h' l='403'>///  Returns the size of the %set.</doc>

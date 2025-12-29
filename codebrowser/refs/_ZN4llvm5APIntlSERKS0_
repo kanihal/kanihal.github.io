@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='922' type='llvm::APInt &amp; llvm::APInt::operator&lt;&lt;=(const llvm::APInt &amp; ShiftAmt)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1033' u='c' c='_ZNK4llvm5APInt3shlERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='917'>/// Left-shift assignment function.
-  ///
-  /// Shifts *this left by shiftAmt and assigns the result to *this.
-  ///
-  /// \returns *this after shifting left by ShiftAmt</doc>

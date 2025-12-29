@@ -1,2 +1,0 @@
-<dec f='include/stdio.h' l='144' type='int remove(const char * __filename)'/>
-<doc f='include/stdio.h' l='143'>/* Remove file FILENAME.  */</doc>

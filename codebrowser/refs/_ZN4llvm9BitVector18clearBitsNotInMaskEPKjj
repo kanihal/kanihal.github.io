@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='777' ll='779' type='void llvm::BitVector::clearBitsNotInMask(const uint32_t * Mask, unsigned int MaskWords = ~0U)'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='650' u='c' c='_ZN4llvm14SmallBitVector18clearBitsNotInMaskEPKjj'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='775'>/// clearBitsNotInMask - Clear a bit in this vector for every &apos;0&apos; bit in Mask.
-  /// Don&apos;t resize.  This computes &quot;*this &amp;= Mask&quot;.</doc>

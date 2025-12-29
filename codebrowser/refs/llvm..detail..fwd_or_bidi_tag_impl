@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='376' ll='378'/>
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='380' ll='382'/>
-<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='380'/>
-<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='388'/>
-<size>1</size>

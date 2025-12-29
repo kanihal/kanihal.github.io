@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='191' type='bool llvm::Type::isMetadataTy() const'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='190'>/// Return true if this is &apos;metadata&apos;.</doc>

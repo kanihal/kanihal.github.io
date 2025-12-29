@@ -1,8 +1,0 @@
-<def f='include/c++/7/bits/stl_multiset.h' l='810' ll='812' type='std::multiset::iterator std::multiset::upper_bound(const std::multiset::key_type &amp; __x)'/>
-<def f='include/c++/7/bits/stl_multiset.h' l='820' ll='823' type='decltype(std::multiset::iterator(this-&gt;_M_t._M_upper_bound_tr(__x))) std::multiset::upper_bound(const _Kt &amp; __x)'/>
-<doc f='include/c++/7/bits/stl_multiset.h' l='804'>/**
-       *  @brief Finds the end of a subsequence matching given key.
-       *  @param  __x  Key to be located.
-       *  @return Iterator pointing to the first element
-       *          greater than key, or end().
-       */</doc>

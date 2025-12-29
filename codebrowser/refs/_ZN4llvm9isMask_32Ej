@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='405' ll='407' type='bool llvm::isMask_32(uint32_t Value)'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='418' u='c' c='_ZN4llvm16isShiftedMask_32Ej'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='402'>/// Return true if the argument is a non-empty sequence of ones starting at the
-/// least significant bit with the remainder zero (32 bit version).
-/// Ex. isMask_32(0x0000FFFFU) == true.</doc>

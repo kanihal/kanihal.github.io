@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='2167' type='llvm::APInt llvm::APIntOps::RoundingSDiv(const llvm::APInt &amp; A, const llvm::APInt &amp; B, APInt::Rounding RM)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2166'>/// Return A sign-divided by B, rounded by the given rounding mode.</doc>

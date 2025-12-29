@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1781' ll='1785' type='int32_t llvm::APInt::exactLogBase2() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1779'>/// \returns the log base 2 of this APInt if its an exact power of two, -1
-  /// otherwise</doc>

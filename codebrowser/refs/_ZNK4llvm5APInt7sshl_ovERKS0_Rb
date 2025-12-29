@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1104' type='llvm::APInt llvm::APInt::sshl_ov(const llvm::APInt &amp; Amt, bool &amp; Overflow) const'/>

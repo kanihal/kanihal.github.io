@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1291' type='bool llvm::sys::fs::recursive_directory_iterator::no_push_request() const'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1290'>/// Returns true if no_push has been called for this directory_entry.</doc>

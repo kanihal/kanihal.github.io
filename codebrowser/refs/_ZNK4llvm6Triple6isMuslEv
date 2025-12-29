@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='637' ll='641' type='bool llvm::Triple::isMusl() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='636'>/// Tests whether the environment is musl-libc</doc>

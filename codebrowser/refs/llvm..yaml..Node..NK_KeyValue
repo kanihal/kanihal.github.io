@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='122' type='3'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='285' u='r' c='_ZN4llvm4yaml12KeyValueNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EE'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='310' u='r' c='_ZN4llvm4yaml12KeyValueNode7classofEPKNS0_4NodeE'/>

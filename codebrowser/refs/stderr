@@ -1,2 +1,0 @@
-<dec f='include/stdio.h' l='137' type='struct _IO_FILE *'/>
-<doc f='include/stdio.h' l='137'>/* Standard error output stream.  */</doc>

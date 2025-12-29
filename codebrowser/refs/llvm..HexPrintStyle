@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/Support/NativeFormatting.h' l='24'/>
-<use f='include/llvm-7/llvm/Support/NativeFormatting.h' l='28' c='_ZN4llvm18isPrefixedHexStyleENS_13HexPrintStyleE'/>
-<use f='include/llvm-7/llvm/Support/NativeFormatting.h' l='42' c='_ZN4llvm9write_hexERNS_11raw_ostreamEmNS_13HexPrintStyleENS_8OptionalImEE'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='78' c='_ZN4llvm6detail15HelperFunctions15consumeHexStyleERNS_9StringRefERNS_13HexPrintStyleE'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='93' c='_ZN4llvm6detail15HelperFunctions19consumeNumHexDigitsERNS_9StringRefENS_13HexPrintStyleEm'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='133' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail22use_integral_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='182' c='_ZN4llvm15format_providerIT_NSt9enable_ifIXsr6detail21use_pointer_formatterIS1_EE5valueEvE4typeEE6formatERKS1_RNS_11raw_ostreamENS_9StringRefE'/>

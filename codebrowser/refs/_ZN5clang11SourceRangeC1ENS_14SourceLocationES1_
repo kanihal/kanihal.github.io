@@ -1,8 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='620' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='196' u='c' c='_ZN14CommentHandler14CommentVisitor24visitBlockCommandCommentEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='232' u='c' c='_ZN14CommentHandler14CommentVisitor24visitVerbatimLineCommentEPKN5clang8comments19VerbatimLineCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='277' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='152' u='c' c='_ZN17BrowserASTVisitor15VisitMemberExprEPN5clang10MemberExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='237' u='c' c='_ZN17BrowserASTVisitor26TraverseUsingDirectiveDeclEPN5clang18UsingDirectiveDeclE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='267' u='c' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='251' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

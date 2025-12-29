@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='69' type='0'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='89' u='r' c='_ZN4llvm11raw_ostreamC1Eb'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='119' u='r' c='_ZNK4llvm11raw_ostream13GetBufferSizeEv'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='131' u='r' c='_ZN4llvm11raw_ostream13SetUnbufferedEv'/>

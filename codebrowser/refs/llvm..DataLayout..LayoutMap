@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='160' type='void *'/>
-<offset>3200</offset>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='159'>// The StructType -&gt; StructLayout map.</doc>

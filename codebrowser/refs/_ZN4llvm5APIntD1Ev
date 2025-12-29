@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='335' ll='338' type='void llvm::APInt::~APInt()'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='334'>/// Destructor.</doc>

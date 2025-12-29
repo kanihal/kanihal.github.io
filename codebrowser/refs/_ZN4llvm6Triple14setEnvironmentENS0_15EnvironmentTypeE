@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='706' type='void llvm::Triple::setEnvironment(llvm::Triple::EnvironmentType Kind)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='704'>/// setEnvironment - Set the environment (fourth) component of the triple
-  /// to a known type.</doc>

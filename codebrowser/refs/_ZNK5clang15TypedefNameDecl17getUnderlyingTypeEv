@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='57' u='c' c='_ZN17BrowserASTVisitor20VisitTypedefNameDeclEPN5clang15TypedefNameDeclE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='189' u='c' c='_ZN17BrowserASTVisitor19VisitTypedefTypeLocEN5clang14TypedefTypeLocE'/>

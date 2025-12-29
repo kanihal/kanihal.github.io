@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='46' ll='100'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='224'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='285' c='_ZNK4llvm6Triple7getArchEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='694' c='_ZN4llvm6Triple7setArchENS0_8ArchTypeE'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='792' c='_ZN4llvm6Triple15getArchTypeNameENS0_8ArchTypeE'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='800' c='_ZN4llvm6Triple17getArchTypePrefixENS0_8ArchTypeE'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='818' c='_ZN4llvm6Triple22getArchTypeForLLVMNameENS_9StringRefE'/>

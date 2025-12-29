@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='1704' type='size_t llvm::cl::alias::getOptionWidth() const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1703'>// Handle printing stuff...</doc>

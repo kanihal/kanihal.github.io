@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='209' ll='212' type='void llvm::StringMapEntry::Destroy()'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='208'>/// Destroy this object, releasing memory back to the malloc allocator.</doc>

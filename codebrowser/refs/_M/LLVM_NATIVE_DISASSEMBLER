@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='45'/>
-<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='44'>/* LLVM name for the native Disassembler init function, if available */</doc>

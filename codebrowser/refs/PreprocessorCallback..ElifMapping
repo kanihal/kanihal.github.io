@@ -1,5 +1,0 @@
-<use f='codebrowser/generator/preprocessorcallback.h' l='87' u='m' c='_ZN20PreprocessorCallback4ElifEN5clang14SourceLocationENS0_11SourceRangeENS0_11PPCallbacks18ConditionValueKindES1_'/>
-<dec f='codebrowser/generator/preprocessorcallback.h' l='99' type='std::map&lt;clang::SourceLocation, clang::SourceLocation&gt;'/>
-<offset>256</offset>
-<doc f='codebrowser/generator/preprocessorcallback.h' l='99'>// Map an elif location to the real if;</doc>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='373' u='m' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Optional.h' l='75' ll='83' type='OptionalStorage&lt;T, IsPodLike&gt; &amp; llvm::optional_detail::OptionalStorage::operator=(const T &amp; y)'/>
-<doc f='include/llvm-7/llvm/ADT/Optional.h' l='70'>// FIXME: these assignments (&amp; the equivalent const T&amp;/const Optional&amp; ctors)
-  // could be made more efficient by passing by value, possibly unifying them
-  // with the rvalue versions above - but this could place a different set of
-  // requirements (notably: the existence of a default ctor) when implemented
-  // in that way. Careful SFINAE to avoid such pitfalls would be required.</doc>

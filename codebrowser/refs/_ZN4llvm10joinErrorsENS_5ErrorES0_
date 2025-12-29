@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='360' type='llvm::Error llvm::joinErrors(llvm::Error , llvm::Error )'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='417' ll='419' type='llvm::Error llvm::joinErrors(llvm::Error E1, llvm::Error E2)'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='359'>// joinErrors is implemented in terms of join.</doc>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='414'>/// Concatenate errors. The resulting Error is unchecked, and contains the
-/// ErrorInfo(s), if any, contained in E1, followed by the
-/// ErrorInfo(s), if any, contained in E2.</doc>

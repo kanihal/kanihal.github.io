@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='173' ll='178' type='llvm::BitVector::size_type llvm::BitVector::count() const'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='205' u='c' c='_ZNK4llvm14SmallBitVector5countEv'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='172'>/// count - Returns the number of bits which are set.</doc>

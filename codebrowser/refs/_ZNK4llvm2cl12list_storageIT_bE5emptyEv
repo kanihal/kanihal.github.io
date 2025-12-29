@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1428' type='bool llvm::cl::list_storage&lt;type-parameter-0-0, bool&gt;::empty() const'/>
-<use f='codebrowser/generator/main.cpp' l='426' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='440' u='c' c='main'/>

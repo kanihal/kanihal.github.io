@@ -1,8 +1,0 @@
-<dec f='include/c++/7/functional' l='930'/>
-<use f='include/c++/7/functional' l='940' u='c'/>
-<use f='include/c++/7/functional' l='941' u='c'/>
-<use f='include/c++/7/functional' l='942' u='c'/>
-<use f='include/c++/7/functional' l='943' u='c'/>
-<doc f='include/c++/7/functional' l='927'>// Macro to define operator() with given cv-qualifiers ref-qualifiers,
-      // forwarding _M_fn and the function arguments with the same qualifiers,
-      // and deducing the return type and exception-specification.</doc>

@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1118' type='const std::string &amp; llvm::sys::fs::directory_entry::path() const'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1172' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS1_15directory_entryERSt10error_codeb'/>
-<use f='codebrowser/generator/main.cpp' l='413' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='417' u='c' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='102' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='107' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

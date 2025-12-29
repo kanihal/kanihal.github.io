@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/DynamicLibrary.h' l='117' ll='119' type='static void * llvm::sys::DynamicLibrary::SearchForAddressOfSymbol(const std::string &amp; symbolName)'/>
-<doc f='include/llvm-7/llvm/Support/DynamicLibrary.h' l='116'>/// Convenience function for C++ophiles.</doc>

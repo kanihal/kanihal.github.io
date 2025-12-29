@@ -1,5 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='351' c='_ZNK4llvm2cl6Option16printOptionValueEmb'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1708' ll='1709' type='void llvm::cl::alias::printOptionValue(size_t , bool ) const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1707'>// Aliases do not need to print their values.</doc>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1708'>/*GlobalWidth*/</doc>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='1708'>/*Force*/</doc>

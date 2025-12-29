@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='452' ll='454' type='static PointerUnion4&lt;PT1, PT2, PT3, PT4&gt; llvm::PointerLikeTypeTraits&lt;PointerUnion4&lt;type-parameter-0-0, type-parameter-0-1, type-parameter-0-2, type-parameter-0-3&gt; &gt;::getFromVoidPointer(void * P)'/>

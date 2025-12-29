@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='310' type='static const char * llvm::DataLayout::getManglingComponent(const llvm::Triple &amp; T)'/>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='101'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='127' c='_ZNK4llvm12PointerUnion2isEv'/>

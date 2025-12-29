@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='113' u='c' c='_ZN4llvm11raw_ostream13SetBufferSizeEm'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='131' u='c' c='_ZN4llvm11raw_ostream13SetUnbufferedEv'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='310' u='c' c='_ZN4llvm11raw_ostream9SetBufferEPcm'/>
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='325' type='void llvm::raw_ostream::SetBufferAndMode(char * BufferStart, size_t Size, llvm::raw_ostream::BufferKind Mode)'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='324'>/// Install the given buffer and mode.</doc>

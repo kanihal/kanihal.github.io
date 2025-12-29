@@ -1,6 +1,0 @@
-<def f='codebrowser/generator/annotator.h' l='87' ll='91'/>
-<use f='codebrowser/generator/annotator.h' l='92'/>
-<size>48</size>
-<mbr r='Annotator::Reference::what' o='0' t='Annotator::DeclType'/>
-<mbr r='Annotator::Reference::loc' o='32' t='clang::SourceRange'/>
-<mbr r='Annotator::Reference::typeOrContext' o='128' t='std::string'/>

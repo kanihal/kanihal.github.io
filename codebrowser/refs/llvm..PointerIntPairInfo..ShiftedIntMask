@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='147' type='0'/>
-<use f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='173' u='r' c='_ZN4llvm18PointerIntPairInfo9updateIntEll'/>
-<doc f='include/llvm-7/llvm/ADT/PointerIntPair.h' l='146'>// ShiftedIntMask - This is the bits for the integer shifted in place.</doc>

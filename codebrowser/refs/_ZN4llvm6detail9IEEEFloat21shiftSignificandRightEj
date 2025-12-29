@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='479' type='llvm::lostFraction llvm::detail::IEEEFloat::shiftSignificandRight(unsigned int )'/>

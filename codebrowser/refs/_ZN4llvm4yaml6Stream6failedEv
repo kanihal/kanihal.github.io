@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='97' type='bool llvm::yaml::Stream::failed()'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='101' u='c' c='_ZN4llvm4yaml6Stream8validateEv'/>

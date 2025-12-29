@@ -1,6 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Error.h' l='269' u='r' c='_ZNK4llvm5Error6getPtrEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='280' u='w' c='_ZN4llvm5Error6setPtrEPNS_13ErrorInfoBaseE'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='293' u='w' c='_ZN4llvm5Error10setCheckedEb'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='294' u='r' c='_ZN4llvm5Error10setCheckedEb'/>
-<dec f='include/llvm-7/llvm/Support/Error.h' l='314' type='llvm::ErrorInfoBase *'/>
-<offset>0</offset>

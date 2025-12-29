@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='107' u='w' c='_ZN4llvm13TargetOptionsC1Ev'/>
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='197' type='unsigned int'/>
-<offset>67</offset>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='195'>/// UseInitArray - Use .init_array instead of .ctors for static
-    /// constructors.</doc>

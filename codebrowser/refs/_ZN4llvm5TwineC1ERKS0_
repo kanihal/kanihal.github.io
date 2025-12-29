@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='261' type='void llvm::Twine::Twine(const llvm::Twine &amp; )'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='493' u='c' c='_ZNK4llvm5Twine6concatERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='495' u='c' c='_ZNK4llvm5Twine6concatERKS0_'/>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='455' ll='458' type='bool llvm::APInt::isSignedIntN(unsigned int N) const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='454'>/// Check if this APInt has an N-bits signed integer value.</doc>

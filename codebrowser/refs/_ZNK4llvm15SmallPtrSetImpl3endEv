@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='382' u='c' c='_ZNK4llvm15SmallPtrSetImpl5countENS_22add_const_past_pointerIT_vE4typeE'/>
-<def f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='402' type='llvm::SmallPtrSetImpl::iterator llvm::SmallPtrSetImpl::end() const'/>

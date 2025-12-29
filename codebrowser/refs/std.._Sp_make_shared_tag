@@ -1,8 +1,0 @@
-<def f='include/c++/7/bits/shared_ptr_base.h' l='500'/>
-<use f='include/c++/7/bits/shared_ptr_base.h' l='629' c='_ZNSt14__shared_countC1ESt19_Sp_make_shared_tagPT_RKT0_DpOT1_'/>
-<use f='include/c++/7/bits/shared_ptr_base.h' l='1316' c='_ZNSt12__shared_ptrC1ESt19_Sp_make_shared_tagRKT_DpOT0_'/>
-<use f='include/c++/7/bits/shared_ptr_base.h' l='1837' c='_ZSt17__allocate_sharedRKT1_DpOT2_'/>
-<use f='include/c++/7/bits/shared_ptr.h' l='342' c='_ZNSt10shared_ptrC1ESt19_Sp_make_shared_tagRKT_DpOT0_'/>
-<use f='include/c++/7/bits/shared_ptr.h' l='690' c='_ZSt15allocate_sharedRKT0_DpOT1_'/>
-<size>1</size>
-<doc f='include/c++/7/bits/shared_ptr_base.h' l='498'>// helpers for make_shared / allocate_shared</doc>

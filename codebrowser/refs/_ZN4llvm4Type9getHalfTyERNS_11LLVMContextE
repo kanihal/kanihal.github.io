@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='397' type='static llvm::Type * llvm::Type::getHalfTy(llvm::LLVMContext &amp; C)'/>

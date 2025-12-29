@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='473' ll='477' type='DerivedTy &amp; llvm::StringMapIterBase::operator++()'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='473'>// Preincrement</doc>

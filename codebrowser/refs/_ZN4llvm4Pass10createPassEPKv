@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='185' type='static llvm::Pass * llvm::Pass::createPass(llvm::AnalysisID ID)'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='183'>// createPass - Create a object for the specified pass class,
-  // or null if it is not known.</doc>

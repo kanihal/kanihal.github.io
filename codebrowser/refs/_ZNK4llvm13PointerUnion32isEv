@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='273' ll='279' type='int llvm::PointerUnion3::is() const'/>
-<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='272'>/// Test if the Union currently holds the type matching T.</doc>

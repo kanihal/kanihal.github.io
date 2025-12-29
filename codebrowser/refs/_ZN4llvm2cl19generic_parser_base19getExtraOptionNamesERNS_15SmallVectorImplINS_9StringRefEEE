@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='700' ll='707' type='void llvm::cl::generic_parser_base::getExtraOptionNames(SmallVectorImpl&lt;llvm::StringRef&gt; &amp; OptionNames)'/>

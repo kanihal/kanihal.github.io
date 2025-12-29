@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='805' ll='813' type='llvm::APInt &amp; llvm::APInt::operator&amp;=(uint64_t RHS)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1983' u='c' c='_ZN4llvmanENS_5APIntEm'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1988' u='c' c='_ZN4llvmanEmNS_5APIntE'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='800'>/// Bitwise AND assignment operator.
-  ///
-  /// Performs a bitwise AND operation on this APInt and RHS. RHS is
-  /// logically zero-extended or truncated to match the bit-width of
-  /// the LHS.</doc>

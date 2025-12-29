@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='57' type='llvm::StringRef'/>
-<use f='include/llvm-7/llvm/Support/Path.h' l='66' u='a' c='_ZNK4llvm3sys4path14const_iteratordeEv'/>
-<offset>128</offset>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='57'>///&lt; The current component. Not necessarily in Path.</doc>

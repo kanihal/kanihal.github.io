@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MemAlloc.h' l='26' ll='31' macro='1' type='void * llvm::safe_malloc(size_t Sz)'/>
-<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='247' u='c' c='_ZN4llvm23SmallVectorTemplateBase4growEm'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='99' u='c' c='_ZN4llvm15MallocAllocator8AllocateEmm'/>
-<use f='include/llvm-7/llvm/ADT/BitVector.h' l='832' u='c' c='_ZN4llvm9BitVector8allocateEm'/>

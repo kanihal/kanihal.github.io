@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='777' ll='779' type='static bool llvm::ErrorHandlerTraits&lt;void (&amp;)(type-parameter-0-0 &amp;)&gt;::appliesTo(const llvm::ErrorInfoBase &amp; E)'/>

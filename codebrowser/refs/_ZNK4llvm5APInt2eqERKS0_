@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1146' type='bool llvm::APInt::eq(const llvm::APInt &amp; RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='153' u='c' c='_ZNK4llvm6APSInteqERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1140'>/// Equality comparison.
-  ///
-  /// Compares this APInt with RHS for the validity of the equality
-  /// relationship.
-  ///
-  /// \returns true if *this == Val</doc>

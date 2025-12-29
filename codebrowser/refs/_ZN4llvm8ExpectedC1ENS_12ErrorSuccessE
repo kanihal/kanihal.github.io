@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='463' type='void llvm::Expected::Expected&lt;T&gt;(llvm::ErrorSuccess )'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='460'>/// Forbid to convert from Error::success() implicitly, this avoids having
-  /// Expected&lt;T&gt; foo() { return Error::success(); } which compiles otherwise
-  /// but triggers the assertion above.</doc>

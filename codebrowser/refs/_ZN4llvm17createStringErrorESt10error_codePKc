@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='1135' type='llvm::Error llvm::createStringError(std::error_code EC, const char * Msg)'/>

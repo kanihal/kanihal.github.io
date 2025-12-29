@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='741' ll='745' type='int32_t llvm::SignExtend32(uint32_t X, unsigned int B)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='739'>/// Sign-extend the number in the bottom B bits of X to a 32-bit integer.
-/// Requires 0 &lt; B &lt; 32.</doc>

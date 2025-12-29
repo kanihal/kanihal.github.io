@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringRef.h' l='176' ll='178' type='bool llvm::StringRef::equals_lower(llvm::StringRef RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/StringSwitch.h' l='156' u='c' c='_ZN4llvm12StringSwitch9CaseLowerENS_13StringLiteralET_'/>

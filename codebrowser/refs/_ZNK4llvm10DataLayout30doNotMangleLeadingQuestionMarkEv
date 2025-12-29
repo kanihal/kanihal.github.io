@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='268' ll='270' type='bool llvm::DataLayout::doNotMangleLeadingQuestionMark() const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='266'>/// Returns true if symbols with leading question marks should not receive IR
-  /// mangling. True for Windows mangling modes.</doc>

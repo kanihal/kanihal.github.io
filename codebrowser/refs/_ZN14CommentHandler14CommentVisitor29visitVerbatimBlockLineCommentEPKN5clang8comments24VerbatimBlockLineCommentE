@@ -1,8 +1,0 @@
-<def f='codebrowser/generator/commenthandler.cpp' l='211' ll='214' type='void CommentHandler::CommentVisitor::visitVerbatimBlockLineComment(const clang::comments::VerbatimBlockLineComment * C)'/>
-<doc f='codebrowser/generator/commenthandler.cpp' l='204'>/*void visitVerbatimBlockComment(const clang::comments::VerbatimBlockComment *C) {
-        Base::visitVerbatimBlockComment(C);
-        FIXME
-        // highlight the closing command
-        auto end = C-&gt;getLocEnd();
-        tag(&quot;arg&quot;, {end.getLocWithOffset(-C-&gt;getCloseName().size()) ,end});
-    }*/</doc>

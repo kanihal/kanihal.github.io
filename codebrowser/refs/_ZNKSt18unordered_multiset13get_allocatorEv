@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='1022' ll='1024' type='std::unordered_multiset::allocator_type std::unordered_multiset::get_allocator() const'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='1021'>///  Returns the allocator object used by the %unordered_multiset.</doc>

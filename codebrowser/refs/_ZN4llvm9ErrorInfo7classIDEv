@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='342' type='static const void * llvm::ErrorInfo::classID()'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='347' u='c' c='_ZNK4llvm9ErrorInfo3isAEPKv'/>

@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='463' u='c' c='_ZN4llvm17StringMapIterBaseC1EPPNS_18StringMapEntryBaseEb'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='475' u='c' c='_ZN4llvm17StringMapIterBaseppEv'/>
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='486' ll='489' type='void llvm::StringMapIterBase::AdvancePastEmptyBuckets()'/>

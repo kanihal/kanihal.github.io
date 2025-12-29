@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='71' type='ptrdiff_t llvm::sys::path::const_iterator::operator-(const llvm::sys::path::const_iterator &amp; RHS) const'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='70'>/// Difference in bytes between this and RHS.</doc>

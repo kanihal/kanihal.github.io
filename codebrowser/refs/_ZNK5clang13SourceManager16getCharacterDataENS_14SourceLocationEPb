@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/commenthandler.cpp' l='261' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='282' u='c' c='_ZN14CommentHandler14CommentVisitor14parseEnumValueEPKN5clang8comments19BlockCommandCommentE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='53' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='54' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/InitializePasses.h' l='352' type='void llvm::initializeSanitizerCoverageModulePass(llvm::PassRegistry &amp; )'/>

@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='543' ll='557' type='llvm::BitVector &amp; llvm::BitVector::operator&amp;=(const llvm::BitVector &amp; RHS)'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='501' u='c' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='505' u='c' c='_ZN4llvm14SmallBitVectoraNERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='542'>/// Intersection, union, disjoint union.</doc>

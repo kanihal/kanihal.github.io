@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='211' type='AnalysisType &amp; llvm::Pass::getAnalysis(llvm::Function &amp; F)'/>
-<def f='include/llvm-7/llvm/PassAnalysisSupport.h' l='249' ll='253' type='AnalysisType &amp; llvm::Pass::getAnalysis(llvm::Function &amp; F)'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='211'>// Defined in PassAnalysisSupport.h</doc>

@@ -1,2 +1,0 @@
-<def f='codebrowser/generator/main.cpp' l='104' ll='109' type='std::string locationToString(clang::SourceLocation loc, clang::SourceManager &amp; sm)'/>
-<use f='codebrowser/generator/main.cpp' l='132' u='c' c='_ZN23BrowserDiagnosticClient16HandleDiagnosticEN5clang17DiagnosticsEngine5LevelERKNS0_10DiagnosticE'/>

@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='320' ll='322' type='void llvm::Twine::Twine(unsigned int Val)'/>
-<use f='codebrowser/generator/annotator.cpp' l='772' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<doc f='include/llvm-7/llvm/ADT/Twine.h' l='319'>/// Construct a twine to print \p Val as an unsigned decimal integer.</doc>
-<use f='codebrowser/generator/main.cpp' l='108' u='c' c='_Z16locationToStringB5cxx11N5clang14SourceLocationERNS_13SourceManagerE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='176' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='254' u='c' c='_ZN20PreprocessorCallback14MacroUndefinedERKN5clang5TokenERKNS0_15MacroDefinitionEPKNS0_14MacroDirectiveE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='358' u='c' c='_ZN20PreprocessorCallback7DefinedERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='381' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

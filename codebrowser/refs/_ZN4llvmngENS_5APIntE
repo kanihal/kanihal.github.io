@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='37' type='llvm::APInt llvm::operator-(llvm::APInt )'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1795' u='c' c='_ZNK4llvm5APInt3absEv'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='2037' ll='2040' type='llvm::APInt llvm::operator-(llvm::APInt v)'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='204' u='c' c='_ZNK4llvm6APSIntngEv'/>

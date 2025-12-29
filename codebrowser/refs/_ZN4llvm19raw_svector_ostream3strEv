@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='529' type='llvm::StringRef llvm::raw_svector_ostream::str()'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='553' u='c' c='_ZN4llvm14buffer_ostreamD1Ev'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='528'>/// Return a StringRef for the vector contents.</doc>

@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1579' type='static unsigned int llvm::APInt::getBitsNeeded(llvm::StringRef str, uint8_t radix)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1575'>/// Get bits required for string value.
-  ///
-  /// This method determines how many bits are required to hold the APInt
-  /// equivalent of the string given by \p str.</doc>

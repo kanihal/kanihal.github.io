@@ -1,2 +1,0 @@
-<def f='include/c++/7/tuple' l='1396' ll='1406' type='bool std::operator==(const tuple&lt;_TElements...&gt; &amp; __t, const tuple&lt;_UElements...&gt; &amp; __u)'/>
-<use f='codebrowser/generator/generator.h' l='53' u='c' c='_ZNK9Generator3TageqERKS0_'/>

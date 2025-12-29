@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/FoldingSet.h' l='342' type='bool llvm::FoldingSetNodeID::operator==(const llvm::FoldingSetNodeIDRef RHS) const'/>
-<use f='include/llvm-7/llvm/ADT/FoldingSet.h' l='345' u='c' c='_ZNK4llvm16FoldingSetNodeIDneENS_19FoldingSetNodeIDRefE'/>

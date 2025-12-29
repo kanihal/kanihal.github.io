@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/PassAnalysisSupport.h' l='53' type='SmallVector&lt;llvm::AnalysisID, 2&gt;'/>
-<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='137' u='a' c='_ZNK4llvm13AnalysisUsage24getRequiredTransitiveSetEv'/>
-<offset>640</offset>

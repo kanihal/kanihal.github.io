@@ -1,2 +1,0 @@
-<dec f='include/ctype.h' l='108' type='int isalnum(int )'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='304' u='c' c='_ZL19handleUrlsInCommentR9GeneratorN4llvm9StringRefEi'/>

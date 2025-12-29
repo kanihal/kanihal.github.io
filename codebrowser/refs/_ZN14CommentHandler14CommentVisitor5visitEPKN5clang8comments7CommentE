@@ -1,3 +1,0 @@
-<def f='codebrowser/generator/commenthandler.cpp' l='168' ll='172' type='void CommentHandler::CommentVisitor::visit(const clang::comments::Comment * C)'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='171' u='c' c='_ZN14CommentHandler14CommentVisitor5visitEPKN5clang8comments7CommentE'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='360' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>

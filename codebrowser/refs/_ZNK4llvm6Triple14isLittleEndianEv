@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='779' type='bool llvm::Triple::isLittleEndian() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='776'>/// Tests whether the target triple is little endian.
-  ///
-  /// \returns true if the triple is little endian, false otherwise.</doc>

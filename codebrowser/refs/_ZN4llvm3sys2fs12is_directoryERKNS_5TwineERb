@@ -1,9 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='540' type='std::error_code llvm::sys::fs::is_directory(const llvm::Twine &amp; path, bool &amp; result)'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='546' u='c' c='_ZN4llvm3sys2fs12is_directoryERKNS_5TwineE'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='533'>/// Is path a directory?
-///
-/// @param path Input path.
-/// @param result Set to true if \a path is a directory (after following
-///               symlinks, false if it is not. Undefined otherwise.
-/// @returns errc::success if result has been successfully set, otherwise a
-///          platform-specific error_code.</doc>

@@ -1,4 +1,0 @@
-<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='112' u='w' c='_ZN4llvm13TargetOptionsC1Ev'/>
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='230' type='unsigned int'/>
-<offset>136</offset>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='229'>/// This flag enables InterProcedural Register Allocation (IPRA).</doc>

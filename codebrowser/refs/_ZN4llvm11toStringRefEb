@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='53' type='llvm::StringRef llvm::toStringRef(bool B)'/>
-<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='52'>/// Construct a string ref from a boolean.</doc>

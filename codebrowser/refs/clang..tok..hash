@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='1161' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='74' u='r' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

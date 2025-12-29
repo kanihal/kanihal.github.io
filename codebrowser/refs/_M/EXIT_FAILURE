@@ -1,8 +1,0 @@
-<dec f='include/stdlib.h' l='91'/>
-<doc f='include/stdlib.h' l='89'>/* We define these the same for all machines.
-   Changes from this to the outside world should be done in `_exit&apos;.  */</doc>
-<use f='codebrowser/generator/main.cpp' l='389' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='402' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='423' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='438' u='c'/>
-<use f='codebrowser/generator/main.cpp' l='442' u='c'/>

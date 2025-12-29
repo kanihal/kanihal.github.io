@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='101' type='std::unordered_map&lt;pathTo_cache_key_t, std::string&gt;'/>
-<use f='codebrowser/generator/annotator.cpp' l='502' u='m' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<offset>2688</offset>

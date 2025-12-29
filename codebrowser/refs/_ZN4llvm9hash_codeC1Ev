@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Hashing.h' l='78' type='void llvm::hash_code::hash_code()'/>
-<doc f='include/llvm-7/llvm/ADT/Hashing.h' l='76'>/// Default construct a hash_code.
-  /// Note that this leaves the value uninitialized.</doc>

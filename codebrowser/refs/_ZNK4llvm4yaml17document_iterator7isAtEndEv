@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='586' u='c' c='_ZNK4llvm4yaml17document_iteratoreqERKS1_'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='586' u='c' c='_ZNK4llvm4yaml17document_iteratoreqERKS1_'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='587' u='c' c='_ZNK4llvm4yaml17document_iteratoreqERKS1_'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='587' u='c' c='_ZNK4llvm4yaml17document_iteratoreqERKS1_'/>
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='611' type='bool llvm::yaml::document_iterator::isAtEnd() const'/>

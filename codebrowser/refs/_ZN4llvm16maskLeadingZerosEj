@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='233' ll='235' type='T llvm::maskLeadingZeros(unsigned int N)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='231'>/// Create a bitmask with the N left-most bits set to 0, and all other
-/// bits set to 1.  Only unsigned types are allowed.</doc>

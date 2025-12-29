@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Hashing.h' l='165' type='const uint64_t'/>
-<use f='include/llvm-7/llvm/ADT/Hashing.h' l='196' u='r' c='_ZN4llvm7hashing6detail15hash_1to3_bytesEPKcmm'/>
-<use f='include/llvm-7/llvm/ADT/Hashing.h' l='216' u='r' c='_ZN4llvm7hashing6detail17hash_17to32_bytesEPKcmm'/>

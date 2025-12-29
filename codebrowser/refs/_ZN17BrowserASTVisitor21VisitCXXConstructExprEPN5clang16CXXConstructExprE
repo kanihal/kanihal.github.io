@@ -1,2 +1,0 @@
-<def f='codebrowser/generator/browserastvisitor.h' l='260' ll='274' type='bool BrowserASTVisitor::VisitCXXConstructExpr(clang::CXXConstructExpr * ctr)'/>
-<doc f='codebrowser/generator/browserastvisitor.h' l='259'>// try to put a link to the right constructor</doc>

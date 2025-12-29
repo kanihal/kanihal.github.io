@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/VersionTuple.h' l='37' type='unsigned int'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='42' u='w' c='_ZN4llvm12VersionTupleC1Ev'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='46' u='w' c='_ZN4llvm12VersionTupleC1Ej'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='50' u='w' c='_ZN4llvm12VersionTupleC1Ejj'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='54' u='w' c='_ZN4llvm12VersionTupleC1Ejjj'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='59' u='w' c='_ZN4llvm12VersionTupleC1Ejjjj'/>
-<use f='include/llvm-7/llvm/Support/VersionTuple.h' l='86' u='r' c='_ZNK4llvm12VersionTuple8getBuildEv'/>
-<offset>127</offset>

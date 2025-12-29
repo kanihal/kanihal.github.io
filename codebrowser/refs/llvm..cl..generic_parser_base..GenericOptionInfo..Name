@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='651' u='w' c='_ZN4llvm2cl19generic_parser_base17GenericOptionInfoC1ENS_9StringRefES3_'/>
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='652' type='llvm::StringRef'/>
-<offset>0</offset>

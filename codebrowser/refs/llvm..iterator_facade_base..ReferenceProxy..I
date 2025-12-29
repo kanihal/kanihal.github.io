@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/iterator.h' l='87' type='DerivedT'/>
-<use f='include/llvm-7/llvm/ADT/iterator.h' l='89' u='w' c='_ZN4llvm20iterator_facade_base14ReferenceProxyC1ET_'/>
-<use f='include/llvm-7/llvm/ADT/iterator.h' l='92' u='r' c='_ZNK4llvm20iterator_facade_base14ReferenceProxycvT4_Ev'/>

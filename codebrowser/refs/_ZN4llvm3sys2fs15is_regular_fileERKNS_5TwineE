@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='566' ll='571' type='bool llvm::sys::fs::is_regular_file(const llvm::Twine &amp; Path)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='564'>/// Simpler version of is_regular_file for clients that don&apos;t need to
-///        differentiate between an error and false.</doc>

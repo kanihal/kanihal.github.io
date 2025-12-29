@@ -1,3 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='454' c='_ZNK4llvm2cl18GenericOptionValue7compareERKS1_'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='484' ll='486' type='bool llvm::cl::OptionValueBase::compare(const llvm::cl::GenericOptionValue &amp; ) const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='484'>/*V*/</doc>

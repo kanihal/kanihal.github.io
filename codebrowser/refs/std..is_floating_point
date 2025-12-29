@@ -1,6 +1,0 @@
-<def f='include/c++/7/type_traits' l='353' ll='355'/>
-<use f='include/c++/7/type_traits' l='588'/>
-<use f='include/llvm-7/llvm/Support/type_traits.h' l='71'/>
-<use f='include/llvm-7/llvm/Support/FormatProviders.h' l='59'/>
-<use f='include/c++/7/chrono' l='209'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='417' c='_ZN4llvm4Type11getScalarTyERNS_11LLVMContextE'/>

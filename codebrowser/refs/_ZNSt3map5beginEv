@@ -1,6 +1,0 @@
-<def f='include/c++/7/bits/stl_map.h' l='347' ll='349' type='std::map::iterator std::map::begin()'/>
-<doc f='include/c++/7/bits/stl_map.h' l='342'>/**
-       *  Returns a read/write iterator that points to the first pair in the
-       *  %map.
-       *  Iteration is done in ascending order according to the keys.
-       */</doc>

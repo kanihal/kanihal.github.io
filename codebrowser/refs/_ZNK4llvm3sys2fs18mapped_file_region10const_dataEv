@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='1080' type='const char * llvm::sys::fs::mapped_file_region::const_data() const'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1078'>/// Get a const view of the data. Modifying this memory has undefined
-  /// behavior.</doc>

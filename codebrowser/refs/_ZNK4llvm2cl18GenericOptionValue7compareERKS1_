@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='454' type='bool llvm::cl::GenericOptionValue::compare(const llvm::cl::GenericOptionValue &amp; V) const'/>
-<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='484' c='_ZNK4llvm2cl15OptionValueBase7compareERKNS0_18GenericOptionValueE'/>
-<ovr f='include/llvm-7/llvm/Support/CommandLine.h' l='519' c='_ZNK4llvm2cl15OptionValueCopy7compareERKNS0_18GenericOptionValueE'/>

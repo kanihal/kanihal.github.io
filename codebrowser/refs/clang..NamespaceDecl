@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='127' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<size>104</size>
-<use f='codebrowser/generator/browserastvisitor.h' l='81' c='_ZN17BrowserASTVisitor18VisitNamespaceDeclEPN5clang13NamespaceDeclE'/>
-<size>104</size>

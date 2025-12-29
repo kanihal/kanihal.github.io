@@ -1,2 +1,0 @@
-<def f='include/c++/7/tuple' l='1313' ll='1315' type='__tuple_element_t&lt;__i, tuple&lt;_Elements...&gt; &gt; &amp; std::get(tuple&lt;_Elements...&gt; &amp; __t)'/>
-<def f='include/c++/7/tuple' l='1348' ll='1350' type='_Tp &amp; std::get(tuple&lt;_Types...&gt; &amp; __t)'/>

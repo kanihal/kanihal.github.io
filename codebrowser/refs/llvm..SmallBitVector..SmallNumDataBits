@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='57' type='57'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='128' u='r' c='_ZNK4llvm14SmallBitVector12getSmallSizeEv'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='131' u='r' c='_ZN4llvm14SmallBitVector12setSmallSizeEm'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='141' u='r' c='_ZN4llvm14SmallBitVector12setSmallBitsEm'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='151' u='r' c='_ZN4llvm14SmallBitVectorC1Ejb'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='333' u='r' c='_ZN4llvm14SmallBitVector6resizeEjb'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='348' u='r' c='_ZN4llvm14SmallBitVector7reserveEj'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='56'>// The remaining bits are used to store the actual set in small mode.</doc>

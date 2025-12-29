@@ -1,7 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='464' u='c' c='_ZN17BrowserASTVisitor8classifyEv'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='404' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='404' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='406' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='406' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='410' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='410' u='c' c='_ZN9QtSupport21visitCXXConstructExprEPN5clang16CXXConstructExprE'/>

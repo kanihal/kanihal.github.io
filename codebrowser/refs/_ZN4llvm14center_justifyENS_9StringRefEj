@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Format.h' l='159' ll='161' type='llvm::FormattedString llvm::center_justify(llvm::StringRef Str, unsigned int Width)'/>
-<doc f='include/llvm-7/llvm/Support/Format.h' l='156'>/// center_justify - add spaces before and after string so total output is
-/// \p Width characters.  If \p Str is larger that \p Width, full string
-/// is written with no padding.</doc>

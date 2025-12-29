@@ -1,4 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Regex.h' l='51' u='a' c='_ZN4llvm5RegexaSES0_'/>
-<use f='include/llvm-7/llvm/Support/Regex.h' l='51' u='a' c='_ZN4llvm5RegexaSES0_'/>
-<dec f='include/llvm-7/llvm/Support/Regex.h' l='97' type='struct llvm_regex *'/>
-<offset>0</offset>

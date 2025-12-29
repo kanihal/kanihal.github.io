@@ -1,3 +1,0 @@
-<inh f='include/llvm-7/llvm/Pass.h' l='238' c='_ZN4llvm10ModulePass11runOnModuleERNS_6ModuleE'/>
-<def f='include/llvm-7/llvm/Pass.h' l='273' type='bool llvm::ImmutablePass::runOnModule(llvm::Module &amp; )'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='272'>/// ImmutablePasses are never run.</doc>

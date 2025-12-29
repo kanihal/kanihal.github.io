@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='104' type='bool llvm::SmallVectorTemplateCommon::isSmall() const'/>
-<doc f='include/llvm-7/llvm/ADT/SmallVector.h' l='102'>/// Return true if this is a smallvector which has not had dynamic
-  /// memory allocated for it.</doc>

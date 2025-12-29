@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/TrigramIndex.h' l='51' type='bool llvm::TrigramIndex::isDefeated()'/>
-<doc f='include/llvm-7/llvm/Support/TrigramIndex.h' l='49'>/// Returned true, iff the heuristic is defeated and not useful.
-  /// In this case isDefinitelyOut always returns false.</doc>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1465' ll='1467' type='void llvm::APInt::clearSignBit()'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1464'>/// Set the sign bit to 0.</doc>

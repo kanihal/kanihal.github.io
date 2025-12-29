@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='371' ll='374' type='std::pair&lt;iterator, bool&gt; llvm::SmallPtrSetImpl::insert(PtrType Ptr)'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='320' u='c' c='_ZN4llvm2cl6Option13addSubCommandERNS0_10SubCommandE'/>
-<doc f='include/llvm-7/llvm/ADT/SmallPtrSet.h' l='367'>/// Inserts Ptr if and only if there is no element in the container equal to
-  /// Ptr. The bool component of the returned pair is true if and only if the
-  /// insertion takes place, and the iterator component of the pair points to
-  /// the element equal to Ptr.</doc>

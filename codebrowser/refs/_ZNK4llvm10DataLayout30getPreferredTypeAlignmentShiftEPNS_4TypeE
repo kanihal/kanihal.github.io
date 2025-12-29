@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='457' type='unsigned int llvm::DataLayout::getPreferredTypeAlignmentShift(llvm::Type * Ty) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='455'>/// Returns the preferred alignment for the specified type, returned as
-  /// log2 of the value (a shift amount).</doc>

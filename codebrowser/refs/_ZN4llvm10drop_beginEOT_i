@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/iterator_range.h' l='63' ll='66' type='iterator_range&lt;decltype(adl_begin(std::declval&lt;T&gt;()))&gt; llvm::drop_begin(T &amp;&amp; t, int n)'/>

@@ -1,6 +1,0 @@
-<def f='codebrowser/generator/compat.h' l='27' ll='31'/>
-<use f='codebrowser/generator/compat.h' l='32' c='_Z12maybe_uniquePT_'/>
-<doc f='codebrowser/generator/compat.h' l='26'>// clang 3.6 uses unique_ptr in many places that was not using it before</doc>
-<mbr r='MaybeUnique::val' t='T *'/>
-<fun r='_ZN11MaybeUniquecvPT_Ev'/>
-<fun r='_ZNO11MaybeUniquecvSt10unique_ptrIT_St14default_deleteIS1_EEEv'/>

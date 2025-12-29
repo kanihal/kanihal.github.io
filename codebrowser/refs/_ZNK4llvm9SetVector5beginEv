@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SetVector.h' l='88' ll='90' type='llvm::SetVector::const_iterator llvm::SetVector::begin() const'/>
-<doc f='include/llvm-7/llvm/ADT/SetVector.h' l='87'>/// Get a const_iterator to the beginning of the SetVector.</doc>

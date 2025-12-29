@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='486' type='llvm::Type * llvm::PointerType::getElementType() const'/>

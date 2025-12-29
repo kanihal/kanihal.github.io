@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='82' type='llvm::StringRef'/>
-<offset>0</offset>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='82'>///&lt; The entire path.</doc>

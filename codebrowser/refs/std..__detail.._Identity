@@ -1,6 +1,0 @@
-<def f='include/c++/7/bits/hashtable_policy.h' l='90' ll='96'/>
-<size>1</size>
-<fun r='_ZNKSt8__detail9_IdentityclEOT_'/>
-<use f='include/c++/7/bits/unordered_set.h' l='47'/>
-<use f='include/c++/7/bits/unordered_set.h' l='62'/>
-<size>1</size>

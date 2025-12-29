@@ -1,1 +1,0 @@
-<def f='codebrowser/generator/browserastvisitor.h' l='61' ll='79' type='bool BrowserASTVisitor::VisitTagDecl(clang::TagDecl * d)'/>

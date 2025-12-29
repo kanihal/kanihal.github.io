@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='203' ll='208' type='T llvm::findFirstSet(T Val, llvm::ZeroBehavior ZB = ZB_Max)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='196'>/// Get the index of the first set bit starting from the least
-///   significant bit.
-///
-/// Only unsigned integral types are allowed.
-///
-/// \param ZB the behavior on an input of 0. Only ZB_Max and ZB_Undefined are
-///   valid arguments.</doc>

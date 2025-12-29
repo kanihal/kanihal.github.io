@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='535' type='void llvm::raw_null_ostream::write_impl(const char * Ptr, size_t size)'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='534'>/// See raw_ostream::write_impl.</doc>

@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='576' type='bool llvm::yaml::Document::expectToken(int TK)'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='575'>/// Consume the next token and error if it is not \a TK.</doc>

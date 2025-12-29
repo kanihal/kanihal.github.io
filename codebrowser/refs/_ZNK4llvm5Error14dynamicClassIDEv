@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='243' ll='247' type='const void * llvm::Error::dynamicClassID() const'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='241'>/// Returns the dynamic class id of this error, or null if this is a success
-  /// value.</doc>

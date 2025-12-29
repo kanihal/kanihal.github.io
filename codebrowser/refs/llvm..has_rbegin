@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='244' ll='245'/>
-<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='251' c='_ZN4llvm7reverseEOT_PNSt9enable_ifIXsr10has_rbeginIS0_EE5valueEvE4typeE'/>
-<use f='include/llvm-7/llvm/ADT/STLExtras.h' l='268' c='_ZN4llvm7reverseEOT_PNSt9enable_ifIXntsr10has_rbeginIS0_EE5valueEvE4typeE'/>

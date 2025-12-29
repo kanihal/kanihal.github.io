@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='253' type='void llvm::APInt::XorAssignSlowCase(const llvm::APInt &amp; RHS)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='856' u='c' c='_ZN4llvm5APInteOERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='252'>/// out-of-line slow case for operator^=.</doc>

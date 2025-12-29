@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='164' type='llvm::Error llvm::handleErrors(llvm::Error E, HandlerTs &amp;&amp;... Handlers)'/>
-<dec f='include/llvm-7/llvm/Support/Error.h' l='357' type='llvm::Error llvm::handleErrors(llvm::Error E, HandlerTs &amp;&amp;... Handlers)'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='875' ll='892' type='llvm::Error llvm::handleErrors(llvm::Error E, HandlerTs &amp;&amp;... Hs)'/>

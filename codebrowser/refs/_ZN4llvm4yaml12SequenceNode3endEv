@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='485' type='llvm::yaml::SequenceNode::iterator llvm::yaml::SequenceNode::end()'/>

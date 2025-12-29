@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/InitializePasses.h' l='369' type='void llvm::initializeStackColoringPass(llvm::PassRegistry &amp; )'/>

@@ -1,7 +1,0 @@
-<def f='include/c++/7/bits/stl_deque.h' l='1472' ll='1479' type='std::deque::reference std::deque::back()'/>
-<doc f='include/c++/7/bits/stl_deque.h' l='1468'>/**
-       *  Returns a read/write reference to the data at the last element of the
-       *  %deque.
-       */</doc>
-<use f='codebrowser/generator/generator.cpp' l='231' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='236' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

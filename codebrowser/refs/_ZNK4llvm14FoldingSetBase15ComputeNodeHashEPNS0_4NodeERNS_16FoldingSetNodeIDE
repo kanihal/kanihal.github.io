@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/FoldingSet.h' l='192' type='unsigned int llvm::FoldingSetBase::ComputeNodeHash(llvm::FoldingSetBase::Node * N, llvm::FoldingSetNodeID &amp; TempID) const'/>
-<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='190'>/// ComputeNodeHash - Instantiations of the FoldingSet template implement
-  /// this function to compute a hash value for the given node.</doc>

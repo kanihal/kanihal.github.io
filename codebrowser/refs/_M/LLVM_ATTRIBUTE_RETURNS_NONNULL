@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Compiler.h' l='213'/>
-<use f='include/llvm-7/llvm/Support/MemAlloc.h' l='26' u='c'/>
-<use f='include/llvm-7/llvm/Support/MemAlloc.h' l='33' u='c'/>
-<use f='include/llvm-7/llvm/Support/MemAlloc.h' l='41' u='c'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='97' u='c'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='213' u='c'/>

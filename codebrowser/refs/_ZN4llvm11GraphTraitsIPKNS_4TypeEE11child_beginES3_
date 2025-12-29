@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='488' type='static llvm::GraphTraits&lt;const llvm::Type *&gt;::ChildIteratorType llvm::GraphTraits&lt;const llvm::Type *&gt;::child_begin(llvm::GraphTraits&lt;const llvm::Type *&gt;::NodeRef N)'/>

@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='98' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='317' u='c' c='_ZN9QtSupport13visitCallExprEPN5clang8CallExprE'/>

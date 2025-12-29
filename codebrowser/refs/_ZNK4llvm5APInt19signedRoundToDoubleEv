@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1700' type='double llvm::APInt::signedRoundToDouble() const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2136' u='c' c='_ZN4llvm8APIntOps24RoundSignedAPIntToDoubleERKNS_5APIntE'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='2148' u='c' c='_ZN4llvm8APIntOps23RoundSignedAPIntToFloatERKNS_5APIntE'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1699'>/// Converts this signed APInt to a double value.</doc>

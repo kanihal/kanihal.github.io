@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/main.cpp' l='157' u='c' c='_ZN18BrowserASTConsumerC1ERN5clang16CompilerInstanceER14ProjectManager12DatabaseType'/>
-<use f='codebrowser/generator/main.cpp' l='166' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
-<use f='codebrowser/generator/main.cpp' l='167' u='c' c='_ZN18BrowserASTConsumer10InitializeERN5clang10ASTContextE'/>
-<use f='codebrowser/generator/main.cpp' l='186' u='c' c='_ZN18BrowserASTConsumer21HandleTranslationUnitERN5clang10ASTContextE'/>

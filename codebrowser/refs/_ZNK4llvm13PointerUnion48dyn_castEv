@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='404' ll='408' type='T llvm::PointerUnion4::dyn_cast() const'/>
-<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='402'>/// Returns the current pointer if it is of the specified pointer type,
-  /// otherwises returns null.</doc>

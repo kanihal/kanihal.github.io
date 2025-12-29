@@ -1,8 +1,0 @@
-<def f='include/c++/7/bits/stl_set.h' l='829' ll='831' type='std::set::iterator std::set::upper_bound(const std::set::key_type &amp; __x)'/>
-<def f='include/c++/7/bits/stl_set.h' l='839' ll='842' type='decltype(std::set::iterator(this-&gt;_M_t._M_upper_bound_tr(__x))) std::set::upper_bound(const _Kt &amp; __x)'/>
-<doc f='include/c++/7/bits/stl_set.h' l='823'>/**
-       *  @brief Finds the end of a subsequence matching given key.
-       *  @param  __x  Key to be located.
-       *  @return Iterator pointing to the first element
-       *          greater than key, or end().
-       */</doc>

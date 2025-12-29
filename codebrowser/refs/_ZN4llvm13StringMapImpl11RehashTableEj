@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/StringMap.h' l='75' type='unsigned int llvm::StringMapImpl::RehashTable(unsigned int BucketNo = 0)'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='378' u='c' c='_ZN4llvm9StringMap6insertEPNS_14StringMapEntryIT_EE'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='408' u='c' c='_ZN4llvm9StringMap11try_emplaceENS_9StringRefEDpOT_'/>

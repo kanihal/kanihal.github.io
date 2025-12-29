@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1045' ll='1049'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1058'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1060' c='_ZN4llvm3sys2fs18mapped_file_region4initEimNS2_7mapmodeE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1070' c='_ZN4llvm3sys2fs18mapped_file_regionC1EiNS2_7mapmodeEmmRSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='52'/>
-<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='160'/>
-<use f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='222'/>

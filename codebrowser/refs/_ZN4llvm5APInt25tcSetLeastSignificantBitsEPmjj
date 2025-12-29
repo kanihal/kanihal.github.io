@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1939' type='static void llvm::APInt::tcSetLeastSignificantBits(llvm::APInt::WordType * , unsigned int , unsigned int bits)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1938'>/// Set the least significant BITS and clear the rest.</doc>

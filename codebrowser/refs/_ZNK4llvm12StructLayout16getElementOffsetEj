@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='543' ll='546' type='uint64_t llvm::StructLayout::getElementOffset(unsigned int Idx) const'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='549' u='c' c='_ZNK4llvm12StructLayout22getElementOffsetInBitsEj'/>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1929' ll='1931' type='static llvm::APInt::WordType llvm::APInt::tcIncrement(llvm::APInt::WordType * dst, unsigned int parts)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1928'>/// Increment a bignum in-place.  Return the carry flag.</doc>

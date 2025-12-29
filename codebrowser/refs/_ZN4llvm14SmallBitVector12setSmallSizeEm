@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='106' u='c' c='_ZN4llvm14SmallBitVector13switchToSmallEmm'/>
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='130' ll='132' type='void llvm::SmallBitVector::setSmallSize(size_t Size)'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='335' u='c' c='_ZN4llvm14SmallBitVector6resizeEjb'/>

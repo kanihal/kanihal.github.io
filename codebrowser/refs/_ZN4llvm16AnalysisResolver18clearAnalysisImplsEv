@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/PassAnalysisSupport.h' l='178' ll='180' type='void llvm::AnalysisResolver::clearAnalysisImpls()'/>
-<doc f='include/llvm-7/llvm/PassAnalysisSupport.h' l='177'>/// Clear cache that is used to connect a pass to the analysis (PassInfo).</doc>

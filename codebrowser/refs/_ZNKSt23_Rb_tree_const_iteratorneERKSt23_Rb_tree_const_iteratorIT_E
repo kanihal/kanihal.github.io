@@ -1,7 +1,0 @@
-<def f='include/c++/7/bits/stl_tree.h' l='397' ll='399' type='bool std::_Rb_tree_const_iterator::operator!=(const std::_Rb_tree_const_iterator::_Self &amp; __x) const'/>
-<use f='codebrowser/generator/generator.h' l='72' u='c' c='_ZN9Generator6addTagENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ii'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='376' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
-<use f='codebrowser/generator/commenthandler.cpp' l='376' u='c' c='_ZN14CommentHandler13handleCommentER9AnnotatorR9GeneratorRN5clang4SemaEPKciiNS4_14SourceLocationES9_S9_'/>
-<use f='codebrowser/generator/generator.cpp' l='211' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='243' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='252' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

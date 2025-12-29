@@ -1,6 +1,0 @@
-<def f='include/c++/7/bits/unordered_map.h' l='1023' ll='1025' type='std::unordered_map::size_type std::unordered_map::bucket(const std::unordered_map::key_type &amp; __key) const'/>
-<doc f='include/c++/7/bits/unordered_map.h' l='1018'>/*
-       * @brief  Returns the bucket index of a given element.
-       * @param  __key  A key instance.
-       * @return  The key bucket index.
-       */</doc>

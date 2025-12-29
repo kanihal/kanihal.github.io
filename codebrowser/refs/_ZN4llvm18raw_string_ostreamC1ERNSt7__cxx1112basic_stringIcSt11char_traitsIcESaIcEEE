@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='488' type='void llvm::raw_string_ostream::raw_string_ostream(std::string &amp; O)'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='58' u='c' c='_ZNK4llvm13ErrorInfoBase7messageB5cxx11Ev'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='1130' u='c' c='_ZN4llvm17createStringErrorESt10error_codePKcDpRKT_'/>
-<use f='codebrowser/generator/annotator.cpp' l='934' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='94' u='c' c='_ZN17BrowserASTVisitor17VisitFunctionDeclEPN5clang12FunctionDeclE'/>

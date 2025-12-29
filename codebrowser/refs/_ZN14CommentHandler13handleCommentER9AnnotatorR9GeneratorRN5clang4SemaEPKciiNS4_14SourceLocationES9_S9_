@@ -1,9 +1,0 @@
-<dec f='codebrowser/generator/commenthandler.h' l='55' type='void CommentHandler::handleComment(Annotator &amp; A, Generator &amp; generator, clang::Sema &amp; Sema, const char * bufferStart, int commentStart, int len, clang::SourceLocation searchLocBegin, clang::SourceLocation searchLocEnd, clang::SourceLocation commentLoc)'/>
-<use f='codebrowser/generator/annotator.cpp' l='1117' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
-<use f='codebrowser/generator/annotator.cpp' l='1126' u='c' c='_ZN9Annotator15syntaxHighlightER9GeneratorN5clang6FileIDERNS2_4SemaE'/>
-<doc f='codebrowser/generator/commenthandler.h' l='50'>/**
-     * Handle the comment startig at @a commentstart within @a bufferStart with length @a len.
-     * Search for corresponding declaration in the given source location interval
-     * @a commentLoc is the position of the comment
-     */</doc>
-<def f='codebrowser/generator/commenthandler.cpp' l='327' ll='385' type='void CommentHandler::handleComment(Annotator &amp; A, Generator &amp; generator, clang::Sema &amp; Sema, const char * bufferStart, int commentStart, int len, clang::SourceLocation searchLocBegin, clang::SourceLocation searchLocEnd, clang::SourceLocation commentLoc)'/>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='77' type='bool llvm::isDigit(char C)'/>
-<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='89' u='c' c='_ZN4llvm7isAlnumEc'/>
-<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='76'>/// Checks if character \p C is one of the 10 decimal digits.</doc>

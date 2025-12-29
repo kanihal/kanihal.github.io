@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='462' type='llvm::APFloatBase::integerPart * llvm::detail::IEEEFloat::significandParts()'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='459'>/// \name Simple Queries
-  /// @{</doc>

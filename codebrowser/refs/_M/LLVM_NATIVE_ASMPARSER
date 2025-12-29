@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Config/llvm-config.h' l='39'/>
-<doc f='include/llvm-7/llvm/Config/llvm-config.h' l='38'>/* LLVM name for the native AsmParser init function, if available */</doc>

@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='56' type='bool llvm::SmallVectorBase::empty() const'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='199' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl5ResetEv'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='48' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='61' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='131' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='236' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

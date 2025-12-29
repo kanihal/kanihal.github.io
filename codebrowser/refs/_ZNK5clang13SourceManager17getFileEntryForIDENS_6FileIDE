@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='202' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='265' u='c' c='_ZN20PreprocessorCallback12FileNotFoundEN4llvm9StringRefERNS0_15SmallVectorImplIcEE'/>

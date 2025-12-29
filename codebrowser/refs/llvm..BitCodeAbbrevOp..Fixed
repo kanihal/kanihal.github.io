@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='100' type='1'/>
-<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='127' c='_ZN4llvm15BitCodeAbbrevOp15hasEncodingDataENS0_8EncodingE'/>
-<doc f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='100'>// A fixed width field, Val specifies number of bits.</doc>

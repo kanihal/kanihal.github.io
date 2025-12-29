@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='716' type='void llvm::Triple::setArchName(llvm::StringRef Str)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='714'>/// setArchName - Set the architecture (first) component of the
-  /// triple by name.</doc>

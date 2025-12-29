@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1177' type='void llvm::sys::fs::directory_iterator::directory_iterator()'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1248' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1254' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1299' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator3popEv'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='1176'>/// Construct end iterator.</doc>

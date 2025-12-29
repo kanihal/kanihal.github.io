@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='140' type='std::string Annotator::pathTo(clang::FileID From, const clang::FileEntry * To)'/>
-<def f='codebrowser/generator/annotator.cpp' l='533' ll='556' type='std::string Annotator::pathTo(clang::FileID From, const clang::FileEntry * To)'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='298' u='c' c='_ZN20PreprocessorCallback18InclusionDirectiveEN5clang14SourceLocationERKNS0_5TokenEN4llvm9StringRefEbNS0_15CharSourceRangeEPKNS0_9FileEntryES6_S6_PKNS12013939'/>

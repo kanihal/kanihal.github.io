@@ -1,3 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='834' c='_ZNK4llvm2cl17basic_parser_impl12getValueNameEv'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='903' type='llvm::StringRef llvm::cl::parser&lt;llvm::cl::boolOrDefault&gt;::getValueName() const'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='902'>// getValueName - Do not print =&lt;value&gt; at all.</doc>

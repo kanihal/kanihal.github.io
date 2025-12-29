@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/generator.h' l='94' type='static void Generator::escapeAttr(llvm::raw_ostream &amp; os, llvm::StringRef s)'/>
-<use f='codebrowser/generator/generator.h' l='100' u='c' c='_ZlsRN4llvm11raw_ostreamEN9Generator10EscapeAttrE'/>
-<use f='codebrowser/generator/annotator.cpp' l='390' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='400' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='420' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='422' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<def f='codebrowser/generator/generator.cpp' l='58' ll='75' type='static void Generator::escapeAttr(llvm::raw_ostream &amp; os, llvm::StringRef s)'/>

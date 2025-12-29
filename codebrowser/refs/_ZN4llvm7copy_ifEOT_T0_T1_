@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='968' ll='970' type='OutputIt llvm::copy_if(R &amp;&amp; Range, OutputIt Out, UnaryPredicate P)'/>

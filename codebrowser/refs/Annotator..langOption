@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='116' type='const clang::LangOptions *'/>
-<use f='codebrowser/generator/annotator.h' l='126' u='w' c='_ZN9Annotator12setSourceMgrERN5clang13SourceManagerERKNS0_11LangOptionsE'/>
-<use f='codebrowser/generator/annotator.h' l='129' u='r' c='_ZNK9Annotator11getLangOptsEv'/>
-<offset>5952</offset>

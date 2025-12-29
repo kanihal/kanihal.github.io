@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Pass.h' l='181' type='static const llvm::PassInfo * llvm::Pass::lookupPassInfo(llvm::StringRef Arg)'/>
-<doc f='include/llvm-7/llvm/Pass.h' l='179'>// lookupPassInfo - Return the pass info object for the pass with the given
-  // argument string, or null if it is not known.</doc>

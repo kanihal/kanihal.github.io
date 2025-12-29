@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/DenseMap.h' l='321' type='const void * llvm::DenseMapBase::getPointerIntoBucketsArray() const'/>
-<doc f='include/llvm-7/llvm/ADT/DenseMap.h' l='318'>/// getPointerIntoBucketsArray() - Return an opaque pointer into the buckets
-  /// array.  In conjunction with the previous method, this can be used to
-  /// determine whether an insertion caused the DenseMap to reallocate.</doc>

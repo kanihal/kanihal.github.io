@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='54' type='size_t llvm::SmallVectorBase::capacity() const'/>
-<use f='include/llvm-7/llvm/ADT/SmallVector.h' l='146' u='c' c='_ZNK4llvm25SmallVectorTemplateCommon17capacity_in_bytesEv'/>

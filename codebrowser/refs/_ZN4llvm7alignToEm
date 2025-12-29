@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='693' ll='696' type='uint64_t llvm::alignTo(uint64_t Value)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='691'>/// Returns the next integer (mod 2**64) that is greater than or equal to
-/// \p Value and is a multiple of \c Align. \c Align must be non-zero.</doc>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Optional.h' l='159' ll='161' type='static Optional&lt;T&gt; llvm::Optional::create(const T * y)'/>

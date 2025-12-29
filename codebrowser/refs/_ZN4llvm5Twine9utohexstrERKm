@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Twine.h' l='385' ll='390' type='static llvm::Twine llvm::Twine::utohexstr(const uint64_t &amp; Val)'/>
-<doc f='include/llvm-7/llvm/ADT/Twine.h' l='380'>/// @}
-    /// @name Numeric Conversions
-    /// @{
-
-    // Construct a twine to print \p Val as an unsigned hexadecimal integer.</doc>

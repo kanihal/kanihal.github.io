@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='720' type='void llvm::Triple::setVendorName(llvm::StringRef Str)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='718'>/// setVendorName - Set the vendor (second) component of the triple
-  /// by name.</doc>

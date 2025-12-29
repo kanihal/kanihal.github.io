@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='223' ll='227' type='bool llvm::SmallBitVector::none() const'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='222'>/// Returns true if none of the bits are set.</doc>

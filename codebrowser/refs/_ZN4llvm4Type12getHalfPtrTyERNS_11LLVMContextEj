@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='432' type='static llvm::PointerType * llvm::Type::getHalfPtrTy(llvm::LLVMContext &amp; C, unsigned int AS = 0)'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='428'>//===--------------------------------------------------------------------===//
-  // Convenience methods for getting pointer types with one of the above builtin
-  // types as pointee.
-  //</doc>

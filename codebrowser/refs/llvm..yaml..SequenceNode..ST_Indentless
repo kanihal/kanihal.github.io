@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='467' type='2'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='460'>// Use for:
-    //
-    // key:
-    // - val1
-    // - val2
-    //
-    // As a BlockMappingEntry and BlockEnd are not created in this case.</doc>

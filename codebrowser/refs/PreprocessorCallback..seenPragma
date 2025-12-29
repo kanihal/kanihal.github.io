@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/preprocessorcallback.h' l='39' type='bool'/>
-<use f='codebrowser/generator/preprocessorcallback.h' l='78' u='w' c='_ZN20PreprocessorCallback15PragmaDirectiveEN5clang14SourceLocationENS0_20PragmaIntroducerKindE'/>
-<offset>200</offset>
-<doc f='codebrowser/generator/preprocessorcallback.h' l='39'>// To detect _Pragma in expansion</doc>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='106' u='w' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='119' u='r' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='123' u='w' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>

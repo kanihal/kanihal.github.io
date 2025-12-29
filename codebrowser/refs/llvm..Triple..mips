@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='58' type='10'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='665' u='r' c='_ZNK4llvm6Triple8isMIPS32Ev'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='58'>// MIPS: mips, mipsallegrex</doc>

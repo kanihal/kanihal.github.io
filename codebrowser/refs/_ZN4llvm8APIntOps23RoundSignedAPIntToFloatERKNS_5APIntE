@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='2147' ll='2149' type='float llvm::APIntOps::RoundSignedAPIntToFloat(const llvm::APInt &amp; APIVal)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='2144'>/// Converts the given APInt to a float value.
-///
-/// Treast the APInt as a signed value for conversion purposes.</doc>

@@ -1,7 +1,0 @@
-<def f='include/c++/7/bits/unordered_set.h' l='1436' ll='1438' type='std::unordered_multiset::local_iterator std::unordered_multiset::begin(std::unordered_multiset::size_type __n)'/>
-<doc f='include/c++/7/bits/unordered_set.h' l='1430'>/**
-       *  @brief  Returns a read-only (constant) iterator pointing to the first
-       *         bucket element.
-       *  @param  __n The bucket index.
-       *  @return  A read-only local iterator.
-       */</doc>

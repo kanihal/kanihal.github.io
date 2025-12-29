@@ -1,4 +1,0 @@
-_ZNK4llvm5APInt4lshrEj|llvm::APInt::lshr
-_ZN4llvm5APInt11lshrInPlaceEj|llvm::APInt::lshrInPlace
-lstat|lstat
-lstat64|lstat64

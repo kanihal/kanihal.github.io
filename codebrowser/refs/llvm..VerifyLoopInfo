@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Debug.h' l='95' type='bool'/>
-<doc f='include/llvm-7/llvm/Support/Debug.h' l='93'>/// Enables verification of loop info.
-///</doc>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='463' ll='467' type='bool llvm::APInt::isPowerOf2() const'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1782' u='c' c='_ZNK4llvm5APInt13exactLogBase2Ev'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='460'>/// Check if this APInt&apos;s value is a power of two greater than zero.
-  ///
-  /// \returns true if the argument APInt value is a power of two &gt; 0.</doc>

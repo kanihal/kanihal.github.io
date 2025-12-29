@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='787' type='std::string'/>
-<offset>64</offset>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='786'>// Name of the temporary file.</doc>

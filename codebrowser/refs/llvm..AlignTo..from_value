@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='711' ll='713'/>
-<smbr r='llvm::AlignTo::from_value::value' t='const uint64_t'/>

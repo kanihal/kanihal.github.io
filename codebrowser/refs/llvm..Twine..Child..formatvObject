@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Twine.h' l='144' type='const llvm::formatv_object_base *'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='300' u='w' c='_ZN4llvm5TwineC1ERKNS_19formatv_object_baseE'/>
-<offset>0</offset>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APFloat.h' l='1148' type='bool llvm::APFloat::isDenormal() const'/>
-<use f='include/llvm-7/llvm/ADT/APFloat.h' l='1151' u='c' c='_ZNK4llvm7APFloat8isNormalEv'/>

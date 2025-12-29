@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='26' type='0'/>
-<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='250'/>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='26'>// Target-specific (either soft or hard depending on triple, etc).</doc>

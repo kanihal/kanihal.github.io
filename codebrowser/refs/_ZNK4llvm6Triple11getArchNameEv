@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='360' type='llvm::StringRef llvm::Triple::getArchName() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='358'>/// getArchName - Get the architecture (first) component of the
-  /// triple.</doc>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='970' ll='974' type='llvm::APInt llvm::APInt::lshr(unsigned int shiftAmt) const'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='125' u='c' c='_ZNK4llvm6APSIntrsEj'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='967'>/// Logical right-shift function.
-  ///
-  /// Logical right-shift this APInt by shiftAmt.</doc>

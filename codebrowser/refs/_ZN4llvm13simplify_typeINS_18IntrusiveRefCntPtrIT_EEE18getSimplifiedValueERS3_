@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/IntrusiveRefCntPtr.h' l='255' ll='257' type='static llvm::simplify_type&lt;IntrusiveRefCntPtr&lt;type-parameter-0-0&gt; &gt;::SimpleType llvm::simplify_type&lt;IntrusiveRefCntPtr&lt;type-parameter-0-0&gt; &gt;::getSimplifiedValue(IntrusiveRefCntPtr&lt;T&gt; &amp; Val)'/>

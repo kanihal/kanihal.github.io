@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='381' ll='387' type='typename CollectionType::iterator llvm::yaml::begin(CollectionType &amp; C)'/>
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='423' type='typename T::iterator llvm::yaml::begin(T &amp; )'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='426' u='c' c='_ZN4llvm4yaml11MappingNode5beginEv'/>
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='478' type='typename T::iterator llvm::yaml::begin(T &amp; )'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='483' u='c' c='_ZN4llvm4yaml12SequenceNode5beginEv'/>

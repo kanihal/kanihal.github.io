@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/unique_ptr.h' l='375' ll='380' type='void std::unique_ptr::swap(unique_ptr&lt;_Tp, _Dp&gt; &amp; __u)'/>
-<doc f='include/c++/7/bits/unique_ptr.h' l='374'>/// Exchange the pointer and deleter with another object.</doc>

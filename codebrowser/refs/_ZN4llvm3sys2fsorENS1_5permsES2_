@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='113' ll='116' type='llvm::sys::fs::perms llvm::sys::fs::operator|(llvm::sys::fs::perms l, llvm::sys::fs::perms r)'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='122' u='c' c='_ZN4llvm3sys2fsoRERNS1_5permsES2_'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='310' u='c' c='_ZN4llvm3sys2fs18create_directoriesERKNS_5TwineEbNS1_5permsE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='319' u='c' c='_ZN4llvm3sys2fs16create_directoryERKNS_5TwineEbNS1_5permsE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='759' u='c' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERiRNS_15SmallVectorImplIcEEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='765' u='c' c='_ZN4llvm3sys2fs16createUniqueFileERKNS_5TwineERNS_15SmallVectorImplIcEEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='782' u='c' c='_ZN4llvm3sys2fs8TempFile6createERKNS_5TwineEj'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='112'>// Helper functions so that you can use &amp; and | to manipulate perms bits:</doc>

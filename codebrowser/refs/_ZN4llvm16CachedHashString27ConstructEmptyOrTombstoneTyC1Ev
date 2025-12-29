@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='156' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE11getEmptyKeyEv'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='160' u='c' c='_ZN4llvm12DenseMapInfoINS_16CachedHashStringEE15getTombstoneKeyEv'/>

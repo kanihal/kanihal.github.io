@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APFloat.h' l='297' type='bool llvm::detail::IEEEFloat::operator==(const llvm::detail::IEEEFloat &amp; ) const'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='292'>/// @}
-
-  /// The definition of equality is not straightforward for floating point, so
-  /// we won&apos;t use operator==.  Use one of the following, or write whatever it
-  /// is you really mean.</doc>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='89' ll='91' type='bool llvm::less_ptr::operator()(const Ty * left, const Ty * right) const'/>

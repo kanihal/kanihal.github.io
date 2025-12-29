@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/FoldingSet.h' l='349' type='bool llvm::FoldingSetNodeID::operator&lt;(const llvm::FoldingSetNodeID &amp; RHS) const'/>
-<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='347'>/// Used to compare the &quot;ordering&quot; of two nodes as defined by the
-  /// profiled bits and their ordering defined by memcmp().</doc>

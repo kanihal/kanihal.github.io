@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/InitializePasses.h' l='29' type='void llvm::initializeScalarOpts(llvm::PassRegistry &amp; )'/>
-<doc f='include/llvm-7/llvm/InitializePasses.h' l='28'>/// Initialize all passes linked into the ScalarOpts library.</doc>

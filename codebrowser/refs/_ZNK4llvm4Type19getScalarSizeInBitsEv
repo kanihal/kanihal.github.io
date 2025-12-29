@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='295' type='unsigned int llvm::Type::getScalarSizeInBits() const'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='292'>/// If this is a vector type, return the getPrimitiveSizeInBits value for the
-  /// element type. Otherwise return the getPrimitiveSizeInBits value for this
-  /// type.</doc>

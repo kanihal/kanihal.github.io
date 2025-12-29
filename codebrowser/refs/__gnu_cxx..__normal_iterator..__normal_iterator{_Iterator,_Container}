@@ -1,7 +1,0 @@
-<def f='include/c++/7/bits/stl_iterator.h' l='778' ll='779' macro='1' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;()'/>
-<def f='include/c++/7/bits/stl_iterator.h' l='781' ll='783' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;(const _Iterator &amp; __i)'/>
-<def f='include/c++/7/bits/stl_iterator.h' l='787' ll='791' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;(const __normal_iterator&lt;_Iter, typename __enable_if&lt;(std::__are_same&lt;_Iter, typename _Container::pointer&gt;::__value), _Container&gt;::__type&gt; &amp; __i)'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='404' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='codebrowser/generator/annotator.cpp' l='961' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='962' u='c' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/main.cpp' l='524' u='c' c='main'/>

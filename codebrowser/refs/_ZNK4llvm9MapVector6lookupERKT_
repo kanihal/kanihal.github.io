@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/MapVector.h' l='111' ll='116' type='ValueT llvm::MapVector::lookup(const KeyT &amp; Key) const'/>
-<doc f='include/llvm-7/llvm/ADT/MapVector.h' l='110'>// Returns a copy of the value.  Only allowed if ValueT is copyable.</doc>

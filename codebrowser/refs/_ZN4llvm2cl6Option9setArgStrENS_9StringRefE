@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='310' type='void llvm::cl::Option::setArgStr(llvm::StringRef S)'/>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='307'>//-------------------------------------------------------------------------===
-  // Accessor functions set by OptionModifiers
-  //</doc>

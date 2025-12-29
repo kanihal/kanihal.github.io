@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='413' ll='428' type='void llvm::StringMap::clear()'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='412'>// clear - Empties out the StringMap</doc>

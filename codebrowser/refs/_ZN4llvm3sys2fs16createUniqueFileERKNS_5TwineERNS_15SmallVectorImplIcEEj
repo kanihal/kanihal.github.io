@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='763' type='std::error_code llvm::sys::fs::createUniqueFile(const llvm::Twine &amp; Model, SmallVectorImpl&lt;char&gt; &amp; ResultPath, unsigned int Mode = all_read | all_write)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='761'>/// Simpler version for clients that don&apos;t want an open file. An empty
-/// file will still be created.</doc>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallVector.h' l='916' ll='918' type='size_t llvm::capacity_in_bytes(const SmallVector&lt;T, N&gt; &amp; X)'/>

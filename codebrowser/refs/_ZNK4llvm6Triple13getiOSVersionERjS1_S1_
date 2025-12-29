@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='342' type='void llvm::Triple::getiOSVersion(unsigned int &amp; Major, unsigned int &amp; Minor, unsigned int &amp; Micro) const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='340'>/// getiOSVersion - Parse the version number as with getOSVersion.  This should
-  /// only be called with IOS or generic triples.</doc>

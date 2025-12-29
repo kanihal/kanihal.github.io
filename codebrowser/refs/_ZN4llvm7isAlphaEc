@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringExtras.h' l='83' ll='85' type='bool llvm::isAlpha(char C)'/>
-<use f='include/llvm-7/llvm/ADT/StringExtras.h' l='89' u='c' c='_ZN4llvm7isAlnumEc'/>
-<doc f='include/llvm-7/llvm/ADT/StringExtras.h' l='82'>/// Checks if character \p C is a valid letter as classified by &quot;C&quot; locale.</doc>

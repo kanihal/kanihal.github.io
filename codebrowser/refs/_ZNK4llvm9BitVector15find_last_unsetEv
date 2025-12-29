@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='358' type='int llvm::BitVector::find_last_unset() const'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='270' u='c' c='_ZNK4llvm14SmallBitVector15find_last_unsetEv'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='356'>/// find_last_unset - Returns the index of the last unset bit, -1 if all of
-  /// the bits are set.</doc>

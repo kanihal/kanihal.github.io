@@ -1,2 +1,0 @@
-<use f='include/c++/7/bits/stl_bvector.h' l='492' u='c' c='_ZNSt13_Bvector_base11_M_allocateEm'/>
-<def f='include/c++/7/bits/stl_bvector.h' l='508' ll='510' type='static std::size_t std::_Bvector_base::_S_nword(std::size_t __n)'/>

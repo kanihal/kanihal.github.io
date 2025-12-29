@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='205' ll='207' type='llvm::raw_ostream &amp; llvm::raw_ostream::operator&lt;&lt;(unsigned int N)'/>
-<use f='codebrowser/generator/annotator.cpp' l='391' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='393' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='421' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/generator.cpp' l='267' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='267' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

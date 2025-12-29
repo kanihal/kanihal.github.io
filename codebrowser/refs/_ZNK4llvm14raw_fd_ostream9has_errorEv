@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='446' type='bool llvm::raw_fd_ostream::has_error() const'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='442'>/// Return the value of the flag in this raw_fd_ostream indicating whether an
-  /// output error has been encountered.
-  /// This doesn&apos;t implicitly flush any pending output.  Also, it doesn&apos;t
-  /// guarantee to detect all errors unless the stream has been closed.</doc>

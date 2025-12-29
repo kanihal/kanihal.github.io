@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Target/TargetOptions.h' l='93' type='0'/>
-<use f='include/llvm-7/llvm/Target/TargetOptions.h' l='278'/>
-<doc f='include/llvm-7/llvm/Target/TargetOptions.h' l='93'>// No specific tuning requested.</doc>

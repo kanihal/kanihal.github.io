@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='461' type='llvm::IntegerType * llvm::DataLayout::getIntPtrType(llvm::LLVMContext &amp; C, unsigned int AddressSpace = 0) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='459'>/// Returns an integer type with size at least as big as that of a
-  /// pointer in the given address space.</doc>

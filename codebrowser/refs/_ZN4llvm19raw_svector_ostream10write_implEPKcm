@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='508' type='void llvm::raw_svector_ostream::write_impl(const char * Ptr, size_t Size)'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='507'>/// See raw_ostream::write_impl.</doc>

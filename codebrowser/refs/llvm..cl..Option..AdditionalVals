@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='262' type='unsigned int'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='290' u='r' c='_ZNK4llvm2cl6Option20getNumAdditionalValsEv'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='328' u='w' c='_ZN4llvm2cl6Option20setNumAdditionalValsEj'/>
-<offset>160</offset>
-<doc f='include/llvm-7/llvm/Support/CommandLine.h' l='262'>// Greater than 0 for multi-valued option.</doc>

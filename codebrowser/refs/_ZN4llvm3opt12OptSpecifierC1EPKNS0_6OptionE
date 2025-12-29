@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Option/OptSpecifier.h' l='26' type='void llvm::opt::OptSpecifier::OptSpecifier(const llvm::opt::Option * Opt)'/>
-<doc f='include/llvm-7/llvm/Option/OptSpecifier.h' l='26'>/*implicit*/</doc>

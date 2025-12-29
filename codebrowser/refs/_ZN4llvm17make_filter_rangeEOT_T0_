@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/STLExtras.h' l='410' ll='419' type='iterator_range&lt;filter_iterator&lt;detail::IterOfRange&lt;RangeT&gt;, PredicateT&gt; &gt; llvm::make_filter_range(RangeT &amp;&amp; Range, PredicateT Pred)'/>

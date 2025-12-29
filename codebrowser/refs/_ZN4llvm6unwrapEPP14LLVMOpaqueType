@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='497' ll='499' type='llvm::Type ** llvm::unwrap(LLVMTypeRef * Tys)'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='495'>/* Specialized opaque type conversions.
- */</doc>

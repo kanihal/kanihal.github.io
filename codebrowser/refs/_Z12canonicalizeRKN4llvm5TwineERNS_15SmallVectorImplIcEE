@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/filesystem.h' l='35' type='std::error_code canonicalize(const llvm::Twine &amp; path, llvm::SmallVectorImpl&lt;char&gt; &amp; result)'/>
-<use f='codebrowser/generator/annotator.cpp' l='208' u='c' c='_ZN9Annotator15htmlNameForFileB5cxx11EN5clang6FileIDE'/>
-<use f='codebrowser/generator/annotator.cpp' l='543' u='c' c='_ZN9Annotator6pathToB5cxx11EN5clang6FileIDEPKNS0_9FileEntryE'/>
-<doc f='codebrowser/generator/filesystem.h' l='34'>/* Is declared in llvm::sys::fs,  but not implemented */</doc>
-<def f='codebrowser/generator/filesystem.cpp' l='58' ll='85' type='std::error_code canonicalize(const llvm::Twine &amp; path, llvm::SmallVectorImpl&lt;char&gt; &amp; result)'/>
-<use f='codebrowser/generator/main.cpp' l='459' u='c' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='47' u='c' c='_ZN14ProjectManager10addProjectE11ProjectInfo'/>

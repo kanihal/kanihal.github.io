@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/SourceMgr.h' l='293' type='ArrayRef&lt;std::pair&lt;unsigned int, unsigned int&gt; &gt; llvm::SMDiagnostic::getRanges() const'/>

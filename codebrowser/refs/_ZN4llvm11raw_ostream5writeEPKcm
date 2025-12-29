@@ -1,8 +1,0 @@
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='174' u='c' c='_ZN4llvm11raw_ostreamlsENS_9StringRefE'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='192' u='c' c='_ZN4llvm11raw_ostreamlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='196' u='c' c='_ZN4llvm11raw_ostreamlsERKNS_15SmallVectorImplIcEE'/>
-<dec f='include/llvm-7/llvm/Support/raw_ostream.h' l='227' type='llvm::raw_ostream &amp; llvm::raw_ostream::write(const char * Ptr, size_t Size)'/>
-<use f='codebrowser/generator/generator.cpp' l='198' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='218' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='286' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>
-<use f='codebrowser/generator/generator.cpp' l='292' u='c' c='_ZN9Generator8generateEN4llvm9StringRefENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS7_PKcSB_S1_S1_RKSt3setIS7_St4lessIS7_ESaIS7_EE'/>

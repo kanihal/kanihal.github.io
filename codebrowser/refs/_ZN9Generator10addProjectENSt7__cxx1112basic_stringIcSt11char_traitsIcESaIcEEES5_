@@ -1,2 +1,0 @@
-<def f='codebrowser/generator/generator.h' l='75' ll='77' type='void Generator::addProject(std::string a, std::string b)'/>
-<use f='codebrowser/generator/annotator.cpp' l='523' u='c' c='_ZN9Annotator6pathToEN5clang6FileIDES1_PNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

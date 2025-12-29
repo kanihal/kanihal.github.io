@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='404' type='static llvm::Type * llvm::Type::getX86_MMXTy(llvm::LLVMContext &amp; C)'/>

@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Allocator.h' l='277' ll='279' type='void llvm::BumpPtrAllocatorImpl::Deallocate(const void * Ptr, size_t Size)'/>
-<doc f='include/llvm-7/llvm/Support/Allocator.h' l='274'>// Bump pointer allocators are expected to never free their storage; and
-  // clients expect pointers to remain valid for non-dereferencing uses even
-  // after deallocation.</doc>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='143' u='c' c='_ZN4llvm4yaml4NodedlEPvRNS_20BumpPtrAllocatorImplINS_15MallocAllocatorELm4096ELm4096EEEm'/>

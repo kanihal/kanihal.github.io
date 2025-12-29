@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/ErrorOr.h' l='153' ll='155' type='bool llvm::ErrorOr::operator bool() const'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1219' u='c' c='_ZN4llvm3sys2fs18directory_iterator35update_error_code_for_current_entryERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1260' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
-<doc f='include/llvm-7/llvm/Support/ErrorOr.h' l='152'>/// Return false if there is an error.</doc>
-<use f='codebrowser/generator/main.cpp' l='559' u='c' c='main'/>

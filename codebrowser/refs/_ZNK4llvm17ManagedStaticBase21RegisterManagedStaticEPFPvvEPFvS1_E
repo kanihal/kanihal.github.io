@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/ManagedStatic.h' l='45' type='void llvm::ManagedStaticBase::RegisterManagedStatic(void *(*)() creator, void (*)(void *) deleter) const'/>
-<use f='include/llvm-7/llvm/Support/ManagedStatic.h' l='67' u='c' c='_ZN4llvm13ManagedStaticdeEv'/>
-<use f='include/llvm-7/llvm/Support/ManagedStatic.h' l='77' u='c' c='_ZNK4llvm13ManagedStaticdeEv'/>

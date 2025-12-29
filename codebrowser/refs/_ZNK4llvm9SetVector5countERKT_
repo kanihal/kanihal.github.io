@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SetVector.h' l='211' ll='213' type='llvm::SetVector::size_type llvm::SetVector::count(const llvm::SetVector::key_type &amp; key) const'/>
-<doc f='include/llvm-7/llvm/ADT/SetVector.h' l='209'>/// Count the number of elements of a given key in the SetVector.
-  /// \returns 0 if the element is not in the SetVector, 1 if it is.</doc>

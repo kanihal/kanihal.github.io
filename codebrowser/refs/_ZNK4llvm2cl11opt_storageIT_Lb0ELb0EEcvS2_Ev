@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1276' type='DataType llvm::cl::opt_storage&lt;type-parameter-0-0, false, false&gt;::operator type-parameter-0-0() const'/>
-<use f='codebrowser/generator/main.cpp' l='397' u='c' c='main'/>
-<use f='codebrowser/generator/main.cpp' l='400' u='c' c='main'/>

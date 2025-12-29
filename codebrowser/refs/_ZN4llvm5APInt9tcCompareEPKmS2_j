@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1926' type='static int llvm::APInt::tcCompare(const llvm::APInt::WordType * , const llvm::APInt::WordType * , unsigned int )'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1925'>/// Comparison (unsigned) of two bignums.</doc>

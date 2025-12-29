@@ -1,6 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='68' type='1'/>
-<use f='codebrowser/generator/annotator.cpp' l='695' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='784' u='r' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='155' u='r' c='_ZN17BrowserASTVisitor15VisitMemberExprEPN5clang10MemberExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='163' u='r' c='_ZN17BrowserASTVisitor16VisitDeclRefExprEPN5clang11DeclRefExprE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='247' u='r' c='_ZN17BrowserASTVisitor30TraverseConstructorInitializerEPN5clang18CXXCtorInitializerE'/>

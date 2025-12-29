@@ -1,2 +1,0 @@
-<dec f='include/c++/7/bits/algorithmfwd.h' l='704' type='_FIter std::min_element(_FIter , _FIter )'/>
-<def f='include/c++/7/bits/stl_algo.h' l='5602' ll='5615' macro='1' type='_ForwardIterator std::min_element(_ForwardIterator __first, _ForwardIterator __last)'/>

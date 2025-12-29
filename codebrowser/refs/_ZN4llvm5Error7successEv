@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Error.h' l='179' type='static llvm::ErrorSuccess llvm::Error::success()'/>
-<def f='include/llvm-7/llvm/Support/Error.h' l='322' type='static llvm::ErrorSuccess llvm::Error::success()'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='550' u='c' c='_ZN4llvm8Expected9takeErrorEv'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='785' u='c' c='_ZN4llvm18ErrorHandlerTraitsIRFvRT_EE5applyEOT_St10unique_ptrINS_13ErrorInfoBaseESt14default_deleteIS9_EE'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='818' u='c' c='_ZN4llvm18ErrorHandlerTraitsIRFvSt10unique_ptrIT_St14default_deleteIS2_EEEE5applyEOT_S1_INS_13ErrorInfoBaseES3_ISB_EE'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='877' u='c' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='1022' u='c' c='_ZN4llvm19ErrorAsOutParameterD1Ev'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='178'>/// Create a success value.</doc>

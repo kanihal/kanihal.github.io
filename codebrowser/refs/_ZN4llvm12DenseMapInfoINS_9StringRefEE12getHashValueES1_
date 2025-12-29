@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/DenseMapInfo.h' l='221' ll='226' type='static unsigned int llvm::DenseMapInfo&lt;llvm::StringRef&gt;::getHashValue(llvm::StringRef Val)'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='38' u='c' c='_ZN4llvm19CachedHashStringRefC1ENS_9StringRefE'/>
-<use f='include/llvm-7/llvm/ADT/CachedHashString.h' l='103' u='c' c='_ZN4llvm16CachedHashStringC1ENS_9StringRefE'/>

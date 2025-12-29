@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/FoldingSet.h' l='288' type='unsigned int llvm::FoldingSetNodeIDRef::ComputeHash() const'/>
-<doc f='include/llvm-7/llvm/ADT/FoldingSet.h' l='286'>/// ComputeHash - Compute a strong hash value for this FoldingSetNodeIDRef,
-  /// used to lookup the node in the FoldingSetBase.</doc>

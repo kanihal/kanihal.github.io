@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='76' ll='78' type='uint64_t llvm::IntegerType::getSignBit() const'/>
-<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='74'>/// Return a uint64_t with just the most significant bit set (the sign bit, if
-  /// the value is treated as a signed number).</doc>

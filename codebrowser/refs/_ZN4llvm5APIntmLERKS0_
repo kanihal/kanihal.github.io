@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='880' type='llvm::APInt &amp; llvm::APInt::operator*=(const llvm::APInt &amp; RHS)'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='218' u='c' c='_ZN4llvm6APSIntmLERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='875'>/// Multiplication assignment operator.
-  ///
-  /// Multiplies this APInt by RHS and assigns the result to *this.
-  ///
-  /// \returns *this</doc>

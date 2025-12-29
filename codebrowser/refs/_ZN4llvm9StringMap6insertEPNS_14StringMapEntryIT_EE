@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='366' ll='380' type='bool llvm::StringMap::insert(llvm::StringMap::MapEntryTy * KeyValue)'/>
-<doc f='include/llvm-7/llvm/ADT/StringMap.h' l='363'>/// insert - Insert the specified key/value pair into the map.  If the key
-  /// already exists in the map, return false and ignore the request, otherwise
-  /// insert it and return true.</doc>

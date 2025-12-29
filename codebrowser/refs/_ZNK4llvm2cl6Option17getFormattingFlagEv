@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='284' ll='286' type='enum FormattingFlags llvm::cl::Option::getFormattingFlag() const'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='294' u='c' c='_ZNK4llvm2cl6Option12isPositionalEv'/>

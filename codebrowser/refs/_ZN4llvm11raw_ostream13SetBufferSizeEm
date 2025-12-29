@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='111' ll='114' type='void llvm::raw_ostream::SetBufferSize(size_t Size)'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='110'>/// Set the stream to be buffered, using the specified buffer size.</doc>

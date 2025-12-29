@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='73' type='25'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='73'>// Sparc: (endianness = little). NB: &apos;Sparcle&apos; is a CPU variant</doc>

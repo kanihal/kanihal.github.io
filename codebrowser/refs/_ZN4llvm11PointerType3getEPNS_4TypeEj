@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DerivedTypes.h' l='478' type='static llvm::PointerType * llvm::PointerType::get(llvm::Type * ElementType, unsigned int AddressSpace)'/>
-<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='483' u='c' c='_ZN4llvm11PointerType9getUnqualEPNS_4TypeE'/>
-<doc f='include/llvm-7/llvm/IR/DerivedTypes.h' l='476'>/// This constructs a pointer to an object of the specified type in a numbered
-  /// address space.</doc>

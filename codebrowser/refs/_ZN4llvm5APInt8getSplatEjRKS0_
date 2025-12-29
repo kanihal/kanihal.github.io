@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='654' type='static llvm::APInt llvm::APInt::getSplat(unsigned int NewLen, const llvm::APInt &amp; V)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='653'>/// Return a value containing V broadcasted over NewLen bits.</doc>

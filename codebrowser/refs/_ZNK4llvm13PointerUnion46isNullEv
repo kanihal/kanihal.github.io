@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='376' type='bool llvm::PointerUnion4::isNull() const'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='377' u='c' c='_ZNK4llvm13PointerUnion4cvbEv'/>
-<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='374'>/// Test if the pointer held in the union is null, regardless of
-  /// which type it is.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='652' ll='655' type='uint64_t llvm::PowerOf2Floor(uint64_t A)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='650'>/// Returns the power of two which is less than or equal to the given value.
-/// Essentially, it is a floor operation across the domain of powers of two.</doc>

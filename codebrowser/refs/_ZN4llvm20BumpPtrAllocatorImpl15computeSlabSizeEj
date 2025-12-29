@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='289' u='c' c='_ZNK4llvm20BumpPtrAllocatorImpl14getTotalMemoryEv'/>
-<def f='include/llvm-7/llvm/Support/Allocator.h' l='333' ll='339' type='static size_t llvm::BumpPtrAllocatorImpl::computeSlabSize(unsigned int SlabIdx)'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='344' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl12StartNewSlabEv'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='361' u='c' c='_ZN4llvm20BumpPtrAllocatorImpl15DeallocateSlabsEPPvS2_'/>
-<use f='include/llvm-7/llvm/Support/Allocator.h' l='417' u='c' c='_ZN4llvm24SpecificBumpPtrAllocator10DestroyAllEv'/>

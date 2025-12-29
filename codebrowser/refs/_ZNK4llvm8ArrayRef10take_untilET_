@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/ArrayRef.h' l='233' ll='235' type='ArrayRef&lt;T&gt; llvm::ArrayRef::take_until(PredicateT Pred) const'/>
-<doc f='include/llvm-7/llvm/ADT/ArrayRef.h' l='231'>/// Return the first N elements of this Array that don&apos;t satisfy the
-    /// given predicate.</doc>

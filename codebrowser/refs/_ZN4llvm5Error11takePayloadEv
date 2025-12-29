@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='299' ll='304' type='std::unique_ptr&lt;ErrorInfoBase&gt; llvm::Error::takePayload()'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='393' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='398' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='404' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='408' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='408' u='c' c='_ZN4llvm9ErrorList4joinENS_5ErrorES1_'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='457' u='c' c='_ZN4llvm8ExpectedC1ENS_5ErrorE'/>
-<use f='include/llvm-7/llvm/Support/Error.h' l='879' u='c' c='_ZN4llvm12handleErrorsENS_5ErrorEDpOT_'/>

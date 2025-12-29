@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='178' type='void llvm::sys::fs::basic_file_status::basic_file_status()'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1105' u='c' c='_ZN4llvm3sys2fs15directory_entryC1ERKNS_5TwineEbNS1_17basic_file_statusE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1110' u='c' c='_ZN4llvm3sys2fs15directory_entry6assignERKNS_5TwineENS1_17basic_file_statusE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1116' u='c' c='_ZN4llvm3sys2fs15directory_entry16replace_filenameERKNS_5TwineENS1_17basic_file_statusE'/>

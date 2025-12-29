@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Option/OptTable.h' l='99' ll='101' type='const char * llvm::opt::OptTable::getOptionName(llvm::opt::OptSpecifier id) const'/>
-<doc f='include/llvm-7/llvm/Option/OptTable.h' l='98'>/// Lookup the name of the given option.</doc>

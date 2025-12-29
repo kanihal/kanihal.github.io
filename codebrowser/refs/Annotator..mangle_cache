@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='105' type='std::unordered_map&lt;void *, std::pair&lt;std::string, std::string&gt; &gt;'/>
-<use f='codebrowser/generator/annotator.cpp' l='921' u='m' c='_ZN9Annotator20getReferenceAndTitleB5cxx11EPN5clang9NamedDeclE'/>
-<offset>3968</offset>
-<doc f='codebrowser/generator/annotator.h' l='105'>// canonical Decl*  -&gt; ref,  escapred_title</doc>

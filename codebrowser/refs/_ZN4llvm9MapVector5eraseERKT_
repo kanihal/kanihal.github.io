@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/MapVector.h' l='193' ll='199' type='llvm::MapVector::size_type llvm::MapVector::erase(const KeyT &amp; Key)'/>
-<doc f='include/llvm-7/llvm/ADT/MapVector.h' l='190'>/// Remove all elements with the key value Key.
-  ///
-  /// Returns the number of elements removed.</doc>

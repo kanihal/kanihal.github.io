@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='411' ll='413' type='bool llvm::isMask_64(uint64_t Value)'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='424' u='c' c='_ZN4llvm16isShiftedMask_64Em'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='409'>/// Return true if the argument is a non-empty sequence of ones starting at the
-/// least significant bit with the remainder zero (64 bit version).</doc>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='509' u='c' c='_ZNK4llvm5APInt6isMaskEv'/>

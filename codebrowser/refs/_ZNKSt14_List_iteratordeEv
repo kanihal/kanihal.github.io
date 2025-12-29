@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/stl_list.h' l='151' ll='153' type='std::_List_iterator::reference std::_List_iterator::operator*() const'/>
-<doc f='include/c++/7/bits/stl_list.h' l='150'>// Must downcast from _List_node_base to _List_node to get to value.</doc>

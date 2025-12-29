@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/PassAnalysisSupport.h' l='121' type='void llvm::AnalysisUsage::setPreservesAll()'/>
-<doc f='include/llvm-7/llvm/PassAnalysisSupport.h' l='120'>/// Set by analyses that do not transform their input at all</doc>

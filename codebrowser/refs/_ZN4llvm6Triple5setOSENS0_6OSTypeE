@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='702' type='void llvm::Triple::setOS(llvm::Triple::OSType Kind)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='700'>/// setOS - Set the operating system (third) component of the triple
-  /// to a known type.</doc>

@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='84' type='void Annotator::addReference(const std::string &amp; ref, clang::SourceRange refLoc, Annotator::TokenType type, Annotator::DeclType dt, const std::string &amp; typeRef, clang::Decl * decl)'/>
-<use f='codebrowser/generator/annotator.cpp' l='615' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='664' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<def f='codebrowser/generator/annotator.cpp' l='781' ll='813' type='void Annotator::addReference(const std::string &amp; ref, clang::SourceRange refLoc, Annotator::TokenType type, Annotator::DeclType dt, const std::string &amp; typeRef, clang::Decl * decl)'/>

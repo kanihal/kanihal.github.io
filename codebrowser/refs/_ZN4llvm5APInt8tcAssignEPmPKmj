@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1829' type='static void llvm::APInt::tcAssign(llvm::APInt::WordType * , const llvm::APInt::WordType * , unsigned int )'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1828'>/// Assign one bignum to another.</doc>

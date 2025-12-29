@@ -1,5 +1,0 @@
-<dec f='codebrowser/generator/browserastvisitor.h' l='45' type='int'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='334' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='374' u='w' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>
-<offset>128</offset>
-<doc f='codebrowser/generator/browserastvisitor.h' l='45'>// Used to avoid a stack overflow</doc>

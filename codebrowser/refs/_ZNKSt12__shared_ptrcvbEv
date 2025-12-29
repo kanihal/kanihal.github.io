@@ -1,6 +1,0 @@
-<def f='include/c++/7/bits/shared_ptr_base.h' l='1260' ll='1261' type='bool std::__shared_ptr::operator bool() const'/>
-<doc f='include/c++/7/bits/shared_ptr_base.h' l='1260'>// never throws</doc>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1192' u='c' c='_ZNK4llvm3sys2fs18directory_iteratoreqERKS2_'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1194' u='c' c='_ZNK4llvm3sys2fs18directory_iteratoreqERKS2_'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='149' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='244' u='c' c='main'/>

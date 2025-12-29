@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 p-4">
+    <div id="report-container">
+
+        <img src="istockphoto-1218999098-1024x1024.jpg" alt="Bern Property"
+            class="w-full h-48 md:h-72 object-cover rounded-xl shadow mb-6" />
+
+        <button onclick="history.back()"
+            class="mb-6 flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 19-7-7 7-7" />
+                <path d="M19 12H5" />
+            </svg>
+            Back
+        </button>
+        <h1 class="text-2xl font-bold mb-6">Property 2 — Main St 55, Bern</h1>
+
+        <section class="bg-white p-4 rounded-xl shadow mb-6 text-sm">
+            Built: 2010 • Units: 8 • Owners: 4
+            <hr class="my-4">
+            Insurance Value: CHF 2’500’000<br>
+            Renewal Fund: CHF 120’000
+        </section>
+
+        <!--------------  ACCORDION START  -------------->
+        <div class="space-y-4">
+
+            <!-- ROOF -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('roof')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🏠 Roof <span id="icon-roof">▼</span>
+                </button>
+                <div id="roof" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('roof')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">repair</td>
+                            <td>05/2024</td>
+                            <td>10’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">safety install</td>
+                            <td>10/2025</td>
+                            <td>5’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">roof cladding</td>
+                            <td>08/2028</td>
+                            <td>60’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">maintenance</td>
+                            <td>06/2035</td>
+                            <td>35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- WINDOWS -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('windows')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🪟 Windows <span id="icon-windows">▼</span>
+                </button>
+                <div id="windows" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('windows')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">repair</td>
+                            <td>03/2023</td>
+                            <td>5’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">fixtures</td>
+                            <td>06/2025</td>
+                            <td>8’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">seal</td>
+                            <td>06/2027</td>
+                            <td>20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">maintenance</td>
+                            <td>10/2037</td>
+                            <td>35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- FACADE -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('facade')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🧱 Facade <span id="icon-facade">▼</span>
+                </button>
+                <div id="facade" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('facade')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">painting work</td>
+                            <td>03/2030</td>
+                            <td>40’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">isolation</td>
+                            <td>10/2037</td>
+                            <td>35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- GARAGE -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('garage')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🚗 Garage <span id="icon-garage">▼</span>
+                </button>
+                <div id="garage" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('garage')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">door</td>
+                            <td>03/2030</td>
+                            <td>20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">e-mobility</td>
+                            <td>05/2028</td>
+                            <td>35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ELECTRICAL -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('electrical')"
+                    class="w-full flex justify-between items-center p-4 font-semibold">
+                    ⚡ Electrical System <span id="icon-electrical">▼</span>
+                </button>
+                <div id="electrical" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('electrical')"
+                        class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">lighting</td>
+                            <td>09/2029</td>
+                            <td>20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">Solar installation</td>
+                            <td>05/2035</td>
+                            <td>35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- HVAC -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('hvac')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🌬️ HVAC System <span id="icon-hvac">▼</span>
+                </button>
+                <div id="hvac" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('hvac')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">heating maintenance</td>
+                            <td>10/2028</td>
+                            <td>15’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">air handling unit</td>
+                            <td>03/2035</td>
+                            <td>50’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SANITARY -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('sanitary')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🚿 Sanitary System <span id="icon-sanitary">▼</span>
+                </button>
+                <div id="sanitary" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('sanitary')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">tubing maintenance</td>
+                            <td>10/2028</td>
+                            <td>15’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">new installation</td>
+                            <td>03/2035</td>
+                            <td>50’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ELEVATOR -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('elevator')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🛗 Elevator <span id="icon-elevator">▼</span>
+                </button>
+                <div id="elevator" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('elevator')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">maintenance</td>
+                            <td>03/2035</td>
+                            <td>20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">modernization</td>
+                            <td>03/2040</td>
+                            <td>80’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- DIVERSE -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('diverse')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    📦 Diverse <span id="icon-diverse">▼</span>
+                </button>
+                <div id="diverse" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('diverse')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">Door system</td>
+                            <td>03/2035</td>
+                            <td>10’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">new xyz</td>
+                            <td>03/2040</td>
+                            <td>3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- GARDEN -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('garden')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    🌳 Garden <span id="icon-garden">▼</span>
+                </button>
+                <div id="garden" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('garden')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">new plants</td>
+                            <td>03/2025</td>
+                            <td>7’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">playground</td>
+                            <td>03/2028</td>
+                            <td>3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ADMIN -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <button onclick="toggle('admin')" class="w-full flex justify-between items-center p-4 font-semibold">
+                    📑 Admin (Recurring) <span id="icon-admin">▼</span>
+                </button>
+                <div id="admin" class="hidden p-4 border-t">
+                    <button onclick="openAddModal('admin')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm">Add
+                        new
+                        expense</button>
+                    <table class="w-full text-left text-sm">
+                        <tr class="border-b bg-gray-100">
+                            <th class="p-2">Type</th>
+                            <th>Date</th>
+                            <th>Cost</th>
+                            <th class="text-right">Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="p-2">insurance house</td>
+                            <td>03/2021</td>
+                            <td>3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">differ maintenance</td>
+                            <td>03/2021</td>
+                            <td>2’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">real estate mgmt</td>
+                            <td>03/2021</td>
+                            <td>1’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
+                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
+                                    class="text-red-600">Delete</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <!--------------  ACCORDION END -------------->
+    </div>
+
+    <div class="flex gap-4 my-10">
+        <button class="flex-1 bg-slate-800 text-white p-3 rounded-lg">Save changes</button>
+        <button class="flex-1 border border-black p-3 rounded-lg" onclick="generateReport()">Generate report</button>
+    </div>
+
+    <!-- ======== MODALS ======== -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+            <h2 class="text-xl font-semibold mb-2">Edit Entry</h2>
+            <input id="edit-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+            <input id="edit-date" class="w-full p-3 border rounded-lg" placeholder="Date">
+            <input id="edit-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
+            <div class="flex gap-4 pt-4">
+                <button onclick="saveEdit()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
+                <button onclick="closeModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="add-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+            <h2 class="text-xl font-semibold mb-2">Add New Expense</h2>
+            <input id="add-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+            <input id="add-date" class="w-full p-3 border rounded-lg" placeholder="Date (MM/YYYY)">
+            <input id="add-cost" class="w-full p-3 border rounded-lg" placeholder="Cost (10’000)">
+            <textarea id="add-comment" class="w-full p-3 border rounded-lg" rows="3" placeholder="Comment"></textarea>
+            <div class="flex gap-4 pt-4">
+                <button onclick="saveAdd()" class="flex-1 bg-slate-800 text-white py-2 rounded-lg">Save</button>
+                <button onclick="closeAddModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="delete-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+            <h2 class="text-xl font-semibold mb-2">Delete Entry</h2>
+            <p>Are you sure you want to delete this entry?</p>
+            <div class="flex gap-4 pt-4">
+                <button onclick="confirmDelete()" class="flex-1 bg-red-600 text-white py-2 rounded-lg">Delete</button>
+                <button onclick="closeDeleteModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========== FULL WORKING JAVASCRIPT ========== -->
+    <script>
+        function toggle(id) {
+            const section = document.getElementById(id);
+            const icon = document.getElementById("icon-" + id);
+            section.classList.toggle("hidden");
+            icon.textContent = section.classList.contains("hidden") ? "▼" : "▲";
+        }
+
+        let rowToDelete = null;
+        const deleteModal = document.getElementById('delete-modal');
+
+        function deleteRow(btn) {
+            rowToDelete = btn.closest("tr");
+            deleteModal.classList.remove("hidden");
+        }
+
+        function confirmDelete() {
+            if (rowToDelete) rowToDelete.remove();
+            closeDeleteModal();
+        }
+
+        function closeDeleteModal() {
+            deleteModal.classList.add("hidden");
+        }
+
+        function editRow(btn) {
+            const row = btn.closest("tr").children;
+            document.getElementById('edit-type').value = row[0].innerText;
+            document.getElementById('edit-date').value = row[1].innerText;
+            document.getElementById('edit-cost').value = row[2].innerText;
+            window.currentEdit = btn.closest("tr");
+            modal.classList.remove("hidden");
+        }
+
+        function saveEdit() {
+            const r = window.currentEdit.children;
+            r[0].innerText = document.getElementById('edit-type').value;
+            r[1].innerText = document.getElementById('edit-date').value;
+            r[2].innerText = document.getElementById('edit-cost').value;
+            closeModal();
+        }
+        function closeModal() { modal.classList.add("hidden"); }
+
+        let currentAddSection = null;
+        const addModal = document.getElementById('add-modal');
+
+        function openAddModal(sectionId) {
+            currentAddSection = sectionId;
+            document.getElementById('add-type').value = '';
+            document.getElementById('add-date').value = '';
+            document.getElementById('add-cost').value = '';
+            document.getElementById('add-comment').value = '';
+            addModal.classList.remove("hidden");
+        }
+
+        function closeAddModal() {
+            addModal.classList.add("hidden");
+        }
+
+        function saveAdd() {
+            const type = document.getElementById('add-type').value;
+            const date = document.getElementById('add-date').value;
+            const cost = document.getElementById('add-cost').value;
+
+            if (!type || !cost) { alert("Please fill in Type and Cost"); return; }
+
+            const section = document.getElementById(currentAddSection);
+            const table = section.querySelector('table');
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td class="p-2">${type}</td>
+                <td>${date}</td>
+                <td>${cost}</td>
+                <td class="text-right p-2 space-x-3">
+                    <button class="text-blue-600" onclick="editRow(this)">Edit</button>
+                    <button class="text-red-600" onclick="deleteRow(this)">Delete</button>
+                </td>
+            `;
+            table.appendChild(tr);
+            closeAddModal();
+        }
+
+        async function generateReport() {
+            const btn = document.querySelector('button[onclick="generateReport()"]');
+            const originalText = btn.textContent;
+            btn.textContent = "Generating...";
+            btn.disabled = true;
+
+            // 1. Identify all sections to expand and elements to hide
+            const sections = document.querySelectorAll('.space-y-4 > div > div[id]');
+            const addButtons = document.querySelectorAll('button[onclick^="openAddModal"]');
+            const actionHeaders = document.querySelectorAll('th.text-right');
+            const actionCells = document.querySelectorAll('td.text-right');
+
+            // 2. Save current state and force expand/hide
+            const hiddenSections = [];
+            sections.forEach(s => {
+                if (s.classList.contains('hidden')) {
+                    hiddenSections.push(s.id);
+                    s.classList.remove('hidden');
+                    const icon = document.getElementById("icon-" + s.id);
+                    if (icon) icon.textContent = "▲";
+                }
+            });
+
+            addButtons.forEach(b => b.style.display = 'none');
+            actionHeaders.forEach(h => h.style.display = 'none');
+            actionCells.forEach(c => c.style.display = 'none');
+
+            // 3. Generate PDF
+            const element = document.getElementById('report-container');
+            const opt = {
+                margin: 10,
+                filename: 'Property_Report.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: {
+                    scale: 2,
+                    useCORS: true,
+                    scrollY: 0,
+                    windowHeight: element.scrollHeight
+                },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+
+            // Scroll to top to avoid blank pages from scroll position
+            window.scrollTo(0, 0);
+
+            try {
+                await html2pdf().set(opt).from(element).save();
+            } catch (error) {
+                console.error("PDF generation failed:", error);
+                alert("Failed to generate PDF. Please try again.");
+            } finally {
+                // 4. Restore state
+                hiddenSections.forEach(id => {
+                    const s = document.getElementById(id);
+                    s.classList.add('hidden');
+                    const icon = document.getElementById("icon-" + id);
+                    if (icon) icon.textContent = "▼";
+                });
+
+                addButtons.forEach(b => b.style.display = '');
+                actionHeaders.forEach(h => h.style.display = '');
+                actionCells.forEach(c => c.style.display = '');
+
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

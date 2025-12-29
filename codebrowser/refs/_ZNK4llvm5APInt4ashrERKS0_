@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1007' ll='1011' type='llvm::APInt llvm::APInt::ashr(const llvm::APInt &amp; ShiftAmt) const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1004'>/// Arithmetic right-shift function.
-  ///
-  /// Arithmetic right-shift this APInt by shiftAmt.</doc>

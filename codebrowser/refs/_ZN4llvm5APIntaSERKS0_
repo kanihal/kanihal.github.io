@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='734' ll='744' type='llvm::APInt &amp; llvm::APInt::operator=(const llvm::APInt &amp; RHS)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='727'>/// @}
-  /// \name Assignment Operators
-  /// @{
-
-  /// Copy assignment operator.
-  ///
-  /// \returns *this after assignment of RHS.</doc>

@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='623' type='llvm::APFloatBase::fltCategory llvm::detail::DoubleAPFloat::getCategory() const'/>

@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Twine.h' l='433' type='void llvm::Twine::toVector(SmallVectorImpl&lt;char&gt; &amp; Out) const'/>
-<use f='include/llvm-7/llvm/ADT/Twine.h' l='456' u='c' c='_ZNK4llvm5Twine11toStringRefERNS_15SmallVectorImplIcEE'/>
-<doc f='include/llvm-7/llvm/ADT/Twine.h' l='432'>/// Append the concatenated string into the given SmallString or SmallVector.</doc>

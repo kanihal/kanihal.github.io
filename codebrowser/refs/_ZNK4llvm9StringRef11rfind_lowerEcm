@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/StringRef.h' l='376' type='size_t llvm::StringRef::rfind_lower(char C, size_t From = npos) const'/>

@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/PassAnalysisSupport.h' l='70' type='llvm::AnalysisUsage &amp; llvm::AnalysisUsage::addRequiredTransitiveID(char &amp; ID)'/>
-<use f='include/llvm-7/llvm/PassAnalysisSupport.h' l='73' u='c' c='_ZN4llvm13AnalysisUsage21addRequiredTransitiveEv'/>

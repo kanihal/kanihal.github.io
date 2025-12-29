@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='624' type='bool llvm::detail::DoubleAPFloat::isNegative() const'/>

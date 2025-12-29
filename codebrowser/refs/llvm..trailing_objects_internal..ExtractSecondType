@@ -1,7 +1,0 @@
-<def f='include/llvm-7/llvm/Support/TrailingObjects.h' l='116' ll='118'/>
-<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='200' c='_ZN4llvm25trailing_objects_internal19TrailingObjectsImplIXT_ET0_T1_T2_JT3_DpT4_EE25additionalSizeToAllocImplEmmDpNS0_17ExtractSecondTypeIS6_mE4typeE'/>
-<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='338' c='_ZN4llvm15TrailingObjects21additionalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
-<use f='include/llvm-7/llvm/Support/TrailingObjects.h' l='350' c='_ZN4llvm15TrailingObjects16totalSizeToAllocEDpNS_25trailing_objects_internal17ExtractSecondTypeIT0_mE4typeE'/>
-<doc f='include/llvm-7/llvm/Support/TrailingObjects.h' l='113'>// Just a little helper for transforming a type pack into the same
-// number of a different type. e.g.:
-//   ExtractSecondType&lt;Foo..., int&gt;::type</doc>

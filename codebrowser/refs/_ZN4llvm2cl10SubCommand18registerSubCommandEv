@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/CommandLine.h' l='201' type='void llvm::cl::SubCommand::registerSubCommand()'/>
-<use f='include/llvm-7/llvm/Support/CommandLine.h' l='207' u='c' c='_ZN4llvm2cl10SubCommandC1ENS_9StringRefES2_'/>

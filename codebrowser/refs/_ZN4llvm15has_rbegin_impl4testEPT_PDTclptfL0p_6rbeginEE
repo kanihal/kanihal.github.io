@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/STLExtras.h' l='233' type='static llvm::has_rbegin_impl::yes &amp; llvm::has_rbegin_impl::test(Inner * I, decltype(I-&gt;rbegin()) *  = nullptr)'/>

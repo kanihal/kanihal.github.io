@@ -1,2 +1,0 @@
-<dec f='include/c++/7/bits/stl_list.h' l='1708' type='void std::__cxx11::list::sort(_StrictWeakOrdering )'/>
-<def f='include/c++/7/bits/list.tcc' l='549' ll='594' type='void std::__cxx11::list::sort(_StrictWeakOrdering __comp)'/>

@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='713' type='0'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='921' c='_ZN4llvm3sys2fs16openFileForWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1002' c='_ZN4llvm3sys2fs15openFileForReadERKNS_5TwineERiNS1_9OpenFlagsEPNS_15SmallVectorImplIcEE'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1018' c='_ZN4llvm3sys2fs21openNativeFileForReadERKNS_5TwineENS1_9OpenFlagsEPNS_15SmallVectorImplIcEE'/>

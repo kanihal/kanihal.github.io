@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/SourceMgr.h' l='303' type='void llvm::SMDiagnostic::print(const char * ProgName, llvm::raw_ostream &amp; S, bool ShowColors = true, bool ShowKindLabel = true) const'/>

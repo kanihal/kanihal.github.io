@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='215' type='bool llvm::Type::isFunctionTy() const'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='214'>/// True if this is an instance of FunctionType.</doc>

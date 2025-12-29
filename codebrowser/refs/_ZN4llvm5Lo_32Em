@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='289' ll='291' type='uint32_t llvm::Lo_32(uint64_t Value)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='288'>/// Return the low 32 bits of a 64 bit value.</doc>

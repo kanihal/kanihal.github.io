@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='223' ll='226' type='void llvm::Error::~Error()'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='221'>/// Destroy a Error. Fails with a call to abort() if the error is
-  /// unchecked.</doc>

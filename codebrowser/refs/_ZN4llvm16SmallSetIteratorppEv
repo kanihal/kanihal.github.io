@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallSet.h' l='119' ll='125' type='SmallSetIterator&lt;T, N, C&gt; &amp; llvm::SmallSetIterator::operator++()'/>
-<doc f='include/llvm-7/llvm/ADT/SmallSet.h' l='119'>// Preincrement</doc>

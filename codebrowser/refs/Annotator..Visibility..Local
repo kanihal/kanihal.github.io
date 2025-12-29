@@ -1,7 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='71' type='0'/>
-<use f='codebrowser/generator/annotator.cpp' l='133' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='143' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='157' u='r' c='_ZN9Annotator13getVisibilityEPKN5clang9NamedDeclE'/>
-<use f='codebrowser/generator/annotator.cpp' l='636' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='706' u='r' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<doc f='codebrowser/generator/annotator.h' l='71'>// Local to a Function</doc>

@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='507' ll='512' type='bool llvm::APInt::isMask() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='504'>/// \returns true if this APInt is a non-empty sequence of ones starting at
-  /// the least significant bit with the remainder zero.
-  /// Ex. isMask(0x0000FFFFU) == true.</doc>

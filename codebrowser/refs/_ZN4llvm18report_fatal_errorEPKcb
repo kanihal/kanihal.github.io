@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/ErrorHandling.h' l='72' type='void llvm::report_fatal_error(const char * reason, bool gen_crash_diag = true)'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1303' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator3popEv'/>
-<use f='include/llvm-7/llvm/Bitcode/BitCodes.h' l='135' u='c' c='_ZN4llvm15BitCodeAbbrevOp15hasEncodingDataENS0_8EncodingE'/>

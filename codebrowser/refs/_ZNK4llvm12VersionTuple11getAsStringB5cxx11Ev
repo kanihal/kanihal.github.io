@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/VersionTuple.h' l='142' type='std::string llvm::VersionTuple::getAsString() const'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='141'>/// Retrieve a string representation of the version number.</doc>

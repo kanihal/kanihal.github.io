@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/MapVector.h' l='56' ll='59' type='VectorType llvm::MapVector::takeVector()'/>
-<doc f='include/llvm-7/llvm/ADT/MapVector.h' l='55'>/// Clear the MapVector and return the underlying vector.</doc>

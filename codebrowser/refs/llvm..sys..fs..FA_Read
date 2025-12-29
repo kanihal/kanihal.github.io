@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='708' type='1'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='964' u='r' c='_ZN4llvm3sys2fs20openFileForReadWriteERKNS_5TwineERiNS1_19CreationDispositionENS1_9OpenFlagsEj'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='984' u='r' c='_ZN4llvm3sys2fs26openNativeFileForReadWriteERKNS_5TwineENS1_19CreationDispositionENS1_9OpenFlagsEj'/>

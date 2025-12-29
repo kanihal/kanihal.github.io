@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='85' type='37'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='85'>// le64: generic little-endian 64-bit CPU (PNaCl)</doc>

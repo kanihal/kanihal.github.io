@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='346' ll='350' type='bool llvm::DataLayout::isNonIntegralPointerType(llvm::PointerType * PT) const'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='354' u='c' c='_ZNK4llvm10DataLayout24isNonIntegralPointerTypeEPNS_4TypeE'/>

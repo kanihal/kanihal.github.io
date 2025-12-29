@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='98' type='50'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='99'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='98'>// 64-bit RenderScript</doc>

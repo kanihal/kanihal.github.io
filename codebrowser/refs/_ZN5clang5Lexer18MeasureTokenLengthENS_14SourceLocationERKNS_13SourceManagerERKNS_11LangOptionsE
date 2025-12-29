@@ -1,5 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='725' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<use f='codebrowser/generator/annotator.cpp' l='866' u='c' c='_ZN9Annotator19annotateSourceRangeEN5clang11SourceRangeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='55' u='c' c='_ZN20PreprocessorCallback12MacroExpandsERKN5clang5TokenERKNS0_15MacroDefinitionENS0_11SourceRangeEPKNS0_9MacroArgsE'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='382' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='255' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>

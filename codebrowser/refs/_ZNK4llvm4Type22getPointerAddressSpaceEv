@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='382' type='unsigned int llvm::Type::getPointerAddressSpace() const'/>
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='503' ll='505' type='unsigned int llvm::Type::getPointerAddressSpace() const'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='566' u='c' c='_ZNK4llvm10DataLayout17getTypeSizeInBitsEPNS_4TypeE'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='381'>/// Get the address space of this pointer or pointer vector type.</doc>

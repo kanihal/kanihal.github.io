@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='747' ll='765' type='llvm::APInt &amp; llvm::APInt::operator=(llvm::APInt &amp;&amp; that)'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='48' u='c' c='_ZN4llvm6APSIntaSENS_5APIntE'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='746'>/// Move assignment operator.</doc>

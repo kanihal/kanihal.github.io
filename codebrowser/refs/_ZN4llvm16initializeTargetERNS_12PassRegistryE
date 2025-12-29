@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/InitializePasses.h' l='62' type='void llvm::initializeTarget(llvm::PassRegistry &amp; )'/>
-<doc f='include/llvm-7/llvm/InitializePasses.h' l='61'>/// Initialize all passes linked into the CodeGen library.</doc>

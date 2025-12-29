@@ -1,3 +1,0 @@
-<def f='codebrowser/generator/generator.h' l='99' ll='100' type='llvm::raw_ostream &amp; operator&lt;&lt;(llvm::raw_ostream &amp; os, Generator::EscapeAttr s)'/>
-<use f='codebrowser/generator/annotator.cpp' l='435' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='440' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APSInt.h' l='85' ll='90' type='llvm::APSInt llvm::APSInt::extend(uint32_t width) const'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='295' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>
-<use f='include/llvm-7/llvm/ADT/APSInt.h' l='297' u='c' c='_ZN4llvm6APSInt13compareValuesERKS0_S2_'/>

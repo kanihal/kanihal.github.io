@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='77' u='c' c='_ZN4llvm14SmallBitVector9referenceaSES1_'/>
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='89' ll='91' type='bool llvm::SmallBitVector::reference::operator bool() const'/>

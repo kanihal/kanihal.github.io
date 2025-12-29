@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='229' ll='231' type='const std::string &amp; llvm::DataLayout::getStringRepresentation() const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='224'>/// Returns the string representation of the DataLayout.
-  ///
-  /// This representation is in the same format accepted by the string
-  /// constructor above. This should not be used to compare two DataLayout as
-  /// different string can represent the same layout.</doc>

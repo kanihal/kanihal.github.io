@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/PassSupport.h' l='207' type='void llvm::PassRegistrationListener::enumeratePasses()'/>
-<doc f='include/llvm-7/llvm/PassSupport.h' l='205'>/// enumeratePasses - Iterate over the registered passes, calling the
-  /// passEnumerate callback on each PassInfo object.</doc>

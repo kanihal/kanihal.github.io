@@ -1,5 +1,0 @@
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='457' u='c' c='_ZN4llvm14raw_fd_ostream11clear_errorEv'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1162' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS_5TwineERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1171' u='c' c='_ZN4llvm3sys2fs18directory_iteratorC1ERKNS1_15directory_entryERSt10error_codeb'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1181' u='c' c='_ZN4llvm3sys2fs18directory_iterator9incrementERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1220' u='c' c='_ZN4llvm3sys2fs18directory_iterator35update_error_code_for_current_entryERSt10error_code'/>

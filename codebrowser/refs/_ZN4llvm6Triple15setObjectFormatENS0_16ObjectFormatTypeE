@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='709' type='void llvm::Triple::setObjectFormat(llvm::Triple::ObjectFormatType Kind)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='708'>/// setObjectFormat - Set the object file format</doc>

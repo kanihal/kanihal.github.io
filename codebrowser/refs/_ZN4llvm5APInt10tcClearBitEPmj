@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1849' type='static void llvm::APInt::tcClearBit(llvm::APInt::WordType * , unsigned int bit)'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1848'>/// Clear the given bit of a bignum.  Zero-based.</doc>

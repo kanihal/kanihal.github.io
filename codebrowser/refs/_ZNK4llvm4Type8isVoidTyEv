@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/Type.h' l='141' type='bool llvm::Type::isVoidTy() const'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='140'>/// Return true if this is &apos;void&apos;.</doc>

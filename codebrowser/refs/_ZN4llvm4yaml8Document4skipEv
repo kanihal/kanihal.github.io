@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='532' type='bool llvm::yaml::Document::skip()'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='597' u='c' c='_ZN4llvm4yaml17document_iteratorppEv'/>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='530'>/// Finish parsing the current document and return true if there are
-  ///        more. Return false otherwise.</doc>

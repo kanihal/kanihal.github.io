@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='161' type='static const llvm::fltSemantics &amp; llvm::APFloatBase::Bogus()'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='159'>/// A Pseudo fltsemantic used to construct APFloats that cannot conflict with
-  /// anything real.</doc>

@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1793' ll='1797' type='llvm::APInt llvm::APInt::abs() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1790'>/// Get the absolute value;
-  ///
-  /// If *this is &lt; 0 then return -(*this), otherwise *this;</doc>

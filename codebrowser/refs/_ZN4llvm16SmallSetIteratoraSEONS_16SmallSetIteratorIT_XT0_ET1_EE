@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallSet.h' l='97' ll='109' type='SmallSetIterator&lt;T, N, C&gt; &amp; llvm::SmallSetIterator::operator=(SmallSetIterator&lt;T, N, C&gt; &amp;&amp; Other)'/>

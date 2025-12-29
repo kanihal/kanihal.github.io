@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1982' ll='1985' type='llvm::APInt llvm::operator&amp;(llvm::APInt a, uint64_t RHS)'/>

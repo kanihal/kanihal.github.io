@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APFloat.h' l='486' type='bool llvm::detail::IEEEFloat::isSignificandAllZeros() const'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='485'>/// Return true if the significand excluding the integral bit is all zeros.</doc>

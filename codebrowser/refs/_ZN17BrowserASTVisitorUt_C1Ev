@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/browserastvisitor.h' l='250' u='c' c='_ZN17BrowserASTVisitor30TraverseConstructorInitializerEPN5clang18CXXCtorInitializerE'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='340' u='c' c='_ZN17BrowserASTVisitor12TraverseStmtEPN5clang4StmtE'/>

@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/StringMap.h' l='109' type='unsigned int llvm::StringMapImpl::getNumItems() const'/>

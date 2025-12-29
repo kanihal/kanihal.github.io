@@ -1,8 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='62' type='llvm::sys::path::const_iterator llvm::sys::path::begin(llvm::StringRef path, llvm::sys::path::Style style)'/>
-<dec f='include/llvm-7/llvm/Support/Path.h' l='102' type='llvm::sys::path::const_iterator llvm::sys::path::begin(llvm::StringRef path, llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='61'>// An end iterator has Position = Path.size() + 1.</doc>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='99'>/// Get begin iterator over \a path.
-/// @param path Input path.
-/// @returns Iterator initialized with the first component of \a path.</doc>
-<use f='codebrowser/generator/filesystem.cpp' l='172' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>
-<use f='codebrowser/generator/filesystem.cpp' l='174' u='c' c='_Z16naive_uncompleteB5cxx11N4llvm9StringRefES0_'/>

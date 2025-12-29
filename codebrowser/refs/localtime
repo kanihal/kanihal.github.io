@@ -1,6 +1,0 @@
-<dec f='include/time.h' l='123' type='struct tm * localtime(const time_t * __timer)'/>
-<doc f='include/time.h' l='121'>/* Return the `struct tm&apos; representation
-   of *TIMER in the local timezone.  */</doc>
-<use f='codebrowser/generator/annotator.cpp' l='285' u='c' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/main.cpp' l='544' u='c' c='main'/>
-<use f='codebrowser/indexgenerator/indexer.cpp' l='168' u='c' c='_Z21gererateRecursisivelyP10FolderInfoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>

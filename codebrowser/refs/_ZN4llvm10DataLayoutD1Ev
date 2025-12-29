@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='195' type='void llvm::DataLayout::~DataLayout()'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='195'>// Not virtual, do not subclass this class</doc>

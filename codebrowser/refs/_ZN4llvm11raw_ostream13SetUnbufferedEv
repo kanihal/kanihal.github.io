@@ -1,5 +1,0 @@
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='129' ll='132' type='void llvm::raw_ostream::SetUnbuffered()'/>
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='521' u='c' c='_ZN4llvm19raw_svector_ostreamC1ERNS_15SmallVectorImplIcEE'/>
-<doc f='include/llvm-7/llvm/Support/raw_ostream.h' l='126'>/// Set the stream to be unbuffered. When unbuffered, the stream will flush
-  /// after every write. This routine will also flush the buffer immediately
-  /// when the stream is being set to unbuffered.</doc>

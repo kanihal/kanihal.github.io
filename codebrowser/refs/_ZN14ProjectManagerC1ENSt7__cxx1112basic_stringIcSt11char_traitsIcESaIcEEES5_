@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/projectmanager.h' l='54' type='void ProjectManager::ProjectManager(std::string outputPrefix, std::string _dataPath)'/>
-<use f='codebrowser/generator/main.cpp' l='333' u='c' c='main'/>
-<def f='codebrowser/generator/projectmanager.cpp' l='31' ll='41' type='void ProjectManager::ProjectManager(std::string outputPrefix, std::string _dataPath)'/>

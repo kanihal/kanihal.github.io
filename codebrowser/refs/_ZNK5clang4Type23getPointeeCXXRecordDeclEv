@@ -1,3 +1,0 @@
-<use f='codebrowser/generator/qtsupport.cpp' l='62' u='c' c='_ZL16lookUpCandidatesPKN5clang13CXXRecordDeclEN4llvm9StringRefE'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='83' u='c' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<use f='codebrowser/generator/qtsupport.cpp' l='280' u='c' c='_ZN9QtSupport18handleInvokeMethodEPN5clang4ExprES2_'/>

@@ -1,2 +1,0 @@
-<dec f='include/c++/7/bits/std_function.h' l='465' type='void std::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;(_Functor )'/>
-<def f='include/c++/7/bits/std_function.h' l='683' ll='697' type='void std::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;(_Functor __f)'/>

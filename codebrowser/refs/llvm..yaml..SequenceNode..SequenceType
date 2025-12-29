@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/YAMLParser.h' l='457' ll='468'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='471' c='_ZN4llvm4yaml12SequenceNodeC1ERSt10unique_ptrINS0_8DocumentESt14default_deleteIS3_EENS_9StringRefES8_NS1_12SequenceTypeE'/>
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='494'/>

@@ -1,8 +1,0 @@
-<def f='include/c++/7/bits/stl_stack.h' l='184' ll='186' type='bool std::stack::empty() const'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1270' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1277' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1306' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator3popEv'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1310' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator3popEv'/>
-<doc f='include/c++/7/bits/stl_stack.h' l='181'>/**
-       *  Returns true if the %stack is empty.
-       */</doc>

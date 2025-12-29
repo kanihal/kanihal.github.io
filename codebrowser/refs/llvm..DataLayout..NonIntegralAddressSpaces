@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='164' type='SmallVector&lt;unsigned int, 8&gt;'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='208' u='w' c='_ZN4llvm10DataLayoutaSERKS0_'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='208' u='r' c='_ZN4llvm10DataLayoutaSERKS0_'/>
-<use f='include/llvm-7/llvm/IR/DataLayout.h' l='343' u='r' c='_ZNK4llvm10DataLayout27getNonIntegralAddressSpacesEv'/>
-<offset>3264</offset>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='162'>/// Pointers in these address spaces are non-integral, and don&apos;t have a
-  /// well-defined bitwise representation.</doc>

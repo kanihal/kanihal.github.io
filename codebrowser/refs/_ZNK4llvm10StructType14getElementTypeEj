@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DerivedTypes.h' l='314' ll='317' type='llvm::Type * llvm::StructType::getElementType(unsigned int N) const'/>
-<use f='include/llvm-7/llvm/IR/DerivedTypes.h' l='334' u='c' c='_ZNK4llvm4Type20getStructElementTypeEj'/>

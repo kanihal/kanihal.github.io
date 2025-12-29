@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='250' type='void llvm::APInt::OrAssignSlowCase(const llvm::APInt &amp; RHS)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='826' u='c' c='_ZN4llvm5APIntoRERKS0_'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='249'>/// out-of-line slow case for operator|=.</doc>

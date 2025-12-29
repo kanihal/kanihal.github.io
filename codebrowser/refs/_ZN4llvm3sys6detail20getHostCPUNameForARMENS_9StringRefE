@@ -1,1 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Host.h' l='92' type='llvm::StringRef llvm::sys::detail::getHostCPUNameForARM(llvm::StringRef ProcCpuinfoContent)'/>

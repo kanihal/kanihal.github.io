@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='186' ll='188' type='void llvm::DataLayout::DataLayout(llvm::StringRef LayoutDescription)'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='185'>/// Constructs a DataLayout from a specification string. See reset().</doc>

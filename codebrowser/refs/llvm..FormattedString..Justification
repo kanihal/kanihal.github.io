@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Format.h' l='131'/>
-<use f='include/llvm-7/llvm/Support/Format.h' l='132' c='_ZN4llvm15FormattedStringC1ENS_9StringRefEjNS0_13JustificationE'/>
-<use f='include/llvm-7/llvm/Support/Format.h' l='138'/>

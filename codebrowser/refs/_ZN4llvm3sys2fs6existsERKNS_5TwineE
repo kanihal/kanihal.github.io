@@ -1,8 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='445' ll='447' type='bool llvm::sys::fs::exists(const llvm::Twine &amp; Path)'/>
-<doc f='include/llvm-7/llvm/Support/FileSystem.h' l='441'>/// Does file exist?
-///
-/// @param Path Input path.
-/// @returns True if it exists, false otherwise.</doc>
-<use f='codebrowser/generator/main.cpp' l='269' u='c' c='_ZL14proceedCommandSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEN4llvm9StringRefES9_PN5clang11FileManagerE12DatabaseType'/>
-<use f='codebrowser/generator/main.cpp' l='368' u='c' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='84' u='c' c='_ZN14ProjectManager13shouldProcessEN4llvm9StringRefEP11ProjectInfo'/>

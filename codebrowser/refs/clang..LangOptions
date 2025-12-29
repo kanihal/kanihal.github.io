@@ -1,6 +1,0 @@
-<use f='codebrowser/generator/annotator.h' l='116'/>
-<use f='codebrowser/generator/annotator.h' l='125' c='_ZN9Annotator12setSourceMgrERN5clang13SourceManagerERKNS0_11LangOptionsE'/>
-<use f='codebrowser/generator/annotator.h' l='129' c='_ZNK9Annotator11getLangOptsEv'/>
-<size>496</size>
-<use f='codebrowser/generator/qtsupport.cpp' l='123' c='_ZN9QtSupport18handleSignalOrSlotEPN5clang4ExprES2_'/>
-<size>496</size>

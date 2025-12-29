@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='491' type='int64_t llvm::DataLayout::getIndexedOffsetInType(llvm::Type * ElemTy, ArrayRef&lt;llvm::Value *&gt; Indices) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='486'>/// Returns the offset from the beginning of the type for the specified
-  /// indices.
-  ///
-  /// Note that this takes the element type, not the pointer type.
-  /// This is used to implement getelementptr.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='956' ll='962' type='std::string llvm::toString(llvm::Error E)'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='954'>/// Write all error messages (if any) in E to a string. The newline character
-/// is used to separate error messages.</doc>

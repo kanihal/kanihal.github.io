@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='386' type='bool llvm::sys::path::has_root_name(const llvm::Twine &amp; path, llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='380'>/// Has root name?
-///
-/// root_name != &quot;&quot;
-///
-/// @param path Input path.
-/// @result True if the path has a root name, false otherwise.</doc>

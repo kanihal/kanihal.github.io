@@ -1,5 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/PointerUnion.h' l='238' type='llvm::PointerUnion3::ValTy'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='240' u='w' c='_ZN4llvm13PointerUnion312IsInnerUnionC1ENS_12PointerUnionINS2_IT_T0_EET1_EE'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='243' u='c' c='_ZNK4llvm13PointerUnion312IsInnerUnion2isEv'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='244' u='c' c='_ZNK4llvm13PointerUnion312IsInnerUnion2isEv'/>
-<use f='include/llvm-7/llvm/ADT/PointerUnion.h' l='248' u='c' c='_ZNK4llvm13PointerUnion312IsInnerUnion3getEv'/>

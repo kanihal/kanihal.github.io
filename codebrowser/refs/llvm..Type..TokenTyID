@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/Type.h' l='67' type='10'/>
-<use f='include/llvm-7/llvm/IR/Type.h' l='194' u='r' c='_ZNK4llvm4Type9isTokenTyEv'/>
-<doc f='include/llvm-7/llvm/IR/Type.h' l='67'>///&lt; 10: Tokens</doc>

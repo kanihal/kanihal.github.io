@@ -1,6 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='536' u='c' c='_ZN4llvm5APInt17getSignedMaxValueEj'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1455' ll='1462' type='void llvm::APInt::clearBit(unsigned int BitPosition)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1466' u='c' c='_ZN4llvm5APInt12clearSignBitEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1452'>/// Set a given bit to 0.
-  ///
-  /// Set the given bit to 0 whose position is given as &quot;bitPosition&quot;.</doc>

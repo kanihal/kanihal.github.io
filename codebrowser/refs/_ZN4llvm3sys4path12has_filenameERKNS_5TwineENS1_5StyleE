@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/Path.h' l='426' type='bool llvm::sys::path::has_filename(const llvm::Twine &amp; path, llvm::sys::path::Style style = Style::native)'/>
-<doc f='include/llvm-7/llvm/Support/Path.h' l='420'>/// Has filename?
-///
-/// filename != &quot;&quot;
-///
-/// @param path Input path.
-/// @result True if the path has a filename, false otherwise.</doc>

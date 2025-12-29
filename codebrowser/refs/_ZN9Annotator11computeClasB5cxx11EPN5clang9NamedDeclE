@@ -1,4 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='178' type='std::string Annotator::computeClas(clang::NamedDecl * decl)'/>
-<use f='codebrowser/generator/annotator.cpp' l='631' u='c' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<def f='codebrowser/generator/annotator.cpp' l='1010' ll='1018' type='std::string Annotator::computeClas(clang::NamedDecl * decl)'/>
-<doc f='codebrowser/generator/annotator.cpp' l='1009'>//return the classes to add in the span</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APFloat.h' l='1014' ll='1016' type='llvm::APFloatBase::opStatus llvm::APFloat::next(bool nextDown)'/>
-<doc f='include/llvm-7/llvm/ADT/APFloat.h' l='1012'>// TODO: bool parameters are not readable and a source of bugs.
-  // Do something.</doc>

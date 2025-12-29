@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='427' ll='438' type='bool llvm::Triple::isMacOSXVersionLT(unsigned int Major, unsigned int Minor = 0, unsigned int Micro = 0) const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='424'>/// isMacOSXVersionLT - Comparison function for checking OS X version
-  /// compatibility, which handles supporting skewed version numbering schemes
-  /// used by the &quot;darwin&quot; triples.</doc>

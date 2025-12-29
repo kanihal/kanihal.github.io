@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='364' ll='370' type='llvm::SmallBitVector &amp; llvm::SmallBitVector::set()'/>
-<doc f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='363'>// Set, reset, flip</doc>

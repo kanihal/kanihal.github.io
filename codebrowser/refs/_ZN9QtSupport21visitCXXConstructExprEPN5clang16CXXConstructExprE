@@ -1,3 +1,0 @@
-<dec f='codebrowser/generator/qtsupport.h' l='43' type='void QtSupport::visitCXXConstructExpr(clang::CXXConstructExpr * e)'/>
-<use f='codebrowser/generator/browserastvisitor.h' l='272' u='c' c='_ZN17BrowserASTVisitor21VisitCXXConstructExprEPN5clang16CXXConstructExprE'/>
-<def f='codebrowser/generator/qtsupport.cpp' l='392' ll='413' type='void QtSupport::visitCXXConstructExpr(clang::CXXConstructExpr * e)'/>

@@ -1,4 +1,0 @@
-<use f='codebrowser/generator/annotator.cpp' l='584' c='_ZN9Annotator17registerReferenceEPN5clang9NamedDeclENS0_11SourceRangeENS_9TokenTypeENS_8DeclTypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_'/>
-<size>128</size>
-<use f='codebrowser/generator/browserastvisitor.h' l='61' c='_ZN17BrowserASTVisitor12VisitTagDeclEPN5clang7TagDeclE'/>
-<size>128</size>

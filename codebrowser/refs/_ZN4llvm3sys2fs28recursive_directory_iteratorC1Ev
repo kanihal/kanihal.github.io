@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/FileSystem.h' l='1242' type='void llvm::sys::fs::recursive_directory_iterator::recursive_directory_iterator()'/>
-<use f='codebrowser/generator/main.cpp' l='411' u='c' c='main'/>
-<use f='codebrowser/generator/projectmanager.cpp' l='100' u='c' c='_ZN14ProjectManager15includeRecoveryB5cxx11EN4llvm9StringRefES1_'/>

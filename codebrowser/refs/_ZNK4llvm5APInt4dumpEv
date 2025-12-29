@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='1942' type='void llvm::APInt::dump() const'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1941'>/// debug method</doc>

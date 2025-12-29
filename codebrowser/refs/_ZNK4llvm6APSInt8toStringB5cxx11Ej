@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APSInt.h' l='70' ll='72' type='std::string llvm::APSInt::toString(unsigned int Radix) const'/>
-<doc f='include/llvm-7/llvm/ADT/APSInt.h' l='68'>/// toString - Converts an APInt to a std::string.  This is an inefficient
-  /// method; you should prefer passing in a SmallString instead.</doc>
-<use f='codebrowser/generator/browserastvisitor.h' l='132' u='c' c='_ZN17BrowserASTVisitor21VisitEnumConstantDeclEPN5clang16EnumConstantDeclE'/>

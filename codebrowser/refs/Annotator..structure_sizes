@@ -1,5 +1,0 @@
-<dec f='codebrowser/generator/annotator.h' l='93' type='std::map&lt;std::string, ssize_t&gt;'/>
-<use f='codebrowser/generator/annotator.cpp' l='405' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='406' u='m' c='_ZN9Annotator8generateERN5clang4SemaEb'/>
-<use f='codebrowser/generator/annotator.cpp' l='788' u='m' c='_ZN9Annotator12addReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5clang11SourceRangeENS_9TokenTypeENS_8DeclTypeES7_PNS8_4DeclE'/>
-<offset>1536</offset>

@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/APInt.h' l='244' type='void llvm::APInt::flipAllBitsSlowCase()'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1475' u='c' c='_ZN4llvm5APInt11flipAllBitsEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='243'>/// out-of-line slow case for flipAllBits.</doc>

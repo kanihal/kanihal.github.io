@@ -1,2 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/CommandLine.h' l='358' c='_ZN4llvm2cl6Option19getExtraOptionNamesERNS_15SmallVectorImplINS_9StringRefEEE'/>
-<def f='include/llvm-7/llvm/Support/CommandLine.h' l='1487' ll='1489' type='void llvm::cl::list::getExtraOptionNames(SmallVectorImpl&lt;llvm::StringRef&gt; &amp; OptionNames)'/>

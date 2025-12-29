@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='806' type='static llvm::StringRef llvm::Triple::getOSTypeName(llvm::Triple::OSType Kind)'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='805'>/// getOSTypeName - Get the canonical name for the \p Kind operating system.</doc>

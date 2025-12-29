@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/ErrorOr.h' l='157' type='llvm::ErrorOr::reference llvm::ErrorOr::get()'/>
-<use f='codebrowser/generator/main.cpp' l='561' u='c' c='main'/>

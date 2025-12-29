@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/APSInt.h' l='284' ll='286' type='static bool llvm::APSInt::isSameValue(const llvm::APSInt &amp; I1, const llvm::APSInt &amp; I2)'/>
-<doc f='include/llvm-7/llvm/ADT/APSInt.h' l='282'>/// Determine if two APSInts have the same value, zero- or
-  /// sign-extending as needed.</doc>

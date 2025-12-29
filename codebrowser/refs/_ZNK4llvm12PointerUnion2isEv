@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='123' ll='130' type='int llvm::PointerUnion::is() const'/>
-<use f='codebrowser/generator/annotator.cpp' l='890' u='c' c='_ZL28getSpecializedCursorTemplatePN5clang9NamedDeclE'/>
-<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='122'>/// Test if the Union currently holds the type matching T.</doc>

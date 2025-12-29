@@ -1,2 +1,0 @@
-<inh f='include/llvm-7/llvm/Support/Format.h' l='46' c='_ZNK4llvm18format_object_base7snprintEPcj'/>
-<def f='include/llvm-7/llvm/Support/Format.h' l='109' ll='111' type='int llvm::format_object::snprint(char * Buffer, unsigned int BufferSize) const'/>

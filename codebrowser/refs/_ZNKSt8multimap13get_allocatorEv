@@ -1,2 +1,0 @@
-<def f='include/c++/7/bits/stl_multimap.h' l='332' ll='334' type='std::multimap::allocator_type std::multimap::get_allocator() const'/>
-<doc f='include/c++/7/bits/stl_multimap.h' l='331'>/// Get a copy of the memory allocation object.</doc>

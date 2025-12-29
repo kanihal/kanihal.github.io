@@ -1,2 +1,0 @@
-<use f='codebrowser/generator/preprocessorcallback.h' l='87' u='c' c='_ZN20PreprocessorCallback4ElifEN5clang14SourceLocationENS0_11SourceRangeENS0_11PPCallbacks18ConditionValueKindES1_'/>
-<use f='codebrowser/generator/preprocessorcallback.cpp' l='374' u='c' c='_ZN20PreprocessorCallback12HandlePPCondEN5clang14SourceLocationES1_'/>

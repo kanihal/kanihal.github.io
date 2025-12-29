@@ -1,2 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='63' type='5'/>
-<use f='include/llvm-7/llvm/Support/AtomicOrdering.h' l='133' u='r' c='_ZN4llvm19isReleaseOrStrongerENS_14AtomicOrderingE'/>

@@ -1,4 +1,0 @@
-<def f='include/llvm-7/llvm/PassInfo.h' l='68' type='llvm::StringRef llvm::PassInfo::getPassArgument() const'/>
-<doc f='include/llvm-7/llvm/PassInfo.h' l='65'>/// getPassArgument - Return the command line option that may be passed to
-  /// &apos;opt&apos; that will cause this pass to be run.  This will return null if there
-  /// is no argument.</doc>

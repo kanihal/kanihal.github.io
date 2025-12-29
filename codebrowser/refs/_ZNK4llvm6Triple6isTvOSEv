@@ -1,3 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='452' u='c' c='_ZNK4llvm6Triple5isiOSEv'/>
-<def f='include/llvm-7/llvm/ADT/Triple.h' l='456' ll='458' type='bool llvm::Triple::isTvOS() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='455'>/// Is this an Apple tvOS triple.</doc>

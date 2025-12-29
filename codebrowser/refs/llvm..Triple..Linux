@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='162' type='9'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='573' u='r' c='_ZNK4llvm6Triple9isOSLinuxEv'/>
-<use f='include/llvm-7/llvm/ADT/Triple.h' l='583' u='r' c='_ZNK4llvm6Triple9isOSGlibcEv'/>

@@ -1,2 +1,0 @@
-<use f='include/llvm-7/llvm/Support/raw_ostream.h' l='100' u='c' c='_ZNK4llvm11raw_ostream4tellEv'/>
-<def f='include/llvm-7/llvm/Support/raw_ostream.h' l='134' ll='136' type='size_t llvm::raw_ostream::GetNumBytesInBuffer() const'/>

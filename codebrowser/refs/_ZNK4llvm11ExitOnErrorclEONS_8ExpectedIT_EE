@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/Error.h' l='1161' ll='1164' type='T llvm::ExitOnError::operator()(Expected&lt;T&gt; &amp;&amp; E) const'/>
-<doc f='include/llvm-7/llvm/Support/Error.h' l='1159'>/// Check E. If it&apos;s in a success state then return the contained value. If
-  /// it&apos;s in a failure state log the error(s) and exit.</doc>

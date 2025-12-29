@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/PointerUnion.h' l='173' ll='177' type='const PointerUnion&lt;PT1, PT2&gt; &amp; llvm::PointerUnion::operator=(const PT1 &amp; RHS)'/>
-<doc f='include/llvm-7/llvm/ADT/PointerUnion.h' l='171'>/// Assignment operators - Allow assigning into this union from either
-  /// pointer type, setting the discriminator to remember what it came from.</doc>

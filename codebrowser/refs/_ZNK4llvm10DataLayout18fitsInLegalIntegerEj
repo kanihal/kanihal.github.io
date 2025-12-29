@@ -1,6 +1,0 @@
-<def f='include/llvm-7/llvm/IR/DataLayout.h' l='317' ll='322' type='bool llvm::DataLayout::fitsInLegalInteger(unsigned int Width) const'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='312'>/// Returns true if the specified type fits in a native integer type
-  /// supported by the CPU.
-  ///
-  /// For example, if the CPU only supports i32 as a native integer type, then
-  /// i27 fits in a legal integer type but i45 does not.</doc>

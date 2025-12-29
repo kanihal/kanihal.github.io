@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/IR/DataLayout.h' l='179' type='void llvm::DataLayout::parseSpecifier(llvm::StringRef LayoutDescription)'/>
-<doc f='include/llvm-7/llvm/IR/DataLayout.h' l='177'>/// Parses a target data specification string. Assert if the string is
-  /// malformed.</doc>

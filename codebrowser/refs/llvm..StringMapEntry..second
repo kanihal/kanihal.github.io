@@ -1,6 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/StringMap.h' l='128' type='ValueTy'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='131' u='w' c='_ZN4llvm14StringMapEntryC1Em'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='134' u='w' c='_ZN4llvm14StringMapEntryC1EmDpOT_'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='141' u='a' c='_ZNK4llvm14StringMapEntry8getValueEv'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='142' u='a' c='_ZN4llvm14StringMapEntry8getValueEv'/>
-<use f='include/llvm-7/llvm/ADT/StringMap.h' l='144' u='w' c='_ZN4llvm14StringMapEntry8setValueERKT_'/>

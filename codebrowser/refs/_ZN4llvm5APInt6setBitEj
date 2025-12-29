@@ -1,7 +1,0 @@
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='546' u='c' c='_ZN4llvm5APInt17getSignedMinValueEj'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='589' u='c' c='_ZN4llvm5APInt12getOneBitSetEjj'/>
-<def f='include/llvm-7/llvm/ADT/APInt.h' l='1396' ll='1403' type='void llvm::APInt::setBit(unsigned int BitPosition)'/>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1407' u='c' c='_ZN4llvm5APInt10setSignBitEv'/>
-<doc f='include/llvm-7/llvm/ADT/APInt.h' l='1393'>/// Set a given bit to 1.
-  ///
-  /// Set the given bit to 1 whose position is given as &quot;bitPosition&quot;.</doc>

@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/VersionTuple.h' l='63' ll='65' type='bool llvm::VersionTuple::empty() const'/>
-<doc f='include/llvm-7/llvm/Support/VersionTuple.h' l='61'>/// Determine whether this version information is empty
-  /// (e.g., all version components are zero).</doc>

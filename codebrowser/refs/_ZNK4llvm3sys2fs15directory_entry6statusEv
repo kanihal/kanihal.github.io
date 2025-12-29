@@ -1,3 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/FileSystem.h' l='1119' type='ErrorOr&lt;llvm::sys::fs::basic_file_status&gt; llvm::sys::fs::directory_entry::status() const'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1218' u='c' c='_ZN4llvm3sys2fs18directory_iterator35update_error_code_for_current_entryERSt10error_code'/>
-<use f='include/llvm-7/llvm/Support/FileSystem.h' l='1259' u='c' c='_ZN4llvm3sys2fs28recursive_directory_iterator9incrementERSt10error_code'/>

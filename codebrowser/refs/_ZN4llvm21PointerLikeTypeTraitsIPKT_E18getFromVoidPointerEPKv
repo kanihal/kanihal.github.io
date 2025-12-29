@@ -1,1 +1,0 @@
-<def f='include/llvm-7/llvm/Support/PointerLikeTypeTraits.h' l='97' ll='99' type='static const T * llvm::PointerLikeTypeTraits&lt;const type-parameter-0-0 *&gt;::getFromVoidPointer(const void * P)'/>

@@ -1,2 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='444' ll='446' type='uint32_t llvm::ByteSwap_32(uint32_t Value)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='443'>/// Return a byte-swapped representation of the 32-bit argument.</doc>

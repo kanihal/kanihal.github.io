@@ -1,7 +1,0 @@
-<dec f='include/llvm-7/llvm/ADT/Triple.h' l='752' type='llvm::Triple llvm::Triple::get64BitArchVariant() const'/>
-<doc f='include/llvm-7/llvm/ADT/Triple.h' l='746'>/// Form a triple with a 64-bit variant of the current architecture.
-  ///
-  /// This can be used to move across &quot;families&quot; of architectures where useful.
-  ///
-  /// \returns A new triple with a 64-bit architecture or an unknown
-  ///          architecture if no such variant can be found.</doc>

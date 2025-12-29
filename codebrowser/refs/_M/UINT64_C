@@ -1,6 +1,0 @@
-<dec f='include/stdint.h' l='272'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='319' u='c'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='334' u='c'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='362' u='c'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='380' u='c'/>
-<use f='include/llvm-7/llvm/Support/MathExtras.h' l='389' u='c'/>

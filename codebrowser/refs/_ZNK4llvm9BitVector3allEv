@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/ADT/BitVector.h' l='189' ll='199' type='bool llvm::BitVector::all() const'/>
-<use f='include/llvm-7/llvm/ADT/SmallBitVector.h' l='219' u='c' c='_ZNK4llvm14SmallBitVector3allEv'/>
-<doc f='include/llvm-7/llvm/ADT/BitVector.h' l='188'>/// all - Returns true if all bits are set.</doc>

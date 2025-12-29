@@ -1,3 +1,0 @@
-<def f='include/llvm-7/llvm/Support/MathExtras.h' l='581' ll='586' type='float llvm::BitsToFloat(uint32_t Bits)'/>
-<doc f='include/llvm-7/llvm/Support/MathExtras.h' l='580'>/// This function takes a 32-bit integer and returns the bit equivalent float.</doc>
-<use f='include/llvm-7/llvm/ADT/APInt.h' l='1717' u='c' c='_ZNK4llvm5APInt11bitsToFloatEv'/>

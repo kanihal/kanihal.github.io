@@ -1,4 +1,0 @@
-<use f='include/llvm-7/llvm/Support/YAMLParser.h' l='541' u='a' c='_ZNK4llvm4yaml8Document9getTagMapEv'/>
-<dec f='include/llvm-7/llvm/Support/YAMLParser.h' l='559' type='std::map&lt;StringRef, StringRef&gt;'/>
-<offset>960</offset>
-<doc f='include/llvm-7/llvm/Support/YAMLParser.h' l='558'>/// Maps tag prefixes to their expansion.</doc>

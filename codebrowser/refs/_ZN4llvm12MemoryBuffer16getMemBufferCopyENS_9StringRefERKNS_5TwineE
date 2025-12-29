@@ -1,4 +1,0 @@
-<dec f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='119' type='static std::unique_ptr&lt;MemoryBuffer&gt; llvm::MemoryBuffer::getMemBufferCopy(llvm::StringRef InputData, const llvm::Twine &amp; BufferName = &quot;&quot;)'/>
-<doc f='include/llvm-7/llvm/Support/MemoryBuffer.h' l='116'>/// Open the specified memory range as a MemoryBuffer, copying the contents
-  /// and taking ownership of it. InputData does not have to be null terminated.</doc>
-<use f='codebrowser/generator/commenthandler.cpp' l='43' u='c' c='_Z25parseDeclarationReferenceN4llvm9StringRefERN5clang4SemaEb'/>
