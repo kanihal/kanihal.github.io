@@ -829,6 +829,32 @@
                 const hiddenSections = container.querySelectorAll('.hidden');
                 hiddenSections.forEach(sec => sec.classList.remove('hidden'));
 
+                // Add "Details" to table headers and rows
+                const tables = container.querySelectorAll('table');
+                tables.forEach(table => {
+                    // Add Header
+                    const theadRow = table.querySelector('thead tr');
+                    if (theadRow) {
+                        const th = document.createElement('th');
+                        th.innerText = 'Details';
+                        th.style.width = '40%'; // Allocating space for details
+                        theadRow.insertBefore(th, theadRow.lastElementChild); // Insert before Actions
+                    }
+
+                    // Add Body Cells
+                    const tbodyRows = table.querySelectorAll('tbody tr');
+                    tbodyRows.forEach(row => {
+                        const detailsContent = row.getAttribute('data-details') || '';
+                        const td = document.createElement('td');
+                        td.innerHTML = detailsContent;
+                        row.insertBefore(td, row.lastElementChild); // Insert before "Actions" button cell
+                    });
+
+                    // Remove "Actions" column (header and body cells)
+                    if (theadRow) theadRow.lastElementChild.remove();
+                    tbodyRows.forEach(row => row.lastElementChild.remove());
+                });
+
                 // Prepare images: Convert to absolute paths or ensure they are relative to the file
                 const images = container.querySelectorAll('img');
                 images.forEach(img => {
