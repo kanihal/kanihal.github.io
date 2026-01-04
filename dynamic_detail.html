@@ -922,10 +922,10 @@
                     type: 'application/msword'
                 });
 
-                // Detect iOS
-                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                // Detect Mobile (iOS & Android)
+                const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
-                if (isIOS) {
+                if (isMobile) {
                     const reader = new FileReader();
                     reader.onload = function (e) {
                         window.location.href = reader.result;
