@@ -131,7 +131,12 @@
         <div id="add-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
             <div class="flex min-h-full items-center justify-center">
                 <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
-                    <h2 class="text-xl font-semibold mb-2">Add New Expense</h2>
+                    <div class="flex justify-between items-center mb-2">
+                        <h2 class="text-xl font-semibold">Add New Expense</h2>
+                        <button onclick="clearAddForm()"
+                            class="text-xs bg-gray-200 hover:bg-gray-300 text-gray-700 px-2 py-1 rounded transition-colors">Clear
+                            defaults</button>
+                    </div>
                     <input id="add-type" class="w-full p-3 border rounded-lg" placeholder="Type">
                     <select id="add-date" class="w-full p-3 border rounded-lg"></select>
                     <div id="add-recurring-container">
@@ -678,27 +683,53 @@
 
             function closeModal() { document.getElementById('modal').classList.add('hidden'); }
 
+            const DEFAULT_VALUES = {
+                'roof': { type: 'Maintenance', cost: "5’000", details: 'Annual roof check and gutter cleaning' },
+                'windows': { type: 'Repair', cost: "2’000", details: 'Check and replace seals where necessary' },
+                'facade': { type: 'Cleaning', cost: "500", details: 'Cleaning of facade lower area' },
+                'garage': { type: 'Service', cost: "800", details: 'Annual service of garage gate mechanism' },
+                'electrical': { type: 'Check', cost: "200", details: 'Replace defective bulbs in common areas' },
+                'hvac': { type: 'Filter', cost: "1’500", details: 'Replace HVAC filters and system check' },
+                'sanitary': { type: 'Unblocking', cost: "600", details: 'Professional cleaning of main drains' },
+                'elevator': { type: 'Service', cost: "2’500", details: 'Quarterly elevator maintenance' },
+                'diverse': { type: 'Repairs', cost: "500", details: 'Miscellaneous small repairs' },
+                'garden': { type: 'Plants', cost: "400", details: 'Seasonal planting' },
+                'admin': { type: 'Fees', cost: "300", details: 'Administrative fees' }
+            };
+
             let currentAddSection = null;
             function openAddModal(catId) {
                 currentAddSection = catId;
                 const cat = CATEGORIES.find(c => c.id === catId);
                 const recurringContainer = document.getElementById('add-recurring-container');
+                const defaults = DEFAULT_VALUES[catId] || {};
 
                 if (cat.isRecurring) {
                     recurringContainer.classList.remove('hidden');
+                    document.getElementById('add-recurring').value = defaults.recurring || 'Not recurring';
                 } else {
                     recurringContainer.classList.add('hidden');
                 }
 
-                document.getElementById('add-type').value = '';
+                document.getElementById('add-type').value = defaults.type || '';
                 document.getElementById('add-date').value = new Date().getFullYear();
-                document.getElementById('add-recurring').value = 'Not recurring';
-                document.getElementById('add-cost').value = '';
-                document.getElementById('add-details').innerHTML = '';
+                document.getElementById('add-cost').value = defaults.cost || '';
+                document.getElementById('add-details').innerHTML = defaults.details || '';
                 document.getElementById('add-modal').classList.remove('hidden');
             }
 
             function closeAddModal() { document.getElementById('add-modal').classList.add('hidden'); }
+
+            function clearAddForm() {
+                document.getElementById('add-type').value = '';
+                document.getElementById('add-cost').value = '';
+                document.getElementById('add-details').innerHTML = '';
+                // Only reset recurring if it's visible (though 'Not recurring' is a safe default anyway)
+                const recurringSelect = document.getElementById('add-recurring');
+                if (!document.getElementById('add-recurring-container').classList.contains('hidden')) {
+                    recurringSelect.value = 'Not recurring';
+                }
+            }
 
             function saveAdd() {
                 const type = document.getElementById('add-type').value;
