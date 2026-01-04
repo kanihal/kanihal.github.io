@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Management - ImmoManager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        .user-tag {
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        #main-content.hidden {
+            display: none !important;
+        }
+
+        #login-gate {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col">
+    <!-- Login Gate -->
+    <div id="login-gate" class="fixed inset-0 z-[100] flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-md rounded-3xl p-10 shadow-2xl space-y-8 border border-gray-100">
+            <div class="text-center space-y-2">
+                <div class="w-16 h-16 bg-black rounded-2xl mx-auto flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </div>
+                <h2 class="text-3xl font-bold tracking-tight">Super User Login</h2>
+                <p class="text-gray-500">Administrative access required</p>
+            </div>
+            <div class="space-y-4">
+                <div class="space-y-1">
+                    <label class="text-sm font-medium text-gray-500 ml-1">Username</label>
+                    <input id="su-username" type="text"
+                        class="w-full p-4 bg-gray-50 border border-transparent focus:border-black focus:ring-0 rounded-2xl transition-all outline-none"
+                        placeholder="admin">
+                </div>
+                <div class="space-y-1">
+                    <label class="text-sm font-medium text-gray-500 ml-1">Password</label>
+                    <input id="su-password" type="password"
+                        class="w-full p-4 bg-gray-50 border border-transparent focus:border-black focus:ring-0 rounded-2xl transition-all outline-none"
+                        placeholder="••••••••">
+                </div>
+                <p id="login-error" class="text-red-500 text-xs text-center hidden">Invalid credentials. Please try
+                    again.</p>
+                <button onclick="handleLogin()"
+                    class="w-full bg-black text-white p-4 rounded-2xl font-semibold hover:bg-gray-800 transition-all shadow-xl active:scale-[0.98]">Authorize
+                    Access</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden flex flex-col min-h-screen">
+        <!-- Header -->
+        <header class="p-6 flex justify-between items-center max-w-7xl mx-auto w-full">
+            <div class="flex items-center space-x-4">
+                <a href="properties.html" class="p-2 hover:bg-white rounded-xl transition-all shadow-sm group">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="group-hover:-translate-x-1 transition-transform">
+                        <path d="m15 18-6-6 6-6" />
+                    </svg>
+                </a>
+                <h1 class="text-3xl font-semibold tracking-tight">Access Management</h1>
+            </div>
+            <button onclick="openModal('createUserModal')"
+                class="bg-black text-white px-6 py-3 rounded-2xl font-medium hover:bg-gray-800 transition-all shadow-lg flex items-center space-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <line x1="19" y1="8" x2="19" y2="14" />
+                    <line x1="22" y1="11" x2="16" y2="11" />
+                </svg>
+                <span>Create User</span>
+            </button>
+            <button onclick="handleLogout()"
+                class="flex items-center space-x-2 px-4 py-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all"
+                title="Logout">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                    <polyline points="16 17 21 12 16 7" />
+                    <line x1="21" y1="12" x2="9" y2="12" />
+                </svg>
+                <span class="font-medium">Logout</span>
+            </button>
+        </header>
+
+        <main class="max-w-7xl mx-auto w-full p-6 space-y-8 flex-grow">
+            <!-- Dashboard Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
+                    <p class="text-gray-500 text-sm font-medium">Property Groups</p>
+                    <p id="stat-prop-groups" class="text-3xl font-semibold mt-1">0</p>
+                </div>
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
+                    <p class="text-gray-500 text-sm font-medium">User Groups</p>
+                    <p id="stat-user-groups" class="text-3xl font-semibold mt-1">0</p>
+                </div>
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
+                    <p class="text-gray-500 text-sm font-medium">Total Users</p>
+                    <p id="stat-users" class="text-3xl font-semibold mt-1">0</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Property Groups -->
+                <section class="space-y-4 p-6 bg-blue-50/50 rounded-3xl border border-blue-100">
+                    <div class="flex justify-between items-center px-2">
+                        <h2 class="text-xl font-semibold text-blue-900">Property Groups</h2>
+                        <button onclick="openModal('propGroupModal')"
+                            class="bg-blue-600 text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-blue-700 transition-all">+
+                            Add Group</button>
+                    </div>
+                    <div id="prop-groups-container" class="space-y-3">
+                        <!-- Dynamic Content -->
+                    </div>
+                </section>
+
+                <!-- User Groups -->
+                <section class="space-y-4 p-6 bg-purple-50/50 rounded-3xl border border-purple-100">
+                    <div class="flex justify-between items-center px-2">
+                        <h2 class="text-xl font-semibold text-purple-900">User Groups</h2>
+                        <button onclick="openModal('userGroupModal')"
+                            class="bg-purple-600 text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-purple-700 transition-all">+
+                            Add Group</button>
+                    </div>
+                    <div id="user-groups-container" class="space-y-3">
+                        <!-- Dynamic Content -->
+                    </div>
+                </section>
+            </div>
+
+            <!-- Access Rules Selection -->
+            <section class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
+                <h2 class="text-xl font-semibold">Assign Permissions</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-500 ml-1">Select User/Group</label>
+                        <select id="assign-user"
+                            class="w-full p-3 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none transition-all"></select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-500 ml-1">Assign to Property Group</label>
+                        <select id="assign-prop"
+                            class="w-full p-3 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none transition-all"></select>
+                    </div>
+                    <button onclick="saveAccessRule()"
+                        class="bg-black text-white h-12 rounded-2xl font-medium hover:bg-gray-800 transition-all">Grant
+                        Access</button>
+                </div>
+
+                <div class="overflow-hidden rounded-2xl border border-gray-100">
+                    <table class="w-full text-left">
+                        <thead class="bg-gray-50 border-b border-gray-100">
+                            <tr>
+                                <th class="p-4 text-sm font-semibold text-gray-600">Grantee</th>
+                                <th class="p-4 text-sm font-semibold text-gray-600">Property Group</th>
+                                <th class="p-4 text-sm font-semibold text-gray-600 text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="access-rules-body" class="divide-y divide-gray-50">
+                            <!-- Dynamic Content -->
+                        </tbody>
+                    </table>
+                </div>
+    </div>
+    </section>
+
+    <!-- Managed Users List -->
+    <section class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
+        <div class="flex justify-between items-center">
+            <h2 class="text-xl font-semibold">Managed User Accounts</h2>
+            <span id="user-count-badge" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-bold">0
+                Users</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="users-list-container">
+            <!-- Dynamic Content -->
+        </div>
+    </section>
+    </main>
+
+    <!-- Modals -->
+    <!-- Property Group Modal -->
+    <div id="propGroupModal"
+        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+            <h3 class="text-2xl font-semibold">New Property Group</h3>
+            <div class="space-y-4">
+                <input id="pg-name" type="text" placeholder="Group Name (e.g. Zurich Portofolio)"
+                    class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                <div class="space-y-2">
+                    <p class="text-sm font-medium text-gray-500 ml-1">Select Properties</p>
+                    <div id="pg-list"
+                        class="max-h-40 overflow-y-auto space-y-2 p-2 bg-gray-50 rounded-2xl border border-gray-100">
+                        <!-- Checkboxes will appear here -->
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <button onclick="closeModal('propGroupModal')"
+                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                <button onclick="savePropGroup()"
+                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                    Group</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Group Modal -->
+    <div id="userGroupModal"
+        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+            <h3 class="text-2xl font-semibold">New User Group</h3>
+            <div class="space-y-4">
+                <input id="ug-name" type="text" placeholder="Group Name (e.g. Finance Team)"
+                    class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                <div class="space-y-2">
+                    <p class="text-sm font-medium text-gray-500 ml-1">Add Managed Users</p>
+                    <select id="managed-user-select"
+                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
+                        onchange="addManagedUserToPending(this)">
+                        <option value="">-- Select a User --</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-sm font-medium text-gray-500 ml-1">Add Other Users (hit enter)</p>
+                    <input id="ug-user-input" type="text" placeholder="Add username/email"
+                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
+                        onkeypress="if(event.key==='Enter') addUserToPending()">
+                    <div id="ug-pending-users" class="flex flex-wrap gap-2 pt-2"></div>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <button onclick="closeModal('userGroupModal')"
+                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                <button onclick="saveUserGroup()"
+                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                    Group</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create User Modal -->
+    <div id="createUserModal"
+        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+            <h3 class="text-2xl font-semibold">Create New Account</h3>
+            <div class="space-y-4">
+                <div class="space-y-2">
+                    <label class="text-sm font-medium text-gray-500 ml-1">Email Address</label>
+                    <input id="new-user-email" type="email" placeholder="user@example.com"
+                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm font-medium text-gray-500 ml-1">Password</label>
+                    <input id="new-user-password" type="password" placeholder="••••••••"
+                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <button onclick="closeModal('createUserModal')"
+                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                <button onclick="saveUserAccount()"
+                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                    User</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-gray-400 text-sm">
+        <p>&copy; 2024 ImmoManager. All rights reserved.</p>
+    </footer>
+    </div>
+
+    <script>
+        const STORAGE_KEY_PG = 'immo_prop_groups';
+        const STORAGE_KEY_UG = 'immo_user_groups';
+        const STORAGE_KEY_AR = 'immo_access_rules';
+        const STORAGE_KEY_PROPS = 'immo_properties';
+        const STORAGE_KEY_USERS = 'immo_user_accounts';
+        const SESSION_AUTH_KEY = 'immo_su_auth';
+
+        let pendingUsers = [];
+
+        function init() {
+            if (sessionStorage.getItem(SESSION_AUTH_KEY) === 'true') {
+                showMainContent();
+            }
+
+            if (!localStorage.getItem(STORAGE_KEY_USERS)) {
+                seedDummyData();
+            }
+            renderAll();
+            populatePropCheckboxes();
+        }
+
+        function handleLogin() {
+            const user = document.getElementById('su-username').value;
+            const pass = document.getElementById('su-password').value;
+            const error = document.getElementById('login-error');
+
+            if (user === 'super' && pass === 'super') {
+                sessionStorage.setItem(SESSION_AUTH_KEY, 'true');
+                showMainContent();
+            } else {
+                error.classList.remove('hidden');
+            }
+        }
+
+        function showMainContent() {
+            document.getElementById('login-gate').classList.add('hidden');
+            document.getElementById('main-content').classList.remove('hidden');
+        }
+
+        function handleLogout() {
+            sessionStorage.removeItem(SESSION_AUTH_KEY);
+            window.location.href = 'properties.html';
+        }
+
+        function seedDummyData() {
+            const props = JSON.parse(localStorage.getItem(STORAGE_KEY_PROPS) || '[]');
+            const propIds = props.map(p => p.id);
+
+            const dummyUsers = [
+                { id: 'u1', email: 'alice@immo.ch', password: 'password123' },
+                { id: 'u2', email: 'bob@immo.ch', password: 'password123' },
+                { id: 'u3', email: 'charlie@works.ch', password: 'password123' },
+                { id: 'u4', email: 'dave@works.ch', password: 'password123' }
+            ];
+            const dummyPGs = [
+                { id: 'pg1', name: 'Swiss Portofolio', properties: propIds.slice(0, 2) },
+                { id: 'pg2', name: 'New Development', properties: propIds.slice(2, 4) }
+            ];
+            const dummyUGs = [
+                { id: 'ug1', name: 'Administrators', users: ['alice@immo.ch', 'bob@immo.ch'] },
+                { id: 'ug2', name: 'Maintenance Team', users: ['charlie@works.ch', 'dave@works.ch'] }
+            ];
+            const dummyARs = [
+                { id: 'ar1', grantee: 'Administrators', target: 'Swiss Portofolio' },
+                { id: 'ar2', grantee: 'Maintenance Team', target: 'New Development' }
+            ];
+
+            localStorage.setItem(STORAGE_KEY_USERS, JSON.stringify(dummyUsers));
+            localStorage.setItem(STORAGE_KEY_PG, JSON.stringify(dummyPGs));
+            localStorage.setItem(STORAGE_KEY_UG, JSON.stringify(dummyUGs));
+            localStorage.setItem(STORAGE_KEY_AR, JSON.stringify(dummyARs));
+        }
+
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+            if (id === 'userGroupModal') {
+                pendingUsers = [];
+                renderPendingUsers();
+            }
+        }
+        function closeModal(id) { document.getElementById(id).classList.add('hidden'); }
+
+        function addManagedUserToPending(select) {
+            const val = select.value;
+            if (val && !pendingUsers.includes(val)) {
+                pendingUsers.push(val);
+                renderPendingUsers();
+            }
+            select.value = '';
+        }
+
+        function addUserToPending() {
+            const val = document.getElementById('ug-user-input').value.trim();
+            if (val && !pendingUsers.includes(val)) {
+                pendingUsers.push(val);
+                renderPendingUsers();
+                document.getElementById('ug-user-input').value = '';
+            }
+        }
+
+        function removePendingUser(name) {
+            pendingUsers = pendingUsers.filter(u => u !== name);
+            renderPendingUsers();
+        }
+
+        function renderPendingUsers() {
+            const container = document.getElementById('ug-pending-users');
+            container.innerHTML = pendingUsers.map(u => `
+                <span class="bg-gray-100 px-3 py-1 rounded-full text-xs font-semibold flex items-center space-x-2">
+                    <span>${u}</span>
+                    <button onclick="removePendingUser('${u}')" class="text-gray-400 hover:text-red-500">×</button>
+                </span>
+            `).join('');
+        }
+
+        function populatePropCheckboxes() {
+            const props = JSON.parse(localStorage.getItem(STORAGE_KEY_PROPS) || '[]');
+            const container = document.getElementById('pg-list');
+            container.innerHTML = props.map(p => `
+                <label class="flex items-center space-x-3 p-2 hover:bg-white rounded-xl cursor-pointer transition-all">
+                    <input type="checkbox" value="${p.id}" class="rounded border-gray-300 text-black focus:ring-black">
+                    <span class="text-sm font-medium">${p.name}</span>
+                </label>
+            `).join('') || '<p class="text-xs text-gray-400 p-2">No properties found</p>';
+        }
+
+        function savePropGroup() {
+            const name = document.getElementById('pg-name').value.trim();
+            const checked = Array.from(document.querySelectorAll('#pg-list input:checked')).map(i => i.value);
+            if (!name) return;
+
+            const groups = JSON.parse(localStorage.getItem(STORAGE_KEY_PG) || '[]');
+            groups.push({ id: Date.now().toString(), name, properties: checked });
+            localStorage.setItem(STORAGE_KEY_PG, JSON.stringify(groups));
+
+            document.getElementById('pg-name').value = '';
+            closeModal('propGroupModal');
+            renderAll();
+        }
+
+        function saveUserGroup() {
+            const name = document.getElementById('ug-name').value.trim();
+            if (!name) return;
+
+            const groups = JSON.parse(localStorage.getItem(STORAGE_KEY_UG) || '[]');
+            groups.push({ id: Date.now().toString(), name, users: pendingUsers });
+            localStorage.setItem(STORAGE_KEY_UG, JSON.stringify(groups));
+
+            document.getElementById('ug-name').value = '';
+            pendingUsers = [];
+            closeModal('userGroupModal');
+            renderAll();
+        }
+
+        function saveUserAccount() {
+            const email = document.getElementById('new-user-email').value.trim();
+            const password = document.getElementById('new-user-password').value.trim();
+
+            if (!email || !password) {
+                alert("Please provide both email and password.");
+                return;
+            }
+
+            const users = JSON.parse(localStorage.getItem(STORAGE_KEY_USERS) || '[]');
+            if (users.find(u => u.email === email)) {
+                alert("User already exists.");
+                return;
+            }
+
+            users.push({ id: Date.now().toString(), email, password });
+            localStorage.setItem(STORAGE_KEY_USERS, JSON.stringify(users));
+
+            document.getElementById('new-user-email').value = '';
+            document.getElementById('new-user-password').value = '';
+            closeModal('createUserModal');
+            renderAll();
+        }
+
+        function saveAccessRule() {
+            const granteeId = document.getElementById('assign-user').value;
+            const propGroupId = document.getElementById('assign-prop').value;
+            if (!granteeId || !propGroupId) return;
+
+            const rules = JSON.parse(localStorage.getItem(STORAGE_KEY_AR) || '[]');
+            const ug = JSON.parse(localStorage.getItem(STORAGE_KEY_UG) || '[]').find(g => g.id === granteeId);
+            const pg = JSON.parse(localStorage.getItem(STORAGE_KEY_PG) || '[]').find(g => g.id === propGroupId);
+
+            rules.push({ id: Date.now().toString(), grantee: ug.name, target: pg.name });
+            localStorage.setItem(STORAGE_KEY_AR, JSON.stringify(rules));
+            renderAll();
+        }
+
+        function deleteItem(key, id) {
+            let items = JSON.parse(localStorage.getItem(key) || '[]');
+            items = items.filter(i => i.id !== id);
+            localStorage.setItem(key, JSON.stringify(items));
+            renderAll();
+        }
+
+        function renderAll() {
+            const pgs = JSON.parse(localStorage.getItem(STORAGE_KEY_PG) || '[]');
+            const ugs = JSON.parse(localStorage.getItem(STORAGE_KEY_UG) || '[]');
+            const rules = JSON.parse(localStorage.getItem(STORAGE_KEY_AR) || '[]');
+            const users = JSON.parse(localStorage.getItem(STORAGE_KEY_USERS) || '[]');
+
+            // Stats
+            document.getElementById('stat-prop-groups').innerText = pgs.length;
+            document.getElementById('stat-user-groups').innerText = ugs.length;
+            document.getElementById('stat-users').innerText = users.length;
+            document.getElementById('user-count-badge').innerText = `${users.length} Users`;
+
+            // Prop Groups
+            document.getElementById('prop-groups-container').innerHTML = pgs.map(g => `
+                <div class="bg-white p-5 rounded-2xl shadow-sm border-l-4 border-blue-500 flex justify-between items-center group">
+                    <div>
+                        <h3 class="font-semibold text-blue-900">${g.name}</h3>
+                        <p class="text-xs text-gray-500 mt-1">${g.properties.length} Properties assigned</p>
+                    </div>
+                    <button onclick="deleteItem('${STORAGE_KEY_PG}', '${g.id}')" class="text-gray-300 hover:text-red-500 transition-colors opacity-0 group-hover:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                    </button>
+                </div>
+            `).join('') || '<p class="text-center text-gray-400 py-8 italic">No property groups created yet</p>';
+
+            // User Groups
+            document.getElementById('user-groups-container').innerHTML = ugs.map(g => `
+                <div class="bg-white p-5 rounded-2xl shadow-sm border-l-4 border-purple-500 flex justify-between items-center group">
+                    <div>
+                        <h3 class="font-semibold text-purple-900">${g.name}</h3>
+                        <p class="text-xs text-gray-500 mt-1">${g.users.length} Users: ${g.users.slice(0, 2).join(', ')}${g.users.length > 2 ? '...' : ''}</p>
+                    </div>
+                    <button onclick="deleteItem('${STORAGE_KEY_UG}', '${g.id}')" class="text-gray-300 hover:text-red-500 transition-colors opacity-0 group-hover:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                    </button>
+                </div>
+            `).join('') || '<p class="text-center text-gray-400 py-8 italic">No user groups created yet</p>';
+
+            // Rule Selects
+            document.getElementById('assign-user').innerHTML = ugs.map(g => `<option value="${g.id}">${g.name}</option>`).join('') || '<option value="">Create a User Group first</option>';
+            document.getElementById('assign-prop').innerHTML = pgs.map(g => `<option value="${g.id}">${g.name}</option>`).join('') || '<option value="">Create a Property Group first</option>';
+
+            // Managed User Select
+            document.getElementById('managed-user-select').innerHTML = '<option value="">-- Select a User --</option>' + users.map(u => `<option value="${u.email}">${u.email}</option>`).join('');
+
+            // Rules Table
+            document.getElementById('access-rules-body').innerHTML = rules.map(r => `
+                <tr class="hover:bg-gray-50/50 transition-colors">
+                    <td class="p-4 font-medium">${r.grantee}</td>
+                    <td class="p-4 text-gray-600">${r.target}</td>
+                    <td class="p-4 text-right">
+                        <button onclick="deleteItem('${STORAGE_KEY_AR}', '${r.id}')" class="text-gray-300 hover:text-red-500 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                        </button>
+                    </td>
+                </tr>
+            `).join('') || '<tr><td colspan="3" class="p-8 text-center text-gray-400 italic">No access rules defined</td></tr>';
+
+            // Users List
+            document.getElementById('users-list-container').innerHTML = users.map(u => `
+                <div class="bg-gray-50 p-4 rounded-2xl flex justify-between items-center group/user">
+                    <div class="flex items-center space-x-3 overflow-hidden">
+                        <div class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm flex-shrink-0">
+                            <span class="text-xs font-bold text-gray-400">${u.email.charAt(0).toUpperCase()}</span>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="text-sm font-semibold truncate">${u.email}</p>
+                            <p class="text-[10px] text-gray-400 font-mono">ID: ${u.id.slice(-6)}</p>
+                        </div>
+                    </div>
+                    <button onclick="deleteItem('${STORAGE_KEY_USERS}', '${u.id}')" class="text-gray-300 hover:text-red-500 transition-colors opacity-0 group-hover/user:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                    </button>
+                </div>
+            `).join('') || '<p class="col-span-full text-center text-gray-400 py-4 italic">No user accounts created</p>';
+        }
+
+        window.onload = init;
+    </script>
+</body>
+
+</html>

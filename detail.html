@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Property Detail</title>
+    <title>Zurich Heights - Property Detail</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -12,10 +12,42 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+
+        .rich-editor {
+            min-height: 150px;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            background: white;
+            overflow-y: auto;
+        }
+
+        .rich-editor:focus {
+            outline: 2px solid #000;
+            outline-offset: -1px;
+        }
+
+        .toolbar button {
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            background: #f3f4f6;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .toolbar button:hover {
+            background: #e5e7eb;
+        }
+
+        .rich-editor img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.25rem;
+        }
     </style>
 </head>
 
-<body class="bg-gray-50 p-4">
+<body class="bg-gray-50 p-4 lg:px-[10%]">
     <div id="report-container">
 
         <img src="istockphoto-987784664-1024x1024.jpg" alt="Property Detail View"
@@ -31,13 +63,21 @@
             Back
         </button>
 
-        <h1 class="text-2xl font-bold mb-6">Property 1 — Street 10, Zurich</h1>
+        <h1 class="text-2xl font-bold mb-6">Zurich Heights — Street 10, Zurich</h1>
 
-        <section class="bg-white p-4 rounded-xl shadow mb-6 text-sm">
-            Built: 2005 • Units: 12 • Owners: 6
+        <section class="bg-white p-4 rounded-xl shadow mb-6 text-sm relative">
+            <button onclick="openSummaryModal()" class="absolute top-4 right-4 text-blue-600 hover:text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                    <path d="m15 5 4 4" />
+                </svg>
+            </button>
+            Built: <span id="sum-built">2005</span> • Units: <span id="sum-units">12</span> • Owners: <span
+                id="sum-owners">6</span>
             <hr class="my-4">
-            Insurance Value: 3’000’000<br>
-            Renewal Fund: 150’000
+            Insurance Value: <span id="sum-insurance">3’000’000</span><br>
+            Renewal Fund: <span id="sum-renewal">150’000</span>
         </section>
 
         <!--------------  ACCORDION START  -------------->
@@ -54,41 +94,113 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">repair</td>
-                            <td>05/2024</td>
-                            <td>10’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2024</td>
+                            <td class="pl-8">10’000</td>
+                            <td class="text-right p-2 space-x-3">
+                                <button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button>
+                                <button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button>
+                            </td>
                         </tr>
                         <tr>
                             <td class="p-2">safety install</td>
-                            <td>10/2025</td>
-                            <td>5’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2025</td>
+                            <td class="pl-8">5’000</td>
+                            <td class="text-right p-2 space-x-3">
+                                <button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button>
+                                <button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button>
+                            </td>
                         </tr>
                         <tr>
                             <td class="p-2">roof cladding</td>
-                            <td>08/2028</td>
-                            <td>60’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2028</td>
+                            <td class="pl-8">60’000</td>
+                            <td class="text-right p-2 space-x-3">
+                                <button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button>
+                                <button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button>
+                            </td>
                         </tr>
                         <tr>
                             <td class="p-2">maintenance</td>
-                            <td>06/2035</td>
-                            <td>35’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">35’000</td>
+                            <td class="text-right p-2 space-x-3">
+                                <button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button>
+                                <button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -106,41 +218,101 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">repair</td>
-                            <td>03/2023</td>
-                            <td>5’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2023</td>
+                            <td class="pl-8">5’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">fixtures</td>
-                            <td>06/2025</td>
-                            <td>8’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2025</td>
+                            <td class="pl-8">8’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">seal</td>
-                            <td>06/2027</td>
-                            <td>20’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2027</td>
+                            <td class="pl-8">20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">maintenance</td>
-                            <td>10/2037</td>
-                            <td>35’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2037</td>
+                            <td class="pl-8">35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -158,25 +330,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">painting work</td>
-                            <td>03/2030</td>
-                            <td>40’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2030</td>
+                            <td class="pl-8">40’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">isolation</td>
-                            <td>10/2037</td>
-                            <td>35’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2037</td>
+                            <td class="pl-8">35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -194,25 +396,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">door</td>
-                            <td>03/2030</td>
-                            <td>20’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2030</td>
+                            <td class="pl-8">20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">e-mobility</td>
-                            <td>05/2028</td>
-                            <td>35’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2028</td>
+                            <td class="pl-8">35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -231,25 +463,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">lighting</td>
-                            <td>09/2029</td>
-                            <td>20’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2029</td>
+                            <td class="pl-8">20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">Solar installation</td>
-                            <td>05/2035</td>
-                            <td>35’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">35’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -266,25 +528,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">heating maintenance</td>
-                            <td>10/2028</td>
-                            <td>15’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2028</td>
+                            <td class="pl-8">15’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">air handling unit</td>
-                            <td>03/2035</td>
-                            <td>50’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">50’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -302,25 +594,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">tubing maintenance</td>
-                            <td>10/2028</td>
-                            <td>15’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2028</td>
+                            <td class="pl-8">15’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">new installation</td>
-                            <td>03/2035</td>
-                            <td>50’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">50’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -338,25 +660,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">maintenance</td>
-                            <td>03/2035</td>
-                            <td>20’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">20’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">modernization</td>
-                            <td>03/2040</td>
-                            <td>80’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2040</td>
+                            <td class="pl-8">80’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -374,25 +726,55 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">Door system</td>
-                            <td>03/2035</td>
-                            <td>10’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2035</td>
+                            <td class="pl-8">10’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">new xyz</td>
-                            <td>03/2040</td>
-                            <td>3’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2040</td>
+                            <td class="pl-8">3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -410,25 +792,59 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
                         <tr>
                             <td class="p-2">new plants</td>
-                            <td>03/2025</td>
-                            <td>7’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2025</td>
+                            <td class="pl-8">7’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" <button
+                                    onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" <button onclick="deleteRow(this)"
+                                    class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                         <tr>
                             <td class="p-2">playground</td>
-                            <td>03/2028</td>
-                            <td>3’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2028</td>
+                            <td class="pl-8">3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)" <button
+                                    onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" <button onclick="deleteRow(this)"
+                                    class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -446,33 +862,108 @@
                     <table class="w-full text-left text-sm">
                         <tr class="border-b bg-gray-100">
                             <th class="p-2">Type</th>
-                            <th>Date</th>
-                            <th>Cost</th>
+                            <th>Done<br>/Due</th>
+                            <th class="pl-8">Recurring</th>
+                            <th class="pl-8">Cost</th>
                             <th class="text-right">Actions</th>
                         </tr>
-                        <tr>
+                        <tr
+                            data-details='<b>Repair:</b> Fixed minor leak in the main valve.<br>Checked all connections.'>
                             <td class="p-2">insurance house</td>
-                            <td>03/2021</td>
-                            <td>3’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2021</td>
+                            <td class="pl-8">Yearly</td>
+                            <td class="pl-8">3’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="viewDetails(this)"
+                                    class="text-gray-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                        <circle cx="12" cy="12" r="3" />
+                                    </svg>
+                                </button><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
-                        <tr>
+                        <tr data-details='<b>Inspection:</b> No issues found. Scheduled for next year.'>
                             <td class="p-2">differ maintenance</td>
-                            <td>03/2021</td>
-                            <td>2’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2021</td>
+                            <td class="pl-8">Monthly</td>
+                            <td class="pl-8">2’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="viewDetails(this)"
+                                    class="text-gray-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                        <circle cx="12" cy="12" r="3" />
+                                    </svg>
+                                </button><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
-                        <tr>
+                        <tr
+                            data-details='<b>Maintenance Note:</b> Regular inspection completed.<br><i>Condition: Good</i>.<br><img src="istockphoto-1141065338-1024x1024.jpg" class="w-32 rounded mt-2">'>
                             <td class="p-2">real estate mgmt</td>
-                            <td>03/2021</td>
-                            <td>1’000</td>
-                            <td class="text-right p-2 space-x-3"><button onclick="editRow(this)"
-                                    class="text-blue-600">Edit</button><button onclick="deleteRow(this)"
-                                    class="text-red-600">Delete</button></td>
+                            <td>2021</td>
+                            <td class="pl-8">Quarterly</td>
+                            <td class="pl-8">1’000</td>
+                            <td class="text-right p-2 space-x-3"><button onclick="viewDetails(this)"
+                                    class="text-gray-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                        <circle cx="12" cy="12" r="3" />
+                                    </svg>
+                                </button><button onclick="editRow(this)" class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                                        <path d="m15 5 4 4" />
+                                    </svg>
+                                </button><button onclick="deleteRow(this)" class="text-red-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
+                                </button></td>
                         </tr>
                     </table>
                 </div>
@@ -487,44 +978,145 @@
         <button class="flex-1 border border-black p-3 rounded-lg" onclick="generateReport()">Generate report</button>
     </div>
 
-    <!-- ======== MODALS ======== -->
-    <div id="modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
-        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
-            <h2 class="text-xl font-semibold mb-2">Edit Entry</h2>
-            <input id="edit-type" class="w-full p-3 border rounded-lg" placeholder="Type">
-            <input id="edit-date" class="w-full p-3 border rounded-lg" placeholder="Date">
-            <input id="edit-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
-            <div class="flex gap-4 pt-4">
-                <button onclick="saveEdit()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
-                <button onclick="closeModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+    <!-- Edit Modal -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+        <div class="flex min-h-full items-center justify-center">
+            <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                <h2 class="text-xl font-semibold mb-2">Edit Entry</h2>
+                <input id="edit-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+                <select id="edit-date" class="w-full p-3 border rounded-lg"></select>
+                <div id="edit-recurring-container">
+                    <select id="edit-recurring" class="w-full p-3 border rounded-lg">
+                        <option value="Not recurring">Not recurring</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="Half-yearly">Half-yearly</option>
+                        <option value="Yearly">Yearly</option>
+                    </select>
+                </div>
+                <input id="edit-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Details</label>
+                    <div class="toolbar flex gap-2 mb-1">
+                        <button type="button" onclick="formatDoc('bold')">B</button>
+                        <button type="button" onclick="formatDoc('italic')">I</button>
+                        <button type="button" onclick="insertImage()">🖼️ Image</button>
+                    </div>
+                    <div id="edit-details" contenteditable="true" class="rich-editor"></div>
+                </div>
+                <div class="flex gap-4 pt-4">
+                    <button onclick="saveEdit()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
+                    <button onclick="closeModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="add-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
-        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
-            <h2 class="text-xl font-semibold mb-2">Add New Expense</h2>
-            <input id="add-type" class="w-full p-3 border rounded-lg" placeholder="Type">
-            <input id="add-date" class="w-full p-3 border rounded-lg" placeholder="Date (MM/YYYY)">
-            <input id="add-cost" class="w-full p-3 border rounded-lg" placeholder="Cost (10’000)">
-            <textarea id="add-comment" class="w-full p-3 border rounded-lg" rows="3" placeholder="Comment"></textarea>
-            <div class="flex gap-4 pt-4">
-                <button onclick="saveAdd()" class="flex-1 bg-slate-800 text-white py-2 rounded-lg">Save</button>
-                <button onclick="closeAddModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+    <!-- Add Modal -->
+    <div id="add-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+        <div class="flex min-h-full items-center justify-center">
+            <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                <h2 class="text-xl font-semibold mb-2">Add New Expense</h2>
+                <input id="add-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+                <select id="add-date" class="w-full p-3 border rounded-lg"></select>
+                <div id="add-recurring-container">
+                    <select id="add-recurring" class="w-full p-3 border rounded-lg">
+                        <option value="Not recurring">Not recurring</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="Half-yearly">Half-yearly</option>
+                        <option value="Yearly">Yearly</option>
+                    </select>
+                </div>
+                <input id="add-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Details</label>
+                    <div class="toolbar flex gap-2 mb-1">
+                        <button type="button" onclick="formatDoc('bold')">B</button>
+                        <button type="button" onclick="formatDoc('italic')">I</button>
+                        <button type="button" onclick="insertImage()">🖼️ Image</button>
+                    </div>
+                    <div id="add-details" contenteditable="true" class="rich-editor"></div>
+                </div>
+                <div class="flex gap-4 pt-4">
+                    <button onclick="saveAdd()" class="flex-1 bg-slate-800 text-white py-2 rounded-lg">Save</button>
+                    <button onclick="closeAddModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="delete-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4">
-        <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
-            <h2 class="text-xl font-semibold mb-2">Delete Entry</h2>
-            <p>Are you sure you want to delete this entry?</p>
-            <div class="flex gap-4 pt-4">
-                <button onclick="confirmDelete()" class="flex-1 bg-red-600 text-white py-2 rounded-lg">Delete</button>
-                <button onclick="closeDeleteModal()" class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+    <!-- Delete Modal -->
+    <div id="delete-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+        <div class="flex min-h-full items-center justify-center">
+            <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                <h2 class="text-xl font-semibold mb-2">Delete Entry</h2>
+                <p>Are you sure you want to delete this entry?</p>
+                <div class="flex gap-4 pt-4">
+                    <button onclick="confirmDelete()"
+                        class="flex-1 bg-red-600 text-white py-2 rounded-lg">Delete</button>
+                    <button onclick="closeDeleteModal()"
+                        class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- View Details Modal -->
+    <div id="details-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden overflow-y-auto p-4 z-50">
+        <div class="flex min-h-full items-center justify-center">
+            <div class="bg-white w-full max-w-2xl p-6 rounded-2xl space-y-4">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl font-semibold">Details</h2>
+                    <button onclick="closeDetailsModal()" class="text-gray-500 hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div id="details-content" class="rich-editor min-h-[200px] bg-gray-50 border-none"></div>
+                <button onclick="closeDetailsModal()" class="w-full bg-black text-white py-2 rounded-lg">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Summary Modal -->
+    <div id="summary-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+        <div class="flex min-h-full items-center justify-center">
+            <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                <h2 class="text-xl font-semibold mb-2">Edit Summary</h2>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Built Year</label>
+                    <select id="edit-sum-built" class="w-full p-3 border rounded-lg"></select>
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Units</label>
+                    <input id="edit-sum-units" type="number" class="w-full p-3 border rounded-lg">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Owners</label>
+                    <input id="edit-sum-owners" type="number" class="w-full p-3 border rounded-lg">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Insurance Value</label>
+                    <input id="edit-sum-insurance" type="text" class="w-full p-3 border rounded-lg">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700">Renewal Fund</label>
+                    <input id="edit-sum-renewal" type="text" class="w-full p-3 border rounded-lg">
+                </div>
+                <div class="flex gap-4 pt-4">
+                    <button onclick="saveSummary()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
+                    <button onclick="closeSummaryModal()"
+                        class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="file" id="image-input" accept="image/*" class="hidden" onchange="handleImageUpload(this)">
 
     <!-- ========== FULL WORKING JAVASCRIPT ========== -->
     <script>
@@ -552,33 +1144,157 @@
             deleteModal.classList.add("hidden");
         }
 
+        function sortTable(table) {
+            const tbody = table.querySelector('tbody') || table;
+            const rows = Array.from(tbody.querySelectorAll('tr:not(.bg-gray-100)'));
+
+            rows.sort((a, b) => {
+                const dateA = parseInt(a.children[1].innerText) || 0;
+                const dateB = parseInt(b.children[1].innerText) || 0;
+                return dateA - dateB;
+            });
+
+            rows.forEach(row => tbody.appendChild(row));
+        }
+
+        function populateYearSelects() {
+            const selects = ['edit-date', 'add-date', 'edit-sum-built'];
+            const currentYear = new Date().getFullYear();
+            selects.forEach(id => {
+                const select = document.getElementById(id);
+                if (!select) return;
+                select.innerHTML = '';
+                const startYear = (id === 'edit-sum-built') ? 1900 : currentYear - 10;
+                const endYear = currentYear + (id === 'edit-sum-built' ? 10 : 50);
+                for (let y = startYear; y <= endYear; y++) {
+                    const opt = document.createElement('option');
+                    opt.value = y;
+                    opt.textContent = y;
+                    select.appendChild(opt);
+                }
+            });
+        }
+
+        function formatDoc(cmd, val) {
+            document.execCommand(cmd, false, val);
+        }
+
+        function insertImage() {
+            document.getElementById('image-input').click();
+        }
+
+        function handleImageUpload(input) {
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    formatDoc('insertImage', e.target.result);
+                    input.value = ''; // Reset for next selection
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function viewDetails(btn) {
+            const tr = btn.closest('tr');
+            const content = tr.getAttribute('data-details') || '<p class="text-gray-500">No additional details recorded.</p>';
+            document.getElementById('details-content').innerHTML = content;
+            document.getElementById('details-modal').classList.remove('hidden');
+        }
+
+        function closeDetailsModal() {
+            document.getElementById('details-modal').classList.add('hidden');
+        }
+
+        function openSummaryModal() {
+            document.getElementById('edit-sum-built').value = document.getElementById('sum-built').innerText;
+            document.getElementById('edit-sum-units').value = document.getElementById('sum-units').innerText;
+            document.getElementById('edit-sum-owners').value = document.getElementById('sum-owners').innerText;
+            document.getElementById('edit-sum-insurance').value = document.getElementById('sum-insurance').innerText;
+            document.getElementById('edit-sum-renewal').value = document.getElementById('sum-renewal').innerText;
+            document.getElementById('summary-modal').classList.remove('hidden');
+        }
+
+        function closeSummaryModal() {
+            document.getElementById('summary-modal').classList.add('hidden');
+        }
+
+        function saveSummary() {
+            document.getElementById('sum-built').innerText = document.getElementById('edit-sum-built').value;
+            document.getElementById('sum-units').innerText = document.getElementById('edit-sum-units').value;
+            document.getElementById('sum-owners').innerText = document.getElementById('edit-sum-owners').value;
+            document.getElementById('sum-insurance').innerText = document.getElementById('edit-sum-insurance').value;
+            document.getElementById('sum-renewal').innerText = document.getElementById('edit-sum-renewal').value;
+            closeSummaryModal();
+        }
+
         function editRow(btn) {
-            const row = btn.closest("tr").children;
-            document.getElementById('edit-type').value = row[0].innerText;
-            document.getElementById('edit-date').value = row[1].innerText;
-            document.getElementById('edit-cost').value = row[2].innerText;
-            window.currentEdit = btn.closest("tr");
-            modal.classList.remove("hidden");
+            editingRow = btn.closest('tr');
+            const sectionId = editingRow.closest('div[id]').id;
+            const cells = editingRow.getElementsByTagName('td');
+            const recurringContainer = document.getElementById('edit-recurring-container');
+
+            document.getElementById('edit-type').value = cells[0].textContent;
+            document.getElementById('edit-date').value = cells[1].textContent;
+
+            if (sectionId === 'admin') {
+                recurringContainer.classList.remove('hidden');
+                document.getElementById('edit-recurring').value = cells[2].textContent;
+                document.getElementById('edit-cost').value = cells[3].textContent;
+            } else {
+                recurringContainer.classList.add('hidden');
+                document.getElementById('edit-cost').value = cells[2].textContent;
+            }
+
+            document.getElementById('edit-details').innerHTML = editingRow.getAttribute('data-details') || "";
+            document.getElementById('modal').classList.remove('hidden');
         }
 
         function saveEdit() {
-            const r = window.currentEdit.children;
-            r[0].innerText = document.getElementById('edit-type').value;
-            r[1].innerText = document.getElementById('edit-date').value;
-            r[2].innerText = document.getElementById('edit-cost').value;
+            const sectionId = editingRow.closest('div[id]').id;
+            const type = document.getElementById('edit-type').value;
+            const year = document.getElementById('edit-date').value;
+            const cost = document.getElementById('edit-cost').value;
+            const details = document.getElementById('edit-details').innerHTML;
+
+            const cells = editingRow.getElementsByTagName('td');
+            cells[0].textContent = type;
+            cells[1].textContent = year;
+
+            if (sectionId === 'admin') {
+                const recurring = document.getElementById('edit-recurring').value;
+                cells[2].textContent = recurring;
+                cells[2].classList.add('pl-8');
+                cells[3].textContent = cost;
+                cells[3].classList.add('pl-8');
+            } else {
+                cells[2].textContent = cost;
+                cells[2].classList.add('pl-8');
+            }
+
+            editingRow.setAttribute('data-details', details);
+            const table = editingRow.closest('table');
+            sortTable(table);
             closeModal();
         }
-        function closeModal() { modal.classList.add("hidden"); }
+        function closeModal() { document.getElementById('modal').classList.add("hidden"); }
 
         let currentAddSection = null;
         const addModal = document.getElementById('add-modal');
 
         function openAddModal(sectionId) {
             currentAddSection = sectionId;
+            const recurringContainer = document.getElementById('add-recurring-container');
+            if (sectionId === 'admin') {
+                recurringContainer.classList.remove('hidden');
+            } else {
+                recurringContainer.classList.add('hidden');
+            }
             document.getElementById('add-type').value = '';
-            document.getElementById('add-date').value = '';
+            document.getElementById('add-date').value = new Date().getFullYear();
+            document.getElementById('add-recurring').value = 'Yearly';
             document.getElementById('add-cost').value = '';
-            document.getElementById('add-comment').value = '';
+            document.getElementById('add-details').innerHTML = '';
             addModal.classList.remove("hidden");
         }
 
@@ -588,25 +1304,71 @@
 
         function saveAdd() {
             const type = document.getElementById('add-type').value;
-            const date = document.getElementById('add-date').value;
+            const year = document.getElementById('add-date').value;
             const cost = document.getElementById('add-cost').value;
+            const details = document.getElementById('add-details').innerHTML;
 
             if (!type || !cost) { alert("Please fill in Type and Cost"); return; }
 
             const section = document.getElementById(currentAddSection);
             const table = section.querySelector('table');
+            const tbody = table.querySelector('tbody') || table;
             const tr = document.createElement('tr');
-            tr.innerHTML = `
+            tr.setAttribute('data-details', details);
+
+            let rowHtml = `
                 <td class="p-2">${type}</td>
-                <td>${date}</td>
-                <td>${cost}</td>
+                <td>${year}</td>
+            `;
+
+            if (currentAddSection === 'admin') {
+                const recurring = document.getElementById('add-recurring').value;
+                rowHtml += `<td class="pl-8">${recurring}</td>`;
+            }
+
+            rowHtml += `
+                <td class="pl-8">${cost}</td>
                 <td class="text-right p-2 space-x-3">
-                    <button class="text-blue-600" onclick="editRow(this)">Edit</button>
-                    <button class="text-red-600" onclick="deleteRow(this)">Delete</button>
+                    <button onclick="viewDetails(this)" class="text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                    <button onclick="editRow(this)" class="text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                    </button>
+                    <button onclick="deleteRow(this)" class="text-red-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                    </button>
                 </td>
             `;
-            table.appendChild(tr);
+
+            tr.innerHTML = rowHtml;
+            tbody.appendChild(tr);
+            sortTable(table);
             closeAddModal();
+        }
+
+        function populateDummyData() {
+            const rows = document.querySelectorAll('table tr:not(:first-child)');
+            const dummyContent = [
+                '<b>Maintenance Note:</b> Regular inspection completed.<br><i>Condition: Good</i>.<br><img src="istockphoto-1141065338-1024x1024.jpg" class="w-32 rounded mt-2">',
+                '<b>Upgrade:</b> Installed high-capacity units.<br>Warranty valid until 2030.<br><i>Provider: SwissPower Ltd.</i>',
+                '<b>Repair:</b> Fixed minor leak in the main valve.<br>Checked all connections.<br><b>Status:</b> Completed.',
+                '<b>Inspection:</b> No issues found. Scheduled for next year.<br><i>Inspector: John Doe</i>'
+            ];
+
+            rows.forEach((row, idx) => {
+                if (!row.getAttribute('data-details')) {
+                    row.setAttribute('data-details', dummyContent[idx % dummyContent.length]);
+                }
+                const actionsCell = row.querySelector('.text-right');
+                if (actionsCell && !actionsCell.innerHTML.includes('viewDetails')) {
+                    actionsCell.insertAdjacentHTML('afterbegin', `
+                        <button onclick="viewDetails(this)" class="text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                        </button>
+                    `);
+                }
+            });
         }
 
         async function generateReport() {
@@ -677,6 +1439,12 @@
                 btn.disabled = false;
             }
         }
+        // Initialize sorting, year selection, and dummy data on page load
+        window.onload = function () {
+            populateYearSelects();
+            populateDummyData();
+            document.querySelectorAll('table').forEach(sortTable);
+        };
     </script>
 
 </body>

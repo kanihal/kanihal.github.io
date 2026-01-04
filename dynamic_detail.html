@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .rich-editor {
+            min-height: 150px;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            background: white;
+            overflow-y: auto;
+        }
+
+        .rich-editor:focus {
+            outline: 2px solid #000;
+            outline-offset: -1px;
+        }
+
+        .toolbar button {
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            background: #f3f4f6;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .toolbar button:hover {
+            background: #e5e7eb;
+        }
+
+        .rich-editor img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.25rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <div class="flex-grow p-4 lg:px-[10%]">
+        <div id="report-container">
+
+            <img id="prop-image" src="istockphoto-987784664-1024x1024.jpg" alt="Property View"
+                class="w-full h-48 md:h-72 object-cover rounded-xl shadow mb-6" />
+
+            <button onclick="history.back()"
+                class="mb-6 flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 19-7-7 7-7" />
+                    <path d="M19 12H5" />
+                </svg>
+                Back
+            </button>
+
+            <h1 id="prop-title" class="text-2xl font-bold mb-6">Property Name</h1>
+
+            <section class="bg-white p-4 rounded-xl shadow mb-6 text-sm relative">
+                <button onclick="openSummaryModal()" class="absolute top-4 right-4 text-blue-600 hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                        <path d="m15 5 4 4" />
+                    </svg>
+                </button>
+                Built: <span id="sum-built">2005</span> • Units: <span id="sum-units">12</span> • Owners: <span
+                    id="sum-owners">6</span>
+                <hr class="my-4">
+                Insurance Value: <span id="sum-insurance">3’000’000</span><br>
+                Renewal Fund: <span id="sum-renewal">150’000</span><br>
+                Yearly Savings: <span id="sum-savings">25'000</span>
+            </section>
+
+            <!-- Financial details and expense tables will be populated here -->
+            <div id="accordion-container" class="space-y-4"></div>
+
+            <div class="flex gap-4 my-10">
+                <button class="flex-1 bg-slate-800 text-white p-3 rounded-lg hover:bg-black transition-colors"
+                    onclick="saveExpenses()">Save changes</button>
+                <button class="flex-1 border border-black p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    onclick="generateReport()">Generate report</button>
+            </div>
+        </div>
+
+        <!-- Edit Modal -->
+        <div id="modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                    <h2 class="text-xl font-semibold mb-2">Edit Entry</h2>
+                    <input id="edit-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+                    <select id="edit-date" class="w-full p-3 border rounded-lg"></select>
+                    <div id="edit-recurring-container" class="hidden">
+                        <select id="edit-recurring" class="w-full p-3 border rounded-lg">
+                            <option value="Not recurring">Not recurring</option>
+                            <option value="Monthly">Monthly</option>
+                            <option value="Quarterly">Quarterly</option>
+                            <option value="Half-yearly">Half-yearly</option>
+                            <option value="Yearly">Yearly</option>
+                        </select>
+                    </div>
+                    <input id="edit-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Details</label>
+                        <div class="toolbar flex gap-2 mb-1">
+                            <button type="button" onclick="formatDoc('bold')">B</button>
+                            <button type="button" onclick="formatDoc('italic')">I</button>
+                            <button type="button" onclick="insertImage()">🖼️ Image</button>
+                        </div>
+                        <div id="edit-details" contenteditable="true" class="rich-editor"></div>
+                    </div>
+                    <div class="flex gap-4 pt-4">
+                        <button onclick="saveEdit()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
+                        <button onclick="closeModal()"
+                            class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Modal -->
+        <div id="add-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                    <h2 class="text-xl font-semibold mb-2">Add New Expense</h2>
+                    <input id="add-type" class="w-full p-3 border rounded-lg" placeholder="Type">
+                    <select id="add-date" class="w-full p-3 border rounded-lg"></select>
+                    <div id="add-recurring-container">
+                        <select id="add-recurring" class="w-full p-3 border rounded-lg">
+                            <option value="Not recurring">Not recurring</option>
+                            <option value="Monthly">Monthly</option>
+                            <option value="Quarterly">Quarterly</option>
+                            <option value="Half-yearly">Half-yearly</option>
+                            <option value="Yearly">Yearly</option>
+                        </select>
+                    </div>
+                    <input id="add-cost" class="w-full p-3 border rounded-lg" placeholder="Cost">
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Details</label>
+                        <div class="toolbar flex gap-2 mb-1">
+                            <button type="button" onclick="formatDoc('bold')">B</button>
+                            <button type="button" onclick="formatDoc('italic')">I</button>
+                            <button type="button" onclick="insertImage()">🖼️ Image</button>
+                        </div>
+                        <div id="add-details" contenteditable="true" class="rich-editor"></div>
+                    </div>
+                    <div class="flex gap-4 pt-4">
+                        <button onclick="saveAdd()" class="flex-1 bg-slate-800 text-white py-2 rounded-lg">Save</button>
+                        <button onclick="closeAddModal()"
+                            class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Delete Modal -->
+        <div id="delete-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                    <h2 class="text-xl font-semibold mb-2">Delete Entry</h2>
+                    <p>Are you sure you want to delete this entry?</p>
+                    <div class="flex gap-4 pt-4">
+                        <button onclick="confirmDelete()"
+                            class="flex-1 bg-red-600 text-white py-2 rounded-lg">Delete</button>
+                        <button onclick="closeDeleteModal()"
+                            class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View Details Modal -->
+        <div id="details-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-2xl p-6 rounded-2xl space-y-4">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-xl font-semibold">Details</h2>
+                        <button onclick="closeDetailsModal()" class="text-gray-500 hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="details-content" class="rich-editor min-h-[200px] bg-gray-50 border-none"></div>
+                    <button onclick="closeDetailsModal()"
+                        class="w-full bg-black text-white py-2 rounded-lg">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Summary Modal -->
+        <div id="summary-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4">
+                    <h2 class="text-xl font-semibold mb-2">Edit Summary</h2>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Built Year</label>
+                        <select id="edit-sum-built" class="w-full p-3 border rounded-lg"></select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Units</label>
+                        <input id="edit-sum-units" type="number" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Owners</label>
+                        <input id="edit-sum-owners" type="number" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Insurance Value</label>
+                        <input id="edit-sum-insurance" type="text" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Renewal Fund</label>
+                        <input id="edit-sum-renewal" type="text" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-gray-700">Yearly Savings</label>
+                        <input id="edit-sum-savings" type="text" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <div class="flex gap-4 pt-4">
+                        <button onclick="saveSummary()" class="flex-1 bg-black text-white py-2 rounded-lg">Save</button>
+                        <button onclick="closeSummaryModal()"
+                            class="flex-1 border border-black py-2 rounded-lg">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="file" id="image-input" accept="image/*" class="hidden" onchange="handleImageUpload(this)">
+
+        <!-- Save Notification -->
+        <div id="save-toast"
+            class="fixed bottom-10 left-1/2 -translate-x-1/2 bg-black text-white px-6 py-3 rounded-full shadow-2xl transform translate-y-20 opacity-0 transition-all duration-300 z-[100] flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6 9 17l-5-5" />
+            </svg>
+            Changes saved successfully
+        </div>
+
+        <script>
+            const STORAGE_KEY = 'immo_properties';
+            const EXPENSES_PREFIX = 'immo_expenses_';
+            let currentProperty = null;
+            let propertyId = null;
+
+            const CATEGORIES = [
+                { id: 'roof', title: '🏠 Roof' },
+                { id: 'windows', title: '🪟 Windows' },
+                { id: 'facade', title: '🧱 Facade' },
+                { id: 'garage', title: '🚗 Garage' },
+                { id: 'electrical', title: '⚡ Electrical System' },
+                { id: 'hvac', title: '🌬️ HVAC System' },
+                { id: 'sanitary', title: '🚿 Sanitary System' },
+                { id: 'elevator', title: '🛗 Elevator' },
+                { id: 'diverse', title: '📦 Diverse' },
+                { id: 'garden', title: '🌳 Garden' },
+                { id: 'admin', title: '📝 Admin (Recurring)', isRecurring: true }
+            ];
+
+            window.addEventListener('DOMContentLoaded', () => {
+                const params = new URLSearchParams(window.location.search);
+                propertyId = params.get('id');
+
+                if (propertyId) {
+                    const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+                    currentProperty = stored.find(p => p.id === propertyId);
+
+                    if (currentProperty) {
+                        renderPropertyInfo();
+                        renderAccordions();
+                        loadExpenses();
+                        populateYearSelects();
+                    } else {
+                        document.body.innerHTML = '<div class="p-10 text-center text-red-500">Property not found.</div>';
+                    }
+                }
+            });
+
+            function renderPropertyInfo() {
+                document.title = currentProperty.name + " - Detail";
+                document.getElementById('prop-image').src = currentProperty.image || 'istockphoto-987784664-1024x1024.jpg';
+                document.getElementById('prop-title').innerText = `${currentProperty.name} — ${currentProperty.street}, ${currentProperty.zipcity}`;
+                document.getElementById('sum-built').innerText = currentProperty.year || '-';
+                document.getElementById('sum-units').innerText = currentProperty.apartments || '-';
+                document.getElementById('sum-owners').innerText = currentProperty.owners || '-';
+                document.getElementById('sum-insurance').innerText = currentProperty.insurance || '-';
+                document.getElementById('sum-renewal').innerText = currentProperty.fund || '-';
+                document.getElementById('sum-savings').innerText = currentProperty.savings || '-';
+            }
+
+            function renderAccordions() {
+                const container = document.getElementById('accordion-container');
+                container.innerHTML = '';
+
+                CATEGORIES.forEach(cat => {
+                    const div = document.createElement('div');
+                    div.className = "bg-white rounded-xl shadow overflow-hidden";
+                    div.innerHTML = `
+                    <button onclick="toggle('${cat.id}')" class="w-full flex justify-between items-center p-4 font-semibold uppercase tracking-wide text-sm">
+                        ${cat.title} <span id="icon-${cat.id}">▼</span>
+                    </button>
+                    <div id="${cat.id}" class="hidden p-4 border-t">
+                        <button onclick="openAddModal('${cat.id}')" class="mb-4 bg-gray-200 px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-300 transition-colors">Add new expense</button>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left text-sm">
+                                <thead>
+                                    <tr class="border-b bg-gray-50">
+                                        <th class="p-2">Type</th>
+                                        <th class="p-2">Done/Due</th>
+                                        ${cat.isRecurring ? '<th class="p-2">Recurring</th>' : ''}
+                                        <th class="p-2">Cost</th>
+                                        <th class="p-2 text-right">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="body-${cat.id}"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+                    container.appendChild(div);
+                });
+            }
+
+            function toggle(id) {
+                const section = document.getElementById(id);
+                const icon = document.getElementById("icon-" + id);
+                section.classList.toggle("hidden");
+                icon.textContent = section.classList.contains("hidden") ? "▼" : "▲";
+            }
+
+            function loadExpenses() {
+                let expenses = JSON.parse(localStorage.getItem(EXPENSES_PREFIX + propertyId));
+
+                // If no expenses yet, generate dummy ones
+                if (!expenses || Object.keys(expenses).length === 0) {
+                    expenses = generateDummyExpenses();
+                    localStorage.setItem(EXPENSES_PREFIX + propertyId, JSON.stringify(expenses));
+                }
+
+                Object.keys(expenses).forEach(catId => {
+                    const catExpenses = expenses[catId];
+                    catExpenses.forEach(exp => {
+                        renderExpenseRow(catId, exp);
+                    });
+                    const table = document.querySelector(`#${catId} table`);
+                    if (table) sortTable(table);
+                });
+            }
+
+            function generateDummyExpenses() {
+                const dummy = {};
+                const currentYear = new Date().getFullYear();
+
+                CATEGORIES.forEach(cat => {
+                    dummy[cat.id] = [];
+
+                    if (cat.id === 'roof') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Roof cladding",
+                            date: currentYear + 3,
+                            cost: "60’000",
+                            details: "Complete replacement of the roof cladding planned.<br><img src='istockphoto-1141065338-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Safety install",
+                            date: currentYear + 1,
+                            cost: "5’000",
+                            details: "Installation of safety rails and hooks for maintenance workers."
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Initial Roof Check",
+                            date: currentYear - 1,
+                            cost: "15’000",
+                            details: "Standard inspection and cleaning of gutters.<br><img src='istockphoto-1141065338-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                    } else if (cat.id === 'windows') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Seal replacement",
+                            date: currentYear + 2,
+                            cost: "20’000",
+                            details: "Replacement of all window seals to improve energy efficiency.<br><img src='istockphoto-1141065338-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "New fixtures",
+                            date: currentYear,
+                            cost: "8’000",
+                            details: "Repair and adjustment of window opening mechanisms."
+                        });
+                    } else if (cat.id === 'facade') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Painting work",
+                            date: currentYear + 5,
+                            cost: "40’000",
+                            details: "Refresh the facade paint and minor plaster repairs.<br><img src='istockphoto-1218999098-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Isolation upgrade",
+                            date: currentYear + 10,
+                            cost: "35’000",
+                            details: "Planned thermal insulation for the north side."
+                        });
+                    } else if (cat.id === 'garage') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Door system",
+                            date: currentYear + 5,
+                            cost: "20’000",
+                            details: "Modernization of the automatic garage door drive.<br><img src='istockphoto-2223261416-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "E-mobility station",
+                            date: currentYear + 3,
+                            cost: "35’000",
+                            details: "Installation of basic charging infrastructure for electric vehicles."
+                        });
+                    } else if (cat.id === 'electrical') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Solar installation",
+                            date: currentYear + 10,
+                            cost: "35’000",
+                            details: "Photovoltaic system feasibility study and installation.<br><img src='istockphoto-987784664-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Lighting mod.",
+                            date: currentYear + 4,
+                            cost: "20’000",
+                            details: "Conversion of common area lighting to LED with motion sensors."
+                        });
+                    } else if (cat.id === 'hvac') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Air handling unit",
+                            date: currentYear + 10,
+                            cost: "50’000",
+                            details: "Complete overhaul of the central ventilation system.<br><img src='istockphoto-2223261416-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Heating maintenance",
+                            date: currentYear + 3,
+                            cost: "15’000",
+                            details: "Planned replacement of the burner and control unit."
+                        });
+                    } else if (cat.id === 'sanitary') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "New installation",
+                            date: currentYear + 10,
+                            cost: "50’000",
+                            details: "Modernization of the water distribution system in the basement.<br><img src='istockphoto-1141065338-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Tubing maintenance",
+                            date: currentYear + 3,
+                            cost: "15’000",
+                            details: "Descaling and inspection of central warm water boiler."
+                        });
+                    } else if (cat.id === 'elevator') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Modernization",
+                            date: currentYear + 15,
+                            cost: "80’000",
+                            details: "Planned complete refurbishment of the elevator cabin and drive.<br><img src='istockphoto-987784664-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "General maintenance",
+                            date: currentYear + 10,
+                            cost: "20’000",
+                            details: "Major service including replacement of load cables."
+                        });
+                    } else if (cat.id === 'diverse') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Intercom system",
+                            date: currentYear + 10,
+                            cost: "10’000",
+                            details: "Replacement of the old audio-only intercom with a video system.<br><img src='istockphoto-1218999098-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                    } else if (cat.id === 'garden') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Playground ren.",
+                            date: currentYear + 3,
+                            cost: "3’000",
+                            details: "Sand replacement and safety cert for play equipment."
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "New plants",
+                            date: currentYear,
+                            cost: "7’000",
+                            details: "Replacement of old hedges with native species.<br><img src='istockphoto-1141065338-1024x1024.jpg' class='w-48 rounded-lg mt-2 shadow-sm'>"
+                        });
+                    } else if (cat.id === 'admin') {
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "Insurance house",
+                            date: currentYear - 1,
+                            cost: "3’000",
+                            details: "Annual building insurance premium.",
+                            recurring: "Yearly"
+                        });
+                        dummy[cat.id].push({
+                            id: Date.now() + Math.random(),
+                            type: "FM Service",
+                            date: currentYear,
+                            cost: "5’000",
+                            details: "Routine facility management and cleaning service.",
+                            recurring: "Monthly"
+                        });
+                    }
+                });
+                return dummy;
+            }
+
+            function saveExpenses() {
+                const expenses = {};
+                CATEGORIES.forEach(cat => {
+                    const rows = document.querySelectorAll(`#body-${cat.id} tr`);
+                    if (rows.length > 0) {
+                        expenses[cat.id] = Array.from(rows).map(row => {
+                            const cells = row.querySelectorAll('td');
+                            const exp = {
+                                id: row.dataset.id || Date.now() + Math.random(),
+                                type: cells[0].innerText,
+                                date: cells[1].innerText,
+                                details: row.getAttribute('data-details') || ''
+                            };
+                            if (cat.isRecurring) {
+                                exp.recurring = cells[2].innerText;
+                                exp.cost = cells[3].innerText;
+                            } else {
+                                exp.cost = cells[2].innerText;
+                            }
+                            return exp;
+                        });
+                    } else {
+                        expenses[cat.id] = [];
+                    }
+                });
+                localStorage.setItem(EXPENSES_PREFIX + propertyId, JSON.stringify(expenses));
+                showSaveToast();
+            }
+
+            function showSaveToast() {
+                const toast = document.getElementById('save-toast');
+                toast.classList.remove('translate-y-20', 'opacity-0');
+                setTimeout(() => {
+                    toast.classList.add('translate-y-20', 'opacity-0');
+                }, 2000);
+            }
+
+            function renderExpenseRow(catId, exp) {
+                const tbody = document.getElementById(`body-${catId}`);
+                const cat = CATEGORIES.find(c => c.id === catId);
+                const tr = document.createElement('tr');
+                tr.className = "border-b last:border-0 hover:bg-gray-50 transition-colors";
+                tr.dataset.id = exp.id;
+                tr.setAttribute('data-details', exp.details || '');
+
+                let html = `
+                <td class="p-2">${exp.type}</td>
+                <td class="p-2">${exp.date}</td>
+            `;
+
+                if (cat.isRecurring) {
+                    html += `<td class="p-2">${exp.recurring || 'Not recurring'}</td>`;
+                }
+
+                html += `
+                <td class="p-2">${exp.cost}</td>
+                <td class="p-2 text-right space-x-2">
+                    <button onclick="viewDetails(this)" class="text-gray-500 hover:text-black transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                    <button onclick="editRow(this)" class="text-blue-600 hover:text-blue-800 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                    </button>
+                    <button onclick="deleteRow(this)" class="text-red-600 hover:text-red-800 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                    </button>
+                </td>
+            `;
+                tr.innerHTML = html;
+                tbody.appendChild(tr);
+            }
+
+            let editingRow = null;
+            function editRow(btn) {
+                editingRow = btn.closest('tr');
+                const catId = editingRow.closest('div[id]').id;
+                const cat = CATEGORIES.find(c => c.id === catId);
+                const cells = editingRow.querySelectorAll('td');
+
+                document.getElementById('edit-type').value = cells[0].innerText;
+                document.getElementById('edit-date').value = cells[1].innerText;
+
+                const recurringContainer = document.getElementById('edit-recurring-container');
+                if (cat.isRecurring) {
+                    recurringContainer.classList.remove('hidden');
+                    document.getElementById('edit-recurring').value = cells[2].innerText;
+                    document.getElementById('edit-cost').value = cells[3].innerText;
+                } else {
+                    recurringContainer.classList.add('hidden');
+                    document.getElementById('edit-cost').value = cells[2].innerText;
+                }
+
+                document.getElementById('edit-details').innerHTML = editingRow.getAttribute('data-details') || "";
+                document.getElementById('modal').classList.remove('hidden');
+            }
+
+            function saveEdit() {
+                const catId = editingRow.closest('div[id]').id;
+                const cat = CATEGORIES.find(c => c.id === catId);
+                const cells = editingRow.querySelectorAll('td');
+
+                cells[0].innerText = document.getElementById('edit-type').value;
+                cells[1].innerText = document.getElementById('edit-date').value;
+
+                if (cat.isRecurring) {
+                    cells[2].innerText = document.getElementById('edit-recurring').value;
+                    cells[3].innerText = document.getElementById('edit-cost').value;
+                } else {
+                    cells[2].innerText = document.getElementById('edit-cost').value;
+                }
+
+                editingRow.setAttribute('data-details', document.getElementById('edit-details').innerHTML);
+                saveExpenses();
+                closeModal();
+                sortTable(editingRow.closest('table'));
+            }
+
+            function closeModal() { document.getElementById('modal').classList.add('hidden'); }
+
+            let currentAddSection = null;
+            function openAddModal(catId) {
+                currentAddSection = catId;
+                const cat = CATEGORIES.find(c => c.id === catId);
+                const recurringContainer = document.getElementById('add-recurring-container');
+
+                if (cat.isRecurring) {
+                    recurringContainer.classList.remove('hidden');
+                } else {
+                    recurringContainer.classList.add('hidden');
+                }
+
+                document.getElementById('add-type').value = '';
+                document.getElementById('add-date').value = new Date().getFullYear();
+                document.getElementById('add-recurring').value = 'Not recurring';
+                document.getElementById('add-cost').value = '';
+                document.getElementById('add-details').innerHTML = '';
+                document.getElementById('add-modal').classList.remove('hidden');
+            }
+
+            function closeAddModal() { document.getElementById('add-modal').classList.add('hidden'); }
+
+            function saveAdd() {
+                const type = document.getElementById('add-type').value;
+                const date = document.getElementById('add-date').value;
+                const cost = document.getElementById('add-cost').value;
+                const details = document.getElementById('add-details').innerHTML;
+
+                if (!type || !cost) { alert("Please fill in Type and Cost"); return; }
+
+                const cat = CATEGORIES.find(c => c.id === currentAddSection);
+                const exp = {
+                    id: Date.now() + Math.random(),
+                    type: type,
+                    date: date,
+                    cost: cost,
+                    details: details
+                };
+                if (cat.isRecurring) exp.recurring = document.getElementById('add-recurring').value;
+
+                renderExpenseRow(currentAddSection, exp);
+                saveExpenses();
+                closeAddModal();
+                sortTable(document.querySelector(`#${currentAddSection} table`));
+            }
+
+            let rowToDelete = null;
+            function deleteRow(btn) {
+                rowToDelete = btn.closest('tr');
+                document.getElementById('delete-modal').classList.remove('hidden');
+            }
+
+            function confirmDelete() {
+                if (rowToDelete) {
+                    const table = rowToDelete.closest('table');
+                    rowToDelete.remove();
+                    saveExpenses();
+                }
+                closeDeleteModal();
+            }
+
+            function closeDeleteModal() { document.getElementById('delete-modal').classList.add('hidden'); }
+
+            function viewDetails(btn) {
+                const tr = btn.closest('tr');
+                const content = tr.getAttribute('data-details') || '<p class="text-gray-500">No additional details recorded.</p>';
+                document.getElementById('details-content').innerHTML = content;
+                document.getElementById('details-modal').classList.remove('hidden');
+            }
+
+            function closeDetailsModal() { document.getElementById('details-modal').classList.add('hidden'); }
+
+            function openSummaryModal() {
+                document.getElementById('edit-sum-built').value = document.getElementById('sum-built').innerText;
+                document.getElementById('edit-sum-units').value = document.getElementById('sum-units').innerText;
+                document.getElementById('edit-sum-owners').value = document.getElementById('sum-owners').innerText;
+                document.getElementById('edit-sum-insurance').value = document.getElementById('sum-insurance').innerText;
+                document.getElementById('edit-sum-renewal').value = document.getElementById('sum-renewal').innerText;
+                document.getElementById('edit-sum-savings').value = document.getElementById('sum-savings').innerText;
+                document.getElementById('summary-modal').classList.remove('hidden');
+            }
+
+            function closeSummaryModal() { document.getElementById('summary-modal').classList.add('hidden'); }
+
+            function saveSummary() {
+                const built = document.getElementById('edit-sum-built').value;
+                const units = document.getElementById('edit-sum-units').value;
+                const owners = document.getElementById('edit-sum-owners').value;
+                const insurance = document.getElementById('edit-sum-insurance').value;
+                const renewal = document.getElementById('edit-sum-renewal').value;
+                const savings = document.getElementById('edit-sum-savings').value;
+
+                document.getElementById('sum-built').innerText = built;
+                document.getElementById('sum-units').innerText = units;
+                document.getElementById('sum-owners').innerText = owners;
+                document.getElementById('sum-insurance').innerText = insurance;
+                document.getElementById('sum-renewal').innerText = renewal;
+                document.getElementById('sum-savings').innerText = savings;
+
+                // Persist to immo_properties
+                const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+                const idx = stored.findIndex(p => p.id === propertyId);
+                if (idx !== -1) {
+                    stored[idx].year = built;
+                    stored[idx].apartments = units;
+                    stored[idx].owners = owners;
+                    stored[idx].insurance = insurance;
+                    stored[idx].fund = renewal;
+                    stored[idx].savings = savings;
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+                    currentProperty = stored[idx];
+                }
+
+                closeSummaryModal();
+            }
+
+            function populateYearSelects() {
+                const selects = ['edit-date', 'add-date', 'edit-sum-built'];
+                const currentYear = new Date().getFullYear();
+                selects.forEach(id => {
+                    const select = document.getElementById(id);
+                    if (!select) return;
+                    select.innerHTML = '';
+                    const startYear = (id === 'edit-sum-built') ? 1900 : currentYear - 10;
+                    const endYear = currentYear + (id === 'edit-sum-built' ? 10 : 50);
+                    for (let y = startYear; y <= endYear; y++) {
+                        const opt = document.createElement('option');
+                        opt.value = y;
+                        opt.textContent = y;
+                        select.appendChild(opt);
+                    }
+                });
+            }
+
+            function sortTable(table) {
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                rows.sort((a, b) => {
+                    const dateA = parseInt(a.children[1].innerText) || 0;
+                    const dateB = parseInt(b.children[1].innerText) || 0;
+                    return dateA - dateB;
+                });
+                rows.forEach(row => tbody.appendChild(row));
+            }
+
+            function formatDoc(cmd, val) { document.execCommand(cmd, false, val); }
+            function insertImage() { document.getElementById('image-input').click(); }
+            function handleImageUpload(input) {
+                const file = input.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        formatDoc('insertImage', e.target.result);
+                        input.value = '';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+
+            async function generateReport() {
+                // Clone the container to manipulate it for Word export
+                const container = document.getElementById('report-container').cloneNode(true);
+
+                // Remove interactive elements and hidden sections
+                const buttons = container.querySelectorAll('button');
+                buttons.forEach(btn => btn.remove());
+
+                // Ensure all accordions are "visible" by removing hidden classes
+                const hiddenSections = container.querySelectorAll('.hidden');
+                hiddenSections.forEach(sec => sec.classList.remove('hidden'));
+
+                // Prepare images: Convert to absolute paths or ensure they are relative to the file
+                const images = container.querySelectorAll('img');
+                images.forEach(img => {
+                    const src = img.getAttribute('src');
+                    if (src && !src.startsWith('http') && !src.startsWith('data:')) {
+                        // Try to use absolute path for the user's system
+                        img.src = window.location.origin + '/' + src;
+                    }
+                    img.style.maxWidth = '300px';
+                    img.style.height = 'auto';
+                    img.style.display = 'block';
+                    img.style.margin = '10px 0';
+                });
+
+                // Basic styling for the Word document
+                const style = `
+                <style>
+                    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; }
+                    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                    th { background-color: #f8f9fa; font-weight: bold; }
+                    h1 { color: #000; font-size: 24pt; border-bottom: 2px solid #000; padding-bottom: 10px; }
+                    h2 { color: #333; font-size: 18pt; margin-top: 30px; border-bottom: 1px solid #eee; }
+                    .summary { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+                    .bg-white { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+                    .rich-editor img { max-width: 400px; display: block; margin: 10px 0; }
+                </style>
+            `;
+
+                const header = `
+                <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+                <head><meta charset='utf-8'>${style}</head>
+                <body>
+            `;
+                const footer = "</body></html>";
+
+                const html = header + container.innerHTML + footer;
+
+                // Create Blob and download
+                const blob = new Blob(['\ufeff', html], {
+                    type: 'application/msword'
+                });
+
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `Report_${currentProperty.name.replace(/\s+/g, '_')}.doc`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+            }
+        </script>
+    </div>
+    <footer class="mt-auto py-8 text-center text-gray-500 text-sm border-t border-gray-100 bg-white">
+        <p>&copy; 2024 ImmoManager. All rights reserved.</p>
+        <div class="mt-2 space-x-4 text-gray-400">
+            <a href="access_management.html" class="hover:text-black transition-colors font-medium">Access
+                Management</a>
+            <span>&bull;</span>
+            <a href="properties.html" class="hover:text-black transition-colors font-medium">Properties</a>
+            <span>&bull;</span>
+            <a href="#" class="hover:text-black transition-colors">Settings</a>
+            <span>&bull;</span>
+            <a href="#" class="hover:text-black transition-colors">Support</a>
+        </div>
+    </footer>
+</body>
+
+</html>
