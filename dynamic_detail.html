@@ -238,6 +238,26 @@
             </div>
         </div>
 
+        <!-- Report Ready Modal -->
+        <div id="report-ready-modal" class="hidden fixed inset-0 bg-black/50 overflow-y-auto p-4 z-50">
+            <div class="flex min-h-full items-center justify-center">
+                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4 text-center">
+                    <h2 class="text-xl font-semibold mb-1">Report Ready</h2>
+                    <p class="text-gray-500 text-sm mb-4">Your document has been prepared successfully.</p>
+                    <div class="flex gap-3 pt-2 justify-center">
+                        <button id="download-report-btn"
+                            class="bg-black text-white px-6 py-3 rounded-xl font-medium flex-1 shadow-lg hover:bg-gray-800 transition-all">
+                            Save Report
+                        </button>
+                        <button onclick="document.getElementById('report-ready-modal').classList.add('hidden')"
+                            class="border border-gray-200 text-gray-500 px-4 py-3 rounded-xl font-medium hover:bg-gray-50 transition-colors">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <input type="file" id="image-input" accept="image/*" class="hidden" onchange="handleImageUpload(this)">
 
         <!-- Save Notification -->
@@ -922,16 +942,43 @@
                     type: 'application/msword'
                 });
 
-                // Detect Mobile (iOS & Android)
+                // Detect Mobile (iOS & Android) and try Web Share API first
                 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+                // Create a File object for sharing
+                const file = new File([blob], `Report_${currentProperty.name.replace(/\s+/g, '_')}.doc`, { type: 'application/msword' });
 
                 if (isMobile) {
                     const reader = new FileReader();
                     reader.onload = function (e) {
-                        window.location.href = reader.result;
+                        const modal = document.getElementById('report-ready-modal');
+                        modal.innerHTML = `
+                            <div class="flex min-h-full items-center justify-center">
+                                <div class="bg-white w-full max-w-sm p-6 rounded-2xl space-y-4 text-center">
+                                    <h2 class="text-xl font-semibold mb-1">Report Ready</h2>
+                                    <p class="text-gray-500 text-sm mb-4">Tap below to save the document.</p>
+                                    <div class="flex gap-3 pt-2 justify-center flex-col">
+                                        <a href="${reader.result}" download="Report_${currentProperty.name.replace(/\s+/g, '_')}.doc" 
+                                           class="block w-full bg-black text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-gray-800 transition-all no-underline">
+                                            Save Report
+                                        </a>
+                                        <button onclick="document.getElementById('report-ready-modal').classList.add('hidden')"
+                                            class="block w-full border border-gray-200 text-gray-500 px-4 py-3 rounded-xl font-medium hover:bg-gray-50 transition-colors">
+                                            Close
+                                        </button>
+                                </div>
+                            </div>
+                        </div>
+                        `; // End template literal
+                        modal.classList.remove('hidden');
                     };
                     reader.readAsDataURL(blob);
                 } else {
+                    // Desktop or Share API not supported
+                    downloadFile(blob);
+                }
+
+                function downloadFile(blob) {
                     const url = URL.createObjectURL(blob);
                     const link = document.createElement('a');
                     link.href = url;
