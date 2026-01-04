@@ -86,17 +86,6 @@
                 </a>
                 <h1 class="text-3xl font-semibold tracking-tight">Access Management</h1>
             </div>
-            <button onclick="openModal('createUserModal')"
-                class="bg-black text-white px-6 py-3 rounded-2xl font-medium hover:bg-gray-800 transition-all shadow-lg flex items-center space-x-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <line x1="19" y1="8" x2="19" y2="14" />
-                    <line x1="22" y1="11" x2="16" y2="11" />
-                </svg>
-                <span>Create User</span>
-            </button>
             <button onclick="handleLogout()"
                 class="flex items-center space-x-2 px-4 py-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all"
                 title="Logout">
@@ -188,114 +177,126 @@
                         </tbody>
                     </table>
                 </div>
-    </div>
-    </section>
+            </section>
 
-    <!-- Managed Users List -->
-    <section class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
-        <div class="flex justify-between items-center">
-            <h2 class="text-xl font-semibold">Managed User Accounts</h2>
-            <span id="user-count-badge" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-bold">0
-                Users</span>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="users-list-container">
-            <!-- Dynamic Content -->
-        </div>
-    </section>
-    </main>
+            <!-- Managed Users List -->
+            <section class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-4">
+                        <h2 class="text-xl font-semibold">Managed User Accounts</h2>
+                        <span id="user-count-badge"
+                            class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-bold">0 Users</span>
+                    </div>
+                    <button onclick="openModal('createUserModal')"
+                        class="bg-black text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-gray-800 transition-all flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <line x1="19" y1="8" x2="19" y2="14" />
+                            <line x1="22" y1="11" x2="16" y2="11" />
+                        </svg>
+                        Create User
+                    </button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="users-list-container">
+                    <!-- Dynamic Content -->
+                </div>
+            </section>
+        </main>
 
-    <!-- Modals -->
-    <!-- Property Group Modal -->
-    <div id="propGroupModal"
-        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
-            <h3 class="text-2xl font-semibold">New Property Group</h3>
-            <div class="space-y-4">
-                <input id="pg-name" type="text" placeholder="Group Name (e.g. Zurich Portofolio)"
-                    class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
-                <div class="space-y-2">
-                    <p class="text-sm font-medium text-gray-500 ml-1">Select Properties</p>
-                    <div id="pg-list"
-                        class="max-h-40 overflow-y-auto space-y-2 p-2 bg-gray-50 rounded-2xl border border-gray-100">
-                        <!-- Checkboxes will appear here -->
+        <!-- Modals -->
+        <!-- Property Group Modal -->
+        <div id="propGroupModal"
+            class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+            <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+                <h3 class="text-2xl font-semibold">New Property Group</h3>
+                <div class="space-y-4">
+                    <input id="pg-name" type="text" placeholder="Group Name (e.g. Zurich Portofolio)"
+                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-gray-500 ml-1">Select Properties</p>
+                        <div id="pg-list"
+                            class="max-h-40 overflow-y-auto space-y-2 p-2 bg-gray-50 rounded-2xl border border-gray-100">
+                            <!-- Checkboxes will appear here -->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="flex space-x-4">
-                <button onclick="closeModal('propGroupModal')"
-                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
-                <button onclick="savePropGroup()"
-                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
-                    Group</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- User Group Modal -->
-    <div id="userGroupModal"
-        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
-            <h3 class="text-2xl font-semibold">New User Group</h3>
-            <div class="space-y-4">
-                <input id="ug-name" type="text" placeholder="Group Name (e.g. Finance Team)"
-                    class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
-                <div class="space-y-2">
-                    <p class="text-sm font-medium text-gray-500 ml-1">Add Managed Users</p>
-                    <select id="managed-user-select"
-                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
-                        onchange="addManagedUserToPending(this)">
-                        <option value="">-- Select a User --</option>
-                    </select>
-                </div>
-                <div class="space-y-2">
-                    <p class="text-sm font-medium text-gray-500 ml-1">Add Other Users (hit enter)</p>
-                    <input id="ug-user-input" type="text" placeholder="Add username/email"
-                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
-                        onkeypress="if(event.key==='Enter') addUserToPending()">
-                    <div id="ug-pending-users" class="flex flex-wrap gap-2 pt-2"></div>
+                <div class="flex space-x-4">
+                    <button onclick="closeModal('propGroupModal')"
+                        class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                    <button onclick="savePropGroup()"
+                        class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                        Group</button>
                 </div>
             </div>
-            <div class="flex space-x-4">
-                <button onclick="closeModal('userGroupModal')"
-                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
-                <button onclick="saveUserGroup()"
-                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
-                    Group</button>
-            </div>
         </div>
-    </div>
 
-    <!-- Create User Modal -->
-    <div id="createUserModal"
-        class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-        <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
-            <h3 class="text-2xl font-semibold">Create New Account</h3>
-            <div class="space-y-4">
-                <div class="space-y-2">
-                    <label class="text-sm font-medium text-gray-500 ml-1">Email Address</label>
-                    <input id="new-user-email" type="email" placeholder="user@example.com"
+        <!-- User Group Modal -->
+        <div id="userGroupModal"
+            class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+            <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+                <h3 class="text-2xl font-semibold">New User Group</h3>
+                <div class="space-y-4">
+                    <input id="ug-name" type="text" placeholder="Group Name (e.g. Finance Team)"
                         class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-gray-500 ml-1">Add Managed Users</p>
+                        <select id="managed-user-select"
+                            class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
+                            onchange="addManagedUserToPending(this)">
+                            <option value="">-- Select a User --</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-gray-500 ml-1">Add Other Users (hit enter)</p>
+                        <input id="ug-user-input" type="text" placeholder="Add username/email"
+                            class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none"
+                            onkeypress="if(event.key==='Enter') addUserToPending()">
+                        <div id="ug-pending-users" class="flex flex-wrap gap-2 pt-2"></div>
+                    </div>
                 </div>
-                <div class="space-y-2">
-                    <label class="text-sm font-medium text-gray-500 ml-1">Password</label>
-                    <input id="new-user-password" type="password" placeholder="••••••••"
-                        class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                <div class="flex space-x-4">
+                    <button onclick="closeModal('userGroupModal')"
+                        class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                    <button onclick="saveUserGroup()"
+                        class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                        Group</button>
                 </div>
-            </div>
-            <div class="flex space-x-4">
-                <button onclick="closeModal('createUserModal')"
-                    class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
-                <button onclick="saveUserAccount()"
-                    class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
-                    User</button>
             </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="py-8 text-center text-gray-400 text-sm">
-        <p>&copy; 2024 ImmoManager. All rights reserved.</p>
-    </footer>
+        <!-- Create User Modal -->
+        <div id="createUserModal"
+            class="fixed inset-0 bg-black/50 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+            <div class="bg-white w-full max-w-md rounded-3xl p-8 shadow-2xl space-y-6">
+                <h3 class="text-2xl font-semibold">Create New Account</h3>
+                <div class="space-y-4">
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-500 ml-1">Email Address</label>
+                        <input id="new-user-email" type="email" placeholder="user@example.com"
+                            class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-500 ml-1">Password</label>
+                        <input id="new-user-password" type="password" placeholder="••••••••"
+                            class="w-full p-4 bg-gray-50 border-none rounded-2xl focus:ring-2 focus:ring-black outline-none">
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <button onclick="closeModal('createUserModal')"
+                        class="flex-1 p-4 rounded-2xl font-medium text-gray-400 hover:text-black transition-colors">Cancel</button>
+                    <button onclick="saveUserAccount()"
+                        class="flex-1 bg-black text-white p-4 rounded-2xl font-medium hover:bg-gray-800 transition-all">Create
+                        User</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="py-8 text-center text-gray-400 text-sm">
+            <p>&copy; 2024 ImmoManager. All rights reserved.</p>
+        </footer>
     </div>
 
     <script>
