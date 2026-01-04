@@ -855,19 +855,43 @@
                     tbodyRows.forEach(row => row.lastElementChild.remove());
                 });
 
-                // Prepare images: Convert to absolute paths or ensure they are relative to the file
+                // Prepare images: Convert to Base64 to ensure they are embedded
                 const images = container.querySelectorAll('img');
-                images.forEach(img => {
+                const imagePromises = Array.from(images).map(async (img) => {
                     const src = img.getAttribute('src');
-                    if (src && !src.startsWith('http') && !src.startsWith('data:')) {
-                        // Try to use absolute path for the user's system
-                        img.src = window.location.origin + '/' + src;
+                    if (src && !src.startsWith('data:')) {
+                        try {
+                            const response = await fetch(src);
+                            const blob = await response.blob();
+                            return new Promise((resolve) => {
+                                const reader = new FileReader();
+                                reader.onloadend = () => {
+                                    img.src = reader.result;
+                                    img.width = 200; // Explicit attribute for Word
+                                    img.style.width = '200px';
+                                    img.style.maxWidth = '100%';
+                                    img.style.height = 'auto';
+                                    img.style.display = 'block';
+                                    img.style.margin = '10px 0';
+                                    resolve();
+                                };
+                                reader.readAsDataURL(blob);
+                            });
+                        } catch (e) {
+                            console.error('Failed to embed image:', src, e);
+                        }
                     }
-                    img.style.maxWidth = '300px';
+                    // Set styles even if already data URI or failed
+                    img.width = 200;
+                    img.style.width = '200px';
+                    img.style.maxWidth = '100%';
                     img.style.height = 'auto';
                     img.style.display = 'block';
                     img.style.margin = '10px 0';
+                    return Promise.resolve();
                 });
+
+                await Promise.all(imagePromises);
 
                 // Basic styling for the Word document
                 const style = `
@@ -893,19 +917,34 @@
 
                 const html = header + container.innerHTML + footer;
 
-                // Create Blob and download
+                // Create Blob
                 const blob = new Blob(['\ufeff', html], {
                     type: 'application/msword'
                 });
 
-                const url = URL.createObjectURL(blob);
-                const link = document.createElement('a');
-                link.href = url;
-                link.download = `Report_${currentProperty.name.replace(/\s+/g, '_')}.doc`;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-                URL.revokeObjectURL(url);
+                // Detect iOS
+                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+                if (isIOS) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        window.location.href = reader.result;
+                    };
+                    reader.readAsDataURL(blob);
+                } else {
+                    const url = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = `Report_${currentProperty.name.replace(/\s+/g, '_')}.doc`;
+                    document.body.appendChild(link);
+                    link.click();
+
+                    // Delay cleanup to ensure download starts
+                    setTimeout(() => {
+                        document.body.removeChild(link);
+                        URL.revokeObjectURL(url);
+                    }, 100);
+                }
             }
         </script>
     </div>
